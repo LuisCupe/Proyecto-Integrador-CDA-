@@ -1,0 +1,5 @@
+estación,bloque,cruces identificados,nuevos cruces elegibles,evaluables (emisión elegible el día previo),evaluables con ≥ 7 días de emisiones elegibles,no elegibles: vacío o borde,no elegibles: evento reciente
+Racarumi,validación,48,27,27,16,1,20
+Racarumi,prueba,50,34,32,24,1,15
+Tamshiyacu,validación,5,5,5,5,0,0
+Tamshiyacu,prueba,3,3,3,3,0,0

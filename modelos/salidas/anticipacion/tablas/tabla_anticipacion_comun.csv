@@ -1,0 +1,7 @@
+estación,modelo,emisiones,evaluables,aciertos,omisiones,falsas_alarmas,POD,FAR,CSI,anticipacion_util,anticipacion_mediana
+Racarumi,MLP,2373,29,10,19,12,0.3448275862068966,0.5454545454545454,0.24390243902439024,0,2.0
+Racarumi,LSTM,2373,29,8,21,10,0.27586206896551724,0.5555555555555556,0.20512820512820512,0,1.0
+Racarumi,Tendencia 3 días,2373,29,20,9,52,0.6896551724137931,0.7222222222222222,0.24691358024691357,0,2.0
+Tamshiyacu,KNN,2373,2,2,0,0,1.0,0.0,1.0,4,3.5
+Tamshiyacu,XGBoost,2373,2,2,0,0,1.0,0.0,1.0,4,2.5
+Tamshiyacu,Tendencia 3 días,2373,2,2,0,0,1.0,0.0,1.0,5,4.5

@@ -1,0 +1,151 @@
+modelo,parametros,NSE_val,segundos,estación,variante
+XGBoost,"{""max_depth"": 3, ""learning_rate"": 0.05, ""reg_lambda"": 1.0, ""n_estimators"": 100}",0.5268513382756386,3.9571433067321777,Racarumi,Solo caudal
+XGBoost,"{""max_depth"": 3, ""learning_rate"": 0.05, ""reg_lambda"": 1.0, ""n_estimators"": 200}",0.5332994637247358,3.986756165822347,Racarumi,Solo caudal
+XGBoost,"{""max_depth"": 3, ""learning_rate"": 0.05, ""reg_lambda"": 1.0, ""n_estimators"": 400}",0.5303420133944704,4.031788269678752,Racarumi,Solo caudal
+XGBoost,"{""max_depth"": 3, ""learning_rate"": 0.05, ""reg_lambda"": 10.0, ""n_estimators"": 100}",0.5256352708402778,3.593386093775431,Racarumi,Solo caudal
+XGBoost,"{""max_depth"": 3, ""learning_rate"": 0.05, ""reg_lambda"": 10.0, ""n_estimators"": 200}",0.5327927983400846,3.615741570790609,Racarumi,Solo caudal
+XGBoost,"{""max_depth"": 3, ""learning_rate"": 0.05, ""reg_lambda"": 10.0, ""n_estimators"": 400}",0.5294660207395303,3.675060431162516,Racarumi,Solo caudal
+XGBoost,"{""max_depth"": 3, ""learning_rate"": 0.1, ""reg_lambda"": 1.0, ""n_estimators"": 100}",0.5323576317313028,3.815852244695028,Racarumi,Solo caudal
+XGBoost,"{""max_depth"": 3, ""learning_rate"": 0.1, ""reg_lambda"": 1.0, ""n_estimators"": 200}",0.528040568013975,3.8391639391581216,Racarumi,Solo caudal
+XGBoost,"{""max_depth"": 3, ""learning_rate"": 0.1, ""reg_lambda"": 1.0, ""n_estimators"": 400}",0.5172977450100239,3.899069865544637,Racarumi,Solo caudal
+XGBoost,"{""max_depth"": 3, ""learning_rate"": 0.1, ""reg_lambda"": 10.0, ""n_estimators"": 100}",0.532481545564875,4.209989547729492,Racarumi,Solo caudal
+XGBoost,"{""max_depth"": 3, ""learning_rate"": 0.1, ""reg_lambda"": 10.0, ""n_estimators"": 200}",0.5287854587611178,4.35448431968689,Racarumi,Solo caudal
+XGBoost,"{""max_depth"": 3, ""learning_rate"": 0.1, ""reg_lambda"": 10.0, ""n_estimators"": 400}",0.5177565174924962,4.422519207000732,Racarumi,Solo caudal
+XGBoost,"{""max_depth"": 6, ""learning_rate"": 0.05, ""reg_lambda"": 1.0, ""n_estimators"": 100}",0.5226420736673623,14.721856991449991,Racarumi,Solo caudal
+XGBoost,"{""max_depth"": 6, ""learning_rate"": 0.05, ""reg_lambda"": 1.0, ""n_estimators"": 200}",0.5172672548448504,14.7819504737854,Racarumi,Solo caudal
+XGBoost,"{""max_depth"": 6, ""learning_rate"": 0.05, ""reg_lambda"": 1.0, ""n_estimators"": 400}",0.5042505204516172,14.884018659591675,Racarumi,Solo caudal
+XGBoost,"{""max_depth"": 6, ""learning_rate"": 0.05, ""reg_lambda"": 10.0, ""n_estimators"": 100}",0.523845447778723,14.431984186172485,Racarumi,Solo caudal
+XGBoost,"{""max_depth"": 6, ""learning_rate"": 0.05, ""reg_lambda"": 10.0, ""n_estimators"": 200}",0.5184842286507078,14.488804340362549,Racarumi,Solo caudal
+XGBoost,"{""max_depth"": 6, ""learning_rate"": 0.05, ""reg_lambda"": 10.0, ""n_estimators"": 400}",0.5057973013507641,14.599218845367432,Racarumi,Solo caudal
+XGBoost,"{""max_depth"": 6, ""learning_rate"": 0.1, ""reg_lambda"": 1.0, ""n_estimators"": 100}",0.5131947750560608,13.844227155049643,Racarumi,Solo caudal
+XGBoost,"{""max_depth"": 6, ""learning_rate"": 0.1, ""reg_lambda"": 1.0, ""n_estimators"": 200}",0.49921288475509173,13.899802684783936,Racarumi,Solo caudal
+XGBoost,"{""max_depth"": 6, ""learning_rate"": 0.1, ""reg_lambda"": 1.0, ""n_estimators"": 400}",0.48233453504055634,14.001927216847738,Racarumi,Solo caudal
+XGBoost,"{""max_depth"": 6, ""learning_rate"": 0.1, ""reg_lambda"": 10.0, ""n_estimators"": 100}",0.5153747660662595,13.495865106582642,Racarumi,Solo caudal
+XGBoost,"{""max_depth"": 6, ""learning_rate"": 0.1, ""reg_lambda"": 10.0, ""n_estimators"": 200}",0.5010102380154635,13.549837748209635,Racarumi,Solo caudal
+XGBoost,"{""max_depth"": 6, ""learning_rate"": 0.1, ""reg_lambda"": 10.0, ""n_estimators"": 400}",0.48286019358850035,13.645706176757812,Racarumi,Solo caudal
+Regresión lineal,{},0.5523148566345081,0.27216362953186035,Racarumi,Solo caudal
+XGBoost,"{""max_depth"": 3, ""learning_rate"": 0.05, ""reg_lambda"": 1.0, ""n_estimators"": 100}",0.5248111958535008,4.432923396428426,Racarumi,+ lluvia observada hasta t (disponibilidad supuesta)
+XGBoost,"{""max_depth"": 3, ""learning_rate"": 0.05, ""reg_lambda"": 1.0, ""n_estimators"": 200}",0.5373894782987064,4.456565777460734,Racarumi,+ lluvia observada hasta t (disponibilidad supuesta)
+XGBoost,"{""max_depth"": 3, ""learning_rate"": 0.05, ""reg_lambda"": 1.0, ""n_estimators"": 400}",0.5375864439484667,4.498241106669108,Racarumi,+ lluvia observada hasta t (disponibilidad supuesta)
+XGBoost,"{""max_depth"": 3, ""learning_rate"": 0.05, ""reg_lambda"": 10.0, ""n_estimators"": 100}",0.5254497338343542,4.507130861282349,Racarumi,+ lluvia observada hasta t (disponibilidad supuesta)
+XGBoost,"{""max_depth"": 3, ""learning_rate"": 0.05, ""reg_lambda"": 10.0, ""n_estimators"": 200}",0.5377431662962342,4.540225982666016,Racarumi,+ lluvia observada hasta t (disponibilidad supuesta)
+XGBoost,"{""max_depth"": 3, ""learning_rate"": 0.05, ""reg_lambda"": 10.0, ""n_estimators"": 400}",0.5374593598558939,4.592615048090617,Racarumi,+ lluvia observada hasta t (disponibilidad supuesta)
+XGBoost,"{""max_depth"": 3, ""learning_rate"": 0.1, ""reg_lambda"": 1.0, ""n_estimators"": 100}",0.5376094893644195,4.69241205851237,Racarumi,+ lluvia observada hasta t (disponibilidad supuesta)
+XGBoost,"{""max_depth"": 3, ""learning_rate"": 0.1, ""reg_lambda"": 1.0, ""n_estimators"": 200}",0.5353709123374714,4.719161192576091,Racarumi,+ lluvia observada hasta t (disponibilidad supuesta)
+XGBoost,"{""max_depth"": 3, ""learning_rate"": 0.1, ""reg_lambda"": 1.0, ""n_estimators"": 400}",0.5278507158837773,4.765813271204631,Racarumi,+ lluvia observada hasta t (disponibilidad supuesta)
+XGBoost,"{""max_depth"": 3, ""learning_rate"": 0.1, ""reg_lambda"": 10.0, ""n_estimators"": 100}",0.537698465996804,4.713448762893677,Racarumi,+ lluvia observada hasta t (disponibilidad supuesta)
+XGBoost,"{""max_depth"": 3, ""learning_rate"": 0.1, ""reg_lambda"": 10.0, ""n_estimators"": 200}",0.5355542139429355,4.739579995473226,Racarumi,+ lluvia observada hasta t (disponibilidad supuesta)
+XGBoost,"{""max_depth"": 3, ""learning_rate"": 0.1, ""reg_lambda"": 10.0, ""n_estimators"": 400}",0.5304616275020322,4.7975335121154785,Racarumi,+ lluvia observada hasta t (disponibilidad supuesta)
+XGBoost,"{""max_depth"": 6, ""learning_rate"": 0.05, ""reg_lambda"": 1.0, ""n_estimators"": 100}",0.5385526516741106,17.971731583277386,Racarumi,+ lluvia observada hasta t (disponibilidad supuesta)
+XGBoost,"{""max_depth"": 6, ""learning_rate"": 0.05, ""reg_lambda"": 1.0, ""n_estimators"": 200}",0.5340940614679728,18.02467131614685,Racarumi,+ lluvia observada hasta t (disponibilidad supuesta)
+XGBoost,"{""max_depth"": 6, ""learning_rate"": 0.05, ""reg_lambda"": 1.0, ""n_estimators"": 400}",0.5265352077414789,18.127479950586956,Racarumi,+ lluvia observada hasta t (disponibilidad supuesta)
+XGBoost,"{""max_depth"": 6, ""learning_rate"": 0.05, ""reg_lambda"": 10.0, ""n_estimators"": 100}",0.5389808072504431,18.4894806543986,Racarumi,+ lluvia observada hasta t (disponibilidad supuesta)
+XGBoost,"{""max_depth"": 6, ""learning_rate"": 0.05, ""reg_lambda"": 10.0, ""n_estimators"": 200}",0.5374731271481529,18.547685623168945,Racarumi,+ lluvia observada hasta t (disponibilidad supuesta)
+XGBoost,"{""max_depth"": 6, ""learning_rate"": 0.05, ""reg_lambda"": 10.0, ""n_estimators"": 400}",0.5275135011716503,18.671610752741497,Racarumi,+ lluvia observada hasta t (disponibilidad supuesta)
+XGBoost,"{""max_depth"": 6, ""learning_rate"": 0.1, ""reg_lambda"": 1.0, ""n_estimators"": 100}",0.5265947534555279,18.516924778620403,Racarumi,+ lluvia observada hasta t (disponibilidad supuesta)
+XGBoost,"{""max_depth"": 6, ""learning_rate"": 0.1, ""reg_lambda"": 1.0, ""n_estimators"": 200}",0.5144513806982717,18.600106875101726,Racarumi,+ lluvia observada hasta t (disponibilidad supuesta)
+XGBoost,"{""max_depth"": 6, ""learning_rate"": 0.1, ""reg_lambda"": 1.0, ""n_estimators"": 400}",0.5021695166717886,18.739141305287678,Racarumi,+ lluvia observada hasta t (disponibilidad supuesta)
+XGBoost,"{""max_depth"": 6, ""learning_rate"": 0.1, ""reg_lambda"": 10.0, ""n_estimators"": 100}",0.5302042372292596,18.645723899205525,Racarumi,+ lluvia observada hasta t (disponibilidad supuesta)
+XGBoost,"{""max_depth"": 6, ""learning_rate"": 0.1, ""reg_lambda"": 10.0, ""n_estimators"": 200}",0.5200829160483886,18.70225739479065,Racarumi,+ lluvia observada hasta t (disponibilidad supuesta)
+XGBoost,"{""max_depth"": 6, ""learning_rate"": 0.1, ""reg_lambda"": 10.0, ""n_estimators"": 400}",0.5080872870705885,18.802767833073933,Racarumi,+ lluvia observada hasta t (disponibilidad supuesta)
+Regresión lineal,{},0.5421912296399778,0.4007737636566162,Racarumi,+ lluvia observada hasta t (disponibilidad supuesta)
+XGBoost,"{""max_depth"": 3, ""learning_rate"": 0.05, ""reg_lambda"": 1.0, ""n_estimators"": 100}",0.8183736995356347,4.9355151653289795,Racarumi,+ lluvia futura observada (escenario idealizado)
+XGBoost,"{""max_depth"": 3, ""learning_rate"": 0.05, ""reg_lambda"": 1.0, ""n_estimators"": 200}",0.8539347169617059,4.963278532028198,Racarumi,+ lluvia futura observada (escenario idealizado)
+XGBoost,"{""max_depth"": 3, ""learning_rate"": 0.05, ""reg_lambda"": 1.0, ""n_estimators"": 400}",0.8619357151953312,5.022688706715901,Racarumi,+ lluvia futura observada (escenario idealizado)
+XGBoost,"{""max_depth"": 3, ""learning_rate"": 0.05, ""reg_lambda"": 10.0, ""n_estimators"": 100}",0.8150606594322544,5.055189450581868,Racarumi,+ lluvia futura observada (escenario idealizado)
+XGBoost,"{""max_depth"": 3, ""learning_rate"": 0.05, ""reg_lambda"": 10.0, ""n_estimators"": 200}",0.8529466204580606,5.086351712544759,Racarumi,+ lluvia futura observada (escenario idealizado)
+XGBoost,"{""max_depth"": 3, ""learning_rate"": 0.05, ""reg_lambda"": 10.0, ""n_estimators"": 400}",0.8616354551446899,5.13506277402242,Racarumi,+ lluvia futura observada (escenario idealizado)
+XGBoost,"{""max_depth"": 3, ""learning_rate"": 0.1, ""reg_lambda"": 1.0, ""n_estimators"": 100}",0.8529485868984281,4.811260223388672,Racarumi,+ lluvia futura observada (escenario idealizado)
+XGBoost,"{""max_depth"": 3, ""learning_rate"": 0.1, ""reg_lambda"": 1.0, ""n_estimators"": 200}",0.8594850150393633,4.838903268178304,Racarumi,+ lluvia futura observada (escenario idealizado)
+XGBoost,"{""max_depth"": 3, ""learning_rate"": 0.1, ""reg_lambda"": 1.0, ""n_estimators"": 400}",0.8599944247703449,4.8868405024210615,Racarumi,+ lluvia futura observada (escenario idealizado)
+XGBoost,"{""max_depth"": 3, ""learning_rate"": 0.1, ""reg_lambda"": 10.0, ""n_estimators"": 100}",0.8504825561081989,4.802425702412923,Racarumi,+ lluvia futura observada (escenario idealizado)
+XGBoost,"{""max_depth"": 3, ""learning_rate"": 0.1, ""reg_lambda"": 10.0, ""n_estimators"": 200}",0.8581041916357436,4.830187082290649,Racarumi,+ lluvia futura observada (escenario idealizado)
+XGBoost,"{""max_depth"": 3, ""learning_rate"": 0.1, ""reg_lambda"": 10.0, ""n_estimators"": 400}",0.8596135053299817,4.87693206469218,Racarumi,+ lluvia futura observada (escenario idealizado)
+XGBoost,"{""max_depth"": 6, ""learning_rate"": 0.05, ""reg_lambda"": 1.0, ""n_estimators"": 100}",0.846006126707952,20.495076100031536,Racarumi,+ lluvia futura observada (escenario idealizado)
+XGBoost,"{""max_depth"": 6, ""learning_rate"": 0.05, ""reg_lambda"": 1.0, ""n_estimators"": 200}",0.8543021355318051,20.551538546880085,Racarumi,+ lluvia futura observada (escenario idealizado)
+XGBoost,"{""max_depth"": 6, ""learning_rate"": 0.05, ""reg_lambda"": 1.0, ""n_estimators"": 400}",0.8560020414905768,20.676204522450764,Racarumi,+ lluvia futura observada (escenario idealizado)
+XGBoost,"{""max_depth"": 6, ""learning_rate"": 0.05, ""reg_lambda"": 10.0, ""n_estimators"": 100}",0.8438727567694995,21.663191715876263,Racarumi,+ lluvia futura observada (escenario idealizado)
+XGBoost,"{""max_depth"": 6, ""learning_rate"": 0.05, ""reg_lambda"": 10.0, ""n_estimators"": 200}",0.8546063865127665,21.72097984949748,Racarumi,+ lluvia futura observada (escenario idealizado)
+XGBoost,"{""max_depth"": 6, ""learning_rate"": 0.05, ""reg_lambda"": 10.0, ""n_estimators"": 400}",0.8565220355494793,21.83846839269002,Racarumi,+ lluvia futura observada (escenario idealizado)
+XGBoost,"{""max_depth"": 6, ""learning_rate"": 0.1, ""reg_lambda"": 1.0, ""n_estimators"": 100}",0.8486695956912804,20.090811649958294,Racarumi,+ lluvia futura observada (escenario idealizado)
+XGBoost,"{""max_depth"": 6, ""learning_rate"": 0.1, ""reg_lambda"": 1.0, ""n_estimators"": 200}",0.8503446373757223,20.147348483403523,Racarumi,+ lluvia futura observada (escenario idealizado)
+XGBoost,"{""max_depth"": 6, ""learning_rate"": 0.1, ""reg_lambda"": 1.0, ""n_estimators"": 400}",0.8502463784667614,20.251875797907513,Racarumi,+ lluvia futura observada (escenario idealizado)
+XGBoost,"{""max_depth"": 6, ""learning_rate"": 0.1, ""reg_lambda"": 10.0, ""n_estimators"": 100}",0.8504209320562928,21.48319943745931,Racarumi,+ lluvia futura observada (escenario idealizado)
+XGBoost,"{""max_depth"": 6, ""learning_rate"": 0.1, ""reg_lambda"": 10.0, ""n_estimators"": 200}",0.851769456366447,21.5478515625,Racarumi,+ lluvia futura observada (escenario idealizado)
+XGBoost,"{""max_depth"": 6, ""learning_rate"": 0.1, ""reg_lambda"": 10.0, ""n_estimators"": 400}",0.8515092404197963,21.660425186157227,Racarumi,+ lluvia futura observada (escenario idealizado)
+Regresión lineal,{},0.7984765808288246,0.5221703052520752,Racarumi,+ lluvia futura observada (escenario idealizado)
+XGBoost,"{""max_depth"": 3, ""learning_rate"": 0.05, ""reg_lambda"": 1.0, ""n_estimators"": 100}",0.9349147261032625,3.615591843922933,Tamshiyacu,Solo caudal
+XGBoost,"{""max_depth"": 3, ""learning_rate"": 0.05, ""reg_lambda"": 1.0, ""n_estimators"": 200}",0.9303063872250031,3.635359525680542,Tamshiyacu,Solo caudal
+XGBoost,"{""max_depth"": 3, ""learning_rate"": 0.05, ""reg_lambda"": 1.0, ""n_estimators"": 400}",0.9245870665198931,3.676870584487915,Tamshiyacu,Solo caudal
+XGBoost,"{""max_depth"": 3, ""learning_rate"": 0.05, ""reg_lambda"": 10.0, ""n_estimators"": 100}",0.9348928596149743,3.457348903020223,Tamshiyacu,Solo caudal
+XGBoost,"{""max_depth"": 3, ""learning_rate"": 0.05, ""reg_lambda"": 10.0, ""n_estimators"": 200}",0.9312905581212022,3.476050933202108,Tamshiyacu,Solo caudal
+XGBoost,"{""max_depth"": 3, ""learning_rate"": 0.05, ""reg_lambda"": 10.0, ""n_estimators"": 400}",0.9265269301343729,3.5134570598602295,Tamshiyacu,Solo caudal
+XGBoost,"{""max_depth"": 3, ""learning_rate"": 0.1, ""reg_lambda"": 1.0, ""n_estimators"": 100}",0.9297132774688386,3.268388350804647,Tamshiyacu,Solo caudal
+XGBoost,"{""max_depth"": 3, ""learning_rate"": 0.1, ""reg_lambda"": 1.0, ""n_estimators"": 200}",0.9241428185801145,3.287921587626139,Tamshiyacu,Solo caudal
+XGBoost,"{""max_depth"": 3, ""learning_rate"": 0.1, ""reg_lambda"": 1.0, ""n_estimators"": 400}",0.916863005923653,3.3236199220021567,Tamshiyacu,Solo caudal
+XGBoost,"{""max_depth"": 3, ""learning_rate"": 0.1, ""reg_lambda"": 10.0, ""n_estimators"": 100}",0.9304322435789152,3.2234745820363364,Tamshiyacu,Solo caudal
+XGBoost,"{""max_depth"": 3, ""learning_rate"": 0.1, ""reg_lambda"": 10.0, ""n_estimators"": 200}",0.9257388173719353,3.242412487665812,Tamshiyacu,Solo caudal
+XGBoost,"{""max_depth"": 3, ""learning_rate"": 0.1, ""reg_lambda"": 10.0, ""n_estimators"": 400}",0.9198847876448762,3.276376803716024,Tamshiyacu,Solo caudal
+XGBoost,"{""max_depth"": 6, ""learning_rate"": 0.05, ""reg_lambda"": 1.0, ""n_estimators"": 100}",0.9235507055541585,11.979072650273642,Tamshiyacu,Solo caudal
+XGBoost,"{""max_depth"": 6, ""learning_rate"": 0.05, ""reg_lambda"": 1.0, ""n_estimators"": 200}",0.9178389861361376,12.025827089945475,Tamshiyacu,Solo caudal
+XGBoost,"{""max_depth"": 6, ""learning_rate"": 0.05, ""reg_lambda"": 1.0, ""n_estimators"": 400}",0.9122279888563376,12.111833651860556,Tamshiyacu,Solo caudal
+XGBoost,"{""max_depth"": 6, ""learning_rate"": 0.05, ""reg_lambda"": 10.0, ""n_estimators"": 100}",0.9254457449164699,11.320958058039347,Tamshiyacu,Solo caudal
+XGBoost,"{""max_depth"": 6, ""learning_rate"": 0.05, ""reg_lambda"": 10.0, ""n_estimators"": 200}",0.9208252104898161,11.36436120669047,Tamshiyacu,Solo caudal
+XGBoost,"{""max_depth"": 6, ""learning_rate"": 0.05, ""reg_lambda"": 10.0, ""n_estimators"": 400}",0.916049545193077,11.450294415156046,Tamshiyacu,Solo caudal
+XGBoost,"{""max_depth"": 6, ""learning_rate"": 0.1, ""reg_lambda"": 1.0, ""n_estimators"": 100}",0.9145305273575123,11.183642864227295,Tamshiyacu,Solo caudal
+XGBoost,"{""max_depth"": 6, ""learning_rate"": 0.1, ""reg_lambda"": 1.0, ""n_estimators"": 200}",0.9088558470610835,11.229129950205484,Tamshiyacu,Solo caudal
+XGBoost,"{""max_depth"": 6, ""learning_rate"": 0.1, ""reg_lambda"": 1.0, ""n_estimators"": 400}",0.9037569797075145,11.316408157348633,Tamshiyacu,Solo caudal
+XGBoost,"{""max_depth"": 6, ""learning_rate"": 0.1, ""reg_lambda"": 10.0, ""n_estimators"": 100}",0.9192218917571456,11.589599450429281,Tamshiyacu,Solo caudal
+XGBoost,"{""max_depth"": 6, ""learning_rate"": 0.1, ""reg_lambda"": 10.0, ""n_estimators"": 200}",0.9139089034548239,11.637069145838419,Tamshiyacu,Solo caudal
+XGBoost,"{""max_depth"": 6, ""learning_rate"": 0.1, ""reg_lambda"": 10.0, ""n_estimators"": 400}",0.908899531238261,11.730361859003702,Tamshiyacu,Solo caudal
+Regresión lineal,{},0.9027190512846368,0.2508385181427002,Tamshiyacu,Solo caudal
+XGBoost,"{""max_depth"": 3, ""learning_rate"": 0.05, ""reg_lambda"": 1.0, ""n_estimators"": 100}",0.9368422982892591,4.103501001993815,Tamshiyacu,+ lluvia observada hasta t (disponibilidad supuesta)
+XGBoost,"{""max_depth"": 3, ""learning_rate"": 0.05, ""reg_lambda"": 1.0, ""n_estimators"": 200}",0.9326518423879112,4.134508371353149,Tamshiyacu,+ lluvia observada hasta t (disponibilidad supuesta)
+XGBoost,"{""max_depth"": 3, ""learning_rate"": 0.05, ""reg_lambda"": 1.0, ""n_estimators"": 400}",0.9276900505009498,4.169821262359619,Tamshiyacu,+ lluvia observada hasta t (disponibilidad supuesta)
+XGBoost,"{""max_depth"": 3, ""learning_rate"": 0.05, ""reg_lambda"": 10.0, ""n_estimators"": 100}",0.9367883335441376,4.1225550174713135,Tamshiyacu,+ lluvia observada hasta t (disponibilidad supuesta)
+XGBoost,"{""max_depth"": 3, ""learning_rate"": 0.05, ""reg_lambda"": 10.0, ""n_estimators"": 200}",0.9335818866429805,4.144707918167114,Tamshiyacu,+ lluvia observada hasta t (disponibilidad supuesta)
+XGBoost,"{""max_depth"": 3, ""learning_rate"": 0.05, ""reg_lambda"": 10.0, ""n_estimators"": 400}",0.9289664492834895,4.180987517038981,Tamshiyacu,+ lluvia observada hasta t (disponibilidad supuesta)
+XGBoost,"{""max_depth"": 3, ""learning_rate"": 0.1, ""reg_lambda"": 1.0, ""n_estimators"": 100}",0.9315773553688683,3.9436100323994956,Tamshiyacu,+ lluvia observada hasta t (disponibilidad supuesta)
+XGBoost,"{""max_depth"": 3, ""learning_rate"": 0.1, ""reg_lambda"": 1.0, ""n_estimators"": 200}",0.9260272939656776,3.963170051574707,Tamshiyacu,+ lluvia observada hasta t (disponibilidad supuesta)
+XGBoost,"{""max_depth"": 3, ""learning_rate"": 0.1, ""reg_lambda"": 1.0, ""n_estimators"": 400}",0.91995367644499,3.9972523053487143,Tamshiyacu,+ lluvia observada hasta t (disponibilidad supuesta)
+XGBoost,"{""max_depth"": 3, ""learning_rate"": 0.1, ""reg_lambda"": 10.0, ""n_estimators"": 100}",0.9326210851824411,4.177067677179973,Tamshiyacu,+ lluvia observada hasta t (disponibilidad supuesta)
+XGBoost,"{""max_depth"": 3, ""learning_rate"": 0.1, ""reg_lambda"": 10.0, ""n_estimators"": 200}",0.9274430428673249,4.198331197102864,Tamshiyacu,+ lluvia observada hasta t (disponibilidad supuesta)
+XGBoost,"{""max_depth"": 3, ""learning_rate"": 0.1, ""reg_lambda"": 10.0, ""n_estimators"": 400}",0.922194319069228,4.236505111058553,Tamshiyacu,+ lluvia observada hasta t (disponibilidad supuesta)
+XGBoost,"{""max_depth"": 6, ""learning_rate"": 0.05, ""reg_lambda"": 1.0, ""n_estimators"": 100}",0.9267241697891859,16.237730900446575,Tamshiyacu,+ lluvia observada hasta t (disponibilidad supuesta)
+XGBoost,"{""max_depth"": 6, ""learning_rate"": 0.05, ""reg_lambda"": 1.0, ""n_estimators"": 200}",0.9225652861143334,16.285385211308796,Tamshiyacu,+ lluvia observada hasta t (disponibilidad supuesta)
+XGBoost,"{""max_depth"": 6, ""learning_rate"": 0.05, ""reg_lambda"": 1.0, ""n_estimators"": 400}",0.9190325841768865,16.37690758705139,Tamshiyacu,+ lluvia observada hasta t (disponibilidad supuesta)
+XGBoost,"{""max_depth"": 6, ""learning_rate"": 0.05, ""reg_lambda"": 10.0, ""n_estimators"": 100}",0.9291593947810254,16.13825496037801,Tamshiyacu,+ lluvia observada hasta t (disponibilidad supuesta)
+XGBoost,"{""max_depth"": 6, ""learning_rate"": 0.05, ""reg_lambda"": 10.0, ""n_estimators"": 200}",0.9254005800784462,16.185797214508057,Tamshiyacu,+ lluvia observada hasta t (disponibilidad supuesta)
+XGBoost,"{""max_depth"": 6, ""learning_rate"": 0.05, ""reg_lambda"": 10.0, ""n_estimators"": 400}",0.921857144643479,16.310235182444256,Tamshiyacu,+ lluvia observada hasta t (disponibilidad supuesta)
+XGBoost,"{""max_depth"": 6, ""learning_rate"": 0.1, ""reg_lambda"": 1.0, ""n_estimators"": 100}",0.9215180924738157,15.462279399236044,Tamshiyacu,+ lluvia observada hasta t (disponibilidad supuesta)
+XGBoost,"{""max_depth"": 6, ""learning_rate"": 0.1, ""reg_lambda"": 1.0, ""n_estimators"": 200}",0.9172769136578933,15.53207000096639,Tamshiyacu,+ lluvia observada hasta t (disponibilidad supuesta)
+XGBoost,"{""max_depth"": 6, ""learning_rate"": 0.1, ""reg_lambda"": 1.0, ""n_estimators"": 400}",0.9147485694452975,15.653852780659994,Tamshiyacu,+ lluvia observada hasta t (disponibilidad supuesta)
+XGBoost,"{""max_depth"": 6, ""learning_rate"": 0.1, ""reg_lambda"": 10.0, ""n_estimators"": 100}",0.9238756637338257,16.384074529012043,Tamshiyacu,+ lluvia observada hasta t (disponibilidad supuesta)
+XGBoost,"{""max_depth"": 6, ""learning_rate"": 0.1, ""reg_lambda"": 10.0, ""n_estimators"": 200}",0.9196861668477785,16.427909692128498,Tamshiyacu,+ lluvia observada hasta t (disponibilidad supuesta)
+XGBoost,"{""max_depth"": 6, ""learning_rate"": 0.1, ""reg_lambda"": 10.0, ""n_estimators"": 400}",0.9170657509249424,16.51503809293111,Tamshiyacu,+ lluvia observada hasta t (disponibilidad supuesta)
+Regresión lineal,{},0.9111181042198958,0.2903404235839844,Tamshiyacu,+ lluvia observada hasta t (disponibilidad supuesta)
+XGBoost,"{""max_depth"": 3, ""learning_rate"": 0.05, ""reg_lambda"": 1.0, ""n_estimators"": 100}",0.9381304591856898,4.203223466873169,Tamshiyacu,+ lluvia futura observada (escenario idealizado)
+XGBoost,"{""max_depth"": 3, ""learning_rate"": 0.05, ""reg_lambda"": 1.0, ""n_estimators"": 200}",0.9343203976586539,4.2348887125651045,Tamshiyacu,+ lluvia futura observada (escenario idealizado)
+XGBoost,"{""max_depth"": 3, ""learning_rate"": 0.05, ""reg_lambda"": 1.0, ""n_estimators"": 400}",0.9297592953755915,4.289467255274455,Tamshiyacu,+ lluvia futura observada (escenario idealizado)
+XGBoost,"{""max_depth"": 3, ""learning_rate"": 0.05, ""reg_lambda"": 10.0, ""n_estimators"": 100}",0.9381520148694928,4.3414130210876465,Tamshiyacu,+ lluvia futura observada (escenario idealizado)
+XGBoost,"{""max_depth"": 3, ""learning_rate"": 0.05, ""reg_lambda"": 10.0, ""n_estimators"": 200}",0.9348708968107554,4.366206328074138,Tamshiyacu,+ lluvia futura observada (escenario idealizado)
+XGBoost,"{""max_depth"": 3, ""learning_rate"": 0.05, ""reg_lambda"": 10.0, ""n_estimators"": 400}",0.9308089556572876,4.4064905643463135,Tamshiyacu,+ lluvia futura observada (escenario idealizado)
+XGBoost,"{""max_depth"": 3, ""learning_rate"": 0.1, ""reg_lambda"": 1.0, ""n_estimators"": 100}",0.9340031403400731,4.337704579035441,Tamshiyacu,+ lluvia futura observada (escenario idealizado)
+XGBoost,"{""max_depth"": 3, ""learning_rate"": 0.1, ""reg_lambda"": 1.0, ""n_estimators"": 200}",0.9296438081089948,4.360992829004924,Tamshiyacu,+ lluvia futura observada (escenario idealizado)
+XGBoost,"{""max_depth"": 3, ""learning_rate"": 0.1, ""reg_lambda"": 1.0, ""n_estimators"": 400}",0.9237600794284222,4.401220798492432,Tamshiyacu,+ lluvia futura observada (escenario idealizado)
+XGBoost,"{""max_depth"": 3, ""learning_rate"": 0.1, ""reg_lambda"": 10.0, ""n_estimators"": 100}",0.9340161566374331,4.378099282582601,Tamshiyacu,+ lluvia futura observada (escenario idealizado)
+XGBoost,"{""max_depth"": 3, ""learning_rate"": 0.1, ""reg_lambda"": 10.0, ""n_estimators"": 200}",0.9299832082474232,4.400692303975423,Tamshiyacu,+ lluvia futura observada (escenario idealizado)
+XGBoost,"{""max_depth"": 3, ""learning_rate"": 0.1, ""reg_lambda"": 10.0, ""n_estimators"": 400}",0.925272262278956,4.440437396367391,Tamshiyacu,+ lluvia futura observada (escenario idealizado)
+XGBoost,"{""max_depth"": 6, ""learning_rate"": 0.05, ""reg_lambda"": 1.0, ""n_estimators"": 100}",0.9300564808250161,16.837608337402344,Tamshiyacu,+ lluvia futura observada (escenario idealizado)
+XGBoost,"{""max_depth"": 6, ""learning_rate"": 0.05, ""reg_lambda"": 1.0, ""n_estimators"": 200}",0.926842312982517,16.883734385172527,Tamshiyacu,+ lluvia futura observada (escenario idealizado)
+XGBoost,"{""max_depth"": 6, ""learning_rate"": 0.05, ""reg_lambda"": 1.0, ""n_estimators"": 400}",0.9231802881729101,16.966853618621826,Tamshiyacu,+ lluvia futura observada (escenario idealizado)
+XGBoost,"{""max_depth"": 6, ""learning_rate"": 0.05, ""reg_lambda"": 10.0, ""n_estimators"": 100}",0.9320700695790087,17.105303446451824,Tamshiyacu,+ lluvia futura observada (escenario idealizado)
+XGBoost,"{""max_depth"": 6, ""learning_rate"": 0.05, ""reg_lambda"": 10.0, ""n_estimators"": 200}",0.92904416544308,17.154621918996174,Tamshiyacu,+ lluvia futura observada (escenario idealizado)
+XGBoost,"{""max_depth"": 6, ""learning_rate"": 0.05, ""reg_lambda"": 10.0, ""n_estimators"": 400}",0.9253541149699024,17.24452797571818,Tamshiyacu,+ lluvia futura observada (escenario idealizado)
+XGBoost,"{""max_depth"": 6, ""learning_rate"": 0.1, ""reg_lambda"": 1.0, ""n_estimators"": 100}",0.9259548355707484,17.10229516029358,Tamshiyacu,+ lluvia futura observada (escenario idealizado)
+XGBoost,"{""max_depth"": 6, ""learning_rate"": 0.1, ""reg_lambda"": 1.0, ""n_estimators"": 200}",0.9224315291110418,17.149181922276814,Tamshiyacu,+ lluvia futura observada (escenario idealizado)
+XGBoost,"{""max_depth"": 6, ""learning_rate"": 0.1, ""reg_lambda"": 1.0, ""n_estimators"": 400}",0.9201035181289087,17.232924858729046,Tamshiyacu,+ lluvia futura observada (escenario idealizado)
+XGBoost,"{""max_depth"": 6, ""learning_rate"": 0.1, ""reg_lambda"": 10.0, ""n_estimators"": 100}",0.9276406144609599,17.32013424237569,Tamshiyacu,+ lluvia futura observada (escenario idealizado)
+XGBoost,"{""max_depth"": 6, ""learning_rate"": 0.1, ""reg_lambda"": 10.0, ""n_estimators"": 200}",0.9238838413398452,17.37077792485555,Tamshiyacu,+ lluvia futura observada (escenario idealizado)
+XGBoost,"{""max_depth"": 6, ""learning_rate"": 0.1, ""reg_lambda"": 10.0, ""n_estimators"": 400}",0.9209853474019735,17.46791656812032,Tamshiyacu,+ lluvia futura observada (escenario idealizado)
+Regresión lineal,{},0.9124057935516262,0.37436842918395996,Tamshiyacu,+ lluvia futura observada (escenario idealizado)

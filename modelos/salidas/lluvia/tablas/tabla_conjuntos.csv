@@ -1,0 +1,12 @@
+estación,conjunto,disponibilidad,variables tabulares,canales LSTM,entrenamiento,validación,prueba,prueba extendida,minutos de ajuste (6 modelos)
+Racarumi,Q,solo caudal local (hasta t),32,4,"1981-04-01 a 2008-12-01 (9,247)","2009-01-01 a 2015-12-01 (2,371)","2016-01-01 a 2023-08-01 (2,521)",2789,12.433400730292002
+Racarumi,Q+P,caudal local hasta t; lluvia hasta t (disponibilidad supuesta),42,6,"1981-04-01 a 2008-12-01 (9,247)","2009-01-01 a 2015-12-01 (2,371)","2016-01-01 a 2023-08-01 (2,521)",2789,16.80118554830551
+Racarumi,Q+P (t−1),caudal local hasta t; lluvia hasta t−1,42,6,"1981-04-01 a 2008-12-01 (9,247)","2009-01-01 a 2015-12-01 (2,371)","2016-01-01 a 2023-08-01 (2,521)",2789,16.16678933699926
+Racarumi,Q+P+IA,"caudal local hasta t; lluvia, índices antecedentes hasta t (disponibilidad supuesta)",45,9,"1981-04-01 a 2008-12-01 (9,247)","2009-01-01 a 2015-12-01 (2,371)","2016-01-01 a 2023-08-01 (2,521)",2789,16.273831355571748
+Racarumi,Q+P+IA (t−1),"caudal local hasta t; lluvia, índices antecedentes hasta t−1",45,9,"1981-04-01 a 2008-12-01 (9,247)","2009-01-01 a 2015-12-01 (2,371)","2016-01-01 a 2023-08-01 (2,521)",2789,16.73848077853521
+Racarumi,Q+Pd (control),caudal local hasta t; lluvia diaria hasta t (disponibilidad supuesta),63,6,"1981-04-01 a 2008-12-01 (9,247)","2009-01-01 a 2015-12-01 (2,371)","2016-01-01 a 2023-08-01 (2,521)",2789,22.311938202381135
+Tamshiyacu,Q,solo caudal local (hasta t),32,4,"1984-09-30 a 2008-12-01 (6,904)","2009-01-30 a 2015-12-01 (2,025)","2016-01-01 a 2025-12-01 (3,252)",3428,9.408810730775198
+Tamshiyacu,Q+P,caudal local hasta t; lluvia hasta t (disponibilidad supuesta),42,6,"1984-09-30 a 2008-12-01 (6,904)","2009-01-30 a 2015-12-01 (2,025)","2016-01-01 a 2025-12-01 (3,252)",3428,8.574711740016937
+Tamshiyacu,Q+P (t−1),caudal local hasta t; lluvia hasta t−1,42,6,"1984-09-30 a 2008-12-01 (6,904)","2009-01-30 a 2015-12-01 (2,025)","2016-01-01 a 2025-12-01 (3,252)",3428,8.844737136363984
+Tamshiyacu,Q+P+IA,"caudal local hasta t; lluvia, índices antecedentes hasta t (disponibilidad supuesta)",45,9,"1984-09-30 a 2008-12-01 (6,904)","2009-01-30 a 2015-12-01 (2,025)","2016-01-01 a 2025-12-01 (3,252)",3428,8.159241688251495
+Tamshiyacu,Q+P+IA (t−1),"caudal local hasta t; lluvia, índices antecedentes hasta t−1",45,9,"1984-09-30 a 2008-12-01 (6,904)","2009-01-30 a 2015-12-01 (2,025)","2016-01-01 a 2025-12-01 (3,252)",3428,8.536904871463776

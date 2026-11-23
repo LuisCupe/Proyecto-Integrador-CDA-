@@ -1,0 +1,4 @@
+estación,máx |Δlog Q| en días ≠ 1,escalones (día 1 > ese máximo),en enero / setiembre / otros,subidas / bajadas,tamaño mediano (%),primer / último escalón,top 1 ‰ obs en día 1,p binomial obs,top 1 ‰ sim en día 1,años sin escalones,de años con dato
+San Regis,0.20266625701954055,17,10 / 6 / 1,7 / 10,48.93138357705289,1999-01-01 / 2024-11-01,9 de 9,3.0798455649527766e-14,8 de 9,12,28
+Requena,0.35249229580539776,1,0 / 1 / 0,1 / 0,89.04593639575981,2017-09-01 / 2017-09-01,2 de 8,0.026120978023951046,5 de 8,24,25
+Tamshiyacu,0.16019749112587434,41,21 / 20 / 0,20 / 21,52.64467952706913,1985-01-01 / 2014-01-01,15 de 15,4.592878708932221e-23,12 de 15,12,42

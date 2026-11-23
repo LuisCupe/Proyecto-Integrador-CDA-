@@ -1,0 +1,361 @@
+estación,entrada,modelo,banda,G,IC90 inferior,IC90 superior,lectura
+Racarumi,P,Regresión lineal,1–3 días,0.16276915203320053,0.07276322126669234,0.2757971822719634,reduce el error
+Racarumi,P,Regresión lineal,4–7 días,0.0034059692723964474,-0.05844392463885735,0.08010443628905295,sin diferencia demostrada
+Racarumi,P,Regresión lineal,8–15 días,-0.05536798518535657,-0.08899230670801957,-0.010838092381319194,aumenta el error
+Racarumi,P,Regresión lineal,16–30 días,-0.025660920107369645,-0.0687274248662784,0.019404318623462882,sin diferencia demostrada
+Racarumi,P,Random Forest,1–3 días,0.24211207349157138,0.21334254715387338,0.287888247826459,reduce el error
+Racarumi,P,Random Forest,4–7 días,0.10519001387189741,0.0753054153021264,0.14730774969478047,reduce el error
+Racarumi,P,Random Forest,8–15 días,0.02600740219212405,-0.015824278832290005,0.06946216630052081,sin diferencia demostrada
+Racarumi,P,Random Forest,16–30 días,-0.00758144550803963,-0.03768854891447511,0.024377190116758415,sin diferencia demostrada
+Racarumi,P,XGBoost,1–3 días,0.3203413505454057,0.2800135041281043,0.35026934190031156,reduce el error
+Racarumi,P,XGBoost,4–7 días,0.09534977947782797,0.05527808047043061,0.1404870773826371,reduce el error
+Racarumi,P,XGBoost,8–15 días,-0.0014499009444142175,-0.026945798798379928,0.0367570619832279,sin diferencia demostrada
+Racarumi,P,XGBoost,16–30 días,-0.000529272207287601,-0.03418024264116988,0.03678899521494308,sin diferencia demostrada
+Racarumi,P,KNN,1–3 días,0.1427465149019811,0.0966241073427114,0.20520599583072424,reduce el error
+Racarumi,P,KNN,4–7 días,0.03900558549113964,-0.03950905738573265,0.10877875362259894,sin diferencia demostrada
+Racarumi,P,KNN,8–15 días,-0.020323031017481563,-0.10132376825828163,0.06133915798634587,sin diferencia demostrada
+Racarumi,P,KNN,16–30 días,-0.05572901814172071,-0.16945148269920401,0.06384030454092793,sin diferencia demostrada
+Racarumi,P,MLP,1–3 días,0.28366341459621247,0.2381402310831744,0.33631736292002784,reduce el error
+Racarumi,P,MLP,4–7 días,0.09401228061409084,0.05967658470870378,0.1395117707927709,reduce el error
+Racarumi,P,MLP,8–15 días,0.022116839825755963,-0.04703911017630519,0.09331310337508554,sin diferencia demostrada
+Racarumi,P,MLP,16–30 días,0.019445703091151678,-0.04904878387029861,0.08780561062696,sin diferencia demostrada
+Racarumi,P,LSTM,1–3 días,0.2882147395442497,0.24045593074186755,0.34742106777859044,reduce el error
+Racarumi,P,LSTM,4–7 días,0.09312901653054939,0.04471028389876473,0.14957960961016897,reduce el error
+Racarumi,P,LSTM,8–15 días,-0.02375603788328906,-0.07245684176283002,0.04655851782164395,sin diferencia demostrada
+Racarumi,P,LSTM,16–30 días,-0.05235999944373382,-0.10188409559774475,0.020532822015659133,sin diferencia demostrada
+Racarumi,IA sobre P,Regresión lineal,1–3 días,0.012968090743250005,0.007997723699931781,0.019057992361816944,reduce el error
+Racarumi,IA sobre P,Regresión lineal,4–7 días,0.034517741813504865,0.018543357813811313,0.0446981552490242,reduce el error
+Racarumi,IA sobre P,Regresión lineal,8–15 días,0.02092580999572624,0.004268339386994696,0.03442056265292013,reduce el error
+Racarumi,IA sobre P,Regresión lineal,16–30 días,-0.002409503005931457,-0.006851749903451443,0.003714773726352288,sin diferencia demostrada
+Racarumi,IA sobre P,Random Forest,1–3 días,-0.00012032049453392091,-0.0035085165859869206,0.0029869814027290373,sin diferencia demostrada
+Racarumi,IA sobre P,Random Forest,4–7 días,0.0012121765396645445,-0.005998337198953784,0.00824085715145679,sin diferencia demostrada
+Racarumi,IA sobre P,Random Forest,8–15 días,0.006217643969239517,-0.0034690023094175793,0.017098166931262086,sin diferencia demostrada
+Racarumi,IA sobre P,Random Forest,16–30 días,0.007026963037267353,-0.005515208946007521,0.023648928985165858,sin diferencia demostrada
+Racarumi,IA sobre P,XGBoost,1–3 días,-0.0038161919195462968,-0.012580624612945946,0.009194043054753182,sin diferencia demostrada
+Racarumi,IA sobre P,XGBoost,4–7 días,0.0036968249638973383,-0.004930830266566199,0.01142617418017156,sin diferencia demostrada
+Racarumi,IA sobre P,XGBoost,8–15 días,0.013917983603872641,0.00555957944142077,0.023006182558040066,reduce el error
+Racarumi,IA sobre P,XGBoost,16–30 días,0.007402712004226042,-0.011960768481226035,0.027043151998753994,sin diferencia demostrada
+Racarumi,IA sobre P,KNN,1–3 días,0.02558594390232294,-0.039365316349301925,0.07280640852431638,sin diferencia demostrada
+Racarumi,IA sobre P,KNN,4–7 días,0.012822502808217395,-0.017300977186116093,0.04510779335111133,sin diferencia demostrada
+Racarumi,IA sobre P,KNN,8–15 días,-0.014346416866405809,-0.04556497889083142,0.016007684924411736,sin diferencia demostrada
+Racarumi,IA sobre P,KNN,16–30 días,-0.014606427499665786,-0.05726762956080571,0.03167899245672115,sin diferencia demostrada
+Racarumi,IA sobre P,MLP,1–3 días,0.007286520711918265,-0.014973089665549099,0.0365814132960696,sin diferencia demostrada
+Racarumi,IA sobre P,MLP,4–7 días,0.014507375806122935,-0.004429210180500876,0.028467051425826298,sin diferencia demostrada
+Racarumi,IA sobre P,MLP,8–15 días,0.004080327158191843,-0.011970121724699901,0.018167884507603427,sin diferencia demostrada
+Racarumi,IA sobre P,MLP,16–30 días,-0.005994320180297441,-0.02371192127951375,0.016916543601008607,sin diferencia demostrada
+Racarumi,IA sobre P,LSTM,1–3 días,-0.03328100958701219,-0.05166647582689793,-0.008444223833263771,aumenta el error
+Racarumi,IA sobre P,LSTM,4–7 días,-0.004402898136419031,-0.02475559568876078,0.011585078597010436,sin diferencia demostrada
+Racarumi,IA sobre P,LSTM,8–15 días,0.011870311250125387,-0.011900750962875073,0.03403848270872073,sin diferencia demostrada
+Racarumi,IA sobre P,LSTM,16–30 días,0.025383213156604745,-0.00868788586376602,0.06243128797310461,sin diferencia demostrada
+Racarumi,P con latencia 1 d,Regresión lineal,1–3 días,-0.04727670922460736,-0.0779305596039454,-0.0057726090378561615,aumenta el error
+Racarumi,P con latencia 1 d,Regresión lineal,4–7 días,-0.057882936852485134,-0.08591428193695382,-0.015681937768534118,aumenta el error
+Racarumi,P con latencia 1 d,Regresión lineal,8–15 días,-0.06262817770559215,-0.09282688495761546,-0.024737715291830786,aumenta el error
+Racarumi,P con latencia 1 d,Regresión lineal,16–30 días,-0.037173067586095954,-0.07900529756566421,0.007214947155497431,sin diferencia demostrada
+Racarumi,P con latencia 1 d,Random Forest,1–3 días,0.015548439956401872,0.002531110176731616,0.03421033245995296,reduce el error
+Racarumi,P con latencia 1 d,Random Forest,4–7 días,0.008997030660540584,-0.014022262484537994,0.04091614307272909,sin diferencia demostrada
+Racarumi,P con latencia 1 d,Random Forest,8–15 días,0.012392341174146781,-0.027759287281581457,0.05647733155465632,sin diferencia demostrada
+Racarumi,P con latencia 1 d,Random Forest,16–30 días,0.011001601330826172,-0.013926895221589252,0.041497346859046595,sin diferencia demostrada
+Racarumi,P con latencia 1 d,XGBoost,1–3 días,0.014136410210126904,-0.002501385282962409,0.02765082394426766,sin diferencia demostrada
+Racarumi,P con latencia 1 d,XGBoost,4–7 días,0.0029381611219265746,-0.021319674647495533,0.030407204722063607,sin diferencia demostrada
+Racarumi,P con latencia 1 d,XGBoost,8–15 días,-0.022388529974337157,-0.0547216936648256,0.015724167125658092,sin diferencia demostrada
+Racarumi,P con latencia 1 d,XGBoost,16–30 días,-0.0010341502379711542,-0.031355293045497466,0.03695071938613702,sin diferencia demostrada
+Racarumi,P con latencia 1 d,KNN,1–3 días,-0.018651790739727225,-0.052218323633256625,0.008767120915216458,sin diferencia demostrada
+Racarumi,P con latencia 1 d,KNN,4–7 días,-0.00496018916506924,-0.06740420247041226,0.051776509890436265,sin diferencia demostrada
+Racarumi,P con latencia 1 d,KNN,8–15 días,-0.023441476267958228,-0.11722169482205996,0.06919215835275028,sin diferencia demostrada
+Racarumi,P con latencia 1 d,KNN,16–30 días,-0.058614556149759967,-0.17501915195561735,0.05091542916916592,sin diferencia demostrada
+Racarumi,P con latencia 1 d,MLP,1–3 días,0.021198091838307342,0.002901431680561834,0.039550847031929695,reduce el error
+Racarumi,P con latencia 1 d,MLP,4–7 días,0.03108624540699334,-0.002343115174693788,0.07177099973515828,sin diferencia demostrada
+Racarumi,P con latencia 1 d,MLP,8–15 días,0.013940666041235006,-0.04735282930495338,0.07813108126098355,sin diferencia demostrada
+Racarumi,P con latencia 1 d,MLP,16–30 días,0.01287890133112668,-0.05146437447214421,0.08023040831029254,sin diferencia demostrada
+Racarumi,P con latencia 1 d,LSTM,1–3 días,0.012496348666756307,-0.0014864430687966277,0.033800046418030756,sin diferencia demostrada
+Racarumi,P con latencia 1 d,LSTM,4–7 días,0.005748435715443145,-0.01629515226049234,0.03699427190587331,sin diferencia demostrada
+Racarumi,P con latencia 1 d,LSTM,8–15 días,-0.02308255608841403,-0.0609976492158608,0.02334007090807152,sin diferencia demostrada
+Racarumi,P con latencia 1 d,LSTM,16–30 días,-0.05413383240533309,-0.08192194345774145,-0.011621535955686905,aumenta el error
+Racarumi,retraso de P (t−1 frente a t),Regresión lineal,1–3 días,-0.2508816556006035,-0.4034275152567567,-0.1529557780355277,aumenta el error
+Racarumi,retraso de P (t−1 frente a t),Regresión lineal,4–7 días,-0.061498367675486776,-0.11908497521215636,-0.01573599898388624,aumenta el error
+Racarumi,retraso de P (t−1 frente a t),Regresión lineal,8–15 días,-0.006879299563896213,-0.032233274376641655,0.01744509401257052,sin diferencia demostrada
+Racarumi,retraso de P (t−1 frente a t),Regresión lineal,16–30 días,-0.011224126076209817,-0.01764993311424078,-0.004408344465715533,aumenta el error
+Racarumi,retraso de P (t−1 frente a t),Random Forest,1–3 días,-0.2989408138205114,-0.35870748113225315,-0.26304020437398173,aumenta el error
+Racarumi,retraso de P (t−1 frente a t),Random Forest,4–7 días,-0.10750101664330947,-0.1269824116445896,-0.09181123813082834,aumenta el error
+Racarumi,retraso de P (t−1 frente a t),Random Forest,8–15 días,-0.013978608306284945,-0.03693355111697507,0.005495407396227548,sin diferencia demostrada
+Racarumi,retraso de P (t−1 frente a t),Random Forest,16–30 días,0.018443220567143426,0.0036084519078235016,0.03399959235974692,reduce el error
+Racarumi,retraso de P (t−1 frente a t),XGBoost,1–3 días,-0.4505275414077332,-0.5119784959163971,-0.3734713678795161,aumenta el error
+Racarumi,retraso de P (t−1 frente a t),XGBoost,4–7 días,-0.10215176679287241,-0.13852427270445458,-0.07208792877748825,aumenta el error
+Racarumi,retraso de P (t−1 frente a t),XGBoost,8–15 días,-0.020908314045641863,-0.039672804259965735,-0.0052388801103455925,aumenta el error
+Racarumi,retraso de P (t−1 frente a t),XGBoost,16–30 días,-0.0005046109541300137,-0.01058871721405169,0.011401318159425897,sin diferencia demostrada
+Racarumi,retraso de P (t−1 frente a t),KNN,1–3 días,-0.18827372352210836,-0.29240012259032616,-0.1263442633729074,aumenta el error
+Racarumi,retraso de P (t−1 frente a t),KNN,4–7 días,-0.0457502915650958,-0.09947818180824045,-0.003210837168907745,aumenta el error
+Racarumi,retraso de P (t−1 frente a t),KNN,8–15 días,-0.0030563313339766474,-0.03964568686132558,0.02775200418813915,sin diferencia demostrada
+Racarumi,retraso de P (t−1 frente a t),KNN,16–30 días,-0.0027332184286439354,-0.041639733190048746,0.03719889609190441,sin diferencia demostrada
+Racarumi,retraso de P (t−1 frente a t),MLP,1–3 días,-0.36639943862417357,-0.4677955694396283,-0.290530968329243,aumenta el error
+Racarumi,retraso de P (t−1 frente a t),MLP,4–7 días,-0.06945572645261633,-0.10963826860861979,-0.03466750036963265,aumenta el error
+Racarumi,retraso de P (t−1 frente a t),MLP,8–15 días,-0.008361094778505107,-0.028523030813271365,0.009898753327176121,sin diferencia demostrada
+Racarumi,retraso de P (t−1 frente a t),MLP,16–30 días,-0.00669703022130097,-0.019696287002073255,0.008792025647451266,sin diferencia demostrada
+Racarumi,retraso de P (t−1 frente a t),LSTM,1–3 días,-0.3873617595016692,-0.4979495900870284,-0.3089725350284502,aumenta el error
+Racarumi,retraso de P (t−1 frente a t),LSTM,4–7 días,-0.09635392730376147,-0.14912301917562004,-0.05253163827222458,aumenta el error
+Racarumi,retraso de P (t−1 frente a t),LSTM,8–15 días,0.0006578537951946739,-0.0373885653252381,0.029018018945986136,sin diferencia demostrada
+Racarumi,retraso de P (t−1 frente a t),LSTM,16–30 días,-0.0016855761930678614,-0.04618563897079779,0.027780883669358648,sin diferencia demostrada
+Racarumi,P + IA con latencia 1 d,Regresión lineal,1–3 días,-0.01856007805243287,-0.04352025200287578,0.014629508546285929,sin diferencia demostrada
+Racarumi,P + IA con latencia 1 d,Regresión lineal,4–7 días,-0.0203219385662905,-0.042174411565941886,0.014000416187864073,sin diferencia demostrada
+Racarumi,P + IA con latencia 1 d,Regresión lineal,8–15 días,-0.04375921718228626,-0.07401327626772322,-0.006850177976339363,aumenta el error
+Racarumi,P + IA con latencia 1 d,Regresión lineal,16–30 días,-0.03948494761860766,-0.08358749184747741,0.008582372404478397,sin diferencia demostrada
+Racarumi,P + IA con latencia 1 d,Random Forest,1–3 días,0.02080070750730023,0.008198900213575472,0.03725279193828708,reduce el error
+Racarumi,P + IA con latencia 1 d,Random Forest,4–7 días,0.01807163782231236,-0.0047348157753447475,0.04933745749836811,sin diferencia demostrada
+Racarumi,P + IA con latencia 1 d,Random Forest,8–15 días,0.020986949199924276,-0.02333290219577704,0.07039344633445775,sin diferencia demostrada
+Racarumi,P + IA con latencia 1 d,Random Forest,16–30 días,0.011630383068987782,-0.010021074984952883,0.03698220583665988,sin diferencia demostrada
+Racarumi,P + IA con latencia 1 d,XGBoost,1–3 días,0.01582374947001497,-0.0019544701586180595,0.03215302717667444,sin diferencia demostrada
+Racarumi,P + IA con latencia 1 d,XGBoost,4–7 días,0.0007914051234514385,-0.024518659859393586,0.028529239376772694,sin diferencia demostrada
+Racarumi,P + IA con latencia 1 d,XGBoost,8–15 días,-0.006274073700793803,-0.029746748482315167,0.025506406195659616,sin diferencia demostrada
+Racarumi,P + IA con latencia 1 d,XGBoost,16–30 días,0.009109368243246485,-0.016703820173739267,0.04023612828914179,sin diferencia demostrada
+Racarumi,P + IA con latencia 1 d,KNN,1–3 días,-0.00709901246971234,-0.05820933101896716,0.039083767321632476,sin diferencia demostrada
+Racarumi,P + IA con latencia 1 d,KNN,4–7 días,0.010541180591826849,-0.0644025992195434,0.07887899096823696,sin diferencia demostrada
+Racarumi,P + IA con latencia 1 d,KNN,8–15 días,0.009315954915267488,-0.10034211807000733,0.12285345308456175,sin diferencia demostrada
+Racarumi,P + IA con latencia 1 d,KNN,16–30 días,-0.09083687185099598,-0.22832878167351472,0.020721687320026435,sin diferencia demostrada
+Racarumi,P + IA con latencia 1 d,MLP,1–3 días,0.014342393338618864,-0.005218127344773016,0.037772766171438474,sin diferencia demostrada
+Racarumi,P + IA con latencia 1 d,MLP,4–7 días,0.022173461787840187,-0.006394285784756848,0.05973320644152978,sin diferencia demostrada
+Racarumi,P + IA con latencia 1 d,MLP,8–15 días,0.0013296730826700687,-0.049417884688656544,0.061513182797168185,sin diferencia demostrada
+Racarumi,P + IA con latencia 1 d,MLP,16–30 días,0.005321333673784068,-0.04873522891735394,0.07389655596274924,sin diferencia demostrada
+Racarumi,P + IA con latencia 1 d,LSTM,1–3 días,0.009256399456576525,-0.009129868373009442,0.0309385624917058,sin diferencia demostrada
+Racarumi,P + IA con latencia 1 d,LSTM,4–7 días,-0.003252018574078308,-0.03894214241618684,0.03508720297849211,sin diferencia demostrada
+Racarumi,P + IA con latencia 1 d,LSTM,8–15 días,-0.024903510886920888,-0.08841914184687256,0.04847711809553449,sin diferencia demostrada
+Racarumi,P + IA con latencia 1 d,LSTM,16–30 días,-0.043147133630600853,-0.1076293249776884,0.046274009122851054,sin diferencia demostrada
+Racarumi,"IA sobre P, latencia 1 d",Regresión lineal,1–3 días,0.027420290090701904,0.01664500166492755,0.03456964267547919,reduce el error
+Racarumi,"IA sobre P, latencia 1 d",Regresión lineal,4–7 días,0.03550581730522062,0.019159137425357537,0.04739465941786414,reduce el error
+Racarumi,"IA sobre P, latencia 1 d",Regresión lineal,8–15 días,0.01775687951739391,0.005257417842873686,0.028973839901565508,reduce el error
+Racarumi,"IA sobre P, latencia 1 d",Regresión lineal,16–30 días,-0.0022290205027135634,-0.006736807094067587,0.0034567138246398106,sin diferencia demostrada
+Racarumi,"IA sobre P, latencia 1 d",Random Forest,1–3 días,0.005335221928711054,-0.000566225879775939,0.009517570013525331,sin diferencia demostrada
+Racarumi,"IA sobre P, latencia 1 d",Random Forest,4–7 días,0.009156992907720762,-0.00040865494264737926,0.017107791607381777,sin diferencia demostrada
+Racarumi,"IA sobre P, latencia 1 d",Random Forest,8–15 días,0.008702451777252818,0.0006323651352702412,0.01798326164047328,reduce el error
+Racarumi,"IA sobre P, latencia 1 d",Random Forest,16–30 días,0.0006357762955002677,-0.009761413386361361,0.009794083332154181,sin diferencia demostrada
+Racarumi,"IA sobre P, latencia 1 d",XGBoost,1–3 días,0.0017115342095631592,-0.004246438355074244,0.00834538278978541,sin diferencia demostrada
+Racarumi,"IA sobre P, latencia 1 d",XGBoost,4–7 días,-0.0021530821005955048,-0.009409567730842162,0.004875679598080289,sin diferencia demostrada
+Racarumi,"IA sobre P, latencia 1 d",XGBoost,8–15 días,0.01576157771835296,0.003357876413547123,0.02896833284809088,reduce el error
+Racarumi,"IA sobre P, latencia 1 d",XGBoost,16–30 días,0.010133039396114762,-0.0081816336692473,0.028019690875707264,sin diferencia demostrada
+Racarumi,"IA sobre P, latencia 1 d",KNN,1–3 días,0.011341243764589337,-0.023744422417918788,0.04401140640827561,sin diferencia demostrada
+Racarumi,"IA sobre P, latencia 1 d",KNN,4–7 días,0.01542485953575412,-0.012857287312790443,0.0501791133283412,sin diferencia demostrada
+Racarumi,"IA sobre P, latencia 1 d",KNN,8–15 días,0.03200713664906152,-0.006545553356083333,0.08334838197193231,sin diferencia demostrada
+Racarumi,"IA sobre P, latencia 1 d",KNN,16–30 días,-0.030438194443906275,-0.0743701162294014,0.028501427906933673,sin diferencia demostrada
+Racarumi,"IA sobre P, latencia 1 d",MLP,1–3 días,-0.007004173615235754,-0.01909109861051339,0.006977241799116865,sin diferencia demostrada
+Racarumi,"IA sobre P, latencia 1 d",MLP,4–7 días,-0.009198737841116689,-0.028942657439125774,0.008905721809978232,sin diferencia demostrada
+Racarumi,"IA sobre P, latencia 1 d",MLP,8–15 días,-0.012789284097068698,-0.031310862554421226,0.008573042942136887,sin diferencia demostrada
+Racarumi,"IA sobre P, latencia 1 d",MLP,16–30 días,-0.007656170724680056,-0.024915631177617168,0.012209688153351298,sin diferencia demostrada
+Racarumi,"IA sobre P, latencia 1 d",LSTM,1–3 días,-0.0032809490940164387,-0.018179429826984318,0.009243177643209876,sin diferencia demostrada
+Racarumi,"IA sobre P, latencia 1 d",LSTM,4–7 días,-0.00905249195760427,-0.03293631012242913,0.011718256470915893,sin diferencia demostrada
+Racarumi,"IA sobre P, latencia 1 d",LSTM,8–15 días,-0.0017798708302378952,-0.035038698048309946,0.03616346758711266,sin diferencia demostrada
+Racarumi,"IA sobre P, latencia 1 d",LSTM,16–30 días,0.010422489476182406,-0.036068847295312643,0.07206332124382867,sin diferencia demostrada
+Racarumi,retraso de P + IA (t−1 frente a t),Regresión lineal,1–3 días,-0.23256614738119485,-0.39879783849218636,-0.12562352004609545,aumenta el error
+Racarumi,retraso de P + IA (t−1 frente a t),Regresión lineal,4–7 días,-0.06041202920297395,-0.1195288628441111,-0.014009518555885106,aumenta el error
+Racarumi,retraso de P + IA (t−1 frente a t),Regresión lineal,8–15 días,-0.01013822573411427,-0.03132428262753306,0.010897839880705874,sin diferencia demostrada
+Racarumi,retraso de P + IA (t−1 frente a t),Regresión lineal,16–30 días,-0.011042056511783915,-0.017048821113000524,-0.0042687420378344386,aumenta el error
+Racarumi,retraso de P + IA (t−1 frente a t),Random Forest,1–3 días,-0.2918552396452181,-0.3541813622180566,-0.25563555183718145,aumenta el error
+Racarumi,retraso de P + IA (t−1 frente a t),Random Forest,4–7 días,-0.09869144568340071,-0.1218151021536739,-0.08233958634702337,aumenta el error
+Racarumi,retraso de P + IA (t−1 frente a t),Random Forest,8–15 días,-0.011443302715691717,-0.03241811869052933,0.007667440553986095,sin diferencia demostrada
+Racarumi,retraso de P + IA (t−1 frente a t),Random Forest,16–30 días,0.012125513598793658,-0.005689550947179511,0.028433495321184377,sin diferencia demostrada
+Racarumi,retraso de P + IA (t−1 frente a t),XGBoost,1–3 días,-0.4425399047704921,-0.4995850311378398,-0.37392398473080857,aumenta el error
+Racarumi,retraso de P + IA (t−1 frente a t),XGBoost,4–7 días,-0.10862317586619086,-0.14496290163991837,-0.07997445293224148,aumenta el error
+Racarumi,retraso de P + IA (t−1 frente a t),XGBoost,8–15 días,-0.018999608149070202,-0.036905070895805615,-0.004241533404497956,aumenta el error
+Racarumi,retraso de P + IA (t−1 frente a t),XGBoost,16–30 días,0.002247467031610606,-0.008170739211081246,0.014521949190825677,sin diferencia demostrada
+Racarumi,retraso de P + IA (t−1 frente a t),KNN,1–3 días,-0.20564478130519093,-0.27795698944401975,-0.15355385669567792,aumenta el error
+Racarumi,retraso de P + IA (t−1 frente a t),KNN,4–7 días,-0.042993527645416085,-0.08719370628107068,-0.004476228652789088,aumenta el error
+Racarumi,retraso de P + IA (t−1 frente a t),KNN,8–15 días,0.04278128839869266,0.0015829012291331882,0.094391329648442,reduce el error
+Racarumi,retraso de P + IA (t−1 frente a t),KNN,16–30 días,-0.01837971759436674,-0.061112116451414324,0.033456656285456306,sin diferencia demostrada
+Racarumi,retraso de P + IA (t−1 frente a t),MLP,1–3 días,-0.38606956209240373,-0.5042656857751393,-0.30457499430748486,aumenta el error
+Racarumi,retraso de P + IA (t−1 frente a t),MLP,4–7 días,-0.09518158007096811,-0.13335774704592562,-0.061859715226606674,aumenta el error
+Racarumi,retraso de P + IA (t−1 frente a t),MLP,8–15 días,-0.025441447880983015,-0.04455289691984855,-0.006485781091199668,aumenta el error
+Racarumi,retraso de P + IA (t−1 frente a t),MLP,16–30 días,-0.00836004160629722,-0.01918683010732649,0.005950262944082551,sin diferencia demostrada
+Racarumi,retraso de P + IA (t−1 frente a t),LSTM,1–3 días,-0.3470813940206907,-0.4831855365198463,-0.25958228349516344,aumenta el error
+Racarumi,retraso de P + IA (t−1 frente a t),LSTM,4–7 días,-0.10142918192088968,-0.15522375320378554,-0.05715168253643044,aumenta el error
+Racarumi,retraso de P + IA (t−1 frente a t),LSTM,8–15 días,-0.01314721897165505,-0.03912459482303025,0.010617944319272819,sin diferencia demostrada
+Racarumi,retraso de P + IA (t−1 frente a t),LSTM,16–30 días,-0.017061815677538394,-0.04248311930870539,0.015472265850216103,sin diferencia demostrada
+Racarumi,P diaria (Pd) frente a P,Regresión lineal,1–3 días,-0.02728343075969164,-0.05169453621885861,0.003962984967139439,sin diferencia demostrada
+Racarumi,P diaria (Pd) frente a P,Regresión lineal,4–7 días,-0.015545363482157848,-0.02819837148877502,0.003950226718731163,sin diferencia demostrada
+Racarumi,P diaria (Pd) frente a P,Regresión lineal,8–15 días,-0.0044822340178023445,-0.018453137768149986,0.012272914865320476,sin diferencia demostrada
+Racarumi,P diaria (Pd) frente a P,Regresión lineal,16–30 días,-0.0047197167131700635,-0.022795373323115275,0.01093750047918716,sin diferencia demostrada
+Racarumi,P diaria (Pd) frente a P,Random Forest,1–3 días,-0.006780216177808551,-0.01356757403303196,-0.0021890588389979044,aumenta el error
+Racarumi,P diaria (Pd) frente a P,Random Forest,4–7 días,0.005981571631982985,-0.01259502397607879,0.01823452359121592,sin diferencia demostrada
+Racarumi,P diaria (Pd) frente a P,Random Forest,8–15 días,0.009178008957355543,-0.010044509059579354,0.024768823711221993,sin diferencia demostrada
+Racarumi,P diaria (Pd) frente a P,Random Forest,16–30 días,-0.011833124495137293,-0.024002287843046588,-0.0027485138987499193,aumenta el error
+Racarumi,P diaria (Pd) frente a P,XGBoost,1–3 días,0.03390453747179867,0.010091992079629925,0.051374716065444755,reduce el error
+Racarumi,P diaria (Pd) frente a P,XGBoost,4–7 días,0.023842345320665537,0.0007342190383554722,0.04263638074896776,reduce el error
+Racarumi,P diaria (Pd) frente a P,XGBoost,8–15 días,0.00947066755922199,-0.015587653195141837,0.02866696628040392,sin diferencia demostrada
+Racarumi,P diaria (Pd) frente a P,XGBoost,16–30 días,0.0021028097031146054,-0.013890758423940263,0.01395102361157529,sin diferencia demostrada
+Racarumi,P diaria (Pd) frente a P,KNN,1–3 días,-0.09100814267555646,-0.1645467400374754,-0.05161745279727526,aumenta el error
+Racarumi,P diaria (Pd) frente a P,KNN,4–7 días,-0.06434696771067783,-0.12938437760200963,-0.013554110391981379,aumenta el error
+Racarumi,P diaria (Pd) frente a P,KNN,8–15 días,-0.05792200754336063,-0.12993776550190303,-0.001091551557895738,aumenta el error
+Racarumi,P diaria (Pd) frente a P,KNN,16–30 días,-0.1598574803933135,-0.25691173222730124,-0.06610716609312743,aumenta el error
+Racarumi,P diaria (Pd) frente a P,MLP,1–3 días,0.018314799595843145,-0.009438856274177565,0.058478073177130184,sin diferencia demostrada
+Racarumi,P diaria (Pd) frente a P,MLP,4–7 días,0.03325218250441497,0.004510775579704668,0.05647444599078162,reduce el error
+Racarumi,P diaria (Pd) frente a P,MLP,8–15 días,-0.005634509671245125,-0.05555238641179078,0.037873293332546736,sin diferencia demostrada
+Racarumi,P diaria (Pd) frente a P,MLP,16–30 días,-0.004606801645105962,-0.03513909377407082,0.018260323396021315,sin diferencia demostrada
+Racarumi,P diaria (Pd) frente a P,LSTM,1–3 días,0.0,0.0,0.0,sin diferencia demostrada
+Racarumi,P diaria (Pd) frente a P,LSTM,4–7 días,0.0,0.0,0.0,sin diferencia demostrada
+Racarumi,P diaria (Pd) frente a P,LSTM,8–15 días,0.0,0.0,0.0,sin diferencia demostrada
+Racarumi,P diaria (Pd) frente a P,LSTM,16–30 días,0.0,0.0,0.0,sin diferencia demostrada
+Tamshiyacu,P,Regresión lineal,1–3 días,0.01376659740946995,-0.029445843693056938,0.049081720323575516,sin diferencia demostrada
+Tamshiyacu,P,Regresión lineal,4–7 días,0.028981289726263793,-0.04996728427088793,0.09155774170412276,sin diferencia demostrada
+Tamshiyacu,P,Regresión lineal,8–15 días,0.046691785778638084,-0.04530470608686094,0.11388501736199393,sin diferencia demostrada
+Tamshiyacu,P,Regresión lineal,16–30 días,0.09851201148626432,0.0021462016914340462,0.17190765123606597,reduce el error
+Tamshiyacu,P,Random Forest,1–3 días,0.005058704207247966,-0.018340316951958913,0.030669413087766068,sin diferencia demostrada
+Tamshiyacu,P,Random Forest,4–7 días,0.04068885871101724,0.0013565239500504098,0.0801521400677017,reduce el error
+Tamshiyacu,P,Random Forest,8–15 días,0.027262812209095322,-0.01856834895695538,0.07342157708610934,sin diferencia demostrada
+Tamshiyacu,P,Random Forest,16–30 días,0.05033836797695446,-0.0030739661012686875,0.10388357348384626,sin diferencia demostrada
+Tamshiyacu,P,XGBoost,1–3 días,0.051622111592045994,0.01696195294548037,0.0879314424365929,reduce el error
+Tamshiyacu,P,XGBoost,4–7 días,0.06611596771612038,0.007911568680238807,0.12304983387987377,reduce el error
+Tamshiyacu,P,XGBoost,8–15 días,0.0073935425834266155,-0.04412990733495452,0.05861059407991925,sin diferencia demostrada
+Tamshiyacu,P,XGBoost,16–30 días,0.023883462560183477,-0.0209285127505479,0.07427173442818003,sin diferencia demostrada
+Tamshiyacu,P,KNN,1–3 días,-0.19759674374898095,-0.26725053239758567,-0.12714323497893712,aumenta el error
+Tamshiyacu,P,KNN,4–7 días,-0.08801362922914846,-0.20563595136395663,0.012641378476615223,sin diferencia demostrada
+Tamshiyacu,P,KNN,8–15 días,-0.08299287971530611,-0.20147408791146862,0.04222084831836802,sin diferencia demostrada
+Tamshiyacu,P,KNN,16–30 días,-0.1604110606797482,-0.30351465562926694,-0.005056431367392729,aumenta el error
+Tamshiyacu,P,MLP,1–3 días,0.041850709003418474,-0.042141821983424345,0.12143130485968788,sin diferencia demostrada
+Tamshiyacu,P,MLP,4–7 días,0.02034228107079239,-0.11062485091663296,0.13314459719083027,sin diferencia demostrada
+Tamshiyacu,P,MLP,8–15 días,-0.10529238041174005,-0.2483485958837275,0.01765720034865322,sin diferencia demostrada
+Tamshiyacu,P,MLP,16–30 días,-0.1891903612134811,-0.38267204583576697,-0.04564242361630086,aumenta el error
+Tamshiyacu,P,LSTM,1–3 días,-0.027893991154294806,-0.14510735280499693,0.07734508687959006,sin diferencia demostrada
+Tamshiyacu,P,LSTM,4–7 días,-0.0352391604222686,-0.16685616590650057,0.09036895796651508,sin diferencia demostrada
+Tamshiyacu,P,LSTM,8–15 días,-0.09824230799518352,-0.23918431285724043,0.017362514575320644,sin diferencia demostrada
+Tamshiyacu,P,LSTM,16–30 días,-0.01578469824001605,-0.16637953595698127,0.1088770699587915,sin diferencia demostrada
+Tamshiyacu,IA sobre P,Regresión lineal,1–3 días,0.006397234417685582,-0.0073510837532140385,0.022952212481458876,sin diferencia demostrada
+Tamshiyacu,IA sobre P,Regresión lineal,4–7 días,0.011924036353414547,-0.014107719011912644,0.042328446703385286,sin diferencia demostrada
+Tamshiyacu,IA sobre P,Regresión lineal,8–15 días,0.01313378903602247,-0.01651694024447855,0.04164211528425371,sin diferencia demostrada
+Tamshiyacu,IA sobre P,Regresión lineal,16–30 días,0.0016552469598465347,-0.011916048534501433,0.015330710544131052,sin diferencia demostrada
+Tamshiyacu,IA sobre P,Random Forest,1–3 días,0.03669975277906834,0.01302409210826042,0.06014959664457319,reduce el error
+Tamshiyacu,IA sobre P,Random Forest,4–7 días,0.05066055504024203,0.01689917391867457,0.08743591268661646,reduce el error
+Tamshiyacu,IA sobre P,Random Forest,8–15 días,0.06429671859506725,0.01902154037405144,0.11104264609513852,reduce el error
+Tamshiyacu,IA sobre P,Random Forest,16–30 días,0.018677062315817228,-0.035426805068773916,0.0683717694317867,sin diferencia demostrada
+Tamshiyacu,IA sobre P,XGBoost,1–3 días,0.0075893231162857955,-0.0007021277775803856,0.013642367507613273,sin diferencia demostrada
+Tamshiyacu,IA sobre P,XGBoost,4–7 días,0.0075714641834667695,-0.010918287182797571,0.02290075204875872,sin diferencia demostrada
+Tamshiyacu,IA sobre P,XGBoost,8–15 días,0.008689484409947434,-0.0072101546317322575,0.02231149751525115,sin diferencia demostrada
+Tamshiyacu,IA sobre P,XGBoost,16–30 días,0.002366033645132548,-0.01636948048160074,0.01605927204185808,sin diferencia demostrada
+Tamshiyacu,IA sobre P,KNN,1–3 días,-0.005649230316076226,-0.015354764484314953,0.0033148321705810005,sin diferencia demostrada
+Tamshiyacu,IA sobre P,KNN,4–7 días,0.007195528888408909,-0.0023968173082326238,0.016532507270564083,sin diferencia demostrada
+Tamshiyacu,IA sobre P,KNN,8–15 días,0.006428228740893438,-0.005800080415778796,0.017039323587292304,sin diferencia demostrada
+Tamshiyacu,IA sobre P,KNN,16–30 días,-0.002038217987370139,-0.024527830871681998,0.017357012460938608,sin diferencia demostrada
+Tamshiyacu,IA sobre P,MLP,1–3 días,-0.014999181481331503,-0.07575197389964425,0.0401219660386554,sin diferencia demostrada
+Tamshiyacu,IA sobre P,MLP,4–7 días,0.02505368667564667,-0.04792899172204592,0.08744058594643411,sin diferencia demostrada
+Tamshiyacu,IA sobre P,MLP,8–15 días,7.22772772708824e-05,-0.09389762008762018,0.07456396487331983,sin diferencia demostrada
+Tamshiyacu,IA sobre P,MLP,16–30 días,0.02078336734523334,-0.04825128445151158,0.08680652889718987,sin diferencia demostrada
+Tamshiyacu,IA sobre P,LSTM,1–3 días,-0.134572150062493,-0.27280649158967957,-0.014661227613017398,aumenta el error
+Tamshiyacu,IA sobre P,LSTM,4–7 días,-0.028597085921525878,-0.16702993003872402,0.07586745365006285,sin diferencia demostrada
+Tamshiyacu,IA sobre P,LSTM,8–15 días,0.020987942229525935,-0.12847393736628013,0.13391269465086528,sin diferencia demostrada
+Tamshiyacu,IA sobre P,LSTM,16–30 días,-0.008865321054085218,-0.13318978153845418,0.11867306929774378,sin diferencia demostrada
+Tamshiyacu,P con latencia 1 d,Regresión lineal,1–3 días,0.014138365292741484,-0.02872140570801198,0.048375030757487225,sin diferencia demostrada
+Tamshiyacu,P con latencia 1 d,Regresión lineal,4–7 días,0.03239360175110273,-0.03990894940536026,0.0880449898281975,sin diferencia demostrada
+Tamshiyacu,P con latencia 1 d,Regresión lineal,8–15 días,0.04632639681795714,-0.03221668630437792,0.10532476045703976,sin diferencia demostrada
+Tamshiyacu,P con latencia 1 d,Regresión lineal,16–30 días,0.09328054126793273,0.00627426147025515,0.16038170192741974,reduce el error
+Tamshiyacu,P con latencia 1 d,Random Forest,1–3 días,0.004789118542474546,-0.021450506470847563,0.03350475313702341,sin diferencia demostrada
+Tamshiyacu,P con latencia 1 d,Random Forest,4–7 días,0.03962552173058498,-0.0008212675956970168,0.08005999397987276,sin diferencia demostrada
+Tamshiyacu,P con latencia 1 d,Random Forest,8–15 días,0.022714623574939474,-0.021280210082760563,0.06589646895450098,sin diferencia demostrada
+Tamshiyacu,P con latencia 1 d,Random Forest,16–30 días,0.04127903632816865,-0.011014877791482348,0.09489566577973316,sin diferencia demostrada
+Tamshiyacu,P con latencia 1 d,XGBoost,1–3 días,0.07073424040663556,0.03496816500022392,0.10884654940593973,reduce el error
+Tamshiyacu,P con latencia 1 d,XGBoost,4–7 días,0.06544395718477536,0.009176612376330088,0.12283453122837085,reduce el error
+Tamshiyacu,P con latencia 1 d,XGBoost,8–15 días,0.008638760777565646,-0.0418428139924813,0.05749227935208988,sin diferencia demostrada
+Tamshiyacu,P con latencia 1 d,XGBoost,16–30 días,0.023994642724205262,-0.02328462365589301,0.06971270396065367,sin diferencia demostrada
+Tamshiyacu,P con latencia 1 d,KNN,1–3 días,-0.20482989375363458,-0.27220016905641287,-0.13815016628053164,aumenta el error
+Tamshiyacu,P con latencia 1 d,KNN,4–7 días,-0.09985792576249164,-0.21098590292202202,-0.0006313480216407463,aumenta el error
+Tamshiyacu,P con latencia 1 d,KNN,8–15 días,-0.1010150620784609,-0.2187427932861481,0.022661805014259854,sin diferencia demostrada
+Tamshiyacu,P con latencia 1 d,KNN,16–30 días,-0.1693916197405434,-0.3108545277793507,-0.02159675043466683,aumenta el error
+Tamshiyacu,P con latencia 1 d,MLP,1–3 días,0.02986263931410027,-0.054677860436413026,0.10502511997086077,sin diferencia demostrada
+Tamshiyacu,P con latencia 1 d,MLP,4–7 días,0.027529707058044472,-0.10891426081976488,0.14076153637411534,sin diferencia demostrada
+Tamshiyacu,P con latencia 1 d,MLP,8–15 días,-0.09831170608141959,-0.2479902160646827,0.023959742557102263,sin diferencia demostrada
+Tamshiyacu,P con latencia 1 d,MLP,16–30 días,-0.17080310899299622,-0.362947724701733,-0.028807240092762445,aumenta el error
+Tamshiyacu,P con latencia 1 d,LSTM,1–3 días,-0.004377784403569951,-0.13415354224535278,0.10067877839181379,sin diferencia demostrada
+Tamshiyacu,P con latencia 1 d,LSTM,4–7 días,0.006277269158791232,-0.14003555039268084,0.12758968695284884,sin diferencia demostrada
+Tamshiyacu,P con latencia 1 d,LSTM,8–15 días,-0.030578131446902468,-0.1601615318009773,0.09125652670829791,sin diferencia demostrada
+Tamshiyacu,P con latencia 1 d,LSTM,16–30 días,0.06463120760265395,-0.07401942958061136,0.1833055514595615,sin diferencia demostrada
+Tamshiyacu,retraso de P (t−1 frente a t),Regresión lineal,1–3 días,0.00037695730269837746,-0.007549126378811088,0.007619367194803434,sin diferencia demostrada
+Tamshiyacu,retraso de P (t−1 frente a t),Regresión lineal,4–7 días,0.0035141568218360897,-0.008004097420805512,0.014921888290345967,sin diferencia demostrada
+Tamshiyacu,retraso de P (t−1 frente a t),Regresión lineal,8–15 días,-0.0003832852326561831,-0.017995924255423946,0.0186269117484252,sin diferencia demostrada
+Tamshiyacu,retraso de P (t−1 frente a t),Regresión lineal,16–30 días,-0.005803150219401809,-0.02151340480590295,0.011286256624870417,sin diferencia demostrada
+Tamshiyacu,retraso de P (t−1 frente a t),Random Forest,1–3 días,-0.0002709563528153769,-0.007339445414245893,0.006369939477428854,sin diferencia demostrada
+Tamshiyacu,retraso de P (t−1 frente a t),Random Forest,4–7 días,-0.0011084380600474564,-0.007113085773530603,0.004704496567962979,sin diferencia demostrada
+Tamshiyacu,retraso de P (t−1 frente a t),Random Forest,8–15 días,-0.004675660282388083,-0.011220321050380632,0.0016751112966419761,sin diferencia demostrada
+Tamshiyacu,retraso de P (t−1 frente a t),Random Forest,16–30 días,-0.009539536339366439,-0.014372276939176865,-0.003098912812922907,aumenta el error
+Tamshiyacu,retraso de P (t−1 frente a t),XGBoost,1–3 días,0.020152440338600863,0.009590079287201198,0.030007472342244147,reduce el error
+Tamshiyacu,retraso de P (t−1 frente a t),XGBoost,4–7 días,-0.0007195867025391323,-0.011206104651168402,0.010345708500120614,sin diferencia demostrada
+Tamshiyacu,retraso de P (t−1 frente a t),XGBoost,8–15 días,0.0012544933440993278,-0.014494593915828724,0.01837822599729859,sin diferencia demostrada
+Tamshiyacu,retraso de P (t−1 frente a t),XGBoost,16–30 días,0.00011390050240656091,-0.020420896024237755,0.015497002728583882,sin diferencia demostrada
+Tamshiyacu,retraso de P (t−1 frente a t),KNN,1–3 días,-0.006039720834586593,-0.016479272196145867,0.004154864223187438,sin diferencia demostrada
+Tamshiyacu,retraso de P (t−1 frente a t),KNN,4–7 días,-0.010886165591266428,-0.021469836101766414,-0.0014995588176058207,aumenta el error
+Tamshiyacu,retraso de P (t−1 frente a t),KNN,8–15 días,-0.01664109035314465,-0.028534044410782555,-0.006327615721413263,aumenta el error
+Tamshiyacu,retraso de P (t−1 frente a t),KNN,16–30 días,-0.007739118804619638,-0.019962584236354185,0.002991540667239121,sin diferencia demostrada
+Tamshiyacu,retraso de P (t−1 frente a t),MLP,1–3 días,-0.0125116929083664,-0.03784296788316812,0.008515400563809531,sin diferencia demostrada
+Tamshiyacu,retraso de P (t−1 frente a t),MLP,4–7 días,0.007336670602777651,-0.026970497300046924,0.0420583974890945,sin diferencia demostrada
+Tamshiyacu,retraso de P (t−1 frente a t),MLP,8–15 días,0.006315681220673941,-0.030456256516446067,0.04491225597180945,sin diferencia demostrada
+Tamshiyacu,retraso de P (t−1 frente a t),MLP,16–30 días,0.015461992310232042,-0.018243150430439736,0.04784214083137208,sin diferencia demostrada
+Tamshiyacu,retraso de P (t−1 frente a t),LSTM,1–3 días,0.02287804671794691,-0.026186827736743856,0.06412616461255369,sin diferencia demostrada
+Tamshiyacu,retraso de P (t−1 frente a t),LSTM,4–7 días,0.04010322558134827,-0.02584555585090308,0.09405233070968387,sin diferencia demostrada
+Tamshiyacu,retraso de P (t−1 frente a t),LSTM,8–15 días,0.06161133663826912,-0.0013849914821748668,0.11710357870446898,sin diferencia demostrada
+Tamshiyacu,retraso de P (t−1 frente a t),LSTM,16–30 días,0.07916628984665885,0.017578628757457204,0.14360966104248626,reduce el error
+Tamshiyacu,P + IA con latencia 1 d,Regresión lineal,1–3 días,0.019058009379313012,-0.01806104470770574,0.04944814175651608,sin diferencia demostrada
+Tamshiyacu,P + IA con latencia 1 d,Regresión lineal,4–7 días,0.042343951868337504,-0.016330661437182623,0.08980227656160072,sin diferencia demostrada
+Tamshiyacu,P + IA con latencia 1 d,Regresión lineal,8–15 días,0.0562652416906918,-0.006532719118865581,0.10350448554361807,sin diferencia demostrada
+Tamshiyacu,P + IA con latencia 1 d,Regresión lineal,16–30 días,0.09055613308784605,0.0002954166418968015,0.15905715312801133,reduce el error
+Tamshiyacu,P + IA con latencia 1 d,Random Forest,1–3 días,0.04378643119831427,0.009247491189171076,0.07617121454151554,reduce el error
+Tamshiyacu,P + IA con latencia 1 d,Random Forest,4–7 días,0.08317811704075728,0.028558728400910158,0.13530741156587311,reduce el error
+Tamshiyacu,P + IA con latencia 1 d,Random Forest,8–15 días,0.07417237350533346,-0.0016141634437511476,0.14988804713861947,sin diferencia demostrada
+Tamshiyacu,P + IA con latencia 1 d,Random Forest,16–30 días,0.06248140311086703,-0.03309970509632922,0.1487188075692517,sin diferencia demostrada
+Tamshiyacu,P + IA con latencia 1 d,XGBoost,1–3 días,0.06209106533797948,0.02324735003178948,0.10322156372263762,reduce el error
+Tamshiyacu,P + IA con latencia 1 d,XGBoost,4–7 días,0.06345381327814581,0.0005288667301527951,0.12435598656217425,reduce el error
+Tamshiyacu,P + IA con latencia 1 d,XGBoost,8–15 días,0.00821765635976246,-0.03677944173168744,0.05289299485656574,sin diferencia demostrada
+Tamshiyacu,P + IA con latencia 1 d,XGBoost,16–30 días,0.028883323529328098,-0.01655270119994041,0.07619765821281713,sin diferencia demostrada
+Tamshiyacu,P + IA con latencia 1 d,KNN,1–3 días,-0.21383774933462263,-0.28214746535836804,-0.14618591131248296,aumenta el error
+Tamshiyacu,P + IA con latencia 1 d,KNN,4–7 días,-0.09798907462960549,-0.20708533378204014,0.0006795979070668847,sin diferencia demostrada
+Tamshiyacu,P + IA con latencia 1 d,KNN,8–15 días,-0.10492517269203616,-0.22454760444093697,0.021654155016972435,sin diferencia demostrada
+Tamshiyacu,P + IA con latencia 1 d,KNN,16–30 días,-0.17895925568110282,-0.3379396537970257,-0.021117988042821154,aumenta el error
+Tamshiyacu,P + IA con latencia 1 d,MLP,1–3 días,0.014991275700231177,-0.07253178412334024,0.09181159731189203,sin diferencia demostrada
+Tamshiyacu,P + IA con latencia 1 d,MLP,4–7 días,0.04038124830569079,-0.08676547939536458,0.1412189108319684,sin diferencia demostrada
+Tamshiyacu,P + IA con latencia 1 d,MLP,8–15 días,-0.10856428920920136,-0.24407979807036606,-0.011686663335848639,aumenta el error
+Tamshiyacu,P + IA con latencia 1 d,MLP,16–30 días,-0.16003045426712292,-0.3236880679375802,-0.029566986411783753,aumenta el error
+Tamshiyacu,P + IA con latencia 1 d,LSTM,1–3 días,-0.13161998380884854,-0.2847253458114425,-0.011702107696849217,aumenta el error
+Tamshiyacu,P + IA con latencia 1 d,LSTM,4–7 días,-0.03014105710339532,-0.1756698332565934,0.08305200826349952,sin diferencia demostrada
+Tamshiyacu,P + IA con latencia 1 d,LSTM,8–15 días,-0.03206640534614702,-0.16956375044942057,0.07635301502935005,sin diferencia demostrada
+Tamshiyacu,P + IA con latencia 1 d,LSTM,16–30 días,-0.0013012572602668637,-0.1694076448938341,0.14919862635098458,sin diferencia demostrada
+Tamshiyacu,"IA sobre P, latencia 1 d",Regresión lineal,1–3 días,0.004990197319152623,-0.006525281133682159,0.01864614665316917,sin diferencia demostrada
+Tamshiyacu,"IA sobre P, latencia 1 d",Regresión lineal,4–7 días,0.010283468707154242,-0.011437409842405587,0.035788315847315295,sin diferencia demostrada
+Tamshiyacu,"IA sobre P, latencia 1 d",Regresión lineal,8–15 días,0.01042164199530371,-0.013281170514429851,0.032967697442567646,sin diferencia demostrada
+Tamshiyacu,"IA sobre P, latencia 1 d",Regresión lineal,16–30 días,-0.0030046870107942603,-0.016961408201781457,0.010166338477412627,sin diferencia demostrada
+Tamshiyacu,"IA sobre P, latencia 1 d",Random Forest,1–3 días,0.03918497414208999,0.01453523581238203,0.06634549573468795,reduce el error
+Tamshiyacu,"IA sobre P, latencia 1 d",Random Forest,4–7 días,0.045349596741318665,0.010024831276646452,0.08600903091974522,reduce el error
+Tamshiyacu,"IA sobre P, latencia 1 d",Random Forest,8–15 días,0.05265376027484214,0.008172948742733882,0.10174955039609772,reduce el error
+Tamshiyacu,"IA sobre P, latencia 1 d",Random Forest,16–30 días,0.022115263550193776,-0.031404382552979934,0.07170449121574791,sin diferencia demostrada
+Tamshiyacu,"IA sobre P, latencia 1 d",XGBoost,1–3 días,-0.009301079889608932,-0.02311394871261191,0.002664415799407631,sin diferencia demostrada
+Tamshiyacu,"IA sobre P, latencia 1 d",XGBoost,4–7 días,-0.0021295072905789247,-0.027881555849382844,0.018402971357184245,sin diferencia demostrada
+Tamshiyacu,"IA sobre P, latencia 1 d",XGBoost,8–15 días,-0.0004247739382403637,-0.023587481751855387,0.017693633113966087,sin diferencia demostrada
+Tamshiyacu,"IA sobre P, latencia 1 d",XGBoost,16–30 días,0.005008866773813625,-0.015158728388078645,0.024619557168990187,sin diferencia demostrada
+Tamshiyacu,"IA sobre P, latencia 1 d",KNN,1–3 días,-0.007476454251084563,-0.016338602974227547,0.0004884028225686782,sin diferencia demostrada
+Tamshiyacu,"IA sobre P, latencia 1 d",KNN,4–7 días,0.0016991750380765946,-0.005830611615144909,0.009386804684813165,sin diferencia demostrada
+Tamshiyacu,"IA sobre P, latencia 1 d",KNN,8–15 días,-0.0035513688670107957,-0.015465821922289447,0.006280234707285902,sin diferencia demostrada
+Tamshiyacu,"IA sobre P, latencia 1 d",KNN,16–30 días,-0.008181720972724404,-0.031360134904979776,0.011836593059303058,sin diferencia demostrada
+Tamshiyacu,"IA sobre P, latencia 1 d",MLP,1–3 días,-0.015329131952360742,-0.07504143878448656,0.037358741241956706,sin diferencia demostrada
+Tamshiyacu,"IA sobre P, latencia 1 d",MLP,4–7 días,0.013215356130589107,-0.06243687148511697,0.07572524067314866,sin diferencia demostrada
+Tamshiyacu,"IA sobre P, latencia 1 d",MLP,8–15 días,-0.009334857373378247,-0.10914163998401967,0.07470977227661194,sin diferencia demostrada
+Tamshiyacu,"IA sobre P, latencia 1 d",MLP,16–30 días,0.009201081414225931,-0.0621424653592872,0.07219229804280465,sin diferencia demostrada
+Tamshiyacu,"IA sobre P, latencia 1 d",LSTM,1–3 días,-0.12668758845640826,-0.2391104974429974,-0.02672021383547848,aumenta el error
+Tamshiyacu,"IA sobre P, latencia 1 d",LSTM,4–7 días,-0.036648377995095016,-0.13560859897253755,0.05473911936611567,sin diferencia demostrada
+Tamshiyacu,"IA sobre P, latencia 1 d",LSTM,8–15 días,-0.0014441155443061238,-0.10801590838656182,0.07974587673566512,sin diferencia demostrada
+Tamshiyacu,"IA sobre P, latencia 1 d",LSTM,16–30 días,-0.07048820251308174,-0.1762778977328285,0.026189079558257555,sin diferencia demostrada
+Tamshiyacu,retraso de P + IA (t−1 frente a t),Regresión lineal,1–3 días,-0.0010386050873674169,-0.008658507570652606,0.006096511742710737,sin diferencia demostrada
+Tamshiyacu,retraso de P + IA (t−1 frente a t),Regresión lineal,4–7 días,0.0018596256982966741,-0.00794484148200767,0.011059255962200537,sin diferencia demostrada
+Tamshiyacu,retraso de P + IA (t−1 frente a t),Regresión lineal,8–15 días,-0.003132580462835488,-0.017915613069799587,0.011964947638835115,sin diferencia demostrada
+Tamshiyacu,retraso de P + IA (t−1 frente a t),Regresión lineal,16–30 días,-0.01049789745297236,-0.024547623874716984,0.003745738471092441,sin diferencia demostrada
+Tamshiyacu,retraso de P + IA (t−1 frente a t),Random Forest,1–3 días,0.002309645859952414,-0.009396830472642281,0.01419984768631044,sin diferencia demostrada
+Tamshiyacu,retraso de P + IA (t−1 frente a t),Random Forest,4–7 días,-0.006709011380228613,-0.016314188992404045,0.0030690157800233836,sin diferencia demostrada
+Tamshiyacu,retraso de P + IA (t−1 frente a t),Random Forest,8–15 días,-0.017176842089134725,-0.024808749394873996,-0.008364538806641187,aumenta el error
+Tamshiyacu,retraso de P + IA (t−1 frente a t),Random Forest,16–30 días,-0.006002474331842977,-0.014653589065409912,0.004025772034389033,sin diferencia demostrada
+Tamshiyacu,retraso de P + IA (t−1 frente a t),XGBoost,1–3 días,0.003475856185967019,-0.0015632392995597708,0.008616468010471499,sin diferencia demostrada
+Tamshiyacu,retraso de P + IA (t−1 frente a t),XGBoost,4–7 días,-0.01050160305309955,-0.02269974452118172,0.0010185078900795373,sin diferencia demostrada
+Tamshiyacu,retraso de P + IA (t−1 frente a t),XGBoost,8–15 días,-0.007928123432981105,-0.017849775405236967,0.0028852087446296338,sin diferencia demostrada
+Tamshiyacu,retraso de P + IA (t−1 frente a t),XGBoost,16–30 días,0.0027626997592272717,-0.0029924404963081463,0.008998979654995696,sin diferencia demostrada
+Tamshiyacu,retraso de P + IA (t−1 frente a t),KNN,1–3 días,-0.007867654275056868,-0.019431894267012584,0.0020015626432352213,sin diferencia demostrada
+Tamshiyacu,retraso de P + IA (t−1 frente a t),KNN,4–7 días,-0.016482623131666596,-0.026125936291045593,-0.008856256499173579,aumenta el error
+Tamshiyacu,retraso de P + IA (t−1 frente a t),KNN,8–15 días,-0.026852399980558994,-0.03906343751549511,-0.017900004304086954,aumenta el error
+Tamshiyacu,retraso de P + IA (t−1 frente a t),KNN,16–30 días,-0.013917574050837045,-0.02534649948112343,-0.004436518137963974,aumenta el error
+Tamshiyacu,retraso de P + IA (t−1 frente a t),MLP,1–3 días,-0.01284083475999842,-0.026421116035830184,-0.00210879899789367,aumenta el error
+Tamshiyacu,retraso de P + IA (t−1 frente a t),MLP,4–7 días,-0.00471678962652633,-0.019711367571106198,0.008843029276708941,sin diferencia demostrada
+Tamshiyacu,retraso de P + IA (t−1 frente a t),MLP,8–15 días,-0.0030327166430661467,-0.019226960444423468,0.012558864984734899,sin diferencia demostrada
+Tamshiyacu,retraso de P + IA (t−1 frente a t),MLP,16–30 días,0.003816764548840945,-0.00987915523500461,0.01724765809558647,sin diferencia demostrada
+Tamshiyacu,retraso de P + IA (t−1 frente a t),LSTM,1–3 días,0.02966842865785768,0.006638966534475355,0.053250300722993006,reduce el error
+Tamshiyacu,retraso de P + IA (t−1 frente a t),LSTM,4–7 días,0.03258968174858745,0.004708942128358979,0.06521638218113411,reduce el error
+Tamshiyacu,retraso de P + IA (t−1 frente a t),LSTM,8–15 días,0.04011008081229184,0.00356819379188354,0.07780601452153277,reduce el error
+Tamshiyacu,retraso de P + IA (t−1 frente a t),LSTM,16–30 días,0.022920500265013466,-0.024847163919643128,0.06201222883191382,sin diferencia demostrada

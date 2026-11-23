@@ -1,0 +1,23 @@
+# Entorno con el que se ejecutaron los cuadernos de diagnóstico y de modelamiento (Python 3.13)
+pandas==3.0.5
+numpy==2.5.3
+scipy==1.18.1
+statsmodels==0.15.0
+matplotlib==3.11.2
+seaborn==0.13.2
+geopandas==1.2.0
+pyogrio==0.13.0
+shapely==2.2.0
+pyproj==3.8.0
+folium==0.20.0
+# Modelamiento (modelos/)
+scikit-learn==1.9.1
+xgboost==3.1.2
+torch==2.14.1          # en Windows/macOS, `pip install torch` instala la versión para CPU
+chronos-forecasting==2.3.2   # cuaderno 07 (Chronos-2)
+# Generador del HTML interactivo (modelos/interactivo)
+markdown==3.10.3
+# Ejecución de cuadernos
+nbformat==5.11.1
+nbconvert==7.17.2
+ipykernel==7.4.0

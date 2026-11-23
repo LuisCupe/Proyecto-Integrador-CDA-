@@ -1,0 +1,5 @@
+estación,control,máx |diferencia| (m³/s)
+Racarumi,regresión lineal Q: multisalida (sección 4) = un modelo por horizonte (sección 10),8.340853014487948e-06
+Racarumi,regresión lineal Q+P: multisalida (sección 4) = un modelo por horizonte (sección 10),9.556234260799101e-06
+Tamshiyacu,regresión lineal Q: multisalida (sección 4) = un modelo por horizonte (sección 10),0.0010382685068179853
+Tamshiyacu,regresión lineal Q+P: multisalida (sección 4) = un modelo por horizonte (sección 10),0.0009065171543625183

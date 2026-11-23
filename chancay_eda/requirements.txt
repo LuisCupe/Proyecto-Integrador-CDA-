@@ -1,0 +1,16 @@
+# Entorno con el que se ejecutó EDA_Chancay-Lambayeque_CAMELS-PE.ipynb (Python 3.13.16)
+pandas==3.0.5
+numpy==2.5.3
+scipy==1.18.1
+statsmodels==0.15.0
+matplotlib==3.11.2
+seaborn==0.13.2
+geopandas==1.2.0
+pyogrio==0.13.0
+shapely==2.2.0
+pyproj==3.8.0
+folium==0.20.0
+# Ejecución del cuaderno
+nbformat==5.11.1
+nbconvert==7.17.2
+ipykernel==7.4.0

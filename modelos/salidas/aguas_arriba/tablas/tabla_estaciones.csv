@@ -1,0 +1,4 @@
+estación,río,rol,área (km²),registro,vacíos (%),escalones (umbral de entrenamiento),excluido por el EDA,ε (m³/s)
+Tamshiyacu,Amazonas,objetivo,719664.668,1984-09-01 a 2025-12-31,0.4570444459164072,41,0 días,301.4612466598414
+San Regis,Marañón,aguas arriba,360046.764,1998-09-01 a 2025-12-31,4.567307692307692,17 (1999–2024),0 días,169.34854071293321
+Requena,Ucayali,aguas arriba,347946.091,1996-07-01 a 2020-03-31,3.631123919308357,1 (2007–2007),"11 días + meses 2017-06, 2017-07, 2017-08",119.10299513873447

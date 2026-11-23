@@ -1,0 +1,40 @@
+grupo,comprobación,resultado,detalle
+correspondencia de fechas,Racarumi: validación = cuaderno 06,correcto,2371 emisiones
+correspondencia de fechas,Racarumi: bloque de selección = cuaderno 06,correcto,1369 emisiones
+correspondencia de fechas,Racarumi: prueba = cuaderno 06,correcto,2521 emisiones
+correspondencia de fechas,Tamshiyacu: validación = cuaderno 05,correcto,1928 emisiones
+correspondencia de fechas,Tamshiyacu: bloque de selección = cuaderno 05,correcto,1138 emisiones
+correspondencia de fechas,Tamshiyacu: prueba = cuaderno 05,correcto,2806 emisiones
+correspondencia de fechas,Tamshiyacu: prueba común con Requena = cuaderno 05,correcto,1093 emisiones
+etiquetas,cada periodo de prueba se nombra con el primer y el último mes de sus emisiones,correcto,Racarumi: prueba 2016-01 a 2023-08 | Tamshiyacu: con San Regis (prueba 2016-01 a 2025-12) | Tamshiyacu: común con Requena (prueba 2016-01 a 2020-03)
+reutilización,pronósticos de 05 y 06 reconstruidos = guardados (float32),correcto,72 configuraciones; máx. |Δ| = 1.95e-03 m³/s
+Chronos-2,predicción del 07 para cada combinación del experimento,correcto,28 combinaciones
+Chronos-2,sus fechas cubren el bloque de selección y cada periodo de prueba en que compite la combinación,correcto,28 combinaciones; 39 pares combinación × periodo de prueba
+Chronos-2,"pronósticos sin fechas duplicadas, finitos y con P10 ≤ mediana ≤ P90",correcto,28 combinaciones
+Chronos-2,el 07 validó contenido y reproducción de cada caché reutilizada,correcto,37 cachés reutilizadas; dif. relativa máx. 6.7e-07
+entradas reales,cada combinación tiene ficha de las seis familias y de Chronos-2 (tabla del 07),correcto,28 combinaciones
+entradas reales,Chronos-2 recibe como covariable cada fuente externa de la combinación (y solo esas),correcto,
+coherencia entre cuadernos,"Racarumi, mismo día: la selección con los candidatos del 06 reproduce la del 06",correcto,Q+P+IA · LSTM
+coherencia entre cuadernos,"Tamshiyacu con San Regis (prueba 2016-01 a 2025-12), mismo día: la selección con los candidatos del 05 reproduce la del 05",correcto,Q · KNN
+coherencia entre cuadernos,"Tamshiyacu común con Requena (prueba 2016-01 a 2020-03), mismo día: la selección con los candidatos del 05 reproduce la del 05",correcto,Q+SR · KNN
+coherencia entre cuadernos,"Racarumi, un día de retraso: la selección con los candidatos del 06 reproduce la del 06",correcto,Q · LSTM
+coherencia entre cuadernos,"Tamshiyacu con San Regis (prueba 2016-01 a 2025-12), un día de retraso: la selección con los candidatos del 05 reproduce la del 05",correcto,Q · KNN
+coherencia entre cuadernos,"Tamshiyacu común con Requena (prueba 2016-01 a 2020-03), un día de retraso: la selección con los candidatos del 05 reproduce la del 05",correcto,Q · KNN
+muestras comparables,Tamshiyacu común con Requena (prueba 2016-01 a 2020-03): efectos de cada fuente en las mismas 1093 emisiones,correcto,14 comparaciones × 7 familias
+avisos,Racarumi: todos los candidatos tienen trayectoria mediana en toda la validación,correcto,35 sistemas evaluados
+etiquetas,la matriz lista cada selección (cuenca × periodo × escenario) exactamente una vez,correcto,"6 de magnitud, 2 de avisos"
+muestras comparables,Racarumi · prueba 2016-01 a 2023-08 · mismo día: todos los candidatos de la selección en las mismas emisiones de validación,correcto,"21 candidatos, 1369 emisiones"
+muestras comparables,Racarumi · prueba 2016-01 a 2023-08 · un día de retraso: todos los candidatos de la selección en las mismas emisiones de validación,correcto,"21 candidatos, 1369 emisiones"
+muestras comparables,Tamshiyacu · con San Regis (prueba 2016-01 a 2025-12) · mismo día: todos los candidatos de la selección en las mismas emisiones de validación,correcto,"42 candidatos, 1138 emisiones"
+muestras comparables,Tamshiyacu · con San Regis (prueba 2016-01 a 2025-12) · un día de retraso: todos los candidatos de la selección en las mismas emisiones de validación,correcto,"42 candidatos, 1138 emisiones"
+muestras comparables,Tamshiyacu · común con Requena (prueba 2016-01 a 2020-03) · mismo día: todos los candidatos de la selección en las mismas emisiones de validación,correcto,"84 candidatos, 1138 emisiones"
+muestras comparables,Tamshiyacu · común con Requena (prueba 2016-01 a 2020-03) · un día de retraso: todos los candidatos de la selección en las mismas emisiones de validación,correcto,"84 candidatos, 1138 emisiones"
+muestras comparables,Racarumi · prueba 2016-01 a 2023-08: métricas de prueba de todos los candidatos en las mismas emisiones,correcto,2521 emisiones
+muestras comparables,Tamshiyacu · con San Regis (prueba 2016-01 a 2025-12): métricas de prueba de todos los candidatos en las mismas emisiones,correcto,2806 emisiones
+muestras comparables,Tamshiyacu · común con Requena (prueba 2016-01 a 2020-03): métricas de prueba de todos los candidatos en las mismas emisiones,correcto,1093 emisiones
+separación temporal,"la prueba no interviene en ninguna selección: con la prueba reemplazada por ruido, las selecciones no cambian",correcto,"6 selecciones de magnitud, 2 de modelo por combinación y 2 de avisos iguales; control negativo (validación degradada de Q · Chronos-2) cambia la selección: True"
+separación temporal,emisiones de validación anteriores a la prueba y de entrenamiento anteriores a la validación,correcto,
+separación temporal,los objetivos del bloque de Duan terminan antes del bloque de selección,correcto,
+pruebas automáticas,pruebas_entradas.py,correcto,48 de 48 comprobaciones correctas (fase previa; ninguna omitida) (46 s)
+pruebas automáticas,pruebas_protocolo.py,correcto,17 comprobaciones correctas (2 s)
+pruebas automáticas,pruebas_avisos.py,correcto,17 casos correctos (2 s)

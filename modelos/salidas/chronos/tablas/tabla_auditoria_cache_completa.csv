@@ -1,0 +1,38 @@
+estación,variante (clave de caché),contexto (d),emisiones,reutilizada de la caché,estado de la caché,archivo creado,emisiones reproducidas,dif. relativa máx.
+Racarumi,Solo caudal,512,1369,True,reutilizada,2026-11-18 03:51,10,6.744575671291386e-07
+Racarumi,Solo caudal,1024,1369,True,reutilizada,2026-11-18 03:52,10,0.0
+Racarumi,Solo caudal,2048,1369,True,reutilizada,2026-11-18 03:56,10,0.0
+Tamshiyacu,Solo caudal,512,1195,True,reutilizada,2026-11-18 03:57,10,1.974860452946814e-07
+Tamshiyacu,Solo caudal,1024,1195,True,reutilizada,2026-11-18 03:58,10,0.0
+Tamshiyacu,Solo caudal,2048,1195,True,reutilizada,2026-11-18 04:02,10,0.0
+Racarumi,Solo caudal,2048,4892,True,reutilizada,2026-11-18 04:17,10,0.0
+Racarumi,+ lluvia observada hasta t (disponibilidad supuesta),2048,4892,True,reutilizada,2026-11-18 04:48,10,3.0193305633474665e-07
+Racarumi,+ lluvia disponible hasta t−1,2048,4892,True,reutilizada,2026-11-18 05:43,10,2.655947639595979e-07
+Racarumi,Q+P+IA,2048,4892,True,reutilizada,2026-11-22 13:48,10,5.14856651534501e-07
+Racarumi,Q+P+IA (t−1),2048,4892,True,reutilizada,2026-11-22 14:53,10,3.0209983492568426e-07
+Racarumi,+ lluvia futura observada (escenario idealizado),2048,4892,True,reutilizada,2026-11-18 05:15,10,2.2030907587122783e-07
+Tamshiyacu,Solo caudal,512,5277,True,reutilizada,2026-11-18 05:46,10,4.240312421188719e-07
+Tamshiyacu,+ lluvia observada hasta t (disponibilidad supuesta),512,5277,True,reutilizada,2026-11-18 05:53,10,6.311081079957148e-08
+Tamshiyacu,Q+P (t−1),512,3969,True,reutilizada,2026-11-22 14:58,10,2.741422235885693e-07
+Tamshiyacu,Q+P+IA,512,3969,True,reutilizada,2026-11-22 15:10,10,3.3285564882135077e-07
+Tamshiyacu,Q+P+IA (t−1),512,3969,True,reutilizada,2026-11-22 15:22,10,1.979310155775238e-07
+Tamshiyacu,+ San Regis,512,3969,True,reutilizada,2026-11-18 06:04,10,2.5204408871104533e-07
+Tamshiyacu,Q+SR (t−1),512,3969,True,reutilizada,2026-11-22 15:27,10,1.894030248195122e-07
+Tamshiyacu,+ San Regis y lluvia,512,3969,True,reutilizada,2026-11-18 06:12,10,2.711254012410791e-07
+Tamshiyacu,Q+P+SR (t−1),512,3969,True,reutilizada,2026-11-22 15:34,10,2.0208533157983766e-07
+Tamshiyacu,Q+P+IA+SR,512,3969,True,reutilizada,2026-11-22 15:48,10,3.4001874382738606e-07
+Tamshiyacu,Q+P+IA+SR (t−1),512,3969,True,reutilizada,2026-11-22 16:02,10,2.692532632408984e-07
+Tamshiyacu,+ Requena,512,2253,True,reutilizada,2026-11-18 06:15,10,9.740403328351022e-08
+Tamshiyacu,Q+RQ (t−1),512,2253,True,reutilizada,2026-11-22 16:05,10,9.81617702677795e-08
+Tamshiyacu,Q+P+RQ,512,2253,True,reutilizada,2026-11-22 20:03,10,2.1065613964310614e-07
+Tamshiyacu,Q+P+RQ (t−1),512,2253,True,reutilizada,2026-11-22 20:07,10,2.14249652685794e-07
+Tamshiyacu,Q+P+IA+RQ,512,2253,True,reutilizada,2026-11-22 20:15,10,1.7686167552710685e-07
+Tamshiyacu,Q+P+IA+RQ (t−1),512,2253,True,reutilizada,2026-11-22 20:22,10,1.816971604284845e-07
+Tamshiyacu,+ San Regis y Requena,512,2253,True,reutilizada,2026-11-18 06:20,10,1.914478815479015e-07
+Tamshiyacu,Q+SR+RQ (t−1),512,2253,True,reutilizada,2026-11-22 16:09,10,1.9477089097108546e-07
+Tamshiyacu,Q+P+SR+RQ,512,2253,True,reutilizada,2026-11-22 20:28,10,1.0267889649639983e-07
+Tamshiyacu,Q+P+SR+RQ (t−1),512,2253,True,reutilizada,2026-11-22 20:33,10,1.4013940585755336e-07
+Tamshiyacu,Q+P+IA+SR+RQ,512,2253,True,reutilizada,2026-11-22 20:42,10,1.3925473751896789e-07
+Tamshiyacu,Q+P+IA+SR+RQ (t−1),512,2253,True,reutilizada,2026-11-22 20:51,10,7.175962934979907e-08
+Tamshiyacu,+ lluvia futura observada (escenario idealizado),512,5277,True,reutilizada,2026-11-18 05:59,10,1.8532124101966474e-07
+Racarumi,+ Cirato,2048,197,True,reutilizada,2026-11-18 06:21,10,3.6905582589952246e-08

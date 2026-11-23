@@ -1,0 +1,2 @@
+configuración,f,h_max,cruces evaluables,aciertos,omisiones,falsas alarmas,POD,POD IC90,FAR,FAR IC90,CSI,CSI IC90 (aprox.),CSI IC90 inferior,CSI IC90 superior,anticipación útil (d),"anticipación útil, conjunto fijo (d)",cumple a 1 día también con los IC,anticipación mediana entre los aciertos (d),días con aviso por año
+Chronos-2 · Q + lluvia futura observada (idealizado),0.9,30,32,20,12,8,0.625,0.48–0.75,0.2857142857142857,0.17–0.44,0.5,0.37–0.63,0.37414612183997564,0.6258538781600244,9,2,False,9.0,36.393140794223825

@@ -1,0 +1,37 @@
+escenario,configuración,CSI 2012–2015,FAR 2012–2015,aciertos / evaluables 2012–2015
+mismo día,Q · Regresión lineal,0.47368421052631576,0.35714285714285715,9 / 14
+mismo día,Q · Random Forest,0.5,0.42105263157894735,11 / 14
+mismo día,Q · XGBoost,0.47368421052631576,0.35714285714285715,9 / 14
+mismo día,Q · KNN,0.39285714285714285,0.56,11 / 14
+mismo día,Q · MLP,0.5,0.3076923076923077,9 / 14
+mismo día,Q · LSTM,0.5,0.3076923076923077,9 / 14
+mismo día,Q+P · Regresión lineal,0.5882352941176471,0.23076923076923078,10 / 14
+mismo día,Q+P · Random Forest,0.5454545454545454,0.4,12 / 14
+mismo día,Q+P · XGBoost,0.5625,0.18181818181818182,9 / 14
+mismo día,Q+P · KNN,0.6842105263157895,0.2777777777777778,13 / 14
+mismo día,Q+P · MLP,0.5882352941176471,0.23076923076923078,10 / 14
+mismo día,Q+P · LSTM,0.35714285714285715,0.0,5 / 14
+mismo día,Q+P+IA · Regresión lineal,0.5882352941176471,0.23076923076923078,10 / 14
+mismo día,Q+P+IA · Random Forest,0.5454545454545454,0.4,12 / 14
+mismo día,Q+P+IA · XGBoost,0.625,0.16666666666666666,10 / 14
+mismo día,Q+P+IA · KNN,0.52,0.4583333333333333,13 / 14
+mismo día,Q+P+IA · MLP,0.5555555555555556,0.2857142857142857,10 / 14
+mismo día,Q+P+IA · LSTM,0.65,0.3157894736842105,13 / 14
+un día de retraso,Q · Regresión lineal,0.47368421052631576,0.35714285714285715,9 / 14
+un día de retraso,Q · Random Forest,0.5,0.42105263157894735,11 / 14
+un día de retraso,Q · XGBoost,0.47368421052631576,0.35714285714285715,9 / 14
+un día de retraso,Q · KNN,0.39285714285714285,0.56,11 / 14
+un día de retraso,Q · MLP,0.5,0.3076923076923077,9 / 14
+un día de retraso,Q · LSTM,0.5,0.3076923076923077,9 / 14
+un día de retraso,Q+P (t−1) · Regresión lineal,0.30434782608695654,0.6956521739130435,14 / 14
+un día de retraso,Q+P (t−1) · Random Forest,0.5,0.42105263157894735,11 / 14
+un día de retraso,Q+P (t−1) · XGBoost,0.30434782608695654,0.6956521739130435,14 / 14
+un día de retraso,Q+P (t−1) · KNN,0.0,,0 / 14
+un día de retraso,Q+P (t−1) · MLP,0.5,0.3076923076923077,9 / 14
+un día de retraso,Q+P (t−1) · LSTM,0.5,0.42105263157894735,11 / 14
+un día de retraso,Q+P+IA (t−1) · Regresión lineal,0.3181818181818182,0.6818181818181818,14 / 14
+un día de retraso,Q+P+IA (t−1) · Random Forest,0.5,0.42105263157894735,11 / 14
+un día de retraso,Q+P+IA (t−1) · XGBoost,0.2916666666666667,0.7083333333333334,14 / 14
+un día de retraso,Q+P+IA (t−1) · KNN,0.45,0.4,9 / 14
+un día de retraso,Q+P+IA (t−1) · MLP,0.34146341463414637,0.6585365853658537,14 / 14
+un día de retraso,Q+P+IA (t−1) · LSTM,0.4782608695652174,0.45,11 / 14

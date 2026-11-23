@@ -1,0 +1,197 @@
+estación,conjunto,modelo,escenario de disponibilidad,NSE medio selección,hiperparámetros
+Racarumi,Q,Regresión lineal,solo caudal local (hasta t),0.5523148566093053,{}
+Racarumi,Q,Random Forest,solo caudal local (hasta t),0.5314800373081459,"{""max_depth"": 20, ""min_samples_leaf"": 5, ""max_features"": 1.0}"
+Racarumi,Q,XGBoost,solo caudal local (hasta t),0.5299208129313888,"{""max_depth"": 3, ""learning_rate"": 0.05, ""reg_lambda"": 1.0, ""n_estimators"": 200}"
+Racarumi,Q,KNN,solo caudal local (hasta t),0.5299595158119178,"{""n_neighbors"": 40, ""weights"": ""distance"", ""ventana"": 3}"
+Racarumi,Q,MLP,solo caudal local (hasta t),0.5426673106871426,"{""hidden_layer_sizes"": [64], ""alpha"": 0.0001, ""max_iter"": 50}"
+Racarumi,Q,LSTM,solo caudal local (hasta t),0.5636312343046259,"{""oculto"": 64, ""dropout"": 0.2}"
+Racarumi,Q+P,Regresión lineal,caudal local hasta t; lluvia hasta t (disponibilidad supuesta),0.542191229694009,{}
+Racarumi,Q+P,Random Forest,caudal local hasta t; lluvia hasta t (disponibilidad supuesta),0.5427423389153961,"{""max_depth"": 20, ""min_samples_leaf"": 5, ""max_features"": 1.0}"
+Racarumi,Q+P,XGBoost,caudal local hasta t; lluvia hasta t (disponibilidad supuesta),0.5406377429545016,"{""max_depth"": 3, ""learning_rate"": 0.05, ""reg_lambda"": 1.0, ""n_estimators"": 400}"
+Racarumi,Q+P,KNN,caudal local hasta t; lluvia hasta t (disponibilidad supuesta),0.5172943206556488,"{""n_neighbors"": 20, ""weights"": ""distance"", ""ventana"": 3}"
+Racarumi,Q+P,MLP,caudal local hasta t; lluvia hasta t (disponibilidad supuesta),0.5604423260360434,"{""hidden_layer_sizes"": [64], ""alpha"": 0.01, ""max_iter"": 50}"
+Racarumi,Q+P,LSTM,caudal local hasta t; lluvia hasta t (disponibilidad supuesta),0.5572370421633532,"{""oculto"": 64, ""dropout"": 0.0}"
+Racarumi,Q+P (t−1),Regresión lineal,caudal local hasta t; lluvia hasta t−1,0.5313567675660947,{}
+Racarumi,Q+P (t−1),Random Forest,caudal local hasta t; lluvia hasta t−1,0.5368329416499336,"{""max_depth"": 20, ""min_samples_leaf"": 5, ""max_features"": 1.0}"
+Racarumi,Q+P (t−1),XGBoost,caudal local hasta t; lluvia hasta t−1,0.5274143563143666,"{""max_depth"": 3, ""learning_rate"": 0.05, ""reg_lambda"": 1.0, ""n_estimators"": 400}"
+Racarumi,Q+P (t−1),KNN,caudal local hasta t; lluvia hasta t−1,0.5106621746887179,"{""n_neighbors"": 20, ""weights"": ""distance"", ""ventana"": 7}"
+Racarumi,Q+P (t−1),MLP,caudal local hasta t; lluvia hasta t−1,0.5497516804287037,"{""hidden_layer_sizes"": [64], ""alpha"": 0.0001, ""max_iter"": 50}"
+Racarumi,Q+P (t−1),LSTM,caudal local hasta t; lluvia hasta t−1,0.5475245969630163,"{""oculto"": 32, ""dropout"": 0.0}"
+Racarumi,Q+P+IA,Regresión lineal,"caudal local hasta t; lluvia, índices antecedentes hasta t (disponibilidad supuesta)",0.5461243927619038,{}
+Racarumi,Q+P+IA,Random Forest,"caudal local hasta t; lluvia, índices antecedentes hasta t (disponibilidad supuesta)",0.5455035576361641,"{""max_depth"": 20, ""min_samples_leaf"": 5, ""max_features"": 1.0}"
+Racarumi,Q+P+IA,XGBoost,"caudal local hasta t; lluvia, índices antecedentes hasta t (disponibilidad supuesta)",0.5445634079403452,"{""max_depth"": 3, ""learning_rate"": 0.05, ""reg_lambda"": 1.0, ""n_estimators"": 400}"
+Racarumi,Q+P+IA,KNN,"caudal local hasta t; lluvia, índices antecedentes hasta t (disponibilidad supuesta)",0.5122605836886303,"{""n_neighbors"": 20, ""weights"": ""distance"", ""ventana"": 7}"
+Racarumi,Q+P+IA,MLP,"caudal local hasta t; lluvia, índices antecedentes hasta t (disponibilidad supuesta)",0.5600023261837495,"{""hidden_layer_sizes"": [64], ""alpha"": 0.0001, ""max_iter"": 50}"
+Racarumi,Q+P+IA,LSTM,"caudal local hasta t; lluvia, índices antecedentes hasta t (disponibilidad supuesta)",0.5649042646875053,"{""oculto"": 32, ""dropout"": 0.2}"
+Racarumi,Q+P+IA (t−1),Regresión lineal,"caudal local hasta t; lluvia, índices antecedentes hasta t−1",0.5354362201785648,{}
+Racarumi,Q+P+IA (t−1),Random Forest,"caudal local hasta t; lluvia, índices antecedentes hasta t−1",0.5386586952796251,"{""max_depth"": 20, ""min_samples_leaf"": 5, ""max_features"": 1.0}"
+Racarumi,Q+P+IA (t−1),XGBoost,"caudal local hasta t; lluvia, índices antecedentes hasta t−1",0.5321362901021829,"{""max_depth"": 3, ""learning_rate"": 0.05, ""reg_lambda"": 1.0, ""n_estimators"": 400}"
+Racarumi,Q+P+IA (t−1),KNN,"caudal local hasta t; lluvia, índices antecedentes hasta t−1",0.5070042158624326,"{""n_neighbors"": 40, ""weights"": ""distance"", ""ventana"": 15}"
+Racarumi,Q+P+IA (t−1),MLP,"caudal local hasta t; lluvia, índices antecedentes hasta t−1",0.5456199416887058,"{""hidden_layer_sizes"": [64], ""alpha"": 0.01, ""max_iter"": 50}"
+Racarumi,Q+P+IA (t−1),LSTM,"caudal local hasta t; lluvia, índices antecedentes hasta t−1",0.5498311269621554,"{""oculto"": 32, ""dropout"": 0.0}"
+Racarumi,Q,Chronos-2,solo caudal local (hasta t),0.595678176475746,contexto y punto del cuaderno 07
+Racarumi,Q+P,Chronos-2,caudal local hasta t; lluvia hasta t (disponibilidad supuesta),0.5989500882273456,contexto y punto del cuaderno 07
+Racarumi,Q+P (t−1),Chronos-2,caudal local hasta t; lluvia hasta t−1,0.5960015240683839,contexto y punto del cuaderno 07
+Racarumi,Q+P+IA,Chronos-2,"caudal local hasta t; lluvia, índices antecedentes hasta t (disponibilidad supuesta)",0.5920571217270606,contexto y punto del cuaderno 07
+Racarumi,Q+P+IA (t−1),Chronos-2,"caudal local hasta t; lluvia, índices antecedentes hasta t−1",0.5840952469735166,contexto y punto del cuaderno 07
+Tamshiyacu,Q,Regresión lineal,solo caudal local (hasta t),0.8872826815356393,{}
+Tamshiyacu,Q,Random Forest,solo caudal local (hasta t),0.9197167745069876,"{""max_depth"": 20, ""min_samples_leaf"": 20, ""max_features"": 0.3}"
+Tamshiyacu,Q,XGBoost,solo caudal local (hasta t),0.9225364069291455,"{""max_depth"": 3, ""learning_rate"": 0.05, ""reg_lambda"": 10.0, ""n_estimators"": 100}"
+Tamshiyacu,Q,KNN,solo caudal local (hasta t),0.9266232245472316,"{""n_neighbors"": 80, ""weights"": ""uniform"", ""ventana"": 3}"
+Tamshiyacu,Q,MLP,solo caudal local (hasta t),0.9168471330815825,"{""hidden_layer_sizes"": [64], ""alpha"": 0.01, ""max_iter"": 50}"
+Tamshiyacu,Q,LSTM,solo caudal local (hasta t),0.9149346471590591,"{""oculto"": 32, ""dropout"": 0.2}"
+Tamshiyacu,Q+SR,Regresión lineal,caudal local hasta t; San Regis hasta t (disponibilidad supuesta),0.8956890920946121,{}
+Tamshiyacu,Q+SR,Random Forest,caudal local hasta t; San Regis hasta t (disponibilidad supuesta),0.9249609777598388,"{""max_depth"": 10, ""min_samples_leaf"": 20, ""max_features"": 0.3}"
+Tamshiyacu,Q+SR,XGBoost,caudal local hasta t; San Regis hasta t (disponibilidad supuesta),0.9249557041022676,"{""max_depth"": 3, ""learning_rate"": 0.05, ""reg_lambda"": 10.0, ""n_estimators"": 100}"
+Tamshiyacu,Q+SR,KNN,caudal local hasta t; San Regis hasta t (disponibilidad supuesta),0.9289951901197403,"{""n_neighbors"": 80, ""weights"": ""uniform"", ""ventana"": 3}"
+Tamshiyacu,Q+SR,MLP,caudal local hasta t; San Regis hasta t (disponibilidad supuesta),0.9225545313428095,"{""hidden_layer_sizes"": [64], ""alpha"": 0.01, ""max_iter"": 50}"
+Tamshiyacu,Q+SR,LSTM,caudal local hasta t; San Regis hasta t (disponibilidad supuesta),0.9133983724706811,"{""oculto"": 64, ""dropout"": 0.2}"
+Tamshiyacu,Q+SR (t−1),Regresión lineal,caudal local hasta t; San Regis hasta t−1,0.8937366225547562,{}
+Tamshiyacu,Q+SR (t−1),Random Forest,caudal local hasta t; San Regis hasta t−1,0.9218665994917574,"{""max_depth"": 20, ""min_samples_leaf"": 20, ""max_features"": 0.3}"
+Tamshiyacu,Q+SR (t−1),XGBoost,caudal local hasta t; San Regis hasta t−1,0.9227069111938734,"{""max_depth"": 3, ""learning_rate"": 0.05, ""reg_lambda"": 10.0, ""n_estimators"": 100}"
+Tamshiyacu,Q+SR (t−1),KNN,caudal local hasta t; San Regis hasta t−1,0.9277374196892385,"{""n_neighbors"": 80, ""weights"": ""uniform"", ""ventana"": 3}"
+Tamshiyacu,Q+SR (t−1),MLP,caudal local hasta t; San Regis hasta t−1,0.920836411296395,"{""hidden_layer_sizes"": [64], ""alpha"": 0.0001, ""max_iter"": 50}"
+Tamshiyacu,Q+SR (t−1),LSTM,caudal local hasta t; San Regis hasta t−1,0.9131328417951435,"{""oculto"": 64, ""dropout"": 0.0}"
+Tamshiyacu,Q+RQ,Regresión lineal,caudal local hasta t; Requena hasta t (disponibilidad supuesta),0.8884815326270913,{}
+Tamshiyacu,Q+RQ,Random Forest,caudal local hasta t; Requena hasta t (disponibilidad supuesta),0.9223350405417494,"{""max_depth"": 20, ""min_samples_leaf"": 20, ""max_features"": 0.3}"
+Tamshiyacu,Q+RQ,XGBoost,caudal local hasta t; Requena hasta t (disponibilidad supuesta),0.9254767262051987,"{""max_depth"": 3, ""learning_rate"": 0.05, ""reg_lambda"": 10.0, ""n_estimators"": 100}"
+Tamshiyacu,Q+RQ,KNN,caudal local hasta t; Requena hasta t (disponibilidad supuesta),0.9268182488292243,"{""n_neighbors"": 80, ""weights"": ""uniform"", ""ventana"": 3}"
+Tamshiyacu,Q+RQ,MLP,caudal local hasta t; Requena hasta t (disponibilidad supuesta),0.9181939927550449,"{""hidden_layer_sizes"": [64], ""alpha"": 0.0001, ""max_iter"": 50}"
+Tamshiyacu,Q+RQ,LSTM,caudal local hasta t; Requena hasta t (disponibilidad supuesta),0.8820709400844392,"{""oculto"": 64, ""dropout"": 0.2}"
+Tamshiyacu,Q+RQ (t−1),Regresión lineal,caudal local hasta t; Requena hasta t−1,0.8879876881729258,{}
+Tamshiyacu,Q+RQ (t−1),Random Forest,caudal local hasta t; Requena hasta t−1,0.921679508123121,"{""max_depth"": 20, ""min_samples_leaf"": 20, ""max_features"": 0.3}"
+Tamshiyacu,Q+RQ (t−1),XGBoost,caudal local hasta t; Requena hasta t−1,0.9250228538097477,"{""max_depth"": 3, ""learning_rate"": 0.05, ""reg_lambda"": 10.0, ""n_estimators"": 100}"
+Tamshiyacu,Q+RQ (t−1),KNN,caudal local hasta t; Requena hasta t−1,0.9269560054767687,"{""n_neighbors"": 80, ""weights"": ""uniform"", ""ventana"": 3}"
+Tamshiyacu,Q+RQ (t−1),MLP,caudal local hasta t; Requena hasta t−1,0.9170494994388453,"{""hidden_layer_sizes"": [64], ""alpha"": 0.0001, ""max_iter"": 50}"
+Tamshiyacu,Q+RQ (t−1),LSTM,caudal local hasta t; Requena hasta t−1,0.8829844058846488,"{""oculto"": 64, ""dropout"": 0.2}"
+Tamshiyacu,Q+SR+RQ,Regresión lineal,"caudal local hasta t; San Regis, Requena hasta t (disponibilidad supuesta)",0.8952359682448726,{}
+Tamshiyacu,Q+SR+RQ,Random Forest,"caudal local hasta t; San Regis, Requena hasta t (disponibilidad supuesta)",0.9269741107173933,"{""max_depth"": 10, ""min_samples_leaf"": 20, ""max_features"": 0.3}"
+Tamshiyacu,Q+SR+RQ,XGBoost,"caudal local hasta t; San Regis, Requena hasta t (disponibilidad supuesta)",0.9292912507831911,"{""max_depth"": 3, ""learning_rate"": 0.05, ""reg_lambda"": 10.0, ""n_estimators"": 100}"
+Tamshiyacu,Q+SR+RQ,KNN,"caudal local hasta t; San Regis, Requena hasta t (disponibilidad supuesta)",0.9275870497726703,"{""n_neighbors"": 80, ""weights"": ""distance"", ""ventana"": 3}"
+Tamshiyacu,Q+SR+RQ,MLP,"caudal local hasta t; San Regis, Requena hasta t (disponibilidad supuesta)",0.9259085594162338,"{""hidden_layer_sizes"": [64], ""alpha"": 0.01, ""max_iter"": 50}"
+Tamshiyacu,Q+SR+RQ,LSTM,"caudal local hasta t; San Regis, Requena hasta t (disponibilidad supuesta)",0.9187812127718048,"{""oculto"": 64, ""dropout"": 0.2}"
+Tamshiyacu,Q+SR+RQ (t−1),Regresión lineal,"caudal local hasta t; San Regis, Requena hasta t−1",0.8919888751444071,{}
+Tamshiyacu,Q+SR+RQ (t−1),Random Forest,"caudal local hasta t; San Regis, Requena hasta t−1",0.9235378200457229,"{""max_depth"": 10, ""min_samples_leaf"": 20, ""max_features"": 0.3}"
+Tamshiyacu,Q+SR+RQ (t−1),XGBoost,"caudal local hasta t; San Regis, Requena hasta t−1",0.9270180508590303,"{""max_depth"": 3, ""learning_rate"": 0.05, ""reg_lambda"": 10.0, ""n_estimators"": 100}"
+Tamshiyacu,Q+SR+RQ (t−1),KNN,"caudal local hasta t; San Regis, Requena hasta t−1",0.9261462407553366,"{""n_neighbors"": 80, ""weights"": ""distance"", ""ventana"": 3}"
+Tamshiyacu,Q+SR+RQ (t−1),MLP,"caudal local hasta t; San Regis, Requena hasta t−1",0.9240584072643148,"{""hidden_layer_sizes"": [64], ""alpha"": 0.0001, ""max_iter"": 50}"
+Tamshiyacu,Q+SR+RQ (t−1),LSTM,"caudal local hasta t; San Regis, Requena hasta t−1",0.9095949983477092,"{""oculto"": 64, ""dropout"": 0.2}"
+Tamshiyacu,Q+P,Regresión lineal,caudal local hasta t; lluvia hasta t (disponibilidad supuesta),0.8801262541317435,{}
+Tamshiyacu,Q+P,Random Forest,caudal local hasta t; lluvia hasta t (disponibilidad supuesta),0.9222247569722596,"{""max_depth"": 10, ""min_samples_leaf"": 20, ""max_features"": 0.3}"
+Tamshiyacu,Q+P,XGBoost,caudal local hasta t; lluvia hasta t (disponibilidad supuesta),0.9227759246222302,"{""max_depth"": 3, ""learning_rate"": 0.05, ""reg_lambda"": 10.0, ""n_estimators"": 100}"
+Tamshiyacu,Q+P,KNN,caudal local hasta t; lluvia hasta t (disponibilidad supuesta),0.9157146871896377,"{""n_neighbors"": 80, ""weights"": ""uniform"", ""ventana"": 15}"
+Tamshiyacu,Q+P,MLP,caudal local hasta t; lluvia hasta t (disponibilidad supuesta),0.9042477210282753,"{""hidden_layer_sizes"": [64], ""alpha"": 0.01, ""max_iter"": 50}"
+Tamshiyacu,Q+P,LSTM,caudal local hasta t; lluvia hasta t (disponibilidad supuesta),0.9150721052624722,"{""oculto"": 64, ""dropout"": 0.2}"
+Tamshiyacu,Q+P (t−1),Regresión lineal,caudal local hasta t; lluvia hasta t−1,0.8786552947242764,{}
+Tamshiyacu,Q+P (t−1),Random Forest,caudal local hasta t; lluvia hasta t−1,0.9221779423341784,"{""max_depth"": 10, ""min_samples_leaf"": 20, ""max_features"": 0.3}"
+Tamshiyacu,Q+P (t−1),XGBoost,caudal local hasta t; lluvia hasta t−1,0.9221184444874357,"{""max_depth"": 3, ""learning_rate"": 0.05, ""reg_lambda"": 10.0, ""n_estimators"": 100}"
+Tamshiyacu,Q+P (t−1),KNN,caudal local hasta t; lluvia hasta t−1,0.9148389052940974,"{""n_neighbors"": 80, ""weights"": ""uniform"", ""ventana"": 15}"
+Tamshiyacu,Q+P (t−1),MLP,caudal local hasta t; lluvia hasta t−1,0.9032345852034452,"{""hidden_layer_sizes"": [64], ""alpha"": 0.01, ""max_iter"": 50}"
+Tamshiyacu,Q+P (t−1),LSTM,caudal local hasta t; lluvia hasta t−1,0.9086884800910843,"{""oculto"": 64, ""dropout"": 0.2}"
+Tamshiyacu,Q+P+IA,Regresión lineal,"caudal local hasta t; lluvia, índices antecedentes hasta t (disponibilidad supuesta)",0.8763169763268632,{}
+Tamshiyacu,Q+P+IA,Random Forest,"caudal local hasta t; lluvia, índices antecedentes hasta t (disponibilidad supuesta)",0.9224571313206292,"{""max_depth"": 10, ""min_samples_leaf"": 20, ""max_features"": 0.3}"
+Tamshiyacu,Q+P+IA,XGBoost,"caudal local hasta t; lluvia, índices antecedentes hasta t (disponibilidad supuesta)",0.9237609126540333,"{""max_depth"": 3, ""learning_rate"": 0.05, ""reg_lambda"": 10.0, ""n_estimators"": 100}"
+Tamshiyacu,Q+P+IA,KNN,"caudal local hasta t; lluvia, índices antecedentes hasta t (disponibilidad supuesta)",0.9147364882949863,"{""n_neighbors"": 80, ""weights"": ""uniform"", ""ventana"": 15}"
+Tamshiyacu,Q+P+IA,MLP,"caudal local hasta t; lluvia, índices antecedentes hasta t (disponibilidad supuesta)",0.901488617250092,"{""hidden_layer_sizes"": [64], ""alpha"": 0.0001, ""max_iter"": 50}"
+Tamshiyacu,Q+P+IA,LSTM,"caudal local hasta t; lluvia, índices antecedentes hasta t (disponibilidad supuesta)",0.8884906469460861,"{""oculto"": 64, ""dropout"": 0.0}"
+Tamshiyacu,Q+P+IA (t−1),Regresión lineal,"caudal local hasta t; lluvia, índices antecedentes hasta t−1",0.8754070986933102,{}
+Tamshiyacu,Q+P+IA (t−1),Random Forest,"caudal local hasta t; lluvia, índices antecedentes hasta t−1",0.9228385816615183,"{""max_depth"": 20, ""min_samples_leaf"": 20, ""max_features"": 0.3}"
+Tamshiyacu,Q+P+IA (t−1),XGBoost,"caudal local hasta t; lluvia, índices antecedentes hasta t−1",0.9233342627298767,"{""max_depth"": 3, ""learning_rate"": 0.05, ""reg_lambda"": 10.0, ""n_estimators"": 100}"
+Tamshiyacu,Q+P+IA (t−1),KNN,"caudal local hasta t; lluvia, índices antecedentes hasta t−1",0.9135480740176818,"{""n_neighbors"": 80, ""weights"": ""uniform"", ""ventana"": 15}"
+Tamshiyacu,Q+P+IA (t−1),MLP,"caudal local hasta t; lluvia, índices antecedentes hasta t−1",0.9000782358626301,"{""hidden_layer_sizes"": [64], ""alpha"": 0.01, ""max_iter"": 50}"
+Tamshiyacu,Q+P+IA (t−1),LSTM,"caudal local hasta t; lluvia, índices antecedentes hasta t−1",0.8764564094884526,"{""oculto"": 64, ""dropout"": 0.2}"
+Tamshiyacu,Q+P+SR,Regresión lineal,"caudal local hasta t; lluvia, San Regis hasta t (disponibilidad supuesta)",0.8888320787587948,{}
+Tamshiyacu,Q+P+SR,Random Forest,"caudal local hasta t; lluvia, San Regis hasta t (disponibilidad supuesta)",0.9275628125020423,"{""max_depth"": 20, ""min_samples_leaf"": 20, ""max_features"": 0.3}"
+Tamshiyacu,Q+P+SR,XGBoost,"caudal local hasta t; lluvia, San Regis hasta t (disponibilidad supuesta)",0.92692215343181,"{""max_depth"": 3, ""learning_rate"": 0.05, ""reg_lambda"": 10.0, ""n_estimators"": 100}"
+Tamshiyacu,Q+P+SR,KNN,"caudal local hasta t; lluvia, San Regis hasta t (disponibilidad supuesta)",0.9190270749683357,"{""n_neighbors"": 40, ""weights"": ""uniform"", ""ventana"": 3}"
+Tamshiyacu,Q+P+SR,MLP,"caudal local hasta t; lluvia, San Regis hasta t (disponibilidad supuesta)",0.9112932670592505,"{""hidden_layer_sizes"": [64], ""alpha"": 0.0001, ""max_iter"": 50}"
+Tamshiyacu,Q+P+SR,LSTM,"caudal local hasta t; lluvia, San Regis hasta t (disponibilidad supuesta)",0.9113068761208141,"{""oculto"": 64, ""dropout"": 0.0}"
+Tamshiyacu,Q+P+SR (t−1),Regresión lineal,"caudal local hasta t; lluvia, San Regis hasta t−1",0.885162271966487,{}
+Tamshiyacu,Q+P+SR (t−1),Random Forest,"caudal local hasta t; lluvia, San Regis hasta t−1",0.9246822666875011,"{""max_depth"": 10, ""min_samples_leaf"": 20, ""max_features"": 0.3}"
+Tamshiyacu,Q+P+SR (t−1),XGBoost,"caudal local hasta t; lluvia, San Regis hasta t−1",0.9238406542188159,"{""max_depth"": 3, ""learning_rate"": 0.05, ""reg_lambda"": 10.0, ""n_estimators"": 100}"
+Tamshiyacu,Q+P+SR (t−1),KNN,"caudal local hasta t; lluvia, San Regis hasta t−1",0.9168589416941709,"{""n_neighbors"": 80, ""weights"": ""distance"", ""ventana"": 3}"
+Tamshiyacu,Q+P+SR (t−1),MLP,"caudal local hasta t; lluvia, San Regis hasta t−1",0.9101531439577328,"{""hidden_layer_sizes"": [64], ""alpha"": 0.0001, ""max_iter"": 50}"
+Tamshiyacu,Q+P+SR (t−1),LSTM,"caudal local hasta t; lluvia, San Regis hasta t−1",0.9089861722376238,"{""oculto"": 32, ""dropout"": 0.0}"
+Tamshiyacu,Q+P+IA+SR,Regresión lineal,"caudal local hasta t; lluvia, índices antecedentes, San Regis hasta t (disponibilidad supuesta)",0.8855266218491002,{}
+Tamshiyacu,Q+P+IA+SR,Random Forest,"caudal local hasta t; lluvia, índices antecedentes, San Regis hasta t (disponibilidad supuesta)",0.9279624786297411,"{""max_depth"": 10, ""min_samples_leaf"": 20, ""max_features"": 0.3}"
+Tamshiyacu,Q+P+IA+SR,XGBoost,"caudal local hasta t; lluvia, índices antecedentes, San Regis hasta t (disponibilidad supuesta)",0.9282373486095068,"{""max_depth"": 3, ""learning_rate"": 0.05, ""reg_lambda"": 10.0, ""n_estimators"": 100}"
+Tamshiyacu,Q+P+IA+SR,KNN,"caudal local hasta t; lluvia, índices antecedentes, San Regis hasta t (disponibilidad supuesta)",0.9174071569062477,"{""n_neighbors"": 40, ""weights"": ""uniform"", ""ventana"": 3}"
+Tamshiyacu,Q+P+IA+SR,MLP,"caudal local hasta t; lluvia, índices antecedentes, San Regis hasta t (disponibilidad supuesta)",0.9075571806597792,"{""hidden_layer_sizes"": [64], ""alpha"": 0.01, ""max_iter"": 50}"
+Tamshiyacu,Q+P+IA+SR,LSTM,"caudal local hasta t; lluvia, índices antecedentes, San Regis hasta t (disponibilidad supuesta)",0.9072589994053458,"{""oculto"": 64, ""dropout"": 0.0}"
+Tamshiyacu,Q+P+IA+SR (t−1),Regresión lineal,"caudal local hasta t; lluvia, índices antecedentes, San Regis hasta t−1",0.8821958650072486,{}
+Tamshiyacu,Q+P+IA+SR (t−1),Random Forest,"caudal local hasta t; lluvia, índices antecedentes, San Regis hasta t−1",0.925708489400452,"{""max_depth"": 10, ""min_samples_leaf"": 20, ""max_features"": 0.3}"
+Tamshiyacu,Q+P+IA+SR (t−1),XGBoost,"caudal local hasta t; lluvia, índices antecedentes, San Regis hasta t−1",0.9251284404684214,"{""max_depth"": 3, ""learning_rate"": 0.05, ""reg_lambda"": 10.0, ""n_estimators"": 100}"
+Tamshiyacu,Q+P+IA+SR (t−1),KNN,"caudal local hasta t; lluvia, índices antecedentes, San Regis hasta t−1",0.9156439036446381,"{""n_neighbors"": 40, ""weights"": ""uniform"", ""ventana"": 3}"
+Tamshiyacu,Q+P+IA+SR (t−1),MLP,"caudal local hasta t; lluvia, índices antecedentes, San Regis hasta t−1",0.906214495868557,"{""hidden_layer_sizes"": [64], ""alpha"": 0.0001, ""max_iter"": 50}"
+Tamshiyacu,Q+P+IA+SR (t−1),LSTM,"caudal local hasta t; lluvia, índices antecedentes, San Regis hasta t−1",0.902682481747788,"{""oculto"": 64, ""dropout"": 0.0}"
+Tamshiyacu,Q+P+RQ,Regresión lineal,"caudal local hasta t; lluvia, Requena hasta t (disponibilidad supuesta)",0.8812658823636474,{}
+Tamshiyacu,Q+P+RQ,Random Forest,"caudal local hasta t; lluvia, Requena hasta t (disponibilidad supuesta)",0.9239793708112383,"{""max_depth"": 10, ""min_samples_leaf"": 20, ""max_features"": 0.3}"
+Tamshiyacu,Q+P+RQ,XGBoost,"caudal local hasta t; lluvia, Requena hasta t (disponibilidad supuesta)",0.9249994412398479,"{""max_depth"": 3, ""learning_rate"": 0.05, ""reg_lambda"": 1.0, ""n_estimators"": 100}"
+Tamshiyacu,Q+P+RQ,KNN,"caudal local hasta t; lluvia, Requena hasta t (disponibilidad supuesta)",0.9129172715648295,"{""n_neighbors"": 40, ""weights"": ""uniform"", ""ventana"": 3}"
+Tamshiyacu,Q+P+RQ,MLP,"caudal local hasta t; lluvia, Requena hasta t (disponibilidad supuesta)",0.9128070782314467,"{""hidden_layer_sizes"": [64], ""alpha"": 0.0001, ""max_iter"": 50}"
+Tamshiyacu,Q+P+RQ,LSTM,"caudal local hasta t; lluvia, Requena hasta t (disponibilidad supuesta)",0.9089332285225502,"{""oculto"": 64, ""dropout"": 0.2}"
+Tamshiyacu,Q+P+RQ (t−1),Regresión lineal,"caudal local hasta t; lluvia, Requena hasta t−1",0.8791527564030625,{}
+Tamshiyacu,Q+P+RQ (t−1),Random Forest,"caudal local hasta t; lluvia, Requena hasta t−1",0.9232829677974005,"{""max_depth"": 10, ""min_samples_leaf"": 20, ""max_features"": 0.3}"
+Tamshiyacu,Q+P+RQ (t−1),XGBoost,"caudal local hasta t; lluvia, Requena hasta t−1",0.9241243209239943,"{""max_depth"": 3, ""learning_rate"": 0.05, ""reg_lambda"": 10.0, ""n_estimators"": 100}"
+Tamshiyacu,Q+P+RQ (t−1),KNN,"caudal local hasta t; lluvia, Requena hasta t−1",0.9115382662884106,"{""n_neighbors"": 80, ""weights"": ""distance"", ""ventana"": 3}"
+Tamshiyacu,Q+P+RQ (t−1),MLP,"caudal local hasta t; lluvia, Requena hasta t−1",0.911248238955825,"{""hidden_layer_sizes"": [64], ""alpha"": 0.01, ""max_iter"": 50}"
+Tamshiyacu,Q+P+RQ (t−1),LSTM,"caudal local hasta t; lluvia, Requena hasta t−1",0.9038649469137958,"{""oculto"": 64, ""dropout"": 0.0}"
+Tamshiyacu,Q+P+IA+RQ,Regresión lineal,"caudal local hasta t; lluvia, índices antecedentes, Requena hasta t (disponibilidad supuesta)",0.876916937368571,{}
+Tamshiyacu,Q+P+IA+RQ,Random Forest,"caudal local hasta t; lluvia, índices antecedentes, Requena hasta t (disponibilidad supuesta)",0.9241090127839442,"{""max_depth"": 20, ""min_samples_leaf"": 20, ""max_features"": 0.3}"
+Tamshiyacu,Q+P+IA+RQ,XGBoost,"caudal local hasta t; lluvia, índices antecedentes, Requena hasta t (disponibilidad supuesta)",0.9251424234451441,"{""max_depth"": 3, ""learning_rate"": 0.05, ""reg_lambda"": 10.0, ""n_estimators"": 100}"
+Tamshiyacu,Q+P+IA+RQ,KNN,"caudal local hasta t; lluvia, índices antecedentes, Requena hasta t (disponibilidad supuesta)",0.9113319106798293,"{""n_neighbors"": 80, ""weights"": ""distance"", ""ventana"": 3}"
+Tamshiyacu,Q+P+IA+RQ,MLP,"caudal local hasta t; lluvia, índices antecedentes, Requena hasta t (disponibilidad supuesta)",0.9027008511363516,"{""hidden_layer_sizes"": [64], ""alpha"": 0.0001, ""max_iter"": 50}"
+Tamshiyacu,Q+P+IA+RQ,LSTM,"caudal local hasta t; lluvia, índices antecedentes, Requena hasta t (disponibilidad supuesta)",0.8965494631986829,"{""oculto"": 32, ""dropout"": 0.2}"
+Tamshiyacu,Q+P+IA+RQ (t−1),Regresión lineal,"caudal local hasta t; lluvia, índices antecedentes, Requena hasta t−1",0.8753278374880892,{}
+Tamshiyacu,Q+P+IA+RQ (t−1),Random Forest,"caudal local hasta t; lluvia, índices antecedentes, Requena hasta t−1",0.9229432975631923,"{""max_depth"": 20, ""min_samples_leaf"": 20, ""max_features"": 0.3}"
+Tamshiyacu,Q+P+IA+RQ (t−1),XGBoost,"caudal local hasta t; lluvia, índices antecedentes, Requena hasta t−1",0.9244218627733897,"{""max_depth"": 3, ""learning_rate"": 0.05, ""reg_lambda"": 10.0, ""n_estimators"": 100}"
+Tamshiyacu,Q+P+IA+RQ (t−1),KNN,"caudal local hasta t; lluvia, índices antecedentes, Requena hasta t−1",0.9106321536593373,"{""n_neighbors"": 40, ""weights"": ""distance"", ""ventana"": 3}"
+Tamshiyacu,Q+P+IA+RQ (t−1),MLP,"caudal local hasta t; lluvia, índices antecedentes, Requena hasta t−1",0.9025822610315817,"{""hidden_layer_sizes"": [64], ""alpha"": 0.01, ""max_iter"": 50}"
+Tamshiyacu,Q+P+IA+RQ (t−1),LSTM,"caudal local hasta t; lluvia, índices antecedentes, Requena hasta t−1",0.9024406169161934,"{""oculto"": 64, ""dropout"": 0.2}"
+Tamshiyacu,Q+P+SR+RQ,Regresión lineal,"caudal local hasta t; lluvia, San Regis, Requena hasta t (disponibilidad supuesta)",0.888626380824609,{}
+Tamshiyacu,Q+P+SR+RQ,Random Forest,"caudal local hasta t; lluvia, San Regis, Requena hasta t (disponibilidad supuesta)",0.9285951699465959,"{""max_depth"": 20, ""min_samples_leaf"": 20, ""max_features"": 0.3}"
+Tamshiyacu,Q+P+SR+RQ,XGBoost,"caudal local hasta t; lluvia, San Regis, Requena hasta t (disponibilidad supuesta)",0.9299194297833011,"{""max_depth"": 3, ""learning_rate"": 0.05, ""reg_lambda"": 10.0, ""n_estimators"": 100}"
+Tamshiyacu,Q+P+SR+RQ,KNN,"caudal local hasta t; lluvia, San Regis, Requena hasta t (disponibilidad supuesta)",0.9187071325888116,"{""n_neighbors"": 40, ""weights"": ""uniform"", ""ventana"": 3}"
+Tamshiyacu,Q+P+SR+RQ,MLP,"caudal local hasta t; lluvia, San Regis, Requena hasta t (disponibilidad supuesta)",0.9130136555844978,"{""hidden_layer_sizes"": [64], ""alpha"": 0.0001, ""max_iter"": 50}"
+Tamshiyacu,Q+P+SR+RQ,LSTM,"caudal local hasta t; lluvia, San Regis, Requena hasta t (disponibilidad supuesta)",0.9124952733781453,"{""oculto"": 64, ""dropout"": 0.0}"
+Tamshiyacu,Q+P+SR+RQ (t−1),Regresión lineal,"caudal local hasta t; lluvia, San Regis, Requena hasta t−1",0.8840999265856464,{}
+Tamshiyacu,Q+P+SR+RQ (t−1),Random Forest,"caudal local hasta t; lluvia, San Regis, Requena hasta t−1",0.9248384673830975,"{""max_depth"": 20, ""min_samples_leaf"": 20, ""max_features"": 0.3}"
+Tamshiyacu,Q+P+SR+RQ (t−1),XGBoost,"caudal local hasta t; lluvia, San Regis, Requena hasta t−1",0.9271018197263952,"{""max_depth"": 3, ""learning_rate"": 0.05, ""reg_lambda"": 10.0, ""n_estimators"": 100}"
+Tamshiyacu,Q+P+SR+RQ (t−1),KNN,"caudal local hasta t; lluvia, San Regis, Requena hasta t−1",0.9169568777372713,"{""n_neighbors"": 40, ""weights"": ""uniform"", ""ventana"": 3}"
+Tamshiyacu,Q+P+SR+RQ (t−1),MLP,"caudal local hasta t; lluvia, San Regis, Requena hasta t−1",0.9111144604051091,"{""hidden_layer_sizes"": [64], ""alpha"": 0.0001, ""max_iter"": 50}"
+Tamshiyacu,Q+P+SR+RQ (t−1),LSTM,"caudal local hasta t; lluvia, San Regis, Requena hasta t−1",0.9053492064818385,"{""oculto"": 32, ""dropout"": 0.0}"
+Tamshiyacu,Q+P+IA+SR+RQ,Regresión lineal,"caudal local hasta t; lluvia, índices antecedentes, San Regis, Requena hasta t (disponibilidad supuesta)",0.8850546727217732,{}
+Tamshiyacu,Q+P+IA+SR+RQ,Random Forest,"caudal local hasta t; lluvia, índices antecedentes, San Regis, Requena hasta t (disponibilidad supuesta)",0.9287568593283329,"{""max_depth"": 10, ""min_samples_leaf"": 20, ""max_features"": 0.3}"
+Tamshiyacu,Q+P+IA+SR+RQ,XGBoost,"caudal local hasta t; lluvia, índices antecedentes, San Regis, Requena hasta t (disponibilidad supuesta)",0.9299184121561943,"{""max_depth"": 3, ""learning_rate"": 0.05, ""reg_lambda"": 10.0, ""n_estimators"": 100}"
+Tamshiyacu,Q+P+IA+SR+RQ,KNN,"caudal local hasta t; lluvia, índices antecedentes, San Regis, Requena hasta t (disponibilidad supuesta)",0.9178444540570325,"{""n_neighbors"": 40, ""weights"": ""distance"", ""ventana"": 3}"
+Tamshiyacu,Q+P+IA+SR+RQ,MLP,"caudal local hasta t; lluvia, índices antecedentes, San Regis, Requena hasta t (disponibilidad supuesta)",0.9104021723653205,"{""hidden_layer_sizes"": [64], ""alpha"": 0.01, ""max_iter"": 50}"
+Tamshiyacu,Q+P+IA+SR+RQ,LSTM,"caudal local hasta t; lluvia, índices antecedentes, San Regis, Requena hasta t (disponibilidad supuesta)",0.8995863335739235,"{""oculto"": 64, ""dropout"": 0.2}"
+Tamshiyacu,Q+P+IA+SR+RQ (t−1),Regresión lineal,"caudal local hasta t; lluvia, índices antecedentes, San Regis, Requena hasta t−1",0.880733587518415,{}
+Tamshiyacu,Q+P+IA+SR+RQ (t−1),Random Forest,"caudal local hasta t; lluvia, índices antecedentes, San Regis, Requena hasta t−1",0.9253752353045123,"{""max_depth"": 10, ""min_samples_leaf"": 20, ""max_features"": 0.3}"
+Tamshiyacu,Q+P+IA+SR+RQ (t−1),XGBoost,"caudal local hasta t; lluvia, índices antecedentes, San Regis, Requena hasta t−1",0.9269024712367118,"{""max_depth"": 3, ""learning_rate"": 0.05, ""reg_lambda"": 10.0, ""n_estimators"": 100}"
+Tamshiyacu,Q+P+IA+SR+RQ (t−1),KNN,"caudal local hasta t; lluvia, índices antecedentes, San Regis, Requena hasta t−1",0.9157659399622717,"{""n_neighbors"": 40, ""weights"": ""distance"", ""ventana"": 3}"
+Tamshiyacu,Q+P+IA+SR+RQ (t−1),MLP,"caudal local hasta t; lluvia, índices antecedentes, San Regis, Requena hasta t−1",0.9054792907290456,"{""hidden_layer_sizes"": [64], ""alpha"": 0.01, ""max_iter"": 50}"
+Tamshiyacu,Q+P+IA+SR+RQ (t−1),LSTM,"caudal local hasta t; lluvia, índices antecedentes, San Regis, Requena hasta t−1",0.903202997518645,"{""oculto"": 64, ""dropout"": 0.0}"
+Tamshiyacu,Q,Chronos-2,solo caudal local (hasta t),0.8641881041130148,contexto y punto del cuaderno 07
+Tamshiyacu,Q+P,Chronos-2,caudal local hasta t; lluvia hasta t (disponibilidad supuesta),0.8704296211395014,contexto y punto del cuaderno 07
+Tamshiyacu,Q+P (t−1),Chronos-2,caudal local hasta t; lluvia hasta t−1,0.86987803622476,contexto y punto del cuaderno 07
+Tamshiyacu,Q+P+IA,Chronos-2,"caudal local hasta t; lluvia, índices antecedentes hasta t (disponibilidad supuesta)",0.8672466233102651,contexto y punto del cuaderno 07
+Tamshiyacu,Q+P+IA (t−1),Chronos-2,"caudal local hasta t; lluvia, índices antecedentes hasta t−1",0.8672405323888491,contexto y punto del cuaderno 07
+Tamshiyacu,Q+SR,Chronos-2,caudal local hasta t; San Regis hasta t (disponibilidad supuesta),0.8639863132454707,contexto y punto del cuaderno 07
+Tamshiyacu,Q+SR (t−1),Chronos-2,caudal local hasta t; San Regis hasta t−1,0.8629814240832003,contexto y punto del cuaderno 07
+Tamshiyacu,Q+P+SR,Chronos-2,"caudal local hasta t; lluvia, San Regis hasta t (disponibilidad supuesta)",0.8733505199384748,contexto y punto del cuaderno 07
+Tamshiyacu,Q+P+SR (t−1),Chronos-2,"caudal local hasta t; lluvia, San Regis hasta t−1",0.8731401046918169,contexto y punto del cuaderno 07
+Tamshiyacu,Q+P+IA+SR,Chronos-2,"caudal local hasta t; lluvia, índices antecedentes, San Regis hasta t (disponibilidad supuesta)",0.8750015809917709,contexto y punto del cuaderno 07
+Tamshiyacu,Q+P+IA+SR (t−1),Chronos-2,"caudal local hasta t; lluvia, índices antecedentes, San Regis hasta t−1",0.876038546210653,contexto y punto del cuaderno 07
+Tamshiyacu,Q+RQ,Chronos-2,caudal local hasta t; Requena hasta t (disponibilidad supuesta),0.876845545274754,contexto y punto del cuaderno 07
+Tamshiyacu,Q+RQ (t−1),Chronos-2,caudal local hasta t; Requena hasta t−1,0.8764841473159475,contexto y punto del cuaderno 07
+Tamshiyacu,Q+P+RQ,Chronos-2,"caudal local hasta t; lluvia, Requena hasta t (disponibilidad supuesta)",0.8759948238377383,contexto y punto del cuaderno 07
+Tamshiyacu,Q+P+RQ (t−1),Chronos-2,"caudal local hasta t; lluvia, Requena hasta t−1",0.8773356450087527,contexto y punto del cuaderno 07
+Tamshiyacu,Q+P+IA+RQ,Chronos-2,"caudal local hasta t; lluvia, índices antecedentes, Requena hasta t (disponibilidad supuesta)",0.8750045803089994,contexto y punto del cuaderno 07
+Tamshiyacu,Q+P+IA+RQ (t−1),Chronos-2,"caudal local hasta t; lluvia, índices antecedentes, Requena hasta t−1",0.8761483049614321,contexto y punto del cuaderno 07
+Tamshiyacu,Q+SR+RQ,Chronos-2,"caudal local hasta t; San Regis, Requena hasta t (disponibilidad supuesta)",0.8784387237554827,contexto y punto del cuaderno 07
+Tamshiyacu,Q+SR+RQ (t−1),Chronos-2,"caudal local hasta t; San Regis, Requena hasta t−1",0.8773642635648209,contexto y punto del cuaderno 07
+Tamshiyacu,Q+P+SR+RQ,Chronos-2,"caudal local hasta t; lluvia, San Regis, Requena hasta t (disponibilidad supuesta)",0.8810876948343875,contexto y punto del cuaderno 07
+Tamshiyacu,Q+P+SR+RQ (t−1),Chronos-2,"caudal local hasta t; lluvia, San Regis, Requena hasta t−1",0.8818129142669371,contexto y punto del cuaderno 07
+Tamshiyacu,Q+P+IA+SR+RQ,Chronos-2,"caudal local hasta t; lluvia, índices antecedentes, San Regis, Requena hasta t (disponibilidad supuesta)",0.8818263355655429,contexto y punto del cuaderno 07
+Tamshiyacu,Q+P+IA+SR+RQ (t−1),Chronos-2,"caudal local hasta t; lluvia, índices antecedentes, San Regis, Requena hasta t−1",0.8837442840920098,contexto y punto del cuaderno 07

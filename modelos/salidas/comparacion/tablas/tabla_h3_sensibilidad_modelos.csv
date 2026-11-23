@@ -1,0 +1,37 @@
+modelo Racarumi,modelo Tamshiyacu,P(H T > H R),diferencia p05 (d),diferencia mediana (d),H cota R (d),H cota T (d)
+Regresión lineal,Regresión lineal,0.955,1.0,13.0,5.0,17.0
+Regresión lineal,Random Forest,0.9725,5.0,18.0,5.0,21.0
+Regresión lineal,XGBoost,0.976,7.0,20.0,5.0,22.0
+Regresión lineal,KNN,0.9745,5.0,18.0,5.0,20.0
+Regresión lineal,MLP,0.9755,6.0,18.0,5.0,21.0
+Regresión lineal,LSTM,0.979,9.0,22.0,5.0,27.0
+Random Forest,Regresión lineal,0.873,-5.0,11.0,6.0,17.0
+Random Forest,Random Forest,0.9265,0.0,15.0,6.0,21.0
+Random Forest,XGBoost,0.9515,1.0,17.0,6.0,22.0
+Random Forest,KNN,0.936,0.0,15.0,6.0,20.0
+Random Forest,MLP,0.9315,0.0,16.0,6.0,21.0
+Random Forest,LSTM,0.9675,1.0,19.0,6.0,27.0
+XGBoost,Regresión lineal,0.9625,2.0,13.0,5.0,17.0
+XGBoost,Random Forest,0.9775,6.0,17.0,5.0,21.0
+XGBoost,XGBoost,0.9835,8.0,19.0,5.0,22.0
+XGBoost,KNN,0.9785,6.0,17.0,5.0,20.0
+XGBoost,MLP,0.9795,7.0,18.0,5.0,21.0
+XGBoost,LSTM,0.984,10.0,21.0,5.0,27.0
+KNN,Regresión lineal,0.9905,7.0,15.0,4.0,17.0
+KNN,Random Forest,0.9935,11.0,20.0,4.0,21.0
+KNN,XGBoost,0.996,12.0,22.0,4.0,22.0
+KNN,KNN,0.9935,10.0,20.0,4.0,20.0
+KNN,MLP,0.996,11.0,20.0,4.0,21.0
+KNN,LSTM,0.997,14.0,24.0,4.0,27.0
+MLP,Regresión lineal,0.812,-8.0,9.5,6.0,17.0
+MLP,Random Forest,0.8805,-2.0,14.0,6.0,21.0
+MLP,XGBoost,0.905,0.0,15.0,6.0,22.0
+MLP,KNN,0.8855,-2.0,14.0,6.0,20.0
+MLP,MLP,0.881,-2.0,14.0,6.0,21.0
+MLP,LSTM,0.9285,0.0,17.0,6.0,27.0
+LSTM,Regresión lineal,0.7545,-9.0,10.0,6.0,17.0
+LSTM,Random Forest,0.832,-4.0,14.0,6.0,21.0
+LSTM,XGBoost,0.8655,-1.0,17.0,6.0,22.0
+LSTM,KNN,0.8375,-3.0,14.0,6.0,20.0
+LSTM,MLP,0.834,-3.0,15.0,6.0,21.0
+LSTM,LSTM,0.886,0.0,19.0,6.0,27.0

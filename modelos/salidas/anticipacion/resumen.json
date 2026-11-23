@@ -1,0 +1,128 @@
+{
+  "version": "v4",
+  "revision": "v4 integrada r4 (2026-11-18)",
+  "rapido": false,
+  "etapa": "anticipación de nuevos cruces (cuaderno 04)",
+  "P95": {
+    "Racarumi": 111.20648855555548,
+    "Tamshiyacu": 47602.819185416665
+  },
+  "modelo_para_avisos": {
+    "Racarumi": "MLP",
+    "Tamshiyacu": "KNN"
+  },
+  "seleccion_avisos": {
+    "Racarumi": {
+      "protocolo": "regla en 2009–2011, comparación en 2012–2015 (comun.seleccion_avisos)",
+      "elegido": "MLP",
+      "elegido_sin_separar_bloques": "MLP",
+      "cruces_calibracion": 13,
+      "cruces_seleccion": 14
+    },
+    "Tamshiyacu": {
+      "protocolo": "regla en 2009–2011, comparación en 2012–2015 (comun.seleccion_avisos)",
+      "elegido": "KNN",
+      "elegido_sin_separar_bloques": "KNN",
+      "cruces_calibracion": 2,
+      "cruces_seleccion": 3
+    }
+  },
+  "calibracion": {
+    "Racarumi|Regresión lineal": {
+      "f": 0.8,
+      "hmax": 3
+    },
+    "Racarumi|Random Forest": {
+      "f": 0.7,
+      "hmax": 3
+    },
+    "Racarumi|XGBoost": {
+      "f": 0.8,
+      "hmax": 3
+    },
+    "Racarumi|KNN": {
+      "f": 0.8,
+      "hmax": 3
+    },
+    "Racarumi|MLP": {
+      "f": 0.8,
+      "hmax": 7
+    },
+    "Racarumi|LSTM": {
+      "f": 0.8,
+      "hmax": 3
+    },
+    "Racarumi|Persistencia": {
+      "f": 0.8,
+      "hmax": 3
+    },
+    "Racarumi|Climatología": {
+      "f": 0.7,
+      "hmax": 3
+    },
+    "Racarumi|Tendencia 3 días": {
+      "f": 0.8,
+      "hmax": 3
+    },
+    "Tamshiyacu|Regresión lineal": {
+      "f": 1.0,
+      "hmax": 3
+    },
+    "Tamshiyacu|Random Forest": {
+      "f": 1.0,
+      "hmax": 3
+    },
+    "Tamshiyacu|XGBoost": {
+      "f": 1.0,
+      "hmax": 3
+    },
+    "Tamshiyacu|KNN": {
+      "f": 1.0,
+      "hmax": 3
+    },
+    "Tamshiyacu|MLP": {
+      "f": 1.0,
+      "hmax": 3
+    },
+    "Tamshiyacu|LSTM": {
+      "f": 1.0,
+      "hmax": 3
+    },
+    "Tamshiyacu|Persistencia": {
+      "f": 1.0,
+      "hmax": 3
+    },
+    "Tamshiyacu|Climatología": {
+      "f": 0.8,
+      "hmax": 3
+    },
+    "Tamshiyacu|Tendencia 3 días": {
+      "f": 1.0,
+      "hmax": 3
+    }
+  },
+  "prueba_modelo_para_avisos": {
+    "Racarumi": {
+      "evaluables": "32",
+      "aciertos": "12",
+      "falsas_alarmas": "14",
+      "POD": 0.375,
+      "FAR": 0.5384615384615384,
+      "CSI": 0.2608695652173913,
+      "anticipacion_util": "0",
+      "anticipacion_util_conjunto_fijo": "0",
+      "anticipacion_mediana": 2.0
+    },
+    "Tamshiyacu": {
+      "evaluables": "3",
+      "aciertos": "3",
+      "falsas_alarmas": "0",
+      "POD": 1.0,
+      "FAR": 0.0,
+      "CSI": 1.0,
+      "anticipacion_util": "3",
+      "anticipacion_util_conjunto_fijo": "3",
+      "anticipacion_mediana": 3.0
+    }
+  }
+}

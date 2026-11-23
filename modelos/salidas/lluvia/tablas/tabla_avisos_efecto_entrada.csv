@@ -1,0 +1,49 @@
+entrada,modelo,cruces,detectados con,detectados sin,solo con la entrada,solo sin la entrada,p (binomial exacta),falsas alarmas con,falsas alarmas sin
+P,Regresión lineal,32,18,9,9,0,0.00390625,4,15
+P,Random Forest,32,15,16,0,1,1.0,9,25
+P,XGBoost,32,21,11,10,0,0.001953125,7,12
+P,KNN,32,16,13,4,1,0.375,21,18
+P,MLP,32,23,18,6,1,0.125,18,29
+P,LSTM,32,29,16,13,0,0.000244140625,28,24
+IA sobre P,Regresión lineal,32,11,18,0,7,0.015625,3,4
+IA sobre P,Random Forest,32,28,15,13,0,0.000244140625,31,9
+IA sobre P,XGBoost,32,25,21,4,0,0.125,16,7
+IA sobre P,KNN,32,26,16,10,0,0.001953125,39,21
+IA sobre P,MLP,32,24,23,1,0,1.0,15,18
+IA sobre P,LSTM,32,27,29,0,2,0.5,28,28
+P con latencia 1 d,Regresión lineal,32,11,9,2,0,0.5,17,15
+P con latencia 1 d,Random Forest,32,16,16,0,0,,24,25
+P con latencia 1 d,XGBoost,32,11,11,0,0,,12,12
+P con latencia 1 d,KNN,32,15,13,4,2,0.6875,30,18
+P con latencia 1 d,MLP,32,10,18,0,8,0.0078125,18,29
+P con latencia 1 d,LSTM,32,16,16,0,0,,29,24
+retraso de P (t−1 frente a t),Regresión lineal,32,11,18,1,8,0.0390625,17,4
+retraso de P (t−1 frente a t),Random Forest,32,16,15,1,0,1.0,24,9
+retraso de P (t−1 frente a t),XGBoost,32,11,21,0,10,0.001953125,12,7
+retraso de P (t−1 frente a t),KNN,32,15,16,0,1,1.0,30,21
+retraso de P (t−1 frente a t),MLP,32,10,23,0,13,0.000244140625,18,18
+retraso de P (t−1 frente a t),LSTM,32,16,29,0,13,0.000244140625,29,28
+P + IA con latencia 1 d,Regresión lineal,32,7,9,0,2,0.5,6,15
+P + IA con latencia 1 d,Random Forest,32,16,16,0,0,,24,25
+P + IA con latencia 1 d,XGBoost,32,11,11,0,0,,12,12
+P + IA con latencia 1 d,KNN,32,11,13,1,3,0.625,15,18
+P + IA con latencia 1 d,MLP,32,11,18,0,7,0.015625,15,29
+P + IA con latencia 1 d,LSTM,32,17,16,1,0,1.0,32,24
+"IA sobre P, latencia 1 d",Regresión lineal,32,7,11,0,4,0.125,6,17
+"IA sobre P, latencia 1 d",Random Forest,32,16,16,0,0,,24,24
+"IA sobre P, latencia 1 d",XGBoost,32,11,11,0,0,,12,12
+"IA sobre P, latencia 1 d",KNN,32,11,15,0,4,0.125,15,30
+"IA sobre P, latencia 1 d",MLP,32,11,10,1,0,1.0,15,18
+"IA sobre P, latencia 1 d",LSTM,32,17,16,1,0,1.0,32,29
+retraso de P + IA (t−1 frente a t),Regresión lineal,32,7,11,3,7,0.34375,6,3
+retraso de P + IA (t−1 frente a t),Random Forest,32,16,28,0,12,0.00048828125,24,31
+retraso de P + IA (t−1 frente a t),XGBoost,32,11,25,0,14,0.0001220703125,12,16
+retraso de P + IA (t−1 frente a t),KNN,32,11,26,0,15,6.103515625e-05,15,39
+retraso de P + IA (t−1 frente a t),MLP,32,11,24,0,13,0.000244140625,15,15
+retraso de P + IA (t−1 frente a t),LSTM,32,17,27,1,11,0.00634765625,32,28
+P diaria (Pd) frente a P,Regresión lineal,32,12,18,0,6,0.03125,2,4
+P diaria (Pd) frente a P,Random Forest,32,27,15,12,0,0.00048828125,29,9
+P diaria (Pd) frente a P,XGBoost,32,21,21,0,0,,9,7
+P diaria (Pd) frente a P,KNN,32,14,16,0,2,0.5,19,21
+P diaria (Pd) frente a P,MLP,32,25,23,2,0,0.5,19,18
+P diaria (Pd) frente a P,LSTM,32,29,29,0,0,,28,28

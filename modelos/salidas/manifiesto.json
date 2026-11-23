@@ -1,0 +1,608 @@
+{
+ "protocolo": "v4",
+ "revision": "v4 integrada r7 (2026-11-22)",
+ "generado": "2026-11-22T23:40:24",
+ "commit_base": "",
+ "archivos_sin_commit": [],
+ "cambios_respecto_al_anterior": {
+  "revision_anterior": "v4 integrada r7 (2026-11-22)",
+  "generado_anterior": "2026-11-22T23:38:27",
+  "modificados": [
+   "09_Sintesis_Integral.ipynb",
+   "Modelamiento_Interactivo.html",
+   "salidas/sintesis/tablas/tabla_archivos_leidos.csv"
+  ],
+  "nuevos": [],
+  "retirados": []
+ },
+ "cambios_respecto_a_la_revision_anterior": {
+  "estado": "no recuperado: CalledProcessError"
+ },
+ "pruebas": {
+  "pruebas_avisos.py": {
+   "correcto": true,
+   "salida": "17 casos correctos"
+  },
+  "pruebas_protocolo.py": {
+   "correcto": true,
+   "salida": "17 comprobaciones correctas"
+  },
+  "pruebas_entradas.py": {
+   "correcto": true,
+   "salida": "48 de 48 comprobaciones correctas (fase previa; ninguna omitida)"
+  },
+  "pruebas_entradas.py --posterior": {
+   "correcto": true,
+   "salida": "51 de 51 comprobaciones correctas (fase previa + posterior; ninguna omitida)"
+  }
+ },
+ "codigo_sha256": {
+  "comun.py": "b7be051ab1f07a549e356d34af1a75ca2295fee4807973517d280a077d66af72",
+  "aguas_arriba.py": "c97fe1e0cee57d3317cc186611aa63155cc4dd80e971696c95a6c7feee519c5f",
+  "lluvia.py": "f83c1b22a41473cdd1e49bd9014bfb8180ea9a4115299e50198ac38dc3f11aff",
+  "chronos2.py": "60dd05f5d6e31032b2c46cb3ffd034125a67433fd946e490ce4433ed0a4ce473",
+  "entradas.py": "b5182b60223742b6e757da46a745daf83466674f1977327e8b094e6bfe786229",
+  "integrado.py": "413dd47683bedd9f2744f297c925c9f9f9d64c80406f911f16d5d6a2ef038a6a"
+ },
+ "etapas": {
+  "racarumi": {
+   "version": "v4",
+   "revision": "v4 integrada r4 (2026-11-18)",
+   "rapido": false,
+   "minutos": 26.6
+  },
+  "tamshiyacu": {
+   "version": "v4",
+   "revision": "v4 integrada r4 (2026-11-18)",
+   "rapido": false,
+   "minutos": 16.4
+  },
+  "anticipacion": {
+   "version": "v4",
+   "revision": "v4 integrada r4 (2026-11-18)",
+   "rapido": false,
+   "minutos": null
+  },
+  "aguas_arriba": {
+   "version": "v4",
+   "revision": "v4 integrada r7 (2026-11-22)",
+   "rapido": false,
+   "minutos": 4.1
+  },
+  "lluvia": {
+   "version": "v4",
+   "revision": "v4 integrada r7 (2026-11-22)",
+   "rapido": false,
+   "minutos": 34.8
+  },
+  "chronos": {
+   "version": "v4",
+   "revision": "v4 integrada r7 (2026-11-22)",
+   "rapido": false,
+   "minutos": 1.7
+  },
+  "entradas": {
+   "version": "v4",
+   "revision": "v4 integrada r7 (2026-11-22)",
+   "rapido": false,
+   "minutos": 12.6
+  },
+  "sintesis": {
+   "version": "v4",
+   "revision": "v4 integrada r7 (2026-11-22)",
+   "rapido": false,
+   "minutos": null
+  }
+ },
+ "ejecucion": {
+  "Racarumi": {
+   "rapido": false,
+   "minutos": 26.6,
+   "modelo_seleccionado": "LSTM",
+   "mayor_nse": "LSTM",
+   "validacion": {
+    "calibración": "2009-01-01 a 2011-12-01",
+    "muestras calibración": 972,
+    "selección": "2012-01-01 a 2015-12-01",
+    "muestras selección": 1369,
+    "excluidas por la separación de 30 días": 30
+   },
+   "muestras": {
+    "ent": 9308,
+    "val": 2371,
+    "pru": 2521
+   },
+   "inventario": {
+    "candidatas": 15524,
+    "sin_Qt": 65,
+    "ventana_incompleta": 124,
+    "objetivo_faltante": 1075,
+    "con_escalon": 0,
+    "validas": 14260,
+    "con_entrada_interpolada": 808
+   }
+  },
+  "Tamshiyacu": {
+   "rapido": false,
+   "minutos": 16.4,
+   "modelo_seleccionado": "XGBoost",
+   "mayor_nse": "XGBoost",
+   "validacion": {
+    "calibración": "2009-01-30 a 2011-12-01",
+    "muestras calibración": 800,
+    "selección": "2012-01-01 a 2015-12-01",
+    "muestras selección": 1195,
+    "excluidas por la separación de 30 días": 30
+   },
+   "muestras": {
+    "ent": 6904,
+    "val": 2025,
+    "pru": 3252
+   },
+   "inventario": {
+    "candidatas": 15038,
+    "sin_Qt": 69,
+    "ventana_incompleta": 157,
+    "objetivo_faltante": 182,
+    "con_escalon": 2419,
+    "validas": 12211,
+    "con_entrada_interpolada": 143
+   }
+  }
+ },
+ "bloques": {
+  "fin_entrenamiento": "2008-12-31",
+  "fin_parada_lstm": "2004-12-31",
+  "inicio_seleccion": "2012-01-01",
+  "fin_validacion": "2015-12-31",
+  "años_calibracion": 3
+ },
+ "seleccion": {
+  "margen_nse": 0.01,
+  "B": 1000,
+  "orden_simplicidad": [
+   "Regresión lineal",
+   "KNN",
+   "Random Forest",
+   "XGBoost",
+   "MLP",
+   "LSTM"
+  ],
+  "modelos": [
+   "Regresión lineal",
+   "Random Forest",
+   "XGBoost",
+   "KNN",
+   "MLP",
+   "LSTM"
+  ],
+  "modelo_auxiliar": "XGBoost"
+ },
+ "software": {
+  "python": "3.13.18",
+  "numpy": "2.5.3",
+  "pandas": "3.0.5",
+  "sklearn": "1.9.1",
+  "xgboost": "3.1.2",
+  "torch": "2.14.1+cu130",
+  "chronos": "2.3.2",
+  "matplotlib": "3.11.2",
+  "seaborn": "0.13.2",
+  "nbformat": "5.11.1"
+ },
+ "software_ejecucion_v4": {
+  "python": "3.13.18",
+  "numpy": "2.5.3",
+  "pandas": "3.0.5",
+  "sklearn": "1.9.1",
+  "xgboost": "3.1.2",
+  "torch": "2.14.1+cu130",
+  "chronos": "2.3.2",
+  "matplotlib": "3.11.2",
+  "seaborn": "0.13.2",
+  "nbformat": "5.11.1"
+ },
+ "protocolo_avisos": {
+  "factores": [
+   0.5,
+   0.6,
+   0.7,
+   0.8,
+   0.9,
+   1.0,
+   1.1
+  ],
+  "hmax": [
+   3,
+   7,
+   15,
+   30
+  ],
+  "tol": 2,
+  "dmax": 7,
+  "reinicio": 7,
+  "pod_min": 0.5,
+  "far_max": 0.5
+ },
+ "semillas": [
+  42,
+  43,
+  44
+ ],
+ "mallas": {
+  "Regresión lineal": {},
+  "Random Forest": {
+   "max_depth": [
+    "10",
+    "20"
+   ],
+   "min_samples_leaf": [
+    "5",
+    "20"
+   ],
+   "max_features": [
+    "0.3",
+    "1.0"
+   ]
+  },
+  "XGBoost": {
+   "max_depth": [
+    "3",
+    "6"
+   ],
+   "learning_rate": [
+    "0.05",
+    "0.1"
+   ],
+   "reg_lambda": [
+    "1.0",
+    "10.0"
+   ],
+   "n_estimators": [
+    "100",
+    "200",
+    "400"
+   ]
+  },
+  "KNN": {
+   "n_neighbors": [
+    "5",
+    "10",
+    "20",
+    "40",
+    "80"
+   ],
+   "weights": [
+    "uniform",
+    "distance"
+   ],
+   "ventana": [
+    "3",
+    "7",
+    "15",
+    "30"
+   ]
+  },
+  "MLP": {
+   "hidden_layer_sizes": [
+    "(64,)",
+    "(128, 64)"
+   ],
+   "alpha": [
+    "0.0001",
+    "0.01"
+   ],
+   "max_iter": [
+    "50",
+    "200"
+   ]
+  },
+  "LSTM": {
+   "oculto": [
+    "32",
+    "64"
+   ],
+   "dropout": [
+    "0.0",
+    "0.2"
+   ]
+  }
+ },
+ "entradas_sha256": {
+  "CAMELS-PE_v1.0.1/CAMELS-PE/03_timeseries/by_catchment/PE_200907.csv": "770cabd61a584340fb22c884fc6419049195bebfb50ca51a76be11b4f365479c",
+  "CAMELS-PE_v1.0.1/CAMELS-PE/02_attributes/topographic_attributes.csv": "941071ce71c7134ba35994b97a7073e56b21fda65cea8c0b0e870db80892958b",
+  "chancay_eda/salidas/tablas/tabla_outliers_eliminados.csv": "ffdec046f1eebb477b76bdd1676b119b53c59f5ae9a716cd87cbc761f468d6ca",
+  "CAMELS-PE_v1.0.1/CAMELS-PE/03_timeseries/by_catchment/PE_240103.csv": "f84795133bcef565d9c970c9da63026447664c67e55f3a1cde8041d3f69057b9",
+  "amazonas_eda/salidas/tablas/tabla_outliers_eliminados.csv": "355f19ca43e2bb07824444c79988ff0c8db32017f4dd1619eaffca7cf0c6b721",
+  "amazonas_eda/salidas/tablas/tabla_atribucion_balance.csv": "2892cdfa5514182cdc62b0d95eb6a108c5567c9c52bbca0aec9651b20838b8f9",
+  "CAMELS-PE_v1.0.1/CAMELS-PE/03_timeseries/by_catchment/PE_220105.csv": "030287f3d44a03cc393610ddbe670d157fa70ee9e44f5a8f3a7eb881b7dd6f35",
+  "CAMELS-PE_v1.0.1/CAMELS-PE/03_timeseries/by_catchment/PE_250101.csv": "7f97522181334b68534e52d839eed5877fdbdc21196c48d38840c2c1ea5281e8",
+  "CAMELS-PE_v1.0.1/CAMELS-PE/03_timeseries/by_catchment/PE_4724D566.csv": "3025d6dd334d754b56666618ad357ac1f0570394b1cb64d685c318518c1dd5ee"
+ },
+ "salidas_sha256": {
+  "salidas/aguas_arriba/figuras/fig01_estaciones_filas.png": "0a51527af900900858dc4d917201cfea608d4aa659024ab55eab5cf0952ca2d4",
+  "salidas/aguas_arriba/figuras/fig02_transito_tamshiyacu.png": "748c0dcfed981b598eeaa8b4224931c7e8049d7d22e7aa0c3fe1f4401e039077",
+  "salidas/aguas_arriba/figuras/fig03_validacion.png": "fcd1219fb36f832d63fc6151b4d3a62228f04634e3af8c10b99f8185e27775c5",
+  "salidas/aguas_arriba/figuras/fig04_efecto_entrada.png": "a7dcb4f45df5189e908fdb39d7a62d19ee67ea811058199ffeb7fd125daa7149",
+  "salidas/aguas_arriba/figuras/fig05_seleccionadas_nse_horizonte.png": "bcddc1e4bc1c3571056a5791acc0bacbb895a8db1beb2c1cd691f4556e9e74b0",
+  "salidas/aguas_arriba/figuras/fig06_racarumi_cirato.png": "609e5d042a348fe8984ba8067c37c02875b0af413aea8ed6d893b7a51e0b4827",
+  "salidas/aguas_arriba/predicciones.npz": "2886da41ab74b0de566398564a1808e03cf890f3098875df2d65ebf4fe6a4df3",
+  "salidas/aguas_arriba/resumen.json": "caf9e48394f90e10d3111df1dbf659858c332242c3633b520b5a0ee4beb927f3",
+  "salidas/aguas_arriba/tablas/tabla_cirato_exploratorio.csv": "48181b42301ab1b51a6ce6e1964184e38f68ad5e670c171a5ae74a8cb01c506c",
+  "salidas/aguas_arriba/tablas/tabla_concordancia_validacion_prueba.csv": "814e1d9a7486d0751380c90b447c6df0cc6ab2ba6e8a6f13302ebd3ae68205ce",
+  "salidas/aguas_arriba/tablas/tabla_configuracion_seleccionada.csv": "ca6b7c921406122ba7bf379634df45c5678b7c109fe4d713e6c6a568de3e1f31",
+  "salidas/aguas_arriba/tablas/tabla_conjuntos.csv": "2707072ed2d3f7813cd2ff44c297854bee8395285bf9143c4cd544042a86a8f1",
+  "salidas/aguas_arriba/tablas/tabla_crecidas.csv": "2f1d827f49fd7090a0e615128a72a59ad0f803f9af441c5402918dea832950ce",
+  "salidas/aguas_arriba/tablas/tabla_cruces_evaluables.csv": "9093a798528a8ddaf11b82974460af7fe16f3d966bdc7708fd0d13a488317593",
+  "salidas/aguas_arriba/tablas/tabla_division.csv": "2a31f9ecc7bb742b3fbc0addb7d1c6778beca41102ea65dcd99b9237949ff861",
+  "salidas/aguas_arriba/tablas/tabla_efecto_entrada_prueba.csv": "e20e1186a8a60b787f305607442f0cdac14f70c72a9445aba3c320d122b2a3ab",
+  "salidas/aguas_arriba/tablas/tabla_efecto_entrada_validacion.csv": "ccd2b5558c81aa83fc79abc46f36164cd1887fb7a5e4899c86ce2de0fe23c451",
+  "salidas/aguas_arriba/tablas/tabla_efecto_entrada_validacion_bandas.csv": "e7065fd029bd165f368834afaa399263e590375ec7e13efecafe53ccfbebaae7",
+  "salidas/aguas_arriba/tablas/tabla_efecto_metodo_prueba.csv": "66a5044b878d86cec74339de68110c4ac186be4b1ca54b6172b62e70807abbbf",
+  "salidas/aguas_arriba/tablas/tabla_estaciones.csv": "fe351e0fd904ae056ad47a2ffb9f1c3ac24763376b4468e238d344ac8d6f5ea3",
+  "salidas/aguas_arriba/tablas/tabla_maestra.csv": "3ef4b9bbef92bdba8c7da1143387521fd6d437643ccd0ba608d8a20a8de8e485",
+  "salidas/aguas_arriba/tablas/tabla_metricas_prueba.csv": "9f4caf317f01621357f9f3087e6f8b62a60f421eae0b1e85cd65bab099cf8000",
+  "salidas/aguas_arriba/tablas/tabla_muestra_extendida.csv": "c12e92e89e79a671809afde9e3c0520e6414fcff1d4ae4621d99b81992beab0d",
+  "salidas/aguas_arriba/tablas/tabla_registro_ajustes.csv": "aa8f79a11e0dc97dd3ae66cb2baa40a9dfc913f3d7ee653b1822ef57c6a8f836",
+  "salidas/aguas_arriba/tablas/tabla_representacion_por_familia.csv": "bef57d892aedc9d8fa72be9068d86241c01476cfeff5938c4ddbbb45d12297f9",
+  "salidas/aguas_arriba/tablas/tabla_seleccion_modelo_por_conjunto.csv": "8a04dc29ca7ed5a3e3314dd982931760473593a6effe577a03822ba6fcf5f669",
+  "salidas/aguas_arriba/tablas/tabla_seleccionadas_en_prueba.csv": "180b87aa1b287429eafd19437dd840cbbb0d4927be41fb2520eeee9468683484",
+  "salidas/aguas_arriba/tablas/tabla_transito_ccf.csv": "b44e4225ca59a3948074e7cd29fac5d3cb461c3e5841e5e293c1320c4d8ca179",
+  "salidas/aguas_arriba/tablas/tabla_transito_cirato.csv": "10903d2c67e2d50d022efe51c0779b3b3217db52178c72b47e521198a8a3df4f",
+  "salidas/aguas_arriba/tablas/tabla_validacion.csv": "ce0d86bd88f9bbbfb4ab038a80a4bc20e0b70a6539b72116444316f957429d7c",
+  "salidas/aguas_arriba/tablas/tabla_verificacion_fisica.csv": "f87426d8e2a23bc43d343b291d5e495975e72258236a1e63691c692fde2fa93a",
+  "salidas/anticipacion/figuras/fig01_pod_csi_anticipacion.png": "8046656b3dfb25e02869c68cfc7a7061018ca8ee98b5a6a4e4c7fa0e3a1d6ad5",
+  "salidas/anticipacion/figuras/fig02_desempeno_eventos.png": "650f94dc052b56c6ede23171e96d3c1caf86646808d8005abbafe0898bbe14ba",
+  "salidas/anticipacion/resumen.json": "09b4e10c14c4f40d3f7445473a64c3d43b3ad3d3783ca327c79aa1b634610f32",
+  "salidas/anticipacion/tablas/tabla_anticipacion_comun.csv": "f05bfb5f631a09fc6f0d2437121ea910e0fb1f4d475894c3fc6bc267a9f406a4",
+  "salidas/anticipacion/tablas/tabla_anticipacion_por_A.csv": "ea0c903082cfc8fb3463b09f78ab18ef55ea5c398ff60c38bb2f4f63d656467f",
+  "salidas/anticipacion/tablas/tabla_anticipacion_por_evento.csv": "89af32fe8ea7953cf6e5f9c8430f7e66e810254bd8733bed7ce86f61c302a0f5",
+  "salidas/anticipacion/tablas/tabla_anticipacion_prueba.csv": "b2957307e2874ac36af14dfd905e2d62ea527b63755600d3b10bb344bfef1456",
+  "salidas/anticipacion/tablas/tabla_avisos.csv": "b10eb3594b2efe135adf28c64aa0205344409cbc17773e6cfc98afaa44b529f9",
+  "salidas/anticipacion/tablas/tabla_calibracion_validacion.csv": "616357dfe0bccfc8c2f926b4f4929f5520c237df55754bedefee0ce3f7f5fcd9",
+  "salidas/anticipacion/tablas/tabla_cruces.csv": "6d972b722788efbf7369730be8c91e7d8f8a6b364dc157e58be3f5518216692d",
+  "salidas/anticipacion/tablas/tabla_episodios.csv": "aaf09b20e8b9a23901db710b6b957b30fd8f4705914710773db65c9a8235d76a",
+  "salidas/anticipacion/tablas/tabla_seleccion_avisos.csv": "b17ef3dbf04a395dc8c42c033061722ada049da01c4036852332475d18d1004d",
+  "salidas/anticipacion/tablas/tabla_sensibilidad_avisos.csv": "dd54f54abc04d23de2a17f5f86bbf47183f477ca19dcd8677f0c87b6663bbab0",
+  "salidas/anticipacion/tablas/tabla_sintesis.csv": "da8cc090c16bec99e4e35417c13a661eaa5217f5ead4be45f379eaf95c92a32c",
+  "salidas/chronos/figuras/fig01_probabilistico.png": "189cc6dc0b1043f52c591b7a740da804e1e42ff19a471aae5674b8dfae0d7066",
+  "salidas/chronos/figuras/fig02_bandas_crecidas.png": "31cc683a577c195b2d2dda64eb4ffcdffce8fab775bb628f11740a12c1d76cbc",
+  "salidas/chronos/predicciones.npz": "047d092df135f031ba2c3cc53bcef176f23650412ba158670e0354db2e142aa1",
+  "salidas/chronos/resumen.json": "b5ac1f9bea146fa6f0af36c4d516005e6d5ccbbf82b0fb09ca3123ca1b467215",
+  "salidas/chronos/tablas/tabla_auditoria_cache.csv": "74bc7d6b96487d6c6e1d32fbca5b772f45c23c909f0e0bbd6542526fa60ed9ff",
+  "salidas/chronos/tablas/tabla_auditoria_cache_completa.csv": "109367edd9b99a8d488611d18ac740994ad7b22994f801166a0bbe59513a2c4a",
+  "salidas/chronos/tablas/tabla_avisos_idealizado_racarumi.csv": "f8ef72a4da2ee56906da2295bd2eac5ad0d738ef11a89d33f9e5ae05dbe95fe3",
+  "salidas/chronos/tablas/tabla_cirato.csv": "02858afa54913146654604dc28d076d5ef6eaf95befabffb52c478f2fb5cadf2",
+  "salidas/chronos/tablas/tabla_contexto.csv": "fe78000db572d3f5fcc7ce31aaa3801005cfd03e5613e4276e0138ccf2fcd5e5",
+  "salidas/chronos/tablas/tabla_emisiones.csv": "048c82536ef4d02a3770fd54048f39a0524410b0bf4ff8072aa85ae3d5818ddb",
+  "salidas/chronos/tablas/tabla_entradas_chronos.csv": "cf3d4696fa8b342ef0a00878fb2059fbc04145ae2019ec68ffe0245a08a4e9a2",
+  "salidas/chronos/tablas/tabla_idealizado.csv": "e58a66f6bf190677e58f2c98204d1523f335025b606b994872bf37f991f2f3bc",
+  "salidas/chronos/tablas/tabla_probabilistico.csv": "faa60ad28d2306c85277797e023ea91b9e9c6c2a49d41c447a783a65326622ed",
+  "salidas/chronos/tablas/tabla_sensibilidad_contexto_tamshiyacu.csv": "e95140a6e65ec28bb6f59690e0471a533a9b2992156616fd72a439b34e60888b",
+  "salidas/chronos/tablas/tabla_sensibilidad_contexto_tamshiyacu_ganancia.csv": "e0edbcac5b028827ae0028f160926c09819829ec3c23ff1e6c8e69880c58f090",
+  "salidas/comparacion/figuras/fig01_horizonte_comparado.png": "0255bc11f278f31270d95cb213f3cc28da5fcd2fac1d042f2819fe3be1b5b4a0",
+  "salidas/comparacion/figuras/fig02_crecidas_comparadas.png": "27a5f0e63e590fe4708d3d6b5a027e96e00bfc6950b344df57ccbb29b13b3034",
+  "salidas/comparacion/figuras/fig03_memoria_comparada.png": "26edfc433a14739951c661b1b67300b47a5bd7d7d0ab6c01c6896884a344e06d",
+  "salidas/comparacion/figuras/fig04_estabilidad.png": "111dd231c65b9c4fa569d59781d6f3ab8493ea4a21b33b0df48d9367d5e95001",
+  "salidas/comparacion/tablas/tabla_comparativa_modelos.csv": "bfd850178df908a867805bb77366432617068d7d503e5f66ebdf90b6e619b745",
+  "salidas/comparacion/tablas/tabla_estabilidad_comparada.csv": "ee26882bbcfffc774a17a08173b82ef68b8fde73ddb9fe5f56df061d4f144005",
+  "salidas/comparacion/tablas/tabla_eventos_resumen.csv": "ee51beb58d3de3f84daadd62094e07dbff21123588d263dab728b4318f224140",
+  "salidas/comparacion/tablas/tabla_h3.csv": "da6ab1d0b7704c99e8f0217b06c44125b76f5b311534269b73a4fc7700943b00",
+  "salidas/comparacion/tablas/tabla_h3_pareado.csv": "13fab95c8060e02a60d261f465531fb1232ddc02ae3567b95c77e1ad90141c9d",
+  "salidas/comparacion/tablas/tabla_h3_sensibilidad_modelos.csv": "588bee574511c5aaa1b294415ce30ec27ab88f5bc3c8aaf2c638a263f2dc2871",
+  "salidas/comparacion/tablas/tabla_h4.csv": "e3d22f8a6f4996d416ac1dae977e10edc29c8d71eea9f71cd5182ecc6a1cc287",
+  "salidas/comparacion/tablas/tabla_importancia_comparada.csv": "71729cdb0a0448dd7ed522a3a97b81757e249039aaa5d22b22cba0105bcca795",
+  "salidas/comparacion/tablas/tabla_memoria_comparada.csv": "bb1821b521fc3f2f294f0b5461b59b2017d27799c8b2f73c6a6f86894e5a3eae",
+  "salidas/comparacion/tablas/tabla_pares_modelos.csv": "fa5e76f117fe110d8d38f9b1ccf06350035387b1778c2e944ceca4bdfb23e570",
+  "salidas/comparacion/tablas/tabla_seleccion_comparada.csv": "e6c2a73d22e00ac08b69e61b5518a7bac29b18b8ee37eafdb701c8d25773f2ca",
+  "salidas/comparacion/tablas/tabla_variacion_semillas.csv": "2d67eca14d399fbc2c2d4aa5cd8359bc240bf08df41b731bda2fac16e47b6587",
+  "salidas/entradas/figuras/fig01_validacion.png": "fff5fc92e68fad6f9660302a40a8c02c984b7d5332f5ac705bcfdbde35cbdaf5",
+  "salidas/entradas/figuras/fig02_prueba_nse_medio.png": "1dcf8a152e2c7ad18172e97e2a3c0cc9b46f078bcfc5609ab4773006dd038741",
+  "salidas/entradas/figuras/fig03_seleccionadas_nse_horizonte.png": "00ccba5809d632d3fe74b6f5272d3f54ac84172992cb3d242aab3a1ceb9d75a5",
+  "salidas/entradas/figuras/fig04_tamshiyacu_combinaciones.png": "2b9e9178c42c9732cc9817a987a9fb4114bfd5b0d576f93a7adbca8af05d8c62",
+  "salidas/entradas/figuras/fig05_tamshiyacu_requena_combinaciones.png": "06d4ef91412ea04d0cfacbb17c302d2b0d51d6c8fbcf68f704c643d5bd7cd0c6",
+  "salidas/entradas/figuras/fig06_avisos_racarumi.png": "858cf70a4799c6e563aa936ad916d15f4e305ecda60294314c9b9bfadb9e2b2a",
+  "salidas/entradas/predicciones_racarumi.npz": "aa2db96d701747aea790e55bccb28f62fb117c23e8d7926420148de832d02de2",
+  "salidas/entradas/predicciones_tamshiyacu.npz": "d9e3c5d711ebfcdc634cc3a9340e213de1649cdf7f733f02fd71a68fb35639a7",
+  "salidas/entradas/resumen.json": "83c77ac09def70983c2d3f3f16d908fe1847f006a8d8aaf68f99b3a89c81f803",
+  "salidas/entradas/tablas/tabla_avisos_racarumi.csv": "7c76b4b2a0eddf201dd6ecac04b4c78dcdba7fbbc75b84fd66c7dae833a1f916",
+  "salidas/entradas/tablas/tabla_avisos_seleccion_2012_2015.csv": "08a8cddc34e19805c84cf11f31391a9ee3331978d0f9b23ec28e994272515ec4",
+  "salidas/entradas/tablas/tabla_cobertura_chronos.csv": "0480e2c0f34f644923647c568bf8b0482b9f5034491fa9765833bcc32b5b0f34",
+  "salidas/entradas/tablas/tabla_cruces_evaluables.csv": "87c19701b70967e9100ffb8ccc8ad32e53ce429112448ba28021fa9e5df11b29",
+  "salidas/entradas/tablas/tabla_division.csv": "325002f40abd58672165edb85de1f367e16553e31e8d5aab94b306d597ff49eb",
+  "salidas/entradas/tablas/tabla_entradas_reales.csv": "db88a412b3ceb2bd68b4ac817a2cb12c4dafa10850a2f16bfc3c023095d768eb",
+  "salidas/entradas/tablas/tabla_final.csv": "1003e1c5f71461b74a311a08b572bb7c556425d883124d4399653cd7321b7669",
+  "salidas/entradas/tablas/tabla_maestra.csv": "752b58ecabc62d8a28bf69020fa003afa1951739b7180856b77119023578b752",
+  "salidas/entradas/tablas/tabla_matriz_experimentos.csv": "97619929b9c39fa1ab04d653ec08169ad501dab003e69cf3dca36b845b971a0d",
+  "salidas/entradas/tablas/tabla_metricas_prueba.csv": "4c17e140cacd5ba3cb102ee73fede19866d02628f0b3db0d986ed5e89e87f02f",
+  "salidas/entradas/tablas/tabla_prueba_frente_a_seleccionada.csv": "cc48f3159adcbe9abe653db7143a3dc820602934ac1d703c9cbd7ce5fce8d40e",
+  "salidas/entradas/tablas/tabla_registro_ajustes.csv": "ef310be488ba0b8ef544321311502419e04adc3753391a857f8e6101eb321208",
+  "salidas/entradas/tablas/tabla_registro_verificaciones.csv": "6be2218407529d2188257c719fb8648367b86b3d333cb34290a904c8ae4191c0",
+  "salidas/entradas/tablas/tabla_representacion_por_familia.csv": "9a894d13a89ce2f3c41a4a426f600e84cd2b1df9bd43148288bebc38b2113ade",
+  "salidas/entradas/tablas/tabla_seleccion_avisos.csv": "827d0ba90efa78425f44c79498b223aca3211b53f71d9c0a4a7ebb2ed437b7af",
+  "salidas/entradas/tablas/tabla_seleccion_magnitud_prueba.csv": "02f73c7f0c5f5b74bd99fba2c2d83723d006bab7f33ec5cf99d4de77a5664781",
+  "salidas/entradas/tablas/tabla_seleccion_magnitud_validacion.csv": "0ad1cc793f4bc5e23576bd1c310c78d4878b4f622b9b1ff97cd5a236aca6759c",
+  "salidas/entradas/tablas/tabla_seleccion_modelo_por_conjunto.csv": "b2685c108c56a6290bd4392cc7fd2f688d890b34b15681b3fcb08ede2de0794b",
+  "salidas/entradas/tablas/tabla_tamshiyacu_combinaciones_prueba.csv": "7a51cb129220d6de3bb76f280bcaac35d62755a2536538f3b74ff5fb2371198d",
+  "salidas/entradas/tablas/tabla_tamshiyacu_combinaciones_validacion.csv": "07db1ba587312bbd7f26de9747f28b457a6f385bf71f5722098106fc4242796b",
+  "salidas/entradas/tablas/tabla_tamshiyacu_requena_combinaciones_prueba.csv": "d5cd7f857fde64818bc96e61ce12df9477d58edb13b672adf123353879d983d0",
+  "salidas/entradas/tablas/tabla_tamshiyacu_requena_combinaciones_validacion.csv": "cbe4d5218529cd9da27e0c247dc325236ee68e6e9157c0df065ce0f0b37311fc",
+  "salidas/entradas/tablas/tabla_validacion.csv": "b46dcbef9a92b3b0f3ccd4ba242f535892416b8c35e3022223506f8b469e5bfc",
+  "salidas/lluvia/figuras/fig01_regimen_balance.png": "4c9de64fc68ef09182bc97c70c018fce75035f81d5cefb46d8f0db3fa2d47744",
+  "salidas/lluvia/figuras/fig02_respuesta_ccf.png": "590b6215b31385ce2e6a7dd65e402ca0528237a1ee8647e5adaae41289b94523",
+  "salidas/lluvia/figuras/fig03_crecidas_lluvia.png": "c72d50c9edeb2ef9bdec847e2321de0e1bb06b6b4fd04ecbcf839acdcd9101a8",
+  "salidas/lluvia/figuras/fig04_validacion.png": "c9b41d9772a192684983f65dd1680021e522da75054f7adf07481d4d081f3389",
+  "salidas/lluvia/figuras/fig05_efecto_entrada_racarumi.png": "2d973409630b753a3f1cfdd8c2270756b723803a010c9d248db19f869b5a647c",
+  "salidas/lluvia/figuras/fig06_efecto_entrada_tamshiyacu.png": "5662885dd150656eacc1282730c942f7fc958a6819ad85cdeb855fa24df363f7",
+  "salidas/lluvia/figuras/fig07_entrada_frente_a_modelo.png": "aa7d6f5c0410e009920a970e3b14b1e989ead2a2129e79d4e1e6214c201a2f63",
+  "salidas/lluvia/figuras/fig08_seleccionadas_nse_horizonte.png": "1c6b6635a8dc43a586d8052e65cbaa4918b5bd8799638a4ccee7a02963b1d47c",
+  "salidas/lluvia/figuras/fig09_avisos_racarumi.png": "706ffa9b04384ffab14d783b287c6a1e46715cd9a1af374ab5acb4d67fa82b30",
+  "salidas/lluvia/figuras/fig10_avisos_csi_racarumi.png": "acf9ec9114ba5aadd182adc9e9e66374374265eb31b4ad09c2d405bbb1c36798",
+  "salidas/lluvia/figuras/fig11_idealizado_nse_horizonte.png": "011438f6c8c2473a2e473d23e1a61c568a0b04be373f178adcc73269bcdcb0ee",
+  "salidas/lluvia/predicciones.npz": "eea5572a693f51119eb6166d8cdc7b64c7997a4be239dc4a4ae0dfddad3fe72e",
+  "salidas/lluvia/predicciones_idealizado.npz": "d9e93d56db6467435944ebb45db81b6484f226ff6d0e6edad23a258f6545cc12",
+  "salidas/lluvia/resumen.json": "6225f4642b510a0baf8a2470925a323168e969602967c283c7fbc9041c039af4",
+  "salidas/lluvia/tablas/tabla_ajuste_hiperparametros.csv": "24bfdc48873ce7d975510e55c4410318e749df75cc6a995d3006c2d6cb152310",
+  "salidas/lluvia/tablas/tabla_arranque_ipa.csv": "0a61e818b51a4deaf70a2dcae605e91827165f38ed99d77e813524cfc9cdd0a5",
+  "salidas/lluvia/tablas/tabla_avisos_efecto_entrada.csv": "e3cdda99622f428abad4fcd61f67ea1d4d8567b34dec3b44d5886a654267ff94",
+  "salidas/lluvia/tablas/tabla_avisos_racarumi.csv": "718d5b20d3d37466146d5b55f78eee08735c16d58da9f5ea4ac56125561bf4ed",
+  "salidas/lluvia/tablas/tabla_avisos_seleccion_2012_2015.csv": "0c51a9f363f7ac18890b0a7582f26476bbb053225341cc81940736bed4976e22",
+  "salidas/lluvia/tablas/tabla_balance.csv": "3bd5e3f68b6f36b9d44232ae921a7ed6bc417e6cfccb8318d4a32d41b68d1e52",
+  "salidas/lluvia/tablas/tabla_balance_anual_racarumi.csv": "e20b1bb2b8d6ce930c9ea42bdb258ffa73e5eecdcea46193871abbb257d6812a",
+  "salidas/lluvia/tablas/tabla_balance_anual_tamshiyacu.csv": "0f0ca38137496725226beff71597959d543e00c813fe85c45acc065c89eed131",
+  "salidas/lluvia/tablas/tabla_coherencia_caminos.csv": "76edd45d0d1b2077c3696eda63ee678e3aefde18ad983bccabae58f112b81c4d",
+  "salidas/lluvia/tablas/tabla_coherencia_v4.csv": "5bd9d376cea4015030495b6650ca544b838cbcb149f071282119ddb7fe5a05cc",
+  "salidas/lluvia/tablas/tabla_concordancia_validacion_prueba.csv": "cd87eaf72de24fb700642d899819b4ba517a055014ccb8210f4688f0384ed8fd",
+  "salidas/lluvia/tablas/tabla_configuracion_seleccionada.csv": "c2988221c1e0b13bad8a82239809251e610149ce42e084228255a9edcc64b8c1",
+  "salidas/lluvia/tablas/tabla_conjuntos.csv": "9b666081953f4aaac308a1b08390d3be2f67aa53e8943103206c3bd169b3f27d",
+  "salidas/lluvia/tablas/tabla_crecidas.csv": "605c551182be2ab285fdf27cf854516ada0782289208a8ea504ad664c1f460f4",
+  "salidas/lluvia/tablas/tabla_cruces_evaluables.csv": "fc04c38268e2829880cd1b29685bc5c8c3f392553d8f33b5476904fdcc90f18b",
+  "salidas/lluvia/tablas/tabla_efecto_entrada_prueba.csv": "94d6838fd493d5e4e310471863457f4dc102cdb1a4f1062d0b1a8cdaf3dc9fdf",
+  "salidas/lluvia/tablas/tabla_efecto_entrada_validacion.csv": "25ccb284ebf8bd9521cbf99f00d38fa5f1a69ef6b6d6d588954c1311f766d374",
+  "salidas/lluvia/tablas/tabla_efecto_entrada_validacion_bandas.csv": "14b614049561822a62f63e6e474ff2ef9687a5a83330a052a47df8d8c5fb9e26",
+  "salidas/lluvia/tablas/tabla_efecto_metodo_prueba.csv": "777bebeab2230061a60679520e26a0d47d8ac04a8337224d622217cc8c2a1a23",
+  "salidas/lluvia/tablas/tabla_entrada_frente_a_modelo.csv": "29a8ad2d42067c495ee59e3b5335ed5983a7215d12de668681328f5bdf74e069",
+  "salidas/lluvia/tablas/tabla_idealizado_avisos.csv": "374eee1e1464fdad96b2690b3b1cc48ae91da8a195aea23a4a3399831face8a7",
+  "salidas/lluvia/tablas/tabla_idealizado_avisos_por_A.csv": "01a4ea231a0c87a7a4a205e49508d59b598f3cf98d5f12e308e026c6b88680cf",
+  "salidas/lluvia/tablas/tabla_idealizado_ganancia_bandas.csv": "8c05437461f04fd6600947413e9077704d97a0074ce3cc07dd54405f49edac8c",
+  "salidas/lluvia/tablas/tabla_idealizado_metricas.csv": "7fc4279acba7dd2fd93b4bcabe8304028ac78b97a3a97c1632864b1d189729f8",
+  "salidas/lluvia/tablas/tabla_inventario.csv": "a9231cfb498b4cee42929dccd65e1e7ef1e91a3cb66b33b5cbce1284aaebe659",
+  "salidas/lluvia/tablas/tabla_maestra.csv": "4f56171362baab12cc80e2e56e231a407ee35012fbf19e829a6d157b7858846f",
+  "salidas/lluvia/tablas/tabla_metodo_controlado.csv": "7045b7b397c2e334abbccd2757ee3d8a90101531d3b23dd81074fb0fb3247d4c",
+  "salidas/lluvia/tablas/tabla_metricas_prueba.csv": "f89b4c48bcfa8f22c4e4fb5a195ef016ee85b3c49891fe45a83015a2b3ea237b",
+  "salidas/lluvia/tablas/tabla_muestra_extendida.csv": "a0ae9f36d49611ed9b42bc1a9df963c25f2fce75c929c6b77eb90d17ef5c9fab",
+  "salidas/lluvia/tablas/tabla_redundancia_indices.csv": "59f346e571052ffaf6194ebaf46d74e68f807b31ef3d0c0a46ddd4c9b5eb8fae",
+  "salidas/lluvia/tablas/tabla_registro_ajustes.csv": "8dc772d550dbed6a19e4550b820baf980b1e65bbd9f28adb12983dd978b50a17",
+  "salidas/lluvia/tablas/tabla_representacion_por_familia.csv": "c68d836cdf367283d3bc847469d0f7495d1ef4044d78351ed4f62a6f69d116f9",
+  "salidas/lluvia/tablas/tabla_respuesta_ccf.csv": "984993a9181b9e7b9b38454d6ca92f560cbdf31913ae3ccd6337fb0746941469",
+  "salidas/lluvia/tablas/tabla_respuesta_crecidas_racarumi.csv": "aead62e47adcdf443d574dabe2189f0c0299acabb9610ae3317febc6c0f441f2",
+  "salidas/lluvia/tablas/tabla_seleccion_avisos.csv": "20f56a1478df15f857d2f7efc098d4a8600cf33400677aaa9e11f016b2be5515",
+  "salidas/lluvia/tablas/tabla_seleccion_modelo_por_conjunto.csv": "2666ff1494b446af9e7311cb3aaa761f9f8c26029d6cf1979f8d9e3ae16a261d",
+  "salidas/lluvia/tablas/tabla_sensibilidad_arranque_ipa.csv": "be4247486176bd350ea47543deb863994519575c76c8d49a77714b94c03c1e11",
+  "salidas/lluvia/tablas/tabla_validacion.csv": "9884bf2ed6fe848759a7809daa8833264b86ed5e214b6cd363129af978ca7fe6",
+  "salidas/racarumi/figuras/fig01_serie_division.png": "35198c55a55671b1631508b256812a41179ec555b56f6b01e72ad61a39b9cb52",
+  "salidas/racarumi/figuras/fig02_desempeno_horizonte.png": "ca95187a02db910bfaae89fdca7582efa3f3ef2edb65d55e7f33f3e086916bd3",
+  "salidas/racarumi/figuras/fig03_habilidad_ic.png": "815ca96e06bb09e5a0183e8d21e90d3788091a9fc0dad530c1974a5c9d75a9cb",
+  "salidas/racarumi/figuras/fig04_crecidas.png": "2629d444cb88b5a02d3270612e37d9882805891ccbd8e0724d8ca868669a41ce",
+  "salidas/racarumi/figuras/fig05_eventos.png": "7686402f16b23b84dc9a347abec7cef2158dcf918d91e09749b92045debc2e45",
+  "salidas/racarumi/figuras/fig06_memoria.png": "0f7d4f77afcca68a11f71fe1bb8d0215c4e79db7f4e01e3e1e4ac8537c6e5bba",
+  "salidas/racarumi/figuras/fig07_importancia.png": "b276d72745aaba94ec5689e90a7e333cfc2390aa2fa013fec7b557595fc911c8",
+  "salidas/racarumi/figuras/fig08_estabilidad.png": "ed1bd92b4b05ae8afbeacc9b56945c797ac3818c4133822ceabb486417967300",
+  "salidas/racarumi/predicciones.npz": "54d0f33d22837c3bd0b5324ab708c9c683bf4d2505b59bdb002252e6b7d2219d",
+  "salidas/racarumi/predicciones_prueba_largo.csv.gz": "96b1165a8c0d99982c1b6da7e4274b78cba289652aa4144a7b288b90cd688d5b",
+  "salidas/racarumi/resumen.json": "4f6de928792c7bd21d37859d5c103b19836eb29e8b58508c573cc2e575e8f708",
+  "salidas/racarumi/tablas/ic_habilidad_combinado.csv": "197350af92fb23d527c07f72fac39d8858257abd24ead66ec79a7016ce1e3fa0",
+  "salidas/racarumi/tablas/ic_habilidad_knn.csv": "53afea65d94f91642e185ef4ed853853d81b485990b0c75d9af4187bf302b2ed",
+  "salidas/racarumi/tablas/ic_habilidad_lineal.csv": "25b5a6134c3a5d3d7681fd9cee216eeec65bdc43b4364a21de18152a4f22443a",
+  "salidas/racarumi/tablas/ic_habilidad_lstm.csv": "473959cbd87ea40587c1904efba8f150c9b4b6b4030993712f7a76a63e23e0e3",
+  "salidas/racarumi/tablas/ic_habilidad_mlp.csv": "8cfd015781004e439274f1deec6b68337f7e9cc713b33e9be499cf61278b9333",
+  "salidas/racarumi/tablas/ic_habilidad_rf.csv": "bc3bc062e89eec23b5b4c0e506656e3c9b28117be58c6832aefbaff9b46879b9",
+  "salidas/racarumi/tablas/ic_habilidad_xgb.csv": "6ee6db850683a7ef9bdca3749e1237681b75947b7b9e519ebcaf05dc8c82c60b",
+  "salidas/racarumi/tablas/tabla_ajuste_hiperparametros.csv": "8dd6b65ed1a3de5f4c1a37740176a1cba7fffdb56c35a1a2cfaf85a9b786a18e",
+  "salidas/racarumi/tablas/tabla_crecidas_prueba.csv": "06ad2850b1d182179d2719b34c6065d3a1ee9c35034ff39d0897fb3b2a7cced5",
+  "salidas/racarumi/tablas/tabla_crecidas_prueba_comun.csv": "7e25045722a3c52813dc7585f830a725657a2255532b5cb34ab9b967b43bba10",
+  "salidas/racarumi/tablas/tabla_division.csv": "232280f7d4ecf01c8b8d2182dbeb2473c6a694b52e6b79c7a63e3ff50951001d",
+  "salidas/racarumi/tablas/tabla_estabilidad_temporal.csv": "d7712a2b9ccc67615864c26d51c8c4ae577ce1e566d85870045571771b6bb6c1",
+  "salidas/racarumi/tablas/tabla_eventos_pronostico.csv": "bff7edf772f8314441bf95e2d028c9bd8b1fc22bd1114124d33967a35355a8f7",
+  "salidas/racarumi/tablas/tabla_eventos_resumen.csv": "648d2b71e12e7d698005fe213f29efc1d9e864063c4a7eac7f71d8c69f2090fe",
+  "salidas/racarumi/tablas/tabla_factores_duan.csv": "dacb0cb0df111a3ff310928bb12bb00a3f1df50941ce6715edc31cc0881e49f1",
+  "salidas/racarumi/tablas/tabla_horizonte_util.csv": "4adb673134c4f2b3341c39c12034a8feebf6fa64aaff70e0310ebc1682aa072d",
+  "salidas/racarumi/tablas/tabla_horizonte_util_comun.csv": "25584521c4c2cb642577b48d2b72d0e8ca95de6119b38384e29d369fff8c68dc",
+  "salidas/racarumi/tablas/tabla_importancia.csv": "bf97f8cbc37215a2f13df4aff6713a947bc6263c0cfe892667a919c42c59bdc3",
+  "salidas/racarumi/tablas/tabla_inventario_muestras.csv": "0ade78f6cb291a39aaf77c471dc128620b3e37cbcbbdb9bbde9a91c16c2bbc68",
+  "salidas/racarumi/tablas/tabla_memoria.csv": "07485d7d9dce537e06e1a53b67f3169385fca0b5a85cdabd0b45d7a53b9fe6d7",
+  "salidas/racarumi/tablas/tabla_metricas_prueba.csv": "4452e6e859b045fbfaee045f0997b3f24370ff204edaff574bdb8581b5daea99",
+  "salidas/racarumi/tablas/tabla_metricas_prueba_comun.csv": "617bd18d0a3af8eacbb2a31db091b24c7bf9912feb86b11f772a07c45a846dea",
+  "salidas/racarumi/tablas/tabla_negativos_recortados.csv": "f18cbe210747d27de87996c1d1fead57222759963cdf3635399081c5aa8e8541",
+  "salidas/racarumi/tablas/tabla_presupuesto_busqueda.csv": "b9274329f4a736149bf68731515276770af046ae30c76832f7f7b3bb06eb3461",
+  "salidas/racarumi/tablas/tabla_referencias_prueba.csv": "8dd5b0e23cbd97cc85948113c959f99c76d5be5b3af4bf3f37d7b83732fa3e68",
+  "salidas/racarumi/tablas/tabla_referencias_prueba_comun.csv": "5d6428592859bab5f9a38ca99352b2ed42f00f7d0daf9db7391ef878ac1fd80e",
+  "salidas/racarumi/tablas/tabla_seleccion.csv": "114bf8daa6b37e13f11142a59ac55629db40f365fd8dcac535154c49cad3233c",
+  "salidas/racarumi/tablas/tabla_semillas.csv": "5fe2f9843a1923ead6ef8b75aedea675a1307994159850f1ac604289db8c627d",
+  "salidas/racarumi/tablas/tabla_sensibilidad_bloque.csv": "9cc68e1e8cc190727129095d6fd515841170030e3a237c0ecf67047574bcae7b",
+  "salidas/racarumi/tablas/tabla_sensibilidad_registros.csv": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+  "salidas/racarumi/tablas/tabla_sensibilidad_retransformacion.csv": "af15ed48e4dafc0ce0db5b5b7053e40685be285dbd143c72261fed48fae73097",
+  "salidas/racarumi/tablas/tabla_validacion_bloques.csv": "271ead840631ea4917f9f0d16f5dad108dfbf500e91ac0c8d3a12e1c991566b6",
+  "salidas/sintesis/figuras/fig01_avisos_racarumi.png": "cd0e5e82aa2e03b588fac142125a972272f992e3c4a95830f5a22a4d432bcb3d",
+  "salidas/sintesis/resumen.json": "8e20e0a72e3b84fa8bc1c7ada61a4e383654acec43a88f51ddf5340aab3293f5",
+  "salidas/sintesis/tablas/tabla_archivos_leidos.csv": "a8306fabd023956581654636d78eb0beb0667c06ffb362e9fcd45402c6bdf5b6",
+  "salidas/sintesis/tablas/tabla_avisos_por_A_racarumi.csv": "b0226cfcb98a9e2373351390be883c55a239b6efc8bbf1322aec6fc85b2d7e7a",
+  "salidas/sintesis/tablas/tabla_avisos_racarumi.csv": "ea643c553bd494f647468f9670bd48a30d2d47ced2322db5cdd3f20dc12859b6",
+  "salidas/sintesis/tablas/tabla_chronos_frente_a_seleccionada.csv": "6b31eb014ff246a46b54e4a4a304f34e7d58484d7230384444e85b3af33a7df7",
+  "salidas/sintesis/tablas/tabla_chronos_probabilistico_condiciones.csv": "a431b1d7f0aeedd415a67025f9f8ecf15a04b76a2c5c7752ca3c1b2536659379",
+  "salidas/sintesis/tablas/tabla_cobertura_emisiones.csv": "345b3ecf744feaddaa1fc93ec4967a044a2936f87eff7eebe5701acf32ef2064",
+  "salidas/sintesis/tablas/tabla_efecto_fuentes_seis_modelos.csv": "0ba9b9950b6e14b3f8d3c40fa042f7b2a1d499df3f6a128c102825c9c8baca60",
+  "salidas/sintesis/tablas/tabla_insumos_verificados.csv": "99c49ad2bc0a795348de4766b44eea82d1049b288de67189e950b3c85d73e716",
+  "salidas/sintesis/tablas/tabla_magnitud_horizonte.csv": "7220c84e6beed53858c32dc053b0ecc915a20d2e020e3501a347b71e78090e86",
+  "salidas/sintesis/tablas/tabla_muestra_extendida_por_horizonte.csv": "4de07284778b6a939688a0b348410fd5c55fb28436b86fd5d223b7eeb584e470",
+  "salidas/sintesis/tablas/tabla_seleccion_final_magnitud.csv": "a67554e5a645bcd69f4e548d3ffb860d2c9f0910aa0d3cb28640f91eb956d9ea",
+  "salidas/tamshiyacu/figuras/fig01_serie_division.png": "11490d6ef7ea7eb70df7046db362310a3c606ce57c42bf2eb50d580967299462",
+  "salidas/tamshiyacu/figuras/fig02_desempeno_horizonte.png": "a45a45a6aaf9256c6bb68dc09209ab45284ea5aa9d96ae1d945070c7e6055d88",
+  "salidas/tamshiyacu/figuras/fig03_habilidad_ic.png": "31202950938d15514e83fc3a34aac1ec61a9fc6d9a9c794010467a966e2a9024",
+  "salidas/tamshiyacu/figuras/fig04_crecidas.png": "55cdf34e32247b3adb50c5a1c52efc9ca446a8bcef34d146746be173f7483bad",
+  "salidas/tamshiyacu/figuras/fig05_eventos.png": "84ca43ecd74ba22fac4f71d3a80eec8812cfdbd8116d2ef0161f228bf88f0477",
+  "salidas/tamshiyacu/figuras/fig06_memoria.png": "ec202abd626fee54b3760e88e8fd2e59b8b602c0f4543f416ff95e23559e8726",
+  "salidas/tamshiyacu/figuras/fig07_importancia.png": "e6d19d041cc00da65ee44c2d5578efc1335dd49d22935ad5bd9f5783c3b6eaac",
+  "salidas/tamshiyacu/figuras/fig08_estabilidad.png": "b994ddd8fd69797d4e5eec0800fc70d1347eca22fa76b9243ad27bbe36874f3f",
+  "salidas/tamshiyacu/predicciones.npz": "2b2a605a1bc066d0ce364a7e57701185de351a457bbb698971e7c9ff99f02c7d",
+  "salidas/tamshiyacu/predicciones_prueba_largo.csv.gz": "2d3876710ea8080667faea5223e7fc8299e65b513af9acf61acece71ef61d6e2",
+  "salidas/tamshiyacu/resumen.json": "fa5a32c7a58771d19314bcc9f16360a183e42e8803cb3c579deb26c32b649e60",
+  "salidas/tamshiyacu/tablas/ic_habilidad_combinado.csv": "4a6f1709db64b626966eaa7e3074f171374b8cc9411030f9b0b011cbfa1763eb",
+  "salidas/tamshiyacu/tablas/ic_habilidad_knn.csv": "346da32b4f8151779a1230f1c596283e94076c0c52b66a844e46c70362770152",
+  "salidas/tamshiyacu/tablas/ic_habilidad_lineal.csv": "2bb402216fe3d58fcdf23461986e7fa66cdd0f360a0398bf05499ea7bc107c34",
+  "salidas/tamshiyacu/tablas/ic_habilidad_lstm.csv": "63a725cb8a4354bbaf732fdf105e78f2ef50bc36ac0fc26d0fdc29986a3b3700",
+  "salidas/tamshiyacu/tablas/ic_habilidad_mlp.csv": "7b7c3bef8fd0e4a3aa90fd50248e76df18bbc5b02e4f77e4cca47a93aa5e9d44",
+  "salidas/tamshiyacu/tablas/ic_habilidad_rf.csv": "a16e12cb17096505aa9b9f2f4a91a96ec2f99f2947de502d98faa0f3d161f5d7",
+  "salidas/tamshiyacu/tablas/ic_habilidad_xgb.csv": "4a6f1709db64b626966eaa7e3074f171374b8cc9411030f9b0b011cbfa1763eb",
+  "salidas/tamshiyacu/tablas/tabla_ajuste_hiperparametros.csv": "96e7b749a63fd1542af5ed60bda6b4d2b3d744e8e5c65e857c54f5aa478ffc3d",
+  "salidas/tamshiyacu/tablas/tabla_crecidas_prueba.csv": "eba80c3b792b10fe3d0cd2ae1164de877725a7b3f2cf5569aecc529b8749ad10",
+  "salidas/tamshiyacu/tablas/tabla_crecidas_prueba_comun.csv": "318d9c5c3c3ba9665a148bf02cf69144f5adbb4b366dd603d857630f2ced1120",
+  "salidas/tamshiyacu/tablas/tabla_division.csv": "b168916c174fcab693be18492305cf3cd431c1cd70ab6efd9b040d435564bbec",
+  "salidas/tamshiyacu/tablas/tabla_estabilidad_temporal.csv": "bdad830037fb6b7423e25bc033308e2c576e61b02febee04e799ea983a5cdaac",
+  "salidas/tamshiyacu/tablas/tabla_eventos_pronostico.csv": "6b556f27fd15e66434f20a7b205deb33610941d2dcb09d79f9974f280c89ee3e",
+  "salidas/tamshiyacu/tablas/tabla_eventos_resumen.csv": "3e11666262982389d3d693133c845d3b349b1f8780a3ad3249ae3e6610eecac6",
+  "salidas/tamshiyacu/tablas/tabla_factores_duan.csv": "61a65f425986014bad36c04bf44c441ec7c4832bdc4af9eef61beeea725f552d",
+  "salidas/tamshiyacu/tablas/tabla_horizonte_util.csv": "76e61fddeb43a959200e2e34afc0cf9b883f9a7083a08f9ebeebb0a00cdecde3",
+  "salidas/tamshiyacu/tablas/tabla_horizonte_util_comun.csv": "b2353a023d1369305b6c202c57ba3403ba9263a0da3b57bba66e61e31bc3aec7",
+  "salidas/tamshiyacu/tablas/tabla_importancia.csv": "1955ca871d845621ee87ab6add79fa999aa881998f9c2586e482e51cc086a162",
+  "salidas/tamshiyacu/tablas/tabla_inventario_muestras.csv": "6ab64aacbb31963a345b5a270cda4ce90c62515450fc0605c5cae80e3ea83e45",
+  "salidas/tamshiyacu/tablas/tabla_memoria.csv": "770169f50ac735b2ca3b75781bf38cfcdd7dbe3f9a10c0bae057cfd675086beb",
+  "salidas/tamshiyacu/tablas/tabla_metricas_prueba.csv": "5e0c56bf345fc0bc8743fe16cc5d3d3dba844b909fb37971a6e5102277403e3e",
+  "salidas/tamshiyacu/tablas/tabla_metricas_prueba_comun.csv": "927bb51f203a482cbd369fa8cbae98c95e2a0f1f39f558cfafd44504275719ac",
+  "salidas/tamshiyacu/tablas/tabla_negativos_recortados.csv": "f18cbe210747d27de87996c1d1fead57222759963cdf3635399081c5aa8e8541",
+  "salidas/tamshiyacu/tablas/tabla_presupuesto_busqueda.csv": "a98e68eefcaddf5e09108f9d554b39b08204b863bab04ff91e5c6d239ae7d8bd",
+  "salidas/tamshiyacu/tablas/tabla_referencias_prueba.csv": "5d4b52c080646976f71fb939c32c93af0cd5ee336fa6543d6fbe4be84d1c8725",
+  "salidas/tamshiyacu/tablas/tabla_referencias_prueba_comun.csv": "82596800d04d2984874d08ec7450e3c6728ab6ae929139dfa42c7aaf72943762",
+  "salidas/tamshiyacu/tablas/tabla_seleccion.csv": "b91b1998bea0ee0dca9dc107139a8c469cdd568cf242007b1d2c676e4b0f887e",
+  "salidas/tamshiyacu/tablas/tabla_semillas.csv": "292668be8d31e95998e5af62a8d3b7804dae8b3705391192c276799c249d1187",
+  "salidas/tamshiyacu/tablas/tabla_sensibilidad_bloque.csv": "d5f849e54447e30e1a86cee1f58ce44fbfd5ca901e0f1ebbede6b0b691e57df2",
+  "salidas/tamshiyacu/tablas/tabla_sensibilidad_registros.csv": "1cc9430b115d38af23d84d05f0d0a6ae4b4d1f227c9f2f15c52370fad2a16b4f",
+  "salidas/tamshiyacu/tablas/tabla_sensibilidad_registros_resumen.csv": "08bf98c032f2abe4ae2710b98445933cecd0a08ddc20b919b50cf1a61e5460f1",
+  "salidas/tamshiyacu/tablas/tabla_sensibilidad_retransformacion.csv": "de9bbc16a624d42c1337a5c8cc3eac5a6f07b9f42824994ca58660f917aa32ae",
+  "salidas/tamshiyacu/tablas/tabla_validacion_bloques.csv": "9c4d69b78976c4f4bdfae2647fc4580284b895b7251e4aa0158c5282159b1a03",
+  "01_Modelos_Racarumi.ipynb": "d8b3f93afb7eaf5ede2bacb5e80e403cf000bbca71d8372b560bf9a39240a0d3",
+  "02_Modelos_Tamshiyacu.ipynb": "8d5d6c836b0df3fde24d6685f38d106fc92153418d41ba8c153cf46ca6ac545d",
+  "03_Comparacion_y_Seleccion.ipynb": "cafd177138679c40e8c56dfce050087ea58cef8a449e20097793d3c24e659f4f",
+  "04_Anticipacion_Crecidas.ipynb": "9e6917b047a1f996b6297755687d1970553ab56fd7a6d74f65a6e79f59aef79d",
+  "05_Estaciones_Aguas_Arriba.ipynb": "8f4f1a4dbc5598d7a7c305deff6b50e98a23f2739ee6bdf0068acabeef5dcc69",
+  "06_Lluvia_Escorrentia.ipynb": "345a200b913e505ad94a668fea73d51161ec652f191430038bce77b640721abd",
+  "07_Chronos2.ipynb": "ba7deb1c4016c0a5880deeb5dae428def876a82824f7bd5351acee27c03beeab",
+  "08_Entradas_y_Modelos.ipynb": "3981eb6573fd501c9a155748ce9d7c0519adcb203202c7498bef101df548dda9",
+  "09_Sintesis_Integral.ipynb": "624c50a555a90fb5073c2380eba3744a7ee8fe50a1a64ecce4aba46f11d68677",
+  "Modelamiento_Interactivo.html": "0a502cf59e0e5170214e43a5c97c20482b0c333060f98f0fa643ded182e72b30",
+  "comun.py": "b7be051ab1f07a549e356d34af1a75ca2295fee4807973517d280a077d66af72",
+  "aguas_arriba.py": "c97fe1e0cee57d3317cc186611aa63155cc4dd80e971696c95a6c7feee519c5f",
+  "lluvia.py": "f83c1b22a41473cdd1e49bd9014bfb8180ea9a4115299e50198ac38dc3f11aff",
+  "chronos2.py": "60dd05f5d6e31032b2c46cb3ffd034125a67433fd946e490ce4433ed0a4ce473",
+  "entradas.py": "b5182b60223742b6e757da46a745daf83466674f1977327e8b094e6bfe786229",
+  "integrado.py": "413dd47683bedd9f2744f297c925c9f9f9d64c80406f911f16d5d6a2ef038a6a",
+  "pruebas_avisos.py": "2f8872530ba46e5352fded7498289d8decf8b67274867932d3896b35b6a377c8",
+  "pruebas_protocolo.py": "f9ded7a136723cb0e40fd10368a5fa600551892b60250149cea26a795f696fcb",
+  "pruebas_entradas.py": "8738c9dc33f558f866ca4ffb7a773b598c2dce9805dd47dc8ba6b177e38fda72",
+  "manifiesto.py": "f60d3d8c7729b22743cdeb251fb1629c59a96dc4771ed7bb4675c19b45d8bcdb",
+  "README.md": "3c125e1b02fa328696e9bb93487b29cb6d4513463072a31a3f5f284a366c6318",
+  "interactivo/generar_html.py": "e383a99bb8436b8a37dfb0bc25065fca18639a7956ffa89d99479b0b3252f548",
+  "interactivo/app.js": "df8a8d9290f1c3e9de90a70cfff803a21ad342cd7338e74fbf9f5733f8b0f640",
+  "interactivo/plantilla.html": "77e2b686b8349396f404816afc15cb7740ce46927cbdcc5672ec4de15b277258"
+ }
+}

@@ -1,0 +1,3 @@
+estación,periodo utilizable,años con dato válido,% vacíos,≥ 15 años,< 10 % vacíos,inconsistencias documentadas,registro completo utilizable,errores eliminados,KGE,clasificación
+Cirato,2022-08 a 2025-12,3.4,1.04,False,True,True,False,0,0.773,apta con reservas
+Racarumi,1981-01 a 2023-08,42.5,0.32,True,True,False,True,15,0.867,apta

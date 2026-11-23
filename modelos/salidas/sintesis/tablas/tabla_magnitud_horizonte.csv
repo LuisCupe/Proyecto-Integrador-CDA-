@@ -1,0 +1,15 @@
+estación,muestra,origen,configuración,NSE h=1,NSE h=7,NSE h=30,H cota 95 % (d)
+Racarumi,prueba 2016-01 a 2023-08 (todas las emisiones),"01–02 (v4, solo caudal)",Q · LSTM,0.851305539650052,0.5078169771991776,0.4682307555276029,6.0
+Tamshiyacu,prueba 2016-01 a 2025-12 (todas las emisiones),"01–02 (v4, solo caudal)",Q · XGBoost,0.9993383978782768,0.9680492386732484,0.8430516725048344,30.0
+Racarumi,prueba 2016-01 a 2023-08,referencia,Persistencia,0.8372270681224683,0.2617313962988447,-0.1705248333319571,
+Racarumi,prueba 2016-01 a 2023-08,referencia,Climatología,0.4600240396664802,0.4603612387379933,0.4883288599609253,
+Tamshiyacu,con San Regis (prueba 2016-01 a 2025-12),referencia,Persistencia,0.9980347098808346,0.9386697278742512,0.528620824361858,
+Tamshiyacu,con San Regis (prueba 2016-01 a 2025-12),referencia,Climatología,0.7641581606125132,0.7636253896553354,0.7753216934558208,
+Tamshiyacu,común con Requena (prueba 2016-01 a 2020-03),referencia,Persistencia,0.9971144995253308,0.9085737269543552,0.3460180560164889,
+Tamshiyacu,común con Requena (prueba 2016-01 a 2020-03),referencia,Climatología,0.7432673515624282,0.7381665105042299,0.7508833551217976,
+Racarumi,prueba 2016-01 a 2023-08,08: seleccionada (mismo día),Q · Chronos-2,0.8556046132025532,0.4951602571764867,0.4356361745987492,5.0
+Racarumi,prueba 2016-01 a 2023-08,08: seleccionada (un día de retraso),Q · Chronos-2,0.8556046132025532,0.4951602571764867,0.4356361745987492,5.0
+Tamshiyacu,con San Regis (prueba 2016-01 a 2025-12),08: seleccionada (mismo día),Q · KNN,0.9993286418777332,0.966951303479447,0.8261890751058671,30.0
+Tamshiyacu,con San Regis (prueba 2016-01 a 2025-12),08: seleccionada (un día de retraso),Q · KNN,0.9993286418777332,0.966951303479447,0.8261890751058671,30.0
+Tamshiyacu,común con Requena (prueba 2016-01 a 2020-03),08: seleccionada (mismo día),Q+SR · KNN,0.9991939242957988,0.958906633061256,0.7280569821822285,18.0
+Tamshiyacu,común con Requena (prueba 2016-01 a 2020-03),08: seleccionada (un día de retraso),Q · KNN,0.9990235001058312,0.951190782754509,0.7301430084924143,17.0

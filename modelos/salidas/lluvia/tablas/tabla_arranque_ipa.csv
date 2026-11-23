@@ -1,0 +1,5 @@
+estación,familia,inicio de la lluvia,primer índice usado,actualizaciones n,k=0.90: fracción que queda (k^n),k=0.97: fracción que queda (k^n),k=0.97: días hasta 1 %
+Racarumi,tabulares,1981-01-01,1981-04-01,90,7.617734804586657e-05,0.0644846109465322,152
+Racarumi,LSTM (inicio de la ventana),1981-01-01,1981-03-03,61,0.0016173092699229906,0.1559824689509293,152
+Tamshiyacu,tabulares,1981-01-01,1984-09-30,1368,2.533686707549464e-63,8.011843847657475e-19,152
+Tamshiyacu,LSTM (inicio de la ventana),1981-01-01,1984-09-01,1339,5.3792303149397385e-62,1.9379929038311607e-18,152

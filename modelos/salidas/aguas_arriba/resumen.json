@@ -1,0 +1,353 @@
+{
+  "version": "v4",
+  "revision": "v4 integrada r7 (2026-11-22)",
+  "rapido": false,
+  "etapa": "caudal aguas arriba con los seis modelos (cuaderno 05)",
+  "experimento": "entradas-2",
+  "huella_codigo_ajuste": "fb0d9332154eaaf07fb9b5140d99d5210ab5439cdf4982fbf398bff0dfcafc8e",
+  "P95": 47602.819185416665,
+  "filas": {
+    "Entrenamiento": 2847,
+    "Validación: calibración (Duan)": 760,
+    "Validación: selección": 1138,
+    "Validación (total)": 1928,
+    "Prueba con San Regis (Q y Q+SR)": 2806,
+    "Prueba común con Requena (las cuatro configuraciones)": 1093
+  },
+  "transito_ccf": {
+    "San Regis (AR de 1998–2008)": 1,
+    "San Regis (AR de 2016–2025)": 1,
+    "San Regis (sin preblanquear)": 1,
+    "Requena (AR de 1998–2008)": -1,
+    "Requena (AR de 2016–2025)": -1,
+    "Requena (sin preblanquear)": 0
+  },
+  "conjuntos": [
+    "Q",
+    "Q+SR",
+    "Q+SR (t−1)",
+    "Q+RQ",
+    "Q+RQ (t−1)",
+    "Q+SR+RQ",
+    "Q+SR+RQ (t−1)"
+  ],
+  "modelo_seleccionado_por_conjunto": {
+    "Q": "KNN",
+    "Q+SR": "KNN",
+    "Q+SR (t−1)": "KNN",
+    "Q+RQ": "KNN",
+    "Q+RQ (t−1)": "KNN",
+    "Q+SR+RQ": "XGBoost",
+    "Q+SR+RQ (t−1)": "XGBoost"
+  },
+  "configuracion_seleccionada": {
+    "con San Regis (prueba 2016-01 a 2025-12)|mismo día": "Q · KNN",
+    "con San Regis (prueba 2016-01 a 2025-12)|un día de retraso": "Q · KNN",
+    "común con Requena (prueba 2016-01 a 2020-03)|mismo día": "Q+SR · KNN",
+    "común con Requena (prueba 2016-01 a 2020-03)|un día de retraso": "Q · KNN"
+  },
+  "mayor_y_equivalentes": {
+    "con San Regis (prueba 2016-01 a 2025-12)|mismo día": 3,
+    "con San Regis (prueba 2016-01 a 2025-12)|un día de retraso": 2,
+    "común con Requena (prueba 2016-01 a 2020-03)|mismo día": 3,
+    "común con Requena (prueba 2016-01 a 2020-03)|un día de retraso": 6
+  },
+  "inconclusos": {
+    "con San Regis (prueba 2016-01 a 2025-12)|mismo día": 5,
+    "con San Regis (prueba 2016-01 a 2025-12)|un día de retraso": 6,
+    "común con Requena (prueba 2016-01 a 2020-03)|mismo día": 9,
+    "común con Requena (prueba 2016-01 a 2020-03)|un día de retraso": 10
+  },
+  "nse_medio_prueba": {
+    "con San Regis (prueba 2016-01 a 2025-12)|Q|Regresión lineal": 0.8768,
+    "con San Regis (prueba 2016-01 a 2025-12)|Q|Random Forest": 0.9041,
+    "con San Regis (prueba 2016-01 a 2025-12)|Q|XGBoost": 0.9078,
+    "con San Regis (prueba 2016-01 a 2025-12)|Q|KNN": 0.9063,
+    "con San Regis (prueba 2016-01 a 2025-12)|Q|MLP": 0.9066,
+    "con San Regis (prueba 2016-01 a 2025-12)|Q|LSTM": 0.8985,
+    "con San Regis (prueba 2016-01 a 2025-12)|Q+SR|Regresión lineal": 0.89,
+    "con San Regis (prueba 2016-01 a 2025-12)|Q+SR|Random Forest": 0.9083,
+    "con San Regis (prueba 2016-01 a 2025-12)|Q+SR|XGBoost": 0.9113,
+    "con San Regis (prueba 2016-01 a 2025-12)|Q+SR|KNN": 0.9096,
+    "con San Regis (prueba 2016-01 a 2025-12)|Q+SR|MLP": 0.9131,
+    "con San Regis (prueba 2016-01 a 2025-12)|Q+SR|LSTM": 0.9053,
+    "con San Regis (prueba 2016-01 a 2025-12)|Q+SR (t−1)|Regresión lineal": 0.8868,
+    "con San Regis (prueba 2016-01 a 2025-12)|Q+SR (t−1)|Random Forest": 0.9064,
+    "con San Regis (prueba 2016-01 a 2025-12)|Q+SR (t−1)|XGBoost": 0.909,
+    "con San Regis (prueba 2016-01 a 2025-12)|Q+SR (t−1)|KNN": 0.9067,
+    "con San Regis (prueba 2016-01 a 2025-12)|Q+SR (t−1)|MLP": 0.9106,
+    "con San Regis (prueba 2016-01 a 2025-12)|Q+SR (t−1)|LSTM": 0.9045,
+    "común con Requena (prueba 2016-01 a 2020-03)|Q|Regresión lineal": 0.8257,
+    "común con Requena (prueba 2016-01 a 2020-03)|Q|Random Forest": 0.8489,
+    "común con Requena (prueba 2016-01 a 2020-03)|Q|XGBoost": 0.8521,
+    "común con Requena (prueba 2016-01 a 2020-03)|Q|KNN": 0.8497,
+    "común con Requena (prueba 2016-01 a 2020-03)|Q|MLP": 0.8697,
+    "común con Requena (prueba 2016-01 a 2020-03)|Q|LSTM": 0.854,
+    "común con Requena (prueba 2016-01 a 2020-03)|Q+SR|Regresión lineal": 0.8372,
+    "común con Requena (prueba 2016-01 a 2020-03)|Q+SR|Random Forest": 0.8533,
+    "común con Requena (prueba 2016-01 a 2020-03)|Q+SR|XGBoost": 0.8564,
+    "común con Requena (prueba 2016-01 a 2020-03)|Q+SR|KNN": 0.8551,
+    "común con Requena (prueba 2016-01 a 2020-03)|Q+SR|MLP": 0.8737,
+    "común con Requena (prueba 2016-01 a 2020-03)|Q+SR|LSTM": 0.8508,
+    "común con Requena (prueba 2016-01 a 2020-03)|Q+SR (t−1)|Regresión lineal": 0.8316,
+    "común con Requena (prueba 2016-01 a 2020-03)|Q+SR (t−1)|Random Forest": 0.8497,
+    "común con Requena (prueba 2016-01 a 2020-03)|Q+SR (t−1)|XGBoost": 0.8508,
+    "común con Requena (prueba 2016-01 a 2020-03)|Q+SR (t−1)|KNN": 0.8486,
+    "común con Requena (prueba 2016-01 a 2020-03)|Q+SR (t−1)|MLP": 0.8688,
+    "común con Requena (prueba 2016-01 a 2020-03)|Q+SR (t−1)|LSTM": 0.8489,
+    "común con Requena (prueba 2016-01 a 2020-03)|Q+RQ|Regresión lineal": 0.8227,
+    "común con Requena (prueba 2016-01 a 2020-03)|Q+RQ|Random Forest": 0.8449,
+    "común con Requena (prueba 2016-01 a 2020-03)|Q+RQ|XGBoost": 0.8453,
+    "común con Requena (prueba 2016-01 a 2020-03)|Q+RQ|KNN": 0.8495,
+    "común con Requena (prueba 2016-01 a 2020-03)|Q+RQ|MLP": 0.8619,
+    "común con Requena (prueba 2016-01 a 2020-03)|Q+RQ|LSTM": 0.8436,
+    "común con Requena (prueba 2016-01 a 2020-03)|Q+RQ (t−1)|Regresión lineal": 0.8214,
+    "común con Requena (prueba 2016-01 a 2020-03)|Q+RQ (t−1)|Random Forest": 0.8438,
+    "común con Requena (prueba 2016-01 a 2020-03)|Q+RQ (t−1)|XGBoost": 0.8454,
+    "común con Requena (prueba 2016-01 a 2020-03)|Q+RQ (t−1)|KNN": 0.8497,
+    "común con Requena (prueba 2016-01 a 2020-03)|Q+RQ (t−1)|MLP": 0.8625,
+    "común con Requena (prueba 2016-01 a 2020-03)|Q+RQ (t−1)|LSTM": 0.8294,
+    "común con Requena (prueba 2016-01 a 2020-03)|Q+SR+RQ|Regresión lineal": 0.8335,
+    "común con Requena (prueba 2016-01 a 2020-03)|Q+SR+RQ|Random Forest": 0.8493,
+    "común con Requena (prueba 2016-01 a 2020-03)|Q+SR+RQ|XGBoost": 0.8491,
+    "común con Requena (prueba 2016-01 a 2020-03)|Q+SR+RQ|KNN": 0.8567,
+    "común con Requena (prueba 2016-01 a 2020-03)|Q+SR+RQ|MLP": 0.8649,
+    "común con Requena (prueba 2016-01 a 2020-03)|Q+SR+RQ|LSTM": 0.852,
+    "común con Requena (prueba 2016-01 a 2020-03)|Q+SR+RQ (t−1)|Regresión lineal": 0.8257,
+    "común con Requena (prueba 2016-01 a 2020-03)|Q+SR+RQ (t−1)|Random Forest": 0.8435,
+    "común con Requena (prueba 2016-01 a 2020-03)|Q+SR+RQ (t−1)|XGBoost": 0.8421,
+    "común con Requena (prueba 2016-01 a 2020-03)|Q+SR+RQ (t−1)|KNN": 0.8518,
+    "común con Requena (prueba 2016-01 a 2020-03)|Q+SR+RQ (t−1)|MLP": 0.8595,
+    "común con Requena (prueba 2016-01 a 2020-03)|Q+SR+RQ (t−1)|LSTM": 0.8483
+  },
+  "h_cota_prueba": {
+    "con San Regis (prueba 2016-01 a 2025-12)|Q|Regresión lineal": 21,
+    "con San Regis (prueba 2016-01 a 2025-12)|Q|Random Forest": 30,
+    "con San Regis (prueba 2016-01 a 2025-12)|Q|XGBoost": 30,
+    "con San Regis (prueba 2016-01 a 2025-12)|Q|KNN": 30,
+    "con San Regis (prueba 2016-01 a 2025-12)|Q|MLP": 30,
+    "con San Regis (prueba 2016-01 a 2025-12)|Q|LSTM": 30,
+    "con San Regis (prueba 2016-01 a 2025-12)|Q+SR|Regresión lineal": 24,
+    "con San Regis (prueba 2016-01 a 2025-12)|Q+SR|Random Forest": 30,
+    "con San Regis (prueba 2016-01 a 2025-12)|Q+SR|XGBoost": 30,
+    "con San Regis (prueba 2016-01 a 2025-12)|Q+SR|KNN": 30,
+    "con San Regis (prueba 2016-01 a 2025-12)|Q+SR|MLP": 30,
+    "con San Regis (prueba 2016-01 a 2025-12)|Q+SR|LSTM": 30,
+    "con San Regis (prueba 2016-01 a 2025-12)|Q+SR (t−1)|Regresión lineal": 24,
+    "con San Regis (prueba 2016-01 a 2025-12)|Q+SR (t−1)|Random Forest": 30,
+    "con San Regis (prueba 2016-01 a 2025-12)|Q+SR (t−1)|XGBoost": 30,
+    "con San Regis (prueba 2016-01 a 2025-12)|Q+SR (t−1)|KNN": 30,
+    "con San Regis (prueba 2016-01 a 2025-12)|Q+SR (t−1)|MLP": 30,
+    "con San Regis (prueba 2016-01 a 2025-12)|Q+SR (t−1)|LSTM": 30,
+    "común con Requena (prueba 2016-01 a 2020-03)|Q|Regresión lineal": 15,
+    "común con Requena (prueba 2016-01 a 2020-03)|Q|Random Forest": 17,
+    "común con Requena (prueba 2016-01 a 2020-03)|Q|XGBoost": 19,
+    "común con Requena (prueba 2016-01 a 2020-03)|Q|KNN": 17,
+    "común con Requena (prueba 2016-01 a 2020-03)|Q|MLP": 23,
+    "común con Requena (prueba 2016-01 a 2020-03)|Q|LSTM": 19,
+    "común con Requena (prueba 2016-01 a 2020-03)|Q+SR|Regresión lineal": 16,
+    "común con Requena (prueba 2016-01 a 2020-03)|Q+SR|Random Forest": 18,
+    "común con Requena (prueba 2016-01 a 2020-03)|Q+SR|XGBoost": 19,
+    "común con Requena (prueba 2016-01 a 2020-03)|Q+SR|KNN": 18,
+    "común con Requena (prueba 2016-01 a 2020-03)|Q+SR|MLP": 23,
+    "común con Requena (prueba 2016-01 a 2020-03)|Q+SR|LSTM": 18,
+    "común con Requena (prueba 2016-01 a 2020-03)|Q+SR (t−1)|Regresión lineal": 15,
+    "común con Requena (prueba 2016-01 a 2020-03)|Q+SR (t−1)|Random Forest": 18,
+    "común con Requena (prueba 2016-01 a 2020-03)|Q+SR (t−1)|XGBoost": 18,
+    "común con Requena (prueba 2016-01 a 2020-03)|Q+SR (t−1)|KNN": 17,
+    "común con Requena (prueba 2016-01 a 2020-03)|Q+SR (t−1)|MLP": 23,
+    "común con Requena (prueba 2016-01 a 2020-03)|Q+SR (t−1)|LSTM": 18,
+    "común con Requena (prueba 2016-01 a 2020-03)|Q+RQ|Regresión lineal": 15,
+    "común con Requena (prueba 2016-01 a 2020-03)|Q+RQ|Random Forest": 16,
+    "común con Requena (prueba 2016-01 a 2020-03)|Q+RQ|XGBoost": 17,
+    "común con Requena (prueba 2016-01 a 2020-03)|Q+RQ|KNN": 17,
+    "común con Requena (prueba 2016-01 a 2020-03)|Q+RQ|MLP": 20,
+    "común con Requena (prueba 2016-01 a 2020-03)|Q+RQ|LSTM": 17,
+    "común con Requena (prueba 2016-01 a 2020-03)|Q+RQ (t−1)|Regresión lineal": 14,
+    "común con Requena (prueba 2016-01 a 2020-03)|Q+RQ (t−1)|Random Forest": 16,
+    "común con Requena (prueba 2016-01 a 2020-03)|Q+RQ (t−1)|XGBoost": 17,
+    "común con Requena (prueba 2016-01 a 2020-03)|Q+RQ (t−1)|KNN": 17,
+    "común con Requena (prueba 2016-01 a 2020-03)|Q+RQ (t−1)|MLP": 20,
+    "común con Requena (prueba 2016-01 a 2020-03)|Q+RQ (t−1)|LSTM": 15,
+    "común con Requena (prueba 2016-01 a 2020-03)|Q+SR+RQ|Regresión lineal": 16,
+    "común con Requena (prueba 2016-01 a 2020-03)|Q+SR+RQ|Random Forest": 17,
+    "común con Requena (prueba 2016-01 a 2020-03)|Q+SR+RQ|XGBoost": 18,
+    "común con Requena (prueba 2016-01 a 2020-03)|Q+SR+RQ|KNN": 18,
+    "común con Requena (prueba 2016-01 a 2020-03)|Q+SR+RQ|MLP": 20,
+    "común con Requena (prueba 2016-01 a 2020-03)|Q+SR+RQ|LSTM": 18,
+    "común con Requena (prueba 2016-01 a 2020-03)|Q+SR+RQ (t−1)|Regresión lineal": 15,
+    "común con Requena (prueba 2016-01 a 2020-03)|Q+SR+RQ (t−1)|Random Forest": 17,
+    "común con Requena (prueba 2016-01 a 2020-03)|Q+SR+RQ (t−1)|XGBoost": 16,
+    "común con Requena (prueba 2016-01 a 2020-03)|Q+SR+RQ (t−1)|KNN": 18,
+    "común con Requena (prueba 2016-01 a 2020-03)|Q+SR+RQ (t−1)|MLP": 20,
+    "común con Requena (prueba 2016-01 a 2020-03)|Q+SR+RQ (t−1)|LSTM": 18
+  },
+  "cruces_evaluables": {
+    "con San Regis (prueba 2016-01 a 2025-12)": {
+      "estación": "Tamshiyacu",
+      "P95 (m³/s)": 47602.819185416665,
+      "cruces evaluables 2009–2011 (regla)": 2,
+      "cruces evaluables 2012–2015 (comparación)": 2,
+      "cruces evaluables en la prueba": 3
+    },
+    "común con Requena (prueba 2016-01 a 2020-03)": {
+      "estación": "Tamshiyacu",
+      "P95 (m³/s)": 47602.819185416665,
+      "cruces evaluables 2009–2011 (regla)": 2,
+      "cruces evaluables 2012–2015 (comparación)": 2,
+      "cruces evaluables en la prueba": 0
+    }
+  },
+  "cirato": {
+    "retrospectivo|h=1|Regresión lineal": {
+      "G": 0.002,
+      "lectura": "sin diferencia demostrada"
+    },
+    "retrospectivo|h=1|Random Forest": {
+      "G": 0.034,
+      "lectura": "reduce el error"
+    },
+    "retrospectivo|h=1|XGBoost": {
+      "G": -0.006,
+      "lectura": "sin diferencia demostrada"
+    },
+    "retrospectivo|h=1|KNN": {
+      "G": -0.001,
+      "lectura": "sin diferencia demostrada"
+    },
+    "retrospectivo|h=1|MLP": {
+      "G": 0.057,
+      "lectura": "sin diferencia demostrada"
+    },
+    "retrospectivo|h=1|LSTM": {
+      "G": 0.014,
+      "lectura": "sin diferencia demostrada"
+    },
+    "retrospectivo|h=2|Regresión lineal": {
+      "G": -0.025,
+      "lectura": "sin diferencia demostrada"
+    },
+    "retrospectivo|h=2|Random Forest": {
+      "G": -0.088,
+      "lectura": "sin diferencia demostrada"
+    },
+    "retrospectivo|h=2|XGBoost": {
+      "G": -0.163,
+      "lectura": "sin diferencia demostrada"
+    },
+    "retrospectivo|h=2|KNN": {
+      "G": -0.059,
+      "lectura": "aumenta el error"
+    },
+    "retrospectivo|h=2|MLP": {
+      "G": -0.094,
+      "lectura": "sin diferencia demostrada"
+    },
+    "retrospectivo|h=2|LSTM": {
+      "G": 0.012,
+      "lectura": "sin diferencia demostrada"
+    },
+    "retrospectivo|h=3|Regresión lineal": {
+      "G": 0.011,
+      "lectura": "sin diferencia demostrada"
+    },
+    "retrospectivo|h=3|Random Forest": {
+      "G": -0.078,
+      "lectura": "sin diferencia demostrada"
+    },
+    "retrospectivo|h=3|XGBoost": {
+      "G": -0.181,
+      "lectura": "aumenta el error"
+    },
+    "retrospectivo|h=3|KNN": {
+      "G": -0.104,
+      "lectura": "aumenta el error"
+    },
+    "retrospectivo|h=3|MLP": {
+      "G": -0.084,
+      "lectura": "sin diferencia demostrada"
+    },
+    "retrospectivo|h=3|LSTM": {
+      "G": -0.027,
+      "lectura": "sin diferencia demostrada"
+    },
+    "prospectivo|h=1|Regresión lineal": {
+      "G": 0.031,
+      "lectura": "sin diferencia demostrada"
+    },
+    "prospectivo|h=1|Random Forest": {
+      "G": -0.005,
+      "lectura": "sin diferencia demostrada"
+    },
+    "prospectivo|h=1|XGBoost": {
+      "G": -0.148,
+      "lectura": "sin diferencia demostrada"
+    },
+    "prospectivo|h=1|KNN": {
+      "G": 0.038,
+      "lectura": "reduce el error"
+    },
+    "prospectivo|h=1|MLP": {
+      "G": 0.095,
+      "lectura": "sin diferencia demostrada"
+    },
+    "prospectivo|h=1|LSTM": {
+      "G": 0.006,
+      "lectura": "sin diferencia demostrada"
+    },
+    "prospectivo|h=2|Regresión lineal": {
+      "G": 0.006,
+      "lectura": "sin diferencia demostrada"
+    },
+    "prospectivo|h=2|Random Forest": {
+      "G": -0.15,
+      "lectura": "sin diferencia demostrada"
+    },
+    "prospectivo|h=2|XGBoost": {
+      "G": -0.141,
+      "lectura": "sin diferencia demostrada"
+    },
+    "prospectivo|h=2|KNN": {
+      "G": -0.008,
+      "lectura": "sin diferencia demostrada"
+    },
+    "prospectivo|h=2|MLP": {
+      "G": -0.062,
+      "lectura": "sin diferencia demostrada"
+    },
+    "prospectivo|h=2|LSTM": {
+      "G": 0.009,
+      "lectura": "sin diferencia demostrada"
+    },
+    "prospectivo|h=3|Regresión lineal": {
+      "G": 0.057,
+      "lectura": "reduce el error"
+    },
+    "prospectivo|h=3|Random Forest": {
+      "G": -0.091,
+      "lectura": "sin diferencia demostrada"
+    },
+    "prospectivo|h=3|XGBoost": {
+      "G": -0.169,
+      "lectura": "aumenta el error"
+    },
+    "prospectivo|h=3|KNN": {
+      "G": -0.12,
+      "lectura": "sin diferencia demostrada"
+    },
+    "prospectivo|h=3|MLP": {
+      "G": -0.057,
+      "lectura": "aumenta el error"
+    },
+    "prospectivo|h=3|LSTM": {
+      "G": 0.013,
+      "lectura": "sin diferencia demostrada"
+    }
+  },
+  "cache": {
+    "politica": "solo identidad completa idéntica; sin migración",
+    "combinaciones": 42,
+    "leidas_de_cache": 42
+  },
+  "minutos": 4.1
+}

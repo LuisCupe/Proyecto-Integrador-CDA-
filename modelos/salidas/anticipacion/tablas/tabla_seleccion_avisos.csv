@@ -1,0 +1,13 @@
+estación,modelo,"regla 2009–2011 (f, h_max)",cruces 2009–2011,cruces 2012–2015,aciertos 2012–2015,falsas alarmas 2012–2015,FAR 2012–2015,CSI 2012–2015,regla final (toda la validación),"elegido (regla 2009–2011, comparación 2012–2015)",elegido sin separar bloques (CSI de toda la validación)
+Racarumi,Regresión lineal,"0.8, 3",13,14,9,5,0.35714285714285715,0.47368421052631576,"0.8, 3",False,False
+Racarumi,Random Forest,"0.7, 3",13,14,11,8,0.42105263157894735,0.5,"0.7, 3",False,False
+Racarumi,XGBoost,"0.8, 3",13,14,9,4,0.3076923076923077,0.5,"0.8, 3",False,False
+Racarumi,KNN,"0.8, 3",13,14,10,6,0.375,0.5,"0.8, 3",False,False
+Racarumi,MLP,"0.8, 7",13,14,10,4,0.2857142857142857,0.5555555555555556,"0.8, 7",True,True
+Racarumi,LSTM,"0.8, 3",13,14,8,5,0.38461538461538464,0.42105263157894735,"0.8, 3",False,False
+Tamshiyacu,Regresión lineal,"1.0, 3",2,3,3,3,0.5,0.5,"1.0, 3",False,False
+Tamshiyacu,Random Forest,"1.0, 3",2,3,3,1,0.25,0.75,"1.0, 3",False,False
+Tamshiyacu,XGBoost,"1.0, 3",2,3,3,2,0.4,0.6,"1.0, 3",False,False
+Tamshiyacu,KNN,"1.0, 3",2,3,3,1,0.25,0.75,"1.0, 3",True,True
+Tamshiyacu,MLP,"1.0, 3",2,3,3,2,0.4,0.6,"1.0, 3",False,False
+Tamshiyacu,LSTM,"1.0, 3",2,3,3,2,0.4,0.6,"1.0, 3",False,False

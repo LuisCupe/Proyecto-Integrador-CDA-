@@ -1,0 +1,174 @@
+{
+  "version": "v4",
+  "revision": "v4 integrada r7 (2026-11-22)",
+  "rapido": false,
+  "metodo": "Chronos-2 con los pesos publicados, sin ajuste local (amazon/chronos-2)",
+  "modelo_origen": "local (_modelos_hf/chronos-2)",
+  "modelo_commit": null,
+  "sha256_model_safetensors": "ddcda3c7508bf2528087723e98a20707cc04b7f370ae275a9fd88078ddba4f42",
+  "huella_archivos_modelo": "409cba0e01758f8328a32e342c3516f13b5150339cc5afe75a8c7cf312a5550f",
+  "software": {
+    "chronos-forecasting": "2.3.2",
+    "torch": "2.14.1+cu130",
+    "transformers": "5.23.0"
+  },
+  "contexto_dias": {
+    "Racarumi": 2048,
+    "Tamshiyacu": 512
+  },
+  "pronostico_puntual": {
+    "Racarumi": "media",
+    "Tamshiyacu": "media"
+  },
+  "combinaciones": [
+    "Racarumi|Q",
+    "Racarumi|Q+P",
+    "Racarumi|Q+P (t−1)",
+    "Racarumi|Q+P+IA",
+    "Racarumi|Q+P+IA (t−1)",
+    "Racarumi|Q+P + lluvia futura (idealizado)",
+    "Tamshiyacu|Q",
+    "Tamshiyacu|Q+P",
+    "Tamshiyacu|Q+P (t−1)",
+    "Tamshiyacu|Q+P+IA",
+    "Tamshiyacu|Q+P+IA (t−1)",
+    "Tamshiyacu|Q+SR",
+    "Tamshiyacu|Q+SR (t−1)",
+    "Tamshiyacu|Q+P+SR",
+    "Tamshiyacu|Q+P+SR (t−1)",
+    "Tamshiyacu|Q+P+IA+SR",
+    "Tamshiyacu|Q+P+IA+SR (t−1)",
+    "Tamshiyacu|Q+RQ",
+    "Tamshiyacu|Q+RQ (t−1)",
+    "Tamshiyacu|Q+P+RQ",
+    "Tamshiyacu|Q+P+RQ (t−1)",
+    "Tamshiyacu|Q+P+IA+RQ",
+    "Tamshiyacu|Q+P+IA+RQ (t−1)",
+    "Tamshiyacu|Q+SR+RQ",
+    "Tamshiyacu|Q+SR+RQ (t−1)",
+    "Tamshiyacu|Q+P+SR+RQ",
+    "Tamshiyacu|Q+P+SR+RQ (t−1)",
+    "Tamshiyacu|Q+P+IA+SR+RQ",
+    "Tamshiyacu|Q+P+IA+SR+RQ (t−1)",
+    "Tamshiyacu|Q+P + lluvia futura (idealizado)",
+    "Racarumi|Q+C"
+  ],
+  "auditoria_cache": {
+    "combinaciones": 31,
+    "reutilizadas": 31,
+    "calculadas": 0,
+    "calculadas_lista": [],
+    "descartadas": [],
+    "cachés verificadas (incluye contexto)": 37,
+    "dif_relativa_max_reproduccion": 6.744575671291386e-07
+  },
+  "emisiones": {
+    "Tamshiyacu con San Regis": 3969,
+    "Tamshiyacu con Requena": 2253,
+    "Cirato": 197
+  },
+  "cobertura_P10_P90": {
+    "Racarumi | Solo caudal": {
+      "1": 0.779,
+      "2": 0.792,
+      "3": 0.794,
+      "5": 0.781,
+      "7": 0.778,
+      "15": 0.77,
+      "30": 0.783
+    },
+    "Racarumi | + lluvia observada hasta t (disponibilidad supuesta)": {
+      "1": 0.759,
+      "2": 0.768,
+      "3": 0.775,
+      "5": 0.762,
+      "7": 0.753,
+      "15": 0.753,
+      "30": 0.767
+    },
+    "Tamshiyacu | Solo caudal": {
+      "1": 0.621,
+      "3": 0.81,
+      "7": 0.78,
+      "15": 0.761,
+      "20": 0.751,
+      "30": 0.74
+    },
+    "Tamshiyacu | + lluvia observada hasta t (disponibilidad supuesta)": {
+      "1": 0.736,
+      "3": 0.845,
+      "7": 0.814,
+      "15": 0.769,
+      "20": 0.762,
+      "30": 0.751
+    }
+  },
+  "cobertura_P10_P90_dias_altos": {
+    "Racarumi | Solo caudal": {
+      "1": 0.574,
+      "2": 0.541,
+      "3": 0.486,
+      "5": 0.439,
+      "7": 0.416,
+      "15": 0.425,
+      "30": 0.421
+    },
+    "Racarumi | + lluvia observada hasta t (disponibilidad supuesta)": {
+      "1": 0.568,
+      "2": 0.527,
+      "3": 0.5,
+      "5": 0.446,
+      "7": 0.43,
+      "15": 0.445,
+      "30": 0.457
+    },
+    "Tamshiyacu | Solo caudal": {
+      "1": 0.701,
+      "3": 0.844,
+      "7": 0.87,
+      "15": 0.818,
+      "20": 0.623,
+      "30": 0.571
+    },
+    "Tamshiyacu | + lluvia observada hasta t (disponibilidad supuesta)": {
+      "1": 0.675,
+      "3": 0.857,
+      "7": 0.961,
+      "15": 0.844,
+      "20": 0.727,
+      "30": 0.558
+    }
+  },
+  "sensibilidad_contexto_tamshiyacu": {
+    "512 d (elegido en validación)": 0.8539,
+    "2048 d": 0.8989
+  },
+  "idealizado": {
+    "Racarumi | 1–3 días": 0.454,
+    "Racarumi | 4–7 días": 0.604,
+    "Racarumi | 8–15 días": 0.672,
+    "Racarumi | 16–30 días": 0.653,
+    "Tamshiyacu | 1–3 días": -0.01,
+    "Tamshiyacu | 4–7 días": 0.089,
+    "Tamshiyacu | 8–15 días": 0.181,
+    "Tamshiyacu | 16–30 días": 0.249
+  },
+  "avisos_idealizado_racarumi": {
+    "f": 0.9,
+    "hmax": 30,
+    "evaluables": 32,
+    "aciertos": 20,
+    "falsas_alarmas": 8,
+    "POD": 0.625,
+    "FAR": 0.2857142857142857,
+    "CSI": 0.5,
+    "anticipacion_util": 9,
+    "anticipacion_util_conjunto_fijo": 2
+  },
+  "cirato": {
+    "emisiones": 197,
+    "G h1": -0.01,
+    "lectura h1": "sin diferencia demostrada"
+  },
+  "minutos": 1.7
+}

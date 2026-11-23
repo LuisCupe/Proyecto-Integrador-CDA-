@@ -1,0 +1,54 @@
+fecha,elegible,motivo,evaluable,max_A_evaluable,detectado,anticipacion_real,fecha_pronosticada,error_fecha_umbral,error_fecha_A1,error_fecha_A3,error_fecha_A7,pico 15 d (m³/s),estación,modelo
+2016-02-25,True,,True,30,False,,,,,,,235.70108025462966,Racarumi,MLP
+2016-02-27,False,menos de 7 días bajo el umbral desde el evento anterior,False,0,False,,,,,,,235.70108025462966,Racarumi,MLP
+2016-03-03,False,menos de 7 días bajo el umbral desde el evento anterior,False,0,False,,,,,,,235.70108025462966,Racarumi,MLP
+2016-03-30,True,,True,14,False,,,,,,,253.37113918981484,Racarumi,MLP
+2016-04-03,False,menos de 7 días bajo el umbral desde el evento anterior,False,0,False,,,,,,,253.37113918981484,Racarumi,MLP
+2017-02-11,True,,True,30,True,2.0,2017-02-10,,,,,114.44508759259261,Racarumi,MLP
+2017-03-08,True,,True,18,True,1.0,2017-03-08,0.0,0.0,,,308.62426465277775,Racarumi,MLP
+2017-03-22,False,menos de 7 días bajo el umbral desde el evento anterior,False,0,False,,,,,,,274.9800347916667,Racarumi,MLP
+2017-05-07,True,,True,27,False,,,,,,,132.77161930555556,Racarumi,MLP
+2017-05-23,True,,True,9,False,,,,,,,120.35334259259263,Racarumi,MLP
+2018-01-18,True,,True,30,False,,,,,,,156.02169685185183,Racarumi,MLP
+2018-04-05,True,,False,0,False,,,,,,,164.39172476851854,Racarumi,MLP
+2018-05-21,True,,True,15,False,,,,,,,120.380695625,Racarumi,MLP
+2019-02-09,True,,True,30,False,,,,,,,123.60835344907409,Racarumi,MLP
+2019-02-25,True,,True,8,True,1.0,2019-02-25,,,,,266.8561841666667,Racarumi,MLP
+2019-03-06,False,menos de 7 días bajo el umbral desde el evento anterior,False,0,False,,,,,,,170.1632146064815,Racarumi,MLP
+2019-03-16,True,,True,2,True,2.0,2019-03-15,,0.0,,,237.53373342592593,Racarumi,MLP
+2019-03-19,False,menos de 7 días bajo el umbral desde el evento anterior,False,0,False,,,,,,,237.53373342592593,Racarumi,MLP
+2019-03-29,False,menos de 7 días bajo el umbral desde el evento anterior,False,0,False,,,,,,,178.53324252314817,Racarumi,MLP
+2019-04-03,False,menos de 7 días bajo el umbral desde el evento anterior,False,0,False,,,,,,,178.53324252314817,Racarumi,MLP
+2019-04-09,False,menos de 7 días bajo el umbral desde el evento anterior,False,0,False,,,,,,,117.94627574074073,Racarumi,MLP
+2019-04-20,True,,True,4,False,,,,,,,115.97685740740741,Racarumi,MLP
+2019-04-22,False,menos de 7 días bajo el umbral desde el evento anterior,False,0,False,,,,,,,115.97685740740741,Racarumi,MLP
+2019-12-29,True,,True,30,False,,,,,,,120.7636380787037,Racarumi,MLP
+2020-04-02,True,,True,30,False,,,,,,,134.24868305555557,Racarumi,MLP
+2020-04-13,True,,True,4,False,,,,,,,113.35096629629629,Racarumi,MLP
+2020-05-04,True,,True,14,False,,,,,,,116.22303469907406,Racarumi,MLP
+2020-12-20,True,,True,30,True,1.0,2020-12-20,0.0,0.0,,,128.94219476851853,Racarumi,MLP
+2021-03-05,True,,True,30,True,2.0,2021-03-04,,,,,338.110833587963,Racarumi,MLP
+2021-03-08,False,menos de 7 días bajo el umbral desde el evento anterior,False,0,False,,,,,,,338.110833587963,Racarumi,MLP
+2021-04-03,True,,True,8,True,2.0,2021-04-02,,,,,176.26294083333335,Racarumi,MLP
+2021-04-19,True,,True,1,False,,,,,,,115.84009224537037,Racarumi,MLP
+2021-05-01,True,,True,5,False,,,,,,,112.2294919675926,Racarumi,MLP
+2021-05-16,True,,True,8,False,,,,,,,114.14420423611112,Racarumi,MLP
+2021-10-09,True,,True,30,False,,,,,,,114.00743907407407,Racarumi,MLP
+2021-12-19,True,,True,30,False,,,,,,,149.64844030092593,Racarumi,MLP
+2022-02-10,True,,True,30,False,,,,,,,120.7362850462963,Racarumi,MLP
+2022-02-26,True,,True,9,True,7.0,2022-02-26,7.0,,,7.0,396.5095577777778,Racarumi,MLP
+2022-03-22,True,,True,9,True,5.0,2022-03-24,,,,,192.2918178240741,Racarumi,MLP
+2022-03-24,False,menos de 7 días bajo el umbral desde el evento anterior,False,0,False,,,,,,,192.2918178240741,Racarumi,MLP
+2022-04-07,False,menos de 7 días bajo el umbral desde el evento anterior,False,0,False,,,,,,,114.33567546296298,Racarumi,MLP
+2023-01-22,True,,True,9,False,,,,,,,151.45374043981482,Racarumi,MLP
+2023-02-15,True,,False,0,False,,,,,,,121.66628814814815,Racarumi,MLP
+2023-02-23,False,vacío o borde antes del cruce,False,0,False,,,,,,,215.56924840277776,Racarumi,MLP
+2023-03-07,True,,True,5,True,1.0,2023-03-07,0.0,0.0,,,379.1677352314815,Racarumi,MLP
+2023-03-30,True,,True,9,False,,,,,,,231.70753752314818,Racarumi,MLP
+2023-04-03,False,menos de 7 días bajo el umbral desde el evento anterior,False,0,False,,,,,,,231.70753752314818,Racarumi,MLP
+2023-04-17,True,,True,3,True,3.0,2023-04-15,,,,,167.2364401388889,Racarumi,MLP
+2023-04-26,True,,True,1,True,1.0,2023-04-26,,,,,116.90686050925927,Racarumi,MLP
+2023-04-30,False,menos de 7 días bajo el umbral desde el evento anterior,False,0,False,,,,,,,115.67597405092594,Racarumi,MLP
+2019-03-27,True,,True,30,True,4.0,2019-03-26,-1.0,1.0,-1.0,9.0,49060.4733162037,Tamshiyacu,KNN
+2022-04-26,True,,True,30,True,3.0,2022-04-26,0.0,0.0,0.0,0.0,47977.644533333325,Tamshiyacu,KNN
+2025-04-16,True,,True,30,True,3.0,2025-04-16,0.0,0.0,0.0,-1.0,49618.546611990736,Tamshiyacu,KNN

@@ -1,0 +1,15 @@
+# Fin de línea normalizado para texto; binarios sin tocar
+* text=auto
+*.ipynb text eol=lf
+*.py    text eol=lf
+*.md    text eol=lf
+*.png   binary
+*.webp  binary
+*.gpkg  binary
+*.shp   binary
+*.dbf   binary
+*.shx   binary
+
+# Estadísticas de lenguajes de GitHub: los HTML son generados y las librerías son de terceros
+*.html          linguist-generated=true
+vendor/**       linguist-vendored=true

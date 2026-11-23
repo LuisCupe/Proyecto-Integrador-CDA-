@@ -1,0 +1,49 @@
+estación,modelo,comparación,banda,G,IC90 inferior,IC90 superior,lectura
+Racarumi,XGBoost,+ lluvia observada hasta t (disponibilidad supuesta) frente a Solo caudal,1–3 días,0.22407936687132735,0.17609968323099726,0.28454619114676977,reduce el error
+Racarumi,XGBoost,+ lluvia observada hasta t (disponibilidad supuesta) frente a Solo caudal,4–7 días,0.029479864420227875,0.011077016940344964,0.05096866986784454,reduce el error
+Racarumi,XGBoost,+ lluvia observada hasta t (disponibilidad supuesta) frente a Solo caudal,8–15 días,-0.016382731997180322,-0.048224561888192775,0.01996488258704642,sin diferencia demostrada
+Racarumi,XGBoost,+ lluvia observada hasta t (disponibilidad supuesta) frente a Solo caudal,16–30 días,-0.0308018252119715,-0.07064063938271711,0.0014178040172919256,sin diferencia demostrada
+Racarumi,XGBoost,+ lluvia futura observada (escenario idealizado) frente a Solo caudal,1–3 días,0.649603893378089,0.6011172013877731,0.7098621253379613,reduce el error
+Racarumi,XGBoost,+ lluvia futura observada (escenario idealizado) frente a Solo caudal,4–7 días,0.6908940827044983,0.6526347050106673,0.7357972157992014,reduce el error
+Racarumi,XGBoost,+ lluvia futura observada (escenario idealizado) frente a Solo caudal,8–15 días,0.6909053102763513,0.6484028825016851,0.727593354082308,reduce el error
+Racarumi,XGBoost,+ lluvia futura observada (escenario idealizado) frente a Solo caudal,16–30 días,0.618149266660905,0.5524326357406001,0.6673436623944923,reduce el error
+Racarumi,XGBoost,+ lluvia futura observada (escenario idealizado) frente a + lluvia observada hasta t (disponibilidad supuesta),1–3 días,0.5484124385131486,0.4997222490805208,0.6034796007690449,reduce el error
+Racarumi,XGBoost,+ lluvia futura observada (escenario idealizado) frente a + lluvia observada hasta t (disponibilidad supuesta),4–7 días,0.6815048900445047,0.6438603162048754,0.7250974054920082,reduce el error
+Racarumi,XGBoost,+ lluvia futura observada (escenario idealizado) frente a + lluvia observada hasta t (disponibilidad supuesta),8–15 días,0.6958875037986121,0.6503854567744023,0.7322008641388402,reduce el error
+Racarumi,XGBoost,+ lluvia futura observada (escenario idealizado) frente a + lluvia observada hasta t (disponibilidad supuesta),16–30 días,0.6295595098887488,0.568973206333187,0.6762851550082044,reduce el error
+Racarumi,Regresión lineal,+ lluvia observada hasta t (disponibilidad supuesta) frente a Solo caudal,1–3 días,0.1176081621023326,0.011422175276213762,0.2418484593302777,reduce el error
+Racarumi,Regresión lineal,+ lluvia observada hasta t (disponibilidad supuesta) frente a Solo caudal,4–7 días,-0.05864570704227323,-0.13340776782502242,0.02937442781360559,sin diferencia demostrada
+Racarumi,Regresión lineal,+ lluvia observada hasta t (disponibilidad supuesta) frente a Solo caudal,8–15 días,-0.04883728275277055,-0.11984494847380305,0.02015800403808296,sin diferencia demostrada
+Racarumi,Regresión lineal,+ lluvia observada hasta t (disponibilidad supuesta) frente a Solo caudal,16–30 días,0.02323514757438827,-0.018132633740410874,0.06182677140986418,sin diferencia demostrada
+Racarumi,Regresión lineal,+ lluvia futura observada (escenario idealizado) frente a Solo caudal,1–3 días,0.42526868353712355,0.2934748265124817,0.5795839791976793,reduce el error
+Racarumi,Regresión lineal,+ lluvia futura observada (escenario idealizado) frente a Solo caudal,4–7 días,0.4528891370552951,0.3482682930985047,0.5804144621860653,reduce el error
+Racarumi,Regresión lineal,+ lluvia futura observada (escenario idealizado) frente a Solo caudal,8–15 días,0.5099814711321895,0.45118718514795875,0.5714285849878838,reduce el error
+Racarumi,Regresión lineal,+ lluvia futura observada (escenario idealizado) frente a Solo caudal,16–30 días,0.4887915712955858,0.42185395119291924,0.5536805201001304,reduce el error
+Racarumi,Regresión lineal,+ lluvia futura observada (escenario idealizado) frente a + lluvia observada hasta t (disponibilidad supuesta),1–3 días,0.3486665540422541,0.2805154509890233,0.45109431605562184,reduce el error
+Racarumi,Regresión lineal,+ lluvia futura observada (escenario idealizado) frente a + lluvia observada hasta t (disponibilidad supuesta),4–7 días,0.48319739143583185,0.41898868496308395,0.577834365426848,reduce el error
+Racarumi,Regresión lineal,+ lluvia futura observada (escenario idealizado) frente a + lluvia observada hasta t (disponibilidad supuesta),8–15 días,0.5327983311370172,0.4977880055340187,0.5768539648690627,reduce el error
+Racarumi,Regresión lineal,+ lluvia futura observada (escenario idealizado) frente a + lluvia observada hasta t (disponibilidad supuesta),16–30 días,0.4766310157097441,0.4180816309247724,0.5321623771818265,reduce el error
+Tamshiyacu,XGBoost,+ lluvia observada hasta t (disponibilidad supuesta) frente a Solo caudal,1–3 días,0.09437951527828858,0.07596501936447762,0.11306133803212552,reduce el error
+Tamshiyacu,XGBoost,+ lluvia observada hasta t (disponibilidad supuesta) frente a Solo caudal,4–7 días,0.1237165478151423,0.0915165982026125,0.15398554642790405,reduce el error
+Tamshiyacu,XGBoost,+ lluvia observada hasta t (disponibilidad supuesta) frente a Solo caudal,8–15 días,0.09808612568169595,0.058961242405389726,0.13959722156133542,reduce el error
+Tamshiyacu,XGBoost,+ lluvia observada hasta t (disponibilidad supuesta) frente a Solo caudal,16–30 días,0.028875097900920577,-0.002007033713071482,0.060462385207357146,sin diferencia demostrada
+Tamshiyacu,XGBoost,+ lluvia futura observada (escenario idealizado) frente a Solo caudal,1–3 días,0.08954629312277052,0.07114234704923199,0.10796527462146324,reduce el error
+Tamshiyacu,XGBoost,+ lluvia futura observada (escenario idealizado) frente a Solo caudal,4–7 días,0.12279394052414727,0.08953838540209065,0.15251841159502771,reduce el error
+Tamshiyacu,XGBoost,+ lluvia futura observada (escenario idealizado) frente a Solo caudal,8–15 días,0.16373757912413212,0.11230966588175562,0.215468934134888,reduce el error
+Tamshiyacu,XGBoost,+ lluvia futura observada (escenario idealizado) frente a Solo caudal,16–30 días,0.2120053107299591,0.1423888984059601,0.27417285013833337,reduce el error
+Tamshiyacu,XGBoost,+ lluvia futura observada (escenario idealizado) frente a + lluvia observada hasta t (disponibilidad supuesta),1–3 días,-0.005336917877915903,-0.00962852504022258,-0.0013177604404067363,aumenta el error
+Tamshiyacu,XGBoost,+ lluvia futura observada (escenario idealizado) frente a + lluvia observada hasta t (disponibilidad supuesta),4–7 días,-0.001052863989037478,-0.007471923689510906,0.004978893836712556,sin diferencia demostrada
+Tamshiyacu,XGBoost,+ lluvia futura observada (escenario idealizado) frente a + lluvia observada hasta t (disponibilidad supuesta),8–15 días,0.07279126678482206,0.048488002155848295,0.09631475357271256,reduce el error
+Tamshiyacu,XGBoost,+ lluvia futura observada (escenario idealizado) frente a + lluvia observada hasta t (disponibilidad supuesta),16–30 días,0.1885753443591075,0.13001640156142114,0.2428516841875959,reduce el error
+Tamshiyacu,Regresión lineal,+ lluvia observada hasta t (disponibilidad supuesta) frente a Solo caudal,1–3 días,0.10056522596824236,0.07897475208676141,0.1210506446931872,reduce el error
+Tamshiyacu,Regresión lineal,+ lluvia observada hasta t (disponibilidad supuesta) frente a Solo caudal,4–7 días,0.16781143230217432,0.12846771099062348,0.20224090731370245,reduce el error
+Tamshiyacu,Regresión lineal,+ lluvia observada hasta t (disponibilidad supuesta) frente a Solo caudal,8–15 días,0.18284541644882213,0.13772319341185266,0.22453552851314604,reduce el error
+Tamshiyacu,Regresión lineal,+ lluvia observada hasta t (disponibilidad supuesta) frente a Solo caudal,16–30 días,0.13234953446617104,0.07683028175487071,0.17686092919659502,reduce el error
+Tamshiyacu,Regresión lineal,+ lluvia futura observada (escenario idealizado) frente a Solo caudal,1–3 días,0.10190962815928051,0.07972403589605498,0.12271903809992209,reduce el error
+Tamshiyacu,Regresión lineal,+ lluvia futura observada (escenario idealizado) frente a Solo caudal,4–7 días,0.17058779847841832,0.12983443812013296,0.2070675064124361,reduce el error
+Tamshiyacu,Regresión lineal,+ lluvia futura observada (escenario idealizado) frente a Solo caudal,8–15 días,0.26520510824192434,0.2003645938336258,0.31900434157204793,reduce el error
+Tamshiyacu,Regresión lineal,+ lluvia futura observada (escenario idealizado) frente a Solo caudal,16–30 días,0.35040639570186993,0.2611638677935402,0.41686747711632816,reduce el error
+Tamshiyacu,Regresión lineal,+ lluvia futura observada (escenario idealizado) frente a + lluvia observada hasta t (disponibilidad supuesta),1–3 días,0.001494718938886197,-0.0018032759138417176,0.00461162266460588,sin diferencia demostrada
+Tamshiyacu,Regresión lineal,+ lluvia futura observada (escenario idealizado) frente a + lluvia observada hasta t (disponibilidad supuesta),4–7 días,0.003336222442858805,-0.005796924997033492,0.012226770183298034,sin diferencia demostrada
+Tamshiyacu,Regresión lineal,+ lluvia futura observada (escenario idealizado) frente a + lluvia observada hasta t (disponibilidad supuesta),8–15 días,0.10078838625023034,0.06312284920003391,0.1332083339947785,reduce el error
+Tamshiyacu,Regresión lineal,+ lluvia futura observada (escenario idealizado) frente a + lluvia observada hasta t (disponibilidad supuesta),16–30 días,0.25131878549910946,0.17847310196598584,0.3084543203414956,reduce el error

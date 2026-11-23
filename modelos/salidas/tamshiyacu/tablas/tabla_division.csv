@@ -1,0 +1,4 @@
+,periodo de emisión,muestras,Q medio (m³/s),días > P95 en t (%)
+Entrenamiento,1984-09-30 a 2008-12-01,6904,32100.4,6.4
+Validación,2009-01-30 a 2015-12-01,2025,32423.3,12.6
+Prueba,2016-01-01 a 2025-12-01,3252,29271.7,2.4

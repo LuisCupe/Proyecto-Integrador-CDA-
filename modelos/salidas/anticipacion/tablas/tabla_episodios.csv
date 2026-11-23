@@ -1,0 +1,31 @@
+episodio,inicio,fin,dias,clase,cruce,primer_aviso_correcto,estación,modelo
+0,2016-02-06,2016-02-06,1,falsa alarma,,,Racarumi,MLP
+1,2017-02-09,2017-02-09,1,acierto,2017-02-11,2017-02-09,Racarumi,MLP
+2,2017-02-28,2017-03-01,2,falsa alarma,,,Racarumi,MLP
+3,2017-03-07,2017-03-07,1,acierto,2017-03-08,2017-03-07,Racarumi,MLP
+4,2017-04-10,2017-04-14,5,falsa alarma,,,Racarumi,MLP
+5,2017-04-19,2017-04-22,4,falsa alarma,,,Racarumi,MLP
+6,2018-02-20,2018-02-20,1,falsa alarma,,,Racarumi,MLP
+7,2018-12-22,2018-12-22,1,falsa alarma,,,Racarumi,MLP
+8,2019-02-20,2019-02-21,2,falsa alarma,,,Racarumi,MLP
+9,2019-02-24,2019-02-24,1,acierto,2019-02-25,2019-02-24,Racarumi,MLP
+10,2019-03-14,2019-03-15,2,acierto,2019-03-16,2019-03-14,Racarumi,MLP
+11,2019-12-20,2019-12-20,1,falsa alarma,,,Racarumi,MLP
+12,2020-03-11,2020-03-11,1,falsa alarma,,,Racarumi,MLP
+13,2020-04-09,2020-04-09,1,falsa alarma,,,Racarumi,MLP
+14,2020-12-13,2020-12-13,1,falsa alarma,,,Racarumi,MLP
+15,2020-12-19,2020-12-19,1,acierto,2020-12-20,2020-12-19,Racarumi,MLP
+16,2021-03-03,2021-03-03,1,acierto,2021-03-05,2021-03-03,Racarumi,MLP
+17,2021-03-26,2021-03-30,5,falsa alarma,,,Racarumi,MLP
+18,2021-04-01,2021-04-02,2,acierto,2021-04-03,2021-04-01,Racarumi,MLP
+19,2022-02-17,2022-02-17,1,falsa alarma,,,Racarumi,MLP
+20,2022-02-19,2022-02-19,1,acierto,2022-02-26,2022-02-19,Racarumi,MLP
+21,2022-02-25,2022-02-25,1,repetido,,,Racarumi,MLP
+22,2022-03-17,2022-03-19,3,acierto,2022-03-22,2022-03-17,Racarumi,MLP
+23,2022-04-15,2022-04-15,1,falsa alarma,,,Racarumi,MLP
+24,2023-03-06,2023-03-06,1,acierto,2023-03-07,2023-03-06,Racarumi,MLP
+25,2023-04-14,2023-04-15,2,acierto,2023-04-17,2023-04-14,Racarumi,MLP
+26,2023-04-25,2023-04-25,1,acierto,2023-04-26,2023-04-25,Racarumi,MLP
+0,2019-03-23,2019-03-26,4,acierto,2019-03-27,2019-03-23,Tamshiyacu,KNN
+1,2022-04-23,2022-04-25,3,acierto,2022-04-26,2022-04-23,Tamshiyacu,KNN
+2,2025-04-13,2025-04-15,3,acierto,2025-04-16,2025-04-13,Tamshiyacu,KNN

@@ -1,0 +1,488 @@
+{
+  "version": "v4",
+  "revision": "v4 integrada r7 (2026-11-22)",
+  "rapido": false,
+  "etapa": "precipitación con los seis modelos (cuaderno 06)",
+  "experimento": "entradas-2",
+  "huella_codigo_ajuste": "fb0d9332154eaaf07fb9b5140d99d5210ab5439cdf4982fbf398bff0dfcafc8e",
+  "k_ipa": [
+    0.9,
+    0.97
+  ],
+  "umbral_seco_mm": 1.0,
+  "climatologia_hasta": {
+    "validación": "2008-12-31",
+    "prueba": "2015-12-31"
+  },
+  "P95": {
+    "Racarumi": 111.20648855555548,
+    "Tamshiyacu": 47602.819185416665
+  },
+  "filas": {
+    "Racarumi": {
+      "ent": 9247,
+      "val": 2371,
+      "sel": 1369,
+      "pru": 2521
+    },
+    "Tamshiyacu": {
+      "ent": 6904,
+      "val": 2025,
+      "sel": 1195,
+      "pru": 3252
+    }
+  },
+  "conjuntos": {
+    "Racarumi": [
+      "Q",
+      "Q+P",
+      "Q+P (t−1)",
+      "Q+P+IA",
+      "Q+P+IA (t−1)",
+      "Q+Pd (control)"
+    ],
+    "Tamshiyacu": [
+      "Q",
+      "Q+P",
+      "Q+P (t−1)",
+      "Q+P+IA",
+      "Q+P+IA (t−1)"
+    ]
+  },
+  "conjuntos_control": [
+    "Q+Pd (control)"
+  ],
+  "desfase_respuesta_dias": {
+    "Racarumi": 1,
+    "Tamshiyacu": 6
+  },
+  "modelo_seleccionado_por_conjunto": {
+    "Racarumi|Q": "LSTM",
+    "Racarumi|Q+P": "MLP",
+    "Racarumi|Q+P (t−1)": "MLP",
+    "Racarumi|Q+P+IA": "LSTM",
+    "Racarumi|Q+P+IA (t−1)": "LSTM",
+    "Racarumi|Q+Pd (control)": "MLP",
+    "Tamshiyacu|Q": "XGBoost",
+    "Tamshiyacu|Q+P": "Random Forest",
+    "Tamshiyacu|Q+P (t−1)": "XGBoost",
+    "Tamshiyacu|Q+P+IA": "Random Forest",
+    "Tamshiyacu|Q+P+IA (t−1)": "Random Forest"
+  },
+  "configuracion_seleccionada": {
+    "Racarumi|mismo día": "Q+P+IA · LSTM",
+    "Racarumi|un día de retraso": "Q · LSTM",
+    "Tamshiyacu|mismo día": "Q · XGBoost",
+    "Tamshiyacu|un día de retraso": "Q · XGBoost"
+  },
+  "mayor_y_equivalentes": {
+    "Racarumi|mismo día": 1,
+    "Racarumi|un día de retraso": 1,
+    "Tamshiyacu|mismo día": 5,
+    "Tamshiyacu|un día de retraso": 4
+  },
+  "inconclusos": {
+    "Racarumi|mismo día": 16,
+    "Racarumi|un día de retraso": 12,
+    "Tamshiyacu|mismo día": 2,
+    "Tamshiyacu|un día de retraso": 3
+  },
+  "seleccion_avisos_racarumi": {
+    "mismo día": "Q+P · KNN",
+    "un día de retraso": "Q · Random Forest"
+  },
+  "seleccion_avisos_racarumi_no_anidada": {
+    "mismo día": "Q+P · MLP",
+    "un día de retraso": "Q+P+IA (t−1) · LSTM"
+  },
+  "calibracion_avisos_racarumi": {
+    "Q · Regresión lineal": {
+      "f": 0.8,
+      "hmax": 3
+    },
+    "Q · Random Forest": {
+      "f": 0.7,
+      "hmax": 3
+    },
+    "Q · XGBoost": {
+      "f": 0.8,
+      "hmax": 15
+    },
+    "Q · KNN": {
+      "f": 0.8,
+      "hmax": 7
+    },
+    "Q · MLP": {
+      "f": 0.7,
+      "hmax": 30
+    },
+    "Q · LSTM": {
+      "f": 0.7,
+      "hmax": 15
+    },
+    "Q+P · Regresión lineal": {
+      "f": 0.9,
+      "hmax": 3
+    },
+    "Q+P · Random Forest": {
+      "f": 0.8,
+      "hmax": 3
+    },
+    "Q+P · XGBoost": {
+      "f": 0.9,
+      "hmax": 7
+    },
+    "Q+P · KNN": {
+      "f": 0.8,
+      "hmax": 3
+    },
+    "Q+P · MLP": {
+      "f": 0.8,
+      "hmax": 15
+    },
+    "Q+P · LSTM": {
+      "f": 0.7,
+      "hmax": 3
+    },
+    "Q+P (t−1) · Regresión lineal": {
+      "f": 0.8,
+      "hmax": 3
+    },
+    "Q+P (t−1) · Random Forest": {
+      "f": 0.7,
+      "hmax": 3
+    },
+    "Q+P (t−1) · XGBoost": {
+      "f": 0.8,
+      "hmax": 7
+    },
+    "Q+P (t−1) · KNN": {
+      "f": 0.8,
+      "hmax": 30
+    },
+    "Q+P (t−1) · MLP": {
+      "f": 0.8,
+      "hmax": 15
+    },
+    "Q+P (t−1) · LSTM": {
+      "f": 0.7,
+      "hmax": 30
+    },
+    "Q+P+IA · Regresión lineal": {
+      "f": 1.0,
+      "hmax": 3
+    },
+    "Q+P+IA · Random Forest": {
+      "f": 0.7,
+      "hmax": 3
+    },
+    "Q+P+IA · XGBoost": {
+      "f": 0.8,
+      "hmax": 3
+    },
+    "Q+P+IA · KNN": {
+      "f": 0.7,
+      "hmax": 3
+    },
+    "Q+P+IA · MLP": {
+      "f": 0.8,
+      "hmax": 3
+    },
+    "Q+P+IA · LSTM": {
+      "f": 0.7,
+      "hmax": 7
+    },
+    "Q+P+IA (t−1) · Regresión lineal": {
+      "f": 0.9,
+      "hmax": 3
+    },
+    "Q+P+IA (t−1) · Random Forest": {
+      "f": 0.7,
+      "hmax": 3
+    },
+    "Q+P+IA (t−1) · XGBoost": {
+      "f": 0.8,
+      "hmax": 3
+    },
+    "Q+P+IA (t−1) · KNN": {
+      "f": 0.8,
+      "hmax": 7
+    },
+    "Q+P+IA (t−1) · MLP": {
+      "f": 0.8,
+      "hmax": 3
+    },
+    "Q+P+IA (t−1) · LSTM": {
+      "f": 0.7,
+      "hmax": 30
+    },
+    "Q+Pd (control) · Regresión lineal": {
+      "f": 1.0,
+      "hmax": 3
+    },
+    "Q+Pd (control) · Random Forest": {
+      "f": 0.7,
+      "hmax": 3
+    },
+    "Q+Pd (control) · XGBoost": {
+      "f": 0.9,
+      "hmax": 3
+    },
+    "Q+Pd (control) · KNN": {
+      "f": 0.8,
+      "hmax": 3
+    },
+    "Q+Pd (control) · MLP": {
+      "f": 0.8,
+      "hmax": 7
+    },
+    "Q+Pd (control) · LSTM": {
+      "f": 0.7,
+      "hmax": 3
+    }
+  },
+  "cruces_evaluables": {
+    "Racarumi": {
+      "P95 (m³/s)": 111.20648855555548,
+      "cruces evaluables 2009–2011 (regla)": 13,
+      "cruces evaluables 2012–2015 (comparación)": 14,
+      "cruces evaluables en la prueba": 32
+    },
+    "Tamshiyacu": {
+      "P95 (m³/s)": 47602.819185416665,
+      "cruces evaluables 2009–2011 (regla)": 2,
+      "cruces evaluables 2012–2015 (comparación)": 3,
+      "cruces evaluables en la prueba": 3
+    }
+  },
+  "nse_medio_prueba": {
+    "Racarumi|Q|Regresión lineal": 0.4845,
+    "Racarumi|Q|Random Forest": 0.5033,
+    "Racarumi|Q|XGBoost": 0.488,
+    "Racarumi|Q|KNN": 0.4409,
+    "Racarumi|Q|MLP": 0.5217,
+    "Racarumi|Q|LSTM": 0.5241,
+    "Racarumi|Q+P|Regresión lineal": 0.4831,
+    "Racarumi|Q+P|Random Forest": 0.519,
+    "Racarumi|Q+P|XGBoost": 0.4925,
+    "Racarumi|Q+P|KNN": 0.4123,
+    "Racarumi|Q+P|MLP": 0.5248,
+    "Racarumi|Q+P|LSTM": 0.5334,
+    "Racarumi|Q+P (t−1)|Regresión lineal": 0.4802,
+    "Racarumi|Q+P (t−1)|Random Forest": 0.507,
+    "Racarumi|Q+P (t−1)|XGBoost": 0.4832,
+    "Racarumi|Q+P (t−1)|KNN": 0.4023,
+    "Racarumi|Q+P (t−1)|MLP": 0.5157,
+    "Racarumi|Q+P (t−1)|LSTM": 0.5171,
+    "Racarumi|Q+P+IA|Regresión lineal": 0.4943,
+    "Racarumi|Q+P+IA|Random Forest": 0.521,
+    "Racarumi|Q+P+IA|XGBoost": 0.4978,
+    "Racarumi|Q+P+IA|KNN": 0.3993,
+    "Racarumi|Q+P+IA|MLP": 0.5351,
+    "Racarumi|Q+P+IA|LSTM": 0.5411,
+    "Racarumi|Q+P+IA (t−1)|Regresión lineal": 0.4914,
+    "Racarumi|Q+P+IA (t−1)|Random Forest": 0.5095,
+    "Racarumi|Q+P+IA (t−1)|XGBoost": 0.4881,
+    "Racarumi|Q+P+IA (t−1)|KNN": 0.4023,
+    "Racarumi|Q+P+IA (t−1)|MLP": 0.5252,
+    "Racarumi|Q+P+IA (t−1)|LSTM": 0.5303,
+    "Racarumi|Q+Pd (control)|Regresión lineal": 0.4732,
+    "Racarumi|Q+Pd (control)|Random Forest": 0.5164,
+    "Racarumi|Q+Pd (control)|XGBoost": 0.496,
+    "Racarumi|Q+Pd (control)|KNN": 0.3436,
+    "Racarumi|Q+Pd (control)|MLP": 0.5158,
+    "Racarumi|Q+Pd (control)|LSTM": 0.5334,
+    "Tamshiyacu|Q|Regresión lineal": 0.8837,
+    "Tamshiyacu|Q|Random Forest": 0.9083,
+    "Tamshiyacu|Q|XGBoost": 0.9127,
+    "Tamshiyacu|Q|KNN": 0.9088,
+    "Tamshiyacu|Q|MLP": 0.9051,
+    "Tamshiyacu|Q|LSTM": 0.9132,
+    "Tamshiyacu|Q+P|Regresión lineal": 0.9003,
+    "Tamshiyacu|Q+P|Random Forest": 0.9128,
+    "Tamshiyacu|Q+P|XGBoost": 0.9168,
+    "Tamshiyacu|Q+P|KNN": 0.8974,
+    "Tamshiyacu|Q+P|MLP": 0.9088,
+    "Tamshiyacu|Q+P|LSTM": 0.9181,
+    "Tamshiyacu|Q+P (t−1)|Regresión lineal": 0.8984,
+    "Tamshiyacu|Q+P (t−1)|Random Forest": 0.9118,
+    "Tamshiyacu|Q+P (t−1)|XGBoost": 0.9154,
+    "Tamshiyacu|Q+P (t−1)|KNN": 0.8955,
+    "Tamshiyacu|Q+P (t−1)|MLP": 0.9077,
+    "Tamshiyacu|Q+P (t−1)|LSTM": 0.917,
+    "Tamshiyacu|Q+P+IA|Regresión lineal": 0.9012,
+    "Tamshiyacu|Q+P+IA|Random Forest": 0.9124,
+    "Tamshiyacu|Q+P+IA|XGBoost": 0.9164,
+    "Tamshiyacu|Q+P+IA|KNN": 0.8978,
+    "Tamshiyacu|Q+P+IA|MLP": 0.9227,
+    "Tamshiyacu|Q+P+IA|LSTM": 0.9218,
+    "Tamshiyacu|Q+P+IA (t−1)|Regresión lineal": 0.8993,
+    "Tamshiyacu|Q+P+IA (t−1)|Random Forest": 0.9116,
+    "Tamshiyacu|Q+P+IA (t−1)|XGBoost": 0.9151,
+    "Tamshiyacu|Q+P+IA (t−1)|KNN": 0.8958,
+    "Tamshiyacu|Q+P+IA (t−1)|MLP": 0.9202,
+    "Tamshiyacu|Q+P+IA (t−1)|LSTM": 0.9203
+  },
+  "h_cota_prueba": {
+    "Racarumi|Q|Regresión lineal": 5,
+    "Racarumi|Q|Random Forest": 6,
+    "Racarumi|Q|XGBoost": 6,
+    "Racarumi|Q|KNN": 4,
+    "Racarumi|Q|MLP": 6,
+    "Racarumi|Q|LSTM": 6,
+    "Racarumi|Q+P|Regresión lineal": 4,
+    "Racarumi|Q+P|Random Forest": 7,
+    "Racarumi|Q+P|XGBoost": 6,
+    "Racarumi|Q+P|KNN": 5,
+    "Racarumi|Q+P|MLP": 6,
+    "Racarumi|Q+P|LSTM": 7,
+    "Racarumi|Q+P (t−1)|Regresión lineal": 0,
+    "Racarumi|Q+P (t−1)|Random Forest": 6,
+    "Racarumi|Q+P (t−1)|XGBoost": 5,
+    "Racarumi|Q+P (t−1)|KNN": 4,
+    "Racarumi|Q+P (t−1)|MLP": 6,
+    "Racarumi|Q+P (t−1)|LSTM": 5,
+    "Racarumi|Q+P+IA|Regresión lineal": 4,
+    "Racarumi|Q+P+IA|Random Forest": 7,
+    "Racarumi|Q+P+IA|XGBoost": 6,
+    "Racarumi|Q+P+IA|KNN": 4,
+    "Racarumi|Q+P+IA|MLP": 7,
+    "Racarumi|Q+P+IA|LSTM": 7,
+    "Racarumi|Q+P+IA (t−1)|Regresión lineal": 0,
+    "Racarumi|Q+P+IA (t−1)|Random Forest": 6,
+    "Racarumi|Q+P+IA (t−1)|XGBoost": 6,
+    "Racarumi|Q+P+IA (t−1)|KNN": 4,
+    "Racarumi|Q+P+IA (t−1)|MLP": 6,
+    "Racarumi|Q+P+IA (t−1)|LSTM": 6,
+    "Racarumi|Q+Pd (control)|Regresión lineal": 4,
+    "Racarumi|Q+Pd (control)|Random Forest": 7,
+    "Racarumi|Q+Pd (control)|XGBoost": 6,
+    "Racarumi|Q+Pd (control)|KNN": 4,
+    "Racarumi|Q+Pd (control)|MLP": 6,
+    "Racarumi|Q+Pd (control)|LSTM": 7,
+    "Tamshiyacu|Q|Regresión lineal": 21,
+    "Tamshiyacu|Q|Random Forest": 30,
+    "Tamshiyacu|Q|XGBoost": 30,
+    "Tamshiyacu|Q|KNN": 30,
+    "Tamshiyacu|Q|MLP": 30,
+    "Tamshiyacu|Q|LSTM": 30,
+    "Tamshiyacu|Q+P|Regresión lineal": 25,
+    "Tamshiyacu|Q+P|Random Forest": 30,
+    "Tamshiyacu|Q+P|XGBoost": 30,
+    "Tamshiyacu|Q+P|KNN": 24,
+    "Tamshiyacu|Q+P|MLP": 30,
+    "Tamshiyacu|Q+P|LSTM": 30,
+    "Tamshiyacu|Q+P (t−1)|Regresión lineal": 25,
+    "Tamshiyacu|Q+P (t−1)|Random Forest": 30,
+    "Tamshiyacu|Q+P (t−1)|XGBoost": 30,
+    "Tamshiyacu|Q+P (t−1)|KNN": 24,
+    "Tamshiyacu|Q+P (t−1)|MLP": 30,
+    "Tamshiyacu|Q+P (t−1)|LSTM": 30,
+    "Tamshiyacu|Q+P+IA|Regresión lineal": 26,
+    "Tamshiyacu|Q+P+IA|Random Forest": 30,
+    "Tamshiyacu|Q+P+IA|XGBoost": 30,
+    "Tamshiyacu|Q+P+IA|KNN": 24,
+    "Tamshiyacu|Q+P+IA|MLP": 30,
+    "Tamshiyacu|Q+P+IA|LSTM": 30,
+    "Tamshiyacu|Q+P+IA (t−1)|Regresión lineal": 25,
+    "Tamshiyacu|Q+P+IA (t−1)|Random Forest": 30,
+    "Tamshiyacu|Q+P+IA (t−1)|XGBoost": 30,
+    "Tamshiyacu|Q+P+IA (t−1)|KNN": 24,
+    "Tamshiyacu|Q+P+IA (t−1)|MLP": 30,
+    "Tamshiyacu|Q+P+IA (t−1)|LSTM": 30
+  },
+  "idealizado": {
+    "modelos": [
+      "XGBoost",
+      "Regresión lineal"
+    ],
+    "ganancia_bandas": {
+      "Racarumi|XGBoost|+ lluvia observada hasta t (disponibilidad supuesta) frente a Solo caudal|1–3 días": 0.224,
+      "Racarumi|XGBoost|+ lluvia observada hasta t (disponibilidad supuesta) frente a Solo caudal|4–7 días": 0.029,
+      "Racarumi|XGBoost|+ lluvia observada hasta t (disponibilidad supuesta) frente a Solo caudal|8–15 días": -0.016,
+      "Racarumi|XGBoost|+ lluvia observada hasta t (disponibilidad supuesta) frente a Solo caudal|16–30 días": -0.031,
+      "Racarumi|XGBoost|+ lluvia futura observada (escenario idealizado) frente a Solo caudal|1–3 días": 0.65,
+      "Racarumi|XGBoost|+ lluvia futura observada (escenario idealizado) frente a Solo caudal|4–7 días": 0.691,
+      "Racarumi|XGBoost|+ lluvia futura observada (escenario idealizado) frente a Solo caudal|8–15 días": 0.691,
+      "Racarumi|XGBoost|+ lluvia futura observada (escenario idealizado) frente a Solo caudal|16–30 días": 0.618,
+      "Racarumi|XGBoost|+ lluvia futura observada (escenario idealizado) frente a + lluvia observada hasta t (disponibilidad supuesta)|1–3 días": 0.548,
+      "Racarumi|XGBoost|+ lluvia futura observada (escenario idealizado) frente a + lluvia observada hasta t (disponibilidad supuesta)|4–7 días": 0.682,
+      "Racarumi|XGBoost|+ lluvia futura observada (escenario idealizado) frente a + lluvia observada hasta t (disponibilidad supuesta)|8–15 días": 0.696,
+      "Racarumi|XGBoost|+ lluvia futura observada (escenario idealizado) frente a + lluvia observada hasta t (disponibilidad supuesta)|16–30 días": 0.63,
+      "Racarumi|Regresión lineal|+ lluvia observada hasta t (disponibilidad supuesta) frente a Solo caudal|1–3 días": 0.118,
+      "Racarumi|Regresión lineal|+ lluvia observada hasta t (disponibilidad supuesta) frente a Solo caudal|4–7 días": -0.059,
+      "Racarumi|Regresión lineal|+ lluvia observada hasta t (disponibilidad supuesta) frente a Solo caudal|8–15 días": -0.049,
+      "Racarumi|Regresión lineal|+ lluvia observada hasta t (disponibilidad supuesta) frente a Solo caudal|16–30 días": 0.023,
+      "Racarumi|Regresión lineal|+ lluvia futura observada (escenario idealizado) frente a Solo caudal|1–3 días": 0.425,
+      "Racarumi|Regresión lineal|+ lluvia futura observada (escenario idealizado) frente a Solo caudal|4–7 días": 0.453,
+      "Racarumi|Regresión lineal|+ lluvia futura observada (escenario idealizado) frente a Solo caudal|8–15 días": 0.51,
+      "Racarumi|Regresión lineal|+ lluvia futura observada (escenario idealizado) frente a Solo caudal|16–30 días": 0.489,
+      "Racarumi|Regresión lineal|+ lluvia futura observada (escenario idealizado) frente a + lluvia observada hasta t (disponibilidad supuesta)|1–3 días": 0.349,
+      "Racarumi|Regresión lineal|+ lluvia futura observada (escenario idealizado) frente a + lluvia observada hasta t (disponibilidad supuesta)|4–7 días": 0.483,
+      "Racarumi|Regresión lineal|+ lluvia futura observada (escenario idealizado) frente a + lluvia observada hasta t (disponibilidad supuesta)|8–15 días": 0.533,
+      "Racarumi|Regresión lineal|+ lluvia futura observada (escenario idealizado) frente a + lluvia observada hasta t (disponibilidad supuesta)|16–30 días": 0.477,
+      "Tamshiyacu|XGBoost|+ lluvia observada hasta t (disponibilidad supuesta) frente a Solo caudal|1–3 días": 0.094,
+      "Tamshiyacu|XGBoost|+ lluvia observada hasta t (disponibilidad supuesta) frente a Solo caudal|4–7 días": 0.124,
+      "Tamshiyacu|XGBoost|+ lluvia observada hasta t (disponibilidad supuesta) frente a Solo caudal|8–15 días": 0.098,
+      "Tamshiyacu|XGBoost|+ lluvia observada hasta t (disponibilidad supuesta) frente a Solo caudal|16–30 días": 0.029,
+      "Tamshiyacu|XGBoost|+ lluvia futura observada (escenario idealizado) frente a Solo caudal|1–3 días": 0.09,
+      "Tamshiyacu|XGBoost|+ lluvia futura observada (escenario idealizado) frente a Solo caudal|4–7 días": 0.123,
+      "Tamshiyacu|XGBoost|+ lluvia futura observada (escenario idealizado) frente a Solo caudal|8–15 días": 0.164,
+      "Tamshiyacu|XGBoost|+ lluvia futura observada (escenario idealizado) frente a Solo caudal|16–30 días": 0.212,
+      "Tamshiyacu|XGBoost|+ lluvia futura observada (escenario idealizado) frente a + lluvia observada hasta t (disponibilidad supuesta)|1–3 días": -0.005,
+      "Tamshiyacu|XGBoost|+ lluvia futura observada (escenario idealizado) frente a + lluvia observada hasta t (disponibilidad supuesta)|4–7 días": -0.001,
+      "Tamshiyacu|XGBoost|+ lluvia futura observada (escenario idealizado) frente a + lluvia observada hasta t (disponibilidad supuesta)|8–15 días": 0.073,
+      "Tamshiyacu|XGBoost|+ lluvia futura observada (escenario idealizado) frente a + lluvia observada hasta t (disponibilidad supuesta)|16–30 días": 0.189,
+      "Tamshiyacu|Regresión lineal|+ lluvia observada hasta t (disponibilidad supuesta) frente a Solo caudal|1–3 días": 0.101,
+      "Tamshiyacu|Regresión lineal|+ lluvia observada hasta t (disponibilidad supuesta) frente a Solo caudal|4–7 días": 0.168,
+      "Tamshiyacu|Regresión lineal|+ lluvia observada hasta t (disponibilidad supuesta) frente a Solo caudal|8–15 días": 0.183,
+      "Tamshiyacu|Regresión lineal|+ lluvia observada hasta t (disponibilidad supuesta) frente a Solo caudal|16–30 días": 0.132,
+      "Tamshiyacu|Regresión lineal|+ lluvia futura observada (escenario idealizado) frente a Solo caudal|1–3 días": 0.102,
+      "Tamshiyacu|Regresión lineal|+ lluvia futura observada (escenario idealizado) frente a Solo caudal|4–7 días": 0.171,
+      "Tamshiyacu|Regresión lineal|+ lluvia futura observada (escenario idealizado) frente a Solo caudal|8–15 días": 0.265,
+      "Tamshiyacu|Regresión lineal|+ lluvia futura observada (escenario idealizado) frente a Solo caudal|16–30 días": 0.35,
+      "Tamshiyacu|Regresión lineal|+ lluvia futura observada (escenario idealizado) frente a + lluvia observada hasta t (disponibilidad supuesta)|1–3 días": 0.001,
+      "Tamshiyacu|Regresión lineal|+ lluvia futura observada (escenario idealizado) frente a + lluvia observada hasta t (disponibilidad supuesta)|4–7 días": 0.003,
+      "Tamshiyacu|Regresión lineal|+ lluvia futura observada (escenario idealizado) frente a + lluvia observada hasta t (disponibilidad supuesta)|8–15 días": 0.101,
+      "Tamshiyacu|Regresión lineal|+ lluvia futura observada (escenario idealizado) frente a + lluvia observada hasta t (disponibilidad supuesta)|16–30 días": 0.251
+    },
+    "h_cota": {
+      "Racarumi|XGBoost|Solo caudal": 6,
+      "Racarumi|XGBoost|+ lluvia observada hasta t (disponibilidad supuesta)": 6,
+      "Racarumi|XGBoost|+ lluvia futura observada (escenario idealizado)": 30,
+      "Racarumi|Regresión lineal|Solo caudal": 5,
+      "Racarumi|Regresión lineal|+ lluvia observada hasta t (disponibilidad supuesta)": 4,
+      "Racarumi|Regresión lineal|+ lluvia futura observada (escenario idealizado)": 30,
+      "Tamshiyacu|XGBoost|Solo caudal": 30,
+      "Tamshiyacu|XGBoost|+ lluvia observada hasta t (disponibilidad supuesta)": 30,
+      "Tamshiyacu|XGBoost|+ lluvia futura observada (escenario idealizado)": 30,
+      "Tamshiyacu|Regresión lineal|Solo caudal": 21,
+      "Tamshiyacu|Regresión lineal|+ lluvia observada hasta t (disponibilidad supuesta)": 25,
+      "Tamshiyacu|Regresión lineal|+ lluvia futura observada (escenario idealizado)": 30
+    },
+    "avisos_racarumi": {
+      "XGBoost": {
+        "evaluables": 32,
+        "aciertos": 25,
+        "falsas_alarmas": 14,
+        "FAR": 0.358974358974359,
+        "anticipacion_util": 17,
+        "anticipacion_util_conjunto_fijo": 6
+      },
+      "Regresión lineal": {
+        "evaluables": 32,
+        "aciertos": 24,
+        "falsas_alarmas": 5,
+        "FAR": 0.1724137931034483,
+        "anticipacion_util": 4,
+        "anticipacion_util_conjunto_fijo": 2
+      }
+    }
+  },
+  "cache": {
+    "politica": "solo identidad completa idéntica; sin migración",
+    "combinaciones": 66,
+    "leidas_de_cache": 66
+  },
+  "minutos": 34.8
+}

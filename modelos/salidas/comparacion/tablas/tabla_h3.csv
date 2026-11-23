@@ -1,0 +1,5 @@
+estación,periodo,modelo,H cota 95 % (d),H puntual (d),H p05–p95 (d),NSE ≥ 0.5 hasta (d),"rango entre los 6 modelos, H cota (d)"
+Racarumi,fechas comunes,LSTM,6,11,6–30,7,4–6
+Racarumi,prueba completa,LSTM,6,11,6–30,7,4–6
+Tamshiyacu,fechas comunes,XGBoost,22,30,22–30,30,17–27
+Tamshiyacu,prueba completa,XGBoost,30,30,30–30,30,21–30

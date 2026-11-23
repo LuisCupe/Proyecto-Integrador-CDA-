@@ -1,0 +1,11 @@
+estación,entrada,+/+,≈/≈,≈/+,+/≈,−/−,−/≈,≈/−,−/+,+/−
+Tamshiyacu,SR,17,5,2,0,0,0,0,0,0
+Tamshiyacu,SR con latencia 1 d,9,8,5,2,0,0,0,0,0
+Tamshiyacu,retraso de SR (t−1 frente a t),0,3,0,0,18,2,1,0,0
+Tamshiyacu,RQ,0,14,0,1,2,3,3,1,0
+Tamshiyacu,RQ con latencia 1 d,0,15,0,0,4,1,4,0,0
+Tamshiyacu,retraso de RQ (t−1 frente a t),0,15,1,0,0,3,5,0,0
+Tamshiyacu,RQ sobre SR,0,16,0,3,1,1,1,0,2
+Tamshiyacu,SR sobre RQ,19,3,0,2,0,0,0,0,0
+Tamshiyacu,"RQ sobre SR, latencia 1 d",0,15,0,0,3,0,5,0,1
+Tamshiyacu,SR + RQ con latencia 1 d,3,11,0,7,0,0,2,0,1

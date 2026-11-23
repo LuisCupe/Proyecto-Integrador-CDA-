@@ -1,0 +1,3 @@
+estación,años hidrológicos,lluvia media (mm/año),escorrentía media (mm/año),Q/P medio,Q/P mínimo,Q/P máximo,años con Q/P > 1,runoff_ratio de CAMELS-PE,mes más lluvioso,mes de mayor caudal,desfase estacional (meses),r del desfase
+Racarumi,42,1111.929904761905,476.7039683447436,0.43496362149812123,0.28761565947028944,0.5622102296309184,0,0.428,3,3,1,0.9158507531741962
+Tamshiyacu,41,2500.38,1316.7820608354023,0.5383483152622065,0.3364824886732821,0.7613216335015731,0,0.515,2,4,2,0.9796149865451408

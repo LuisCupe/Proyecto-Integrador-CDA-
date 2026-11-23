@@ -1,0 +1,30 @@
+# ── Datos crudos pesados: se descargan aparte (ver el README principal) ──
+CAMELS-PE_v1.0.1/
+*.zip
+*.ZIP
+*.nc
+
+# ── Python y Jupyter ──
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+
+# ── Sistema y Office ──
+.DS_Store
+Thumbs.db
+desktop.ini
+~$*
+*.tmp
+
+# ── Chronos-2 (cuaderno 07): pesos del modelo y caché de cuantiles (se regeneran) ──
+_modelos_hf/
+modelos/salidas/chronos/cache/
+
+# ── Modo rápido (CDA_RAPIDO=1): salidas de prueba, nunca se mezclan con las finales ──
+modelos/salidas_rapido/
+
+# ── Cuadernos 05, 06 y 08: caché de ajustes (se regenera) ──
+modelos/salidas/entradas/cache/

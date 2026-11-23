@@ -1,0 +1,15 @@
+estación,variante,modelo,evaluables,aciertos,omisiones,falsas_alarmas,repetidos,POD,FAR,CSI,anticipacion_util,anticipacion_mediana
+Racarumi,tolerancia 0,MLP,32,8,24,18,0,0.25,0.6923076923076923,0.16,0,1.0
+Racarumi,tolerancia ±1,MLP,32,11,21,14,1,0.34375,0.56,0.2391304347826087,0,2.0
+Racarumi,"principal (±2, 7, 7)",MLP,32,12,20,14,1,0.375,0.5384615384615384,0.2608695652173913,0,2.0
+Racarumi,episodios cada 3 d,MLP,32,12,20,17,1,0.375,0.5862068965517241,0.24489795918367346,0,2.0
+Racarumi,episodios cada 15 d,MLP,32,12,20,14,1,0.375,0.5384615384615384,0.2608695652173913,0,2.0
+Racarumi,reinicio 3 d,MLP,38,19,19,27,1,0.5,0.5869565217391305,0.2923076923076923,0,2.0
+Racarumi,reinicio 14 d,MLP,24,7,17,8,0,0.2916666666666667,0.5333333333333333,0.21875,0,1.0
+Tamshiyacu,tolerancia 0,KNN,3,2,1,1,0,0.6666666666666666,0.3333333333333333,0.5,3,3.0
+Tamshiyacu,tolerancia ±1,KNN,3,3,0,0,0,1.0,0.0,1.0,3,3.0
+Tamshiyacu,"principal (±2, 7, 7)",KNN,3,3,0,0,0,1.0,0.0,1.0,3,3.0
+Tamshiyacu,episodios cada 3 d,KNN,3,3,0,0,1,1.0,0.0,1.0,3,3.0
+Tamshiyacu,episodios cada 15 d,KNN,3,3,0,0,0,1.0,0.0,1.0,3,3.0
+Tamshiyacu,reinicio 3 d,KNN,3,3,0,0,0,1.0,0.0,1.0,3,3.0
+Tamshiyacu,reinicio 14 d,KNN,3,3,0,0,0,1.0,0.0,1.0,3,3.0

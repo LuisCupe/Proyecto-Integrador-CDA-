@@ -1,0 +1,4 @@
+serie,periodo,días en periodo,días vacíos,% vacíos,n rachas,aisladas (≤3 d),medias (4–30 d),largas (>30 d),días en rachas largas,racha máxima (d)
+San Regis,1998-09-01 a 2025-12-31,9984,456,4.57,44,32,10,2,300,153
+Requena,1996-07-01 a 2020-03-31,8675,223,2.57,18,14,3,1,180,180
+Tamshiyacu,1984-09-01 a 2025-12-31,15097,69,0.46,36,29,7,0,0,6

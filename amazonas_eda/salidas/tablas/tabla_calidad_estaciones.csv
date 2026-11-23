@@ -1,0 +1,4 @@
+estación,periodo utilizable,años con dato válido,% vacíos,≥ 15 años,< 10 % vacíos,inconsistencias documentadas,registro completo utilizable,errores eliminados,meses excluidos (4.4),escalones de nivel (2.7),KGE,clasificación
+San Regis,1998-09 a 2025-12,26.1,4.57,True,True,True,True,0,0,17,0.79,apta con reservas
+Requena,1996-07 a 2020-03,22.9,2.57,True,True,True,True,11,3,1,0.917,apta con reservas
+Tamshiyacu,1984-09 a 2025-12,41.1,0.46,True,True,True,True,0,0,41,0.8,apta con reservas

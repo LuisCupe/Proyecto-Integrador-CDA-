@@ -1,0 +1,6 @@
+cuaderno,configuración,papel,f,h_max,N_1 (cruces evaluables),aciertos,omisiones,falsas alarmas,POD,FAR (global),CSI,CSI IC90 (aprox.),anticipación mediana (d),anticipación útil (d),N_A en A = anticipación útil,aciertos en A = anticipación útil,"anticipación útil, conjunto fijo (d)"
+04,Q · MLP,v4 (solo caudal),0.8,7,32,12,20,14,0.375,0.5384615384615384,0.2608695652173913,0.17–0.38,2.0,0,,,0
+04,Q · Tendencia 3 días,v4 (solo caudal),0.8,3,32,23,9,56,0.71875,0.7088607594936709,0.26136363636363635,0.19–0.34,2.0,0,,,0
+08,Q · Chronos-2,solo caudal (familia elegida en validación); Chronos-2 con solo caudal; seleccionada para la magnitud (mismo día); seleccionada para la magnitud (un día de retraso),0.8,15,32,11,21,13,0.34375,0.5416666666666666,0.24444444444444444,0.16–0.36,1.0,0,,,0
+08,Q+P · KNN,seleccionada para avisos (mismo día),0.8,3,32,16,16,21,0.5,0.5675675675675675,0.3018867924528302,0.21–0.41,1.5,0,,,0
+08,Q · Random Forest,seleccionada para avisos (un día de retraso),0.7,3,32,16,16,25,0.5,0.6097560975609756,0.2807017543859649,0.19–0.39,1.5,0,,,0

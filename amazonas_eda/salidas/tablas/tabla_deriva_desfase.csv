@@ -1,0 +1,6 @@
+serie,años con r ≥ 0.5,de años evaluados,desfase mediano (d),P25–P75 (d),Spearman ρ (desfase vs año),p,deriva (p < 0.05)
+San Regis,13,27,-7.0,-7 a -6,0.11834789811772725,0.7001841807649888,False
+Requena,20,24,-12.5,-14 a -8,-0.005303182485611168,0.9822968096343476,False
+Tamshiyacu,17,41,-8.0,-9 a -7,0.3169576739530985,0.21513182914757775,False
+San Regis–Tamshiyacu,27,27,1.0,1 a 2,0.24242909291284825,0.22308427414975923,False
+Requena–Tamshiyacu,19,24,-1.0,-1 a 0,-0.06653086637600734,0.7866887585208076,False

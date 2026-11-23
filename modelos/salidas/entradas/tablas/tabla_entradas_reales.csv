@@ -1,0 +1,29 @@
+estación,combinación,última fecha de las fuentes externas,"variables tabulares (lineal, RF, XGBoost, MLP)",bloques de caudal con ventana (KNN),canales LSTM de fuentes externas (× 30 días; además de log Q local y calendario),Chronos-2: contexto,Chronos-2: covariables pasadas,Chronos-2: último día de las covariables
+Racarumi,Q,—,32,1,0,"caudal de Racarumi (m³/s), 2048 días hasta t",—,—
+Racarumi,Q+P,t,42,1,2,"caudal de Racarumi (m³/s), 2048 días hasta t",lluvia de la cuenca P (mm/d),t
+Racarumi,Q+P (t−1),t−1,42,1,2,"caudal de Racarumi (m³/s), 2048 días hasta t",lluvia de la cuenca P (mm/d),t − 1 (el día t va como desconocido)
+Racarumi,Q+P+IA,t,45,1,5,"caudal de Racarumi (m³/s), 2048 días hasta t",lluvia de la cuenca P (mm/d); IPA k=0.90 (mm); IPA k=0.97 (mm); días secos consecutivos (d),t
+Racarumi,Q+P+IA (t−1),t−1,45,1,5,"caudal de Racarumi (m³/s), 2048 días hasta t",lluvia de la cuenca P (mm/d); IPA k=0.90 (mm); IPA k=0.97 (mm); días secos consecutivos (d),t − 1 (el día t va como desconocido)
+Tamshiyacu,Q,—,32,1,0,"caudal de Tamshiyacu (m³/s), 512 días hasta t",—,—
+Tamshiyacu,Q+P,t,42,1,2,"caudal de Tamshiyacu (m³/s), 512 días hasta t",lluvia de la cuenca P (mm/d),t
+Tamshiyacu,Q+P (t−1),t−1,42,1,2,"caudal de Tamshiyacu (m³/s), 512 días hasta t",lluvia de la cuenca P (mm/d),t − 1 (el día t va como desconocido)
+Tamshiyacu,Q+P+IA,t,45,1,5,"caudal de Tamshiyacu (m³/s), 512 días hasta t",lluvia de la cuenca P (mm/d); IPA k=0.90 (mm); IPA k=0.97 (mm); días secos consecutivos (d),t
+Tamshiyacu,Q+P+IA (t−1),t−1,45,1,5,"caudal de Tamshiyacu (m³/s), 512 días hasta t",lluvia de la cuenca P (mm/d); IPA k=0.90 (mm); IPA k=0.97 (mm); días secos consecutivos (d),t − 1 (el día t va como desconocido)
+Tamshiyacu,Q+SR,t,62,2,2,"caudal de Tamshiyacu (m³/s), 512 días hasta t",caudal de San Regis (m³/s),t
+Tamshiyacu,Q+SR (t−1),t−1,62,2,2,"caudal de Tamshiyacu (m³/s), 512 días hasta t",caudal de San Regis (m³/s),t − 1 (el día t va como desconocido)
+Tamshiyacu,Q+P+SR,t,72,2,4,"caudal de Tamshiyacu (m³/s), 512 días hasta t",lluvia de la cuenca P (mm/d); caudal de San Regis (m³/s),t
+Tamshiyacu,Q+P+SR (t−1),t−1,72,2,4,"caudal de Tamshiyacu (m³/s), 512 días hasta t",lluvia de la cuenca P (mm/d); caudal de San Regis (m³/s),t − 1 (el día t va como desconocido)
+Tamshiyacu,Q+P+IA+SR,t,75,2,7,"caudal de Tamshiyacu (m³/s), 512 días hasta t",lluvia de la cuenca P (mm/d); IPA k=0.90 (mm); IPA k=0.97 (mm); días secos consecutivos (d); caudal de San Regis (m³/s),t
+Tamshiyacu,Q+P+IA+SR (t−1),t−1,75,2,7,"caudal de Tamshiyacu (m³/s), 512 días hasta t",lluvia de la cuenca P (mm/d); IPA k=0.90 (mm); IPA k=0.97 (mm); días secos consecutivos (d); caudal de San Regis (m³/s),t − 1 (el día t va como desconocido)
+Tamshiyacu,Q+RQ,t,62,2,2,"caudal de Tamshiyacu (m³/s), 512 días hasta t",caudal de Requena (m³/s),t
+Tamshiyacu,Q+RQ (t−1),t−1,62,2,2,"caudal de Tamshiyacu (m³/s), 512 días hasta t",caudal de Requena (m³/s),t − 1 (el día t va como desconocido)
+Tamshiyacu,Q+P+RQ,t,72,2,4,"caudal de Tamshiyacu (m³/s), 512 días hasta t",lluvia de la cuenca P (mm/d); caudal de Requena (m³/s),t
+Tamshiyacu,Q+P+RQ (t−1),t−1,72,2,4,"caudal de Tamshiyacu (m³/s), 512 días hasta t",lluvia de la cuenca P (mm/d); caudal de Requena (m³/s),t − 1 (el día t va como desconocido)
+Tamshiyacu,Q+P+IA+RQ,t,75,2,7,"caudal de Tamshiyacu (m³/s), 512 días hasta t",lluvia de la cuenca P (mm/d); IPA k=0.90 (mm); IPA k=0.97 (mm); días secos consecutivos (d); caudal de Requena (m³/s),t
+Tamshiyacu,Q+P+IA+RQ (t−1),t−1,75,2,7,"caudal de Tamshiyacu (m³/s), 512 días hasta t",lluvia de la cuenca P (mm/d); IPA k=0.90 (mm); IPA k=0.97 (mm); días secos consecutivos (d); caudal de Requena (m³/s),t − 1 (el día t va como desconocido)
+Tamshiyacu,Q+SR+RQ,t,92,3,4,"caudal de Tamshiyacu (m³/s), 512 días hasta t",caudal de San Regis (m³/s); caudal de Requena (m³/s),t
+Tamshiyacu,Q+SR+RQ (t−1),t−1,92,3,4,"caudal de Tamshiyacu (m³/s), 512 días hasta t",caudal de San Regis (m³/s); caudal de Requena (m³/s),t − 1 (el día t va como desconocido)
+Tamshiyacu,Q+P+SR+RQ,t,102,3,6,"caudal de Tamshiyacu (m³/s), 512 días hasta t",lluvia de la cuenca P (mm/d); caudal de San Regis (m³/s); caudal de Requena (m³/s),t
+Tamshiyacu,Q+P+SR+RQ (t−1),t−1,102,3,6,"caudal de Tamshiyacu (m³/s), 512 días hasta t",lluvia de la cuenca P (mm/d); caudal de San Regis (m³/s); caudal de Requena (m³/s),t − 1 (el día t va como desconocido)
+Tamshiyacu,Q+P+IA+SR+RQ,t,105,3,9,"caudal de Tamshiyacu (m³/s), 512 días hasta t",lluvia de la cuenca P (mm/d); IPA k=0.90 (mm); IPA k=0.97 (mm); días secos consecutivos (d); caudal de San Regis (m³/s); caudal de Requena (m³/s),t
+Tamshiyacu,Q+P+IA+SR+RQ (t−1),t−1,105,3,9,"caudal de Tamshiyacu (m³/s), 512 días hasta t",lluvia de la cuenca P (mm/d); IPA k=0.90 (mm); IPA k=0.97 (mm); días secos consecutivos (d); caudal de San Regis (m³/s); caudal de Requena (m³/s),t − 1 (el día t va como desconocido)

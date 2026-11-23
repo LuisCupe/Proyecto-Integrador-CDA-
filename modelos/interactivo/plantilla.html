@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Pronóstico de Caudales</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@75..100,400..800&family=Source+Sans+3:ital,wght@0,400..700;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Mismo lenguaje visual que el observatorio EDA: sala de monitoreo hidrológico. */
+:root{
+  --bg:#eef2f2; --surface:#ffffff; --surface-2:#f5f8f8; --sunk:#e3e9ea;
+  --ink:#13232a; --ink-2:#44565e; --ink-3:#6c7d85; --line:#cdd8db; --line-2:#e1e8ea;
+  --accent:#0b6e86; --accent-ink:#ffffff; --accent-soft:#dbeef2;
+  --good:#1d7a4c; --good-soft:#dcf1e5; --warn:#a35f00; --warn-soft:#fbecd2; --bad:#b4322a; --bad-soft:#f8dfdc;
+  --rac:#e07b00; --tam:#1f5fa8;
+  --m-pers:#7f7f7f; --m-clim:#a8a21c; --m-lin:#1f77b4; --m-rf:#2ca02c; --m-gb:#d62728; --m-mlp:#9467bd; --m-lstm:#ff7f0e; --m-comb:#17a2b8; --m-tend:#555f66;
+  --grid:rgba(19,35,42,.08); --legend-bg:rgba(255,255,255,.86);
+  --f-display:"Archivo","Arial Narrow",Arial,sans-serif;
+  --f-body:"Source Sans 3","Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  --f-mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
+  --top:56px;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0c151a; --surface:#121e24; --surface-2:#17252c; --sunk:#0a1216;
+  --ink:#e4edf0; --ink-2:#a9bac1; --ink-3:#7e9199; --line:#2a3b43; --line-2:#1f2e35;
+  --accent:#4cb3cf; --accent-ink:#06171d; --accent-soft:#163541;
+  --good:#5cc48d; --good-soft:#163527; --warn:#e5a540; --warn-soft:#3a2b12; --bad:#ef7a70; --bad-soft:#3c1a17;
+  --rac:#f0962e; --tam:#5a9be8;
+  --m-pers:#a3a3a3; --m-clim:#cfc84a; --m-lin:#5aa7e0; --m-rf:#5cc45c; --m-gb:#ef6a6a; --m-mlp:#b896db; --m-lstm:#ffa046; --m-comb:#3fc5d8; --m-tend:#a9b4ba;
+  --grid:rgba(228,237,240,.08); --legend-bg:rgba(18,30,36,.88);
+  color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0c151a; --surface:#121e24; --surface-2:#17252c; --sunk:#0a1216;
+  --ink:#e4edf0; --ink-2:#a9bac1; --ink-3:#7e9199; --line:#2a3b43; --line-2:#1f2e35;
+  --accent:#4cb3cf; --accent-ink:#06171d; --accent-soft:#163541;
+  --good:#5cc48d; --good-soft:#163527; --warn:#e5a540; --warn-soft:#3a2b12; --bad:#ef7a70; --bad-soft:#3c1a17;
+  --rac:#f0962e; --tam:#5a9be8;
+  --m-pers:#a3a3a3; --m-clim:#cfc84a; --m-lin:#5aa7e0; --m-rf:#5cc45c; --m-gb:#ef6a6a; --m-mlp:#b896db; --m-lstm:#ffa046; --m-comb:#3fc5d8; --m-tend:#a9b4ba;
+  --grid:rgba(228,237,240,.08); --legend-bg:rgba(18,30,36,.88);
+  color-scheme:dark}
+
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:15px;line-height:1.5;-webkit-font-smoothing:antialiased}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:60;background:var(--surface)}
+button,select,input{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+a{color:var(--accent)}
+h1,h2,h3,h4{font-family:var(--f-display);text-wrap:balance;margin:0;line-height:1.15}
+.n{font-family:var(--f-mono);font-variant-numeric:tabular-nums}
+.wrap{padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+
+.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:50;background:var(--surface);border-bottom:1px solid var(--line)}
+.top-in{display:flex;align-items:center;gap:14px;min-height:var(--top);max-width:1500px;margin:0 auto}
+.marca{display:flex;flex-direction:column;line-height:1.1;flex:none}
+.marca b{font-family:var(--f-display);font-stretch:85%;font-weight:750;font-size:1.02rem}
+.marca span{font-size:.72rem;color:var(--ink-3);text-transform:uppercase;letter-spacing:.09em;font-weight:600}
+.pest{display:flex;gap:2px;overflow-x:auto;scrollbar-width:none;flex:1;min-width:0;align-self:stretch}
+.pest::-webkit-scrollbar{display:none}
+.pest button{flex:none;display:flex;align-items:center;gap:7px;background:none;border:0;border-bottom:3px solid transparent;padding:0 12px;font-weight:600;font-size:.92rem;color:var(--ink-2);cursor:pointer;white-space:nowrap}
+.pest button:hover{color:var(--ink)}
+.pest button[aria-selected="true"]{color:var(--ink);border-bottom-color:var(--c,var(--accent))}
+.pest .pt{width:10px;height:10px;border-radius:50%;background:var(--c,var(--accent))}
+.pest .pt.sq{border-radius:2px;background:none;border:2px solid var(--ink-3)}
+.tema{flex:none;border:1px solid var(--line);background:var(--surface-2);border-radius:999px;padding:5px 11px;font-size:.8rem;cursor:pointer;color:var(--ink-2)}
+
+.vista{max-width:1500px;margin:0 auto;padding-block:18px 56px}
+.cab{margin-bottom:16px;display:grid;gap:4px}
+.cab h1{font-size:clamp(1.45rem,2.8vw,2.2rem);font-weight:780;font-stretch:82%}
+.cab p{margin:0;color:var(--ink-2);max-width:92ch}
+.eyebrow{font-size:.72rem;text-transform:uppercase;letter-spacing:.1em;font-weight:700;color:var(--ink-3)}
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:10px;min-width:0}
+.panel>header{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:8px 14px;padding:12px 16px 0}
+.panel>header h2{font-size:1.06rem;font-weight:700}
+.panel>header .sub{font-size:.82rem;color:var(--ink-3);width:100%}
+.panel .cuerpo{padding:10px 16px 16px;min-width:0}
+.g-2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.g-2>*,.g-3>*{min-width:0}
+.pila{display:grid;gap:14px}
+
+/* tarjetas de respuesta */
+.resp{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.card{position:relative;background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:16px 18px 14px 22px;overflow:hidden;cursor:pointer;text-align:left}
+.card::before{content:"";position:absolute;inset:0 auto 0 0;width:6px;background:var(--c)}
+.card:hover{border-color:var(--c)}
+.card .t{display:flex;justify-content:space-between;gap:10px;align-items:baseline;flex-wrap:wrap}
+.card h2{font-size:1.25rem;font-weight:760;font-stretch:86%}
+.card .cu{font-size:.82rem;color:var(--ink-3)}
+.card .big{display:flex;flex-direction:column;align-items:flex-start;gap:4px;margin:8px 0 2px}
+.card .big>b{font-family:var(--f-display);font-stretch:80%;font-size:clamp(2.1rem,4.4vw,3.2rem);font-weight:800;line-height:1;color:var(--c);white-space:nowrap}
+.card .big span b{color:var(--ink);font-weight:700}
+.card .big span{color:var(--ink-2);font-size:.92rem;max-width:24ch;line-height:1.25}
+.card .dos{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:4px 18px}
+.card .big.alt>b{color:var(--ink)}
+.kpis{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:1px;background:var(--line);border:1px solid var(--line);border-radius:8px;overflow:hidden;margin-top:10px}
+.kpi{background:var(--surface-2);padding:8px 11px;min-width:0}
+.kpi .l{font-size:.66rem;text-transform:uppercase;letter-spacing:.07em;color:var(--ink-3);font-weight:700}
+.kpi .v{font-family:var(--f-display);font-stretch:88%;font-size:1.2rem;font-weight:700;font-variant-numeric:tabular-nums;line-height:1.2}
+.kpi .s{font-size:.72rem;color:var(--ink-2)}
+
+/* controles */
+.ctrl{display:flex;flex-wrap:wrap;align-items:center;gap:8px 14px;font-size:.85rem;color:var(--ink-2)}
+.ctrl label{display:inline-flex;align-items:center;gap:6px}
+.seg{display:inline-flex;border:1px solid var(--line);border-radius:7px;overflow:hidden;background:var(--surface-2);flex-wrap:wrap}
+.seg button{border:0;background:none;padding:4px 10px;font-size:.82rem;cursor:pointer;color:var(--ink-2);font-family:var(--f-mono)}
+.seg button.txt{font-family:var(--f-body)}
+.seg button+button{border-left:1px solid var(--line)}
+.seg button[aria-pressed="true"]{background:var(--accent);color:var(--accent-ink);font-weight:600}
+select{border:1px solid var(--line);background:var(--surface-2);border-radius:7px;padding:4px 8px;font-size:.85rem;max-width:100%}
+input[type=range]{accent-color:var(--accent);width:180px}
+.chip{display:inline-flex;align-items:center;gap:6px;font-size:.78rem;font-weight:650;border-radius:999px;padding:2px 10px}
+.ok{color:var(--good);background:var(--good-soft)} .med{color:var(--warn);background:var(--warn-soft)} .no{color:var(--bad);background:var(--bad-soft)}
+
+.fig{width:100%;min-height:320px}
+.cifras{display:flex;flex-wrap:wrap;gap:6px 18px;font-size:.84rem;color:var(--ink-2);padding-top:6px}
+.cifras b{font-family:var(--f-mono);color:var(--ink);font-weight:500}
+
+/* prosa */
+.prosa{font-size:.93rem;color:var(--ink-2);max-width:100ch;overflow-wrap:anywhere}
+.prosa p{margin:.35rem 0}
+.prosa ul,.prosa ol{margin:.3rem 0;padding-left:1.25rem}
+.prosa li{margin:.15rem 0}
+.prosa strong{color:var(--ink)}
+.prosa table{border-collapse:collapse;font-size:.86rem;margin:.5rem 0;width:100%}
+.prosa th,.prosa td{border-bottom:1px solid var(--line-2);padding:6px 8px;text-align:left;vertical-align:top}
+.prosa th{font-size:.72rem;text-transform:uppercase;letter-spacing:.05em;color:var(--ink-3)}
+.prosa h3,.prosa h4{font-size:1rem;margin:.6rem 0 .2rem;color:var(--ink)}
+details.lect{border-top:1px dashed var(--line);margin-top:10px;padding-top:8px}
+details.lect summary{cursor:pointer;font-weight:650;color:var(--accent);font-size:.88rem}
+
+/* tablas */
+.tw{overflow-x:auto}
+table.t{width:100%;border-collapse:collapse;font-size:.85rem}
+table.t th,table.t td{padding:7px 8px;border-bottom:1px solid var(--line-2);text-align:right;white-space:nowrap}
+table.t th:first-child,table.t td:first-child,table.t th:nth-child(2),table.t td:nth-child(2){text-align:left}
+table.t thead th{font-size:.7rem;text-transform:uppercase;letter-spacing:.05em;color:var(--ink-3);cursor:pointer;user-select:none;position:sticky;top:0;background:var(--surface)}
+table.t td.n{font-family:var(--f-mono)}
+table.t tr.mejor td{background:var(--accent-soft)}
+.dot{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:6px;vertical-align:0}
+
+/* estación */
+.ficha{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:10px 20px;align-items:end;margin-bottom:14px}
+.ficha h1{font-size:clamp(1.6rem,3.4vw,2.5rem);font-weight:790;font-stretch:80%}
+.ficha .kpis{margin:0;min-width:min(620px,100%)}
+.sec{scroll-margin-top:calc(var(--top) + 16px)}
+.sec+.sec{margin-top:16px}
+.indice{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:14px}
+.indice a{font-size:.82rem;text-decoration:none;border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:3px 11px;color:var(--ink-2)}
+.indice a:hover{border-color:var(--accent);color:var(--ink)}
+.met{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:14px}
+.met .panel{padding:12px 14px}
+.met h3{font-size:.95rem;margin-bottom:4px}
+.met p{margin:0;font-size:.86rem;color:var(--ink-2)}
+footer.pie{max-width:1500px;margin:0 auto;padding:18px 0 36px;font-size:.8rem;color:var(--ink-3);border-top:1px solid var(--line)}
+
+@media (max-width:980px){.g-2,.resp{grid-template-columns:minmax(0,1fr)}.ficha{grid-template-columns:minmax(0,1fr)}}
+@media (max-width:640px){.kpis{grid-template-columns:repeat(2,minmax(0,1fr))}.marca span{display:none}input[type=range]{width:130px}}
+</style>
+</head>
+<body>
+<header class="top"><div class="top-in wrap">
+  <div class="marca"><b>¿Cuánto aviso nos da un río?</b><span>Modelamiento · 3.5–3.6</span></div>
+  <nav class="pest" role="tablist" aria-label="Vistas" id="pest"></nav>
+  <button class="tema" id="tema" type="button">Tema oscuro</button>
+</div></header>
+<main id="app" class="wrap"></main>
+<footer class="pie wrap">Fuente: CAMELS-PE v1.0.1 (SENAMHI; Llauca et al., 2026), caudal observado depurado en el EDA. Pronósticos con solo el caudal pasado de cada estación. Proyecto Integrador, Ciencia de Datos Ambientales, UTEC · Luis Angel Cupe Espinoza, Yely Lanasca Justiniano, Lia Kim Alcantara Tineo, Mayra Madelyn Marzano Mejia y María Fernanda Torres Carbajal.</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/plotly.js/2.35.2/plotly.min.js"></script>
+<script>window.MOD = "{{DATOS}}";</script>
+<script>
+/*{{APP}}*/
+</script>
+</body>
+</html>

@@ -1,0 +1,4 @@
+estación,periodo de prueba de la selección,entrenamiento,validación,Duan 2009–2011,selección 2012–2015,prueba,P95 (m³/s),combinaciones de entradas
+Racarumi,prueba 2016-01 a 2023-08,9247 (1981-04-01 a 2008-12-01),2371,972,1369,2521 (2016-01-01 a 2023-08-01),111.2,"Q, Q+P, Q+P (t−1), Q+P+IA, Q+P+IA (t−1)"
+Tamshiyacu,con San Regis (prueba 2016-01 a 2025-12),2847 (1998-10-01 a 2008-12-01),1928,760,1138,2806 (2016-01-01 a 2025-12-01),47602.8,"Q, Q+P, Q+P (t−1), Q+P+IA, Q+P+IA (t−1), Q+SR, Q+SR (t−1), Q+P+SR, Q+P+SR (t−1), Q+P+IA+SR, Q+P+IA+SR (t−1)"
+Tamshiyacu,común con Requena (prueba 2016-01 a 2020-03),2847 (1998-10-01 a 2008-12-01),1928,760,1138,1093 (2016-01-01 a 2020-03-31),47602.8,"Q, Q+P, Q+P (t−1), Q+P+IA, Q+P+IA (t−1), Q+SR, Q+SR (t−1), Q+P+SR, Q+P+SR (t−1), Q+P+IA+SR, Q+P+IA+SR (t−1), Q+RQ, Q+RQ (t−1), Q+P+RQ, Q+P+RQ (t−1), Q+P+IA+RQ, Q+P+IA+RQ (t−1), Q+SR+RQ, Q+SR+RQ (t−1), Q+P+SR+RQ, Q+P+SR+RQ (t−1), Q+P+IA+SR+RQ, Q+P+IA+SR+RQ (t−1)"

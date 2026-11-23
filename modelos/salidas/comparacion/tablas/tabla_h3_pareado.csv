@@ -1,0 +1,10 @@
+,bootstrap pareado (modelo seleccionado de cada estación)
+réplicas,2000.0
+P(H Tamshiyacu > H Racarumi),0.8655
+diferencia p05 (d),-1.0
+diferencia mediana (d),17.0
+diferencia p95 (d),24.0
+P(razón ≥ 2),0.605
+P(razón ≥ 5),0.0945
+razón p05 (cota inferior),0.9655172413793104
+"P(H Tamshiyacu = 30, censurado)",0.588

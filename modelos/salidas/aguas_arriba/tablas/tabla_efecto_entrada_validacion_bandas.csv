@@ -1,0 +1,241 @@
+estación,entrada,modelo,banda,G,IC90 inferior,IC90 superior,lectura
+Tamshiyacu,SR,Regresión lineal,1–3 días,0.36880342417198075,0.2933754089860036,0.44628629681787685,reduce el error
+Tamshiyacu,SR,Regresión lineal,4–7 días,0.16845516835261753,0.10688308049717812,0.22928714371444545,reduce el error
+Tamshiyacu,SR,Regresión lineal,8–15 días,0.08506849381655857,0.019752378220227126,0.13910373154398595,reduce el error
+Tamshiyacu,SR,Regresión lineal,16–30 días,0.06753479308572519,0.004664976868624277,0.10926639610658619,reduce el error
+Tamshiyacu,SR,Random Forest,1–3 días,0.2627190905183572,0.19404385691521112,0.32364971690323496,reduce el error
+Tamshiyacu,SR,Random Forest,4–7 días,0.15591457070863046,0.09614001850687409,0.20662743226370225,reduce el error
+Tamshiyacu,SR,Random Forest,8–15 días,0.09568811550762801,0.04034348169033768,0.14143465452891885,reduce el error
+Tamshiyacu,SR,Random Forest,16–30 días,0.051976069630627175,-0.033150853197357874,0.10907055232863011,sin diferencia demostrada
+Tamshiyacu,SR,XGBoost,1–3 días,0.2965609306311279,0.22379244259641112,0.35646176026623755,reduce el error
+Tamshiyacu,SR,XGBoost,4–7 días,0.1621173117148459,0.09868324957792073,0.2185739118597074,reduce el error
+Tamshiyacu,SR,XGBoost,8–15 días,0.08859432824556979,0.03827621422555351,0.1367435970162241,reduce el error
+Tamshiyacu,SR,XGBoost,16–30 días,0.008120603006883553,-0.062321632888833314,0.052981011574561344,sin diferencia demostrada
+Tamshiyacu,SR,KNN,1–3 días,0.24506375608002207,0.19006003716388714,0.29253806966280654,reduce el error
+Tamshiyacu,SR,KNN,4–7 días,0.12501020421405407,0.07998539959382005,0.16655583269727287,reduce el error
+Tamshiyacu,SR,KNN,8–15 días,0.041192323919245766,-0.0018133204789377503,0.08270873626813319,sin diferencia demostrada
+Tamshiyacu,SR,KNN,16–30 días,0.023903297895827458,-0.02314258316446206,0.056286735377182165,sin diferencia demostrada
+Tamshiyacu,SR,MLP,1–3 días,0.31855408387608264,0.240930807436909,0.3912066154223247,reduce el error
+Tamshiyacu,SR,MLP,4–7 días,0.18312174558772842,0.12904505660654939,0.23517365157608514,reduce el error
+Tamshiyacu,SR,MLP,8–15 días,0.07477186904778699,0.030893618845699317,0.12244848006117885,reduce el error
+Tamshiyacu,SR,MLP,16–30 días,0.06083899760706257,-0.0012545400548565446,0.12619642041001877,sin diferencia demostrada
+Tamshiyacu,SR,LSTM,1–3 días,0.3405210127141891,0.23082209983759736,0.4317370110853026,reduce el error
+Tamshiyacu,SR,LSTM,4–7 días,0.14250415898786706,0.0067940245361957936,0.2553390048824067,reduce el error
+Tamshiyacu,SR,LSTM,8–15 días,0.012002397461470471,-0.12699204825971497,0.12394561821960955,sin diferencia demostrada
+Tamshiyacu,SR,LSTM,16–30 días,-0.03820891517132896,-0.15929895346292258,0.0693376027010151,sin diferencia demostrada
+Tamshiyacu,SR con latencia 1 d,Regresión lineal,1–3 días,0.08353066137733534,0.03321469466177979,0.13589724434427727,reduce el error
+Tamshiyacu,SR con latencia 1 d,Regresión lineal,4–7 días,0.03272752951464275,-0.010402063050604959,0.07379264877863169,sin diferencia demostrada
+Tamshiyacu,SR con latencia 1 d,Regresión lineal,8–15 días,0.05232153437629883,-0.008492533121094603,0.10159661274397612,sin diferencia demostrada
+Tamshiyacu,SR con latencia 1 d,Regresión lineal,16–30 días,0.059255439320675896,-0.010361228658096598,0.10334489036431034,sin diferencia demostrada
+Tamshiyacu,SR con latencia 1 d,Random Forest,1–3 días,0.04760590898272621,0.02176848398997752,0.07241932011743386,reduce el error
+Tamshiyacu,SR con latencia 1 d,Random Forest,4–7 días,0.048019217645692835,0.023132667492282905,0.07007811334558202,reduce el error
+Tamshiyacu,SR con latencia 1 d,Random Forest,8–15 días,0.06139227589117502,0.01810347736776997,0.09688602584537716,reduce el error
+Tamshiyacu,SR con latencia 1 d,Random Forest,16–30 días,0.016255957236502305,-0.08285848785703444,0.07949295495536778,sin diferencia demostrada
+Tamshiyacu,SR con latencia 1 d,XGBoost,1–3 días,0.08291687713921259,0.058788441317065586,0.10840195331826394,reduce el error
+Tamshiyacu,SR con latencia 1 d,XGBoost,4–7 días,0.04982727591688829,0.024426773466138103,0.07903846286137532,reduce el error
+Tamshiyacu,SR con latencia 1 d,XGBoost,8–15 días,0.04444886019095584,0.006549931316825847,0.07431319650355696,reduce el error
+Tamshiyacu,SR con latencia 1 d,XGBoost,16–30 días,-0.01208048395711181,-0.08680145046517783,0.039795200584931884,sin diferencia demostrada
+Tamshiyacu,SR con latencia 1 d,KNN,1–3 días,0.011939614308517643,-0.019403253365813455,0.0419564938283561,sin diferencia demostrada
+Tamshiyacu,SR con latencia 1 d,KNN,4–7 días,-0.00013988322090341399,-0.028277373035532415,0.029099559860706066,sin diferencia demostrada
+Tamshiyacu,SR con latencia 1 d,KNN,8–15 días,0.00429365226092282,-0.021562168033395578,0.031395014478207924,sin diferencia demostrada
+Tamshiyacu,SR con latencia 1 d,KNN,16–30 días,0.019263389868390268,-0.019461686073257833,0.046462611089324216,sin diferencia demostrada
+Tamshiyacu,SR con latencia 1 d,MLP,1–3 días,0.07898019284957813,0.035746355282960586,0.12324824865175336,reduce el error
+Tamshiyacu,SR con latencia 1 d,MLP,4–7 días,0.06487871163747216,0.024440950102618344,0.10183794679173712,reduce el error
+Tamshiyacu,SR con latencia 1 d,MLP,8–15 días,0.04122711860595474,0.001068714113609781,0.08834847136512862,reduce el error
+Tamshiyacu,SR con latencia 1 d,MLP,16–30 días,0.04881293204245596,-0.005835791419459257,0.10705302388262833,sin diferencia demostrada
+Tamshiyacu,SR con latencia 1 d,LSTM,1–3 días,0.1531957961681023,0.05450542248431325,0.2323999723372718,reduce el error
+Tamshiyacu,SR con latencia 1 d,LSTM,4–7 días,0.043946516310079176,-0.07737905026312944,0.13311721118749315,sin diferencia demostrada
+Tamshiyacu,SR con latencia 1 d,LSTM,8–15 días,-0.017601305476270257,-0.1397443254705211,0.0711748371870488,sin diferencia demostrada
+Tamshiyacu,SR con latencia 1 d,LSTM,16–30 días,-0.027217941122233302,-0.14533099233620364,0.0758765896814335,sin diferencia demostrada
+Tamshiyacu,retraso de SR (t−1 frente a t),Regresión lineal,1–3 días,-0.4519554980481597,-0.5931758766666408,-0.3243982464792152,aumenta el error
+Tamshiyacu,retraso de SR (t−1 frente a t),Regresión lineal,4–7 días,-0.1632234771624801,-0.21934121730769948,-0.1108409061740696,aumenta el error
+Tamshiyacu,retraso de SR (t−1 frente a t),Regresión lineal,8–15 días,-0.035791705957160413,-0.058258074542922235,-0.013760188767181583,aumenta el error
+Tamshiyacu,retraso de SR (t−1 frente a t),Regresión lineal,16–30 días,-0.00887899484469501,-0.018077343747356388,-0.0014831078889978259,aumenta el error
+Tamshiyacu,retraso de SR (t−1 frente a t),Random Forest,1–3 días,-0.2917655655655995,-0.3876003097405556,-0.2018608907162199,aumenta el error
+Tamshiyacu,retraso de SR (t−1 frente a t),Random Forest,4–7 días,-0.12782515764253688,-0.17670503006070995,-0.07593914623712765,aumenta el error
+Tamshiyacu,retraso de SR (t−1 frente a t),Random Forest,8–15 días,-0.03792479144040506,-0.06998687661159396,-0.0074361621326275665,aumenta el error
+Tamshiyacu,retraso de SR (t−1 frente a t),Random Forest,16–30 días,-0.03767849233532261,-0.07327318346870867,-0.0033191802776227635,aumenta el error
+Tamshiyacu,retraso de SR (t−1 frente a t),XGBoost,1–3 días,-0.30371365878724577,-0.4269880215376185,-0.18250592663473378,aumenta el error
+Tamshiyacu,retraso de SR (t−1 frente a t),XGBoost,4–7 días,-0.13401641705687362,-0.2006406624030128,-0.06259028476874841,aumenta el error
+Tamshiyacu,retraso de SR (t−1 frente a t),XGBoost,8–15 días,-0.04843668349093666,-0.08906780283770337,-0.01425462904640752,aumenta el error
+Tamshiyacu,retraso de SR (t−1 frente a t),XGBoost,16–30 días,-0.020366475022301156,-0.0402383750670265,-0.0039294074326049755,aumenta el error
+Tamshiyacu,retraso de SR (t−1 frente a t),KNN,1–3 días,-0.30879977435050154,-0.38328120488388284,-0.2355692226890717,aumenta el error
+Tamshiyacu,retraso de SR (t−1 frente a t),KNN,4–7 días,-0.14303033936817888,-0.17579882196757915,-0.10730875756975,aumenta el error
+Tamshiyacu,retraso de SR (t−1 frente a t),KNN,8–15 días,-0.038483913488418064,-0.06524108395274095,-0.01018971657130062,aumenta el error
+Tamshiyacu,retraso de SR (t−1 frente a t),KNN,16–30 días,-0.004753533146290678,-0.022136304893085823,0.01511159677212939,sin diferencia demostrada
+Tamshiyacu,retraso de SR (t−1 frente a t),MLP,1–3 días,-0.35156699212346476,-0.46774429744179813,-0.2419292069607922,aumenta el error
+Tamshiyacu,retraso de SR (t−1 frente a t),MLP,4–7 días,-0.1447498856917544,-0.1903766137908267,-0.0998455500385213,aumenta el error
+Tamshiyacu,retraso de SR (t−1 frente a t),MLP,8–15 días,-0.03625565341091508,-0.06416291111505472,-0.008653368460661018,aumenta el error
+Tamshiyacu,retraso de SR (t−1 frente a t),MLP,16–30 días,-0.012805115985400572,-0.03245999525601333,0.006865640456874814,sin diferencia demostrada
+Tamshiyacu,retraso de SR (t−1 frente a t),LSTM,1–3 días,-0.2840503187479151,-0.38653778627346913,-0.20082388736525114,aumenta el error
+Tamshiyacu,retraso de SR (t−1 frente a t),LSTM,4–7 días,-0.11493658390396022,-0.19763859034277306,-0.045176307030185915,aumenta el error
+Tamshiyacu,retraso de SR (t−1 frente a t),LSTM,8–15 días,-0.029963334791175633,-0.10607330509311941,0.039031778091970164,sin diferencia demostrada
+Tamshiyacu,retraso de SR (t−1 frente a t),LSTM,16–30 días,0.010586476275135759,-0.038604337891805306,0.0614505411227848,sin diferencia demostrada
+Tamshiyacu,RQ,Regresión lineal,1–3 días,-0.0017626106489727622,-0.03477445726897275,0.026824984410360013,sin diferencia demostrada
+Tamshiyacu,RQ,Regresión lineal,4–7 días,-0.00455271731152318,-0.044440985485059224,0.03826610926435147,sin diferencia demostrada
+Tamshiyacu,RQ,Regresión lineal,8–15 días,-0.003802277940496701,-0.05879572662160643,0.05357473851958015,sin diferencia demostrada
+Tamshiyacu,RQ,Regresión lineal,16–30 días,0.014742361415071348,-0.042602501766758116,0.07295063549490043,sin diferencia demostrada
+Tamshiyacu,RQ,Random Forest,1–3 días,-0.013949564818326099,-0.03504869034536919,0.007380845878992726,sin diferencia demostrada
+Tamshiyacu,RQ,Random Forest,4–7 días,0.003973527004088928,-0.01724506919137908,0.027225672205847724,sin diferencia demostrada
+Tamshiyacu,RQ,Random Forest,8–15 días,0.02274942020660964,-0.008548104784810783,0.06279382043956566,sin diferencia demostrada
+Tamshiyacu,RQ,Random Forest,16–30 días,0.036819109433451014,-0.006021177476197979,0.09573926181482882,sin diferencia demostrada
+Tamshiyacu,RQ,XGBoost,1–3 días,-0.016076724934074527,-0.045306047698940755,0.012049600073453976,sin diferencia demostrada
+Tamshiyacu,RQ,XGBoost,4–7 días,-0.004091648217535493,-0.024140474240749887,0.018719385773968915,sin diferencia demostrada
+Tamshiyacu,RQ,XGBoost,8–15 días,0.024790940434596953,0.0035516009942925587,0.05390236804911199,reduce el error
+Tamshiyacu,RQ,XGBoost,16–30 días,0.043779646120110094,-0.019795768131311654,0.12263956529380335,sin diferencia demostrada
+Tamshiyacu,RQ,KNN,1–3 días,-0.07046949546206238,-0.11665305249300842,-0.025772977684466753,aumenta el error
+Tamshiyacu,RQ,KNN,4–7 días,-0.038084978838625494,-0.06423384300396295,-0.004947868487308863,aumenta el error
+Tamshiyacu,RQ,KNN,8–15 días,-0.0142796754755119,-0.06413714918618227,0.037644982372891427,sin diferencia demostrada
+Tamshiyacu,RQ,KNN,16–30 días,0.010243635624026748,-0.06464855413552931,0.10212287310848034,sin diferencia demostrada
+Tamshiyacu,RQ,MLP,1–3 días,-0.011634983993383585,-0.06883416211730849,0.033652884392645396,sin diferencia demostrada
+Tamshiyacu,RQ,MLP,4–7 días,0.011657507812520729,-0.05501156278118985,0.07521704129602437,sin diferencia demostrada
+Tamshiyacu,RQ,MLP,8–15 días,0.02614214273228399,-0.040855430689964944,0.09243910619012448,sin diferencia demostrada
+Tamshiyacu,RQ,MLP,16–30 días,0.013900974360059881,-0.07626071083515654,0.10938480576530606,sin diferencia demostrada
+Tamshiyacu,RQ,LSTM,1–3 días,-0.1581951493851972,-0.36444679322875123,-0.015613667103323554,aumenta el error
+Tamshiyacu,RQ,LSTM,4–7 días,-0.22540621237517167,-0.4809539789462236,-0.04031157953058352,aumenta el error
+Tamshiyacu,RQ,LSTM,8–15 días,-0.28955460521084797,-0.6362191724527313,-0.0391686336794518,aumenta el error
+Tamshiyacu,RQ,LSTM,16–30 días,-0.4237270170093055,-0.8529977158358972,-0.05773645183663159,aumenta el error
+Tamshiyacu,RQ con latencia 1 d,Regresión lineal,1–3 días,-0.012765806199315888,-0.03606613690361723,0.007219590593666377,sin diferencia demostrada
+Tamshiyacu,RQ con latencia 1 d,Regresión lineal,4–7 días,-0.00998655089778211,-0.045358122137126124,0.029011827802115153,sin diferencia demostrada
+Tamshiyacu,RQ con latencia 1 d,Regresión lineal,8–15 días,-0.007525815830592197,-0.06063637842082557,0.04886204811916371,sin diferencia demostrada
+Tamshiyacu,RQ con latencia 1 d,Regresión lineal,16–30 días,0.010262107853027502,-0.04688311929552835,0.06769261841740967,sin diferencia demostrada
+Tamshiyacu,RQ con latencia 1 d,Random Forest,1–3 días,-0.013523151658036747,-0.03073695475495645,0.0019233037594153385,sin diferencia demostrada
+Tamshiyacu,RQ con latencia 1 d,Random Forest,4–7 días,0.00170168515808089,-0.021003537830781814,0.023496131217908583,sin diferencia demostrada
+Tamshiyacu,RQ con latencia 1 d,Random Forest,8–15 días,0.018927263934379268,-0.01193049183786563,0.05802519182825511,sin diferencia demostrada
+Tamshiyacu,RQ con latencia 1 d,Random Forest,16–30 días,0.027160134335076358,-0.014649782374665521,0.08232481668627413,sin diferencia demostrada
+Tamshiyacu,RQ con latencia 1 d,XGBoost,1–3 días,-0.0013492981608258514,-0.01263372080284556,0.010852032626328011,sin diferencia demostrada
+Tamshiyacu,RQ con latencia 1 d,XGBoost,4–7 días,0.0021626017610384407,-0.013906402624149739,0.019654050715370245,sin diferencia demostrada
+Tamshiyacu,RQ con latencia 1 d,XGBoost,8–15 días,0.024574960815890168,-0.002319227373496657,0.05697326781076613,sin diferencia demostrada
+Tamshiyacu,RQ con latencia 1 d,XGBoost,16–30 días,0.03569454697425223,-0.02734934785161712,0.1149896885877965,sin diferencia demostrada
+Tamshiyacu,RQ con latencia 1 d,KNN,1–3 días,-0.07961628985690172,-0.11797577571898764,-0.04178113749261084,aumenta el error
+Tamshiyacu,RQ con latencia 1 d,KNN,4–7 días,-0.041302011605275135,-0.06913513736543815,-0.006333678580183798,aumenta el error
+Tamshiyacu,RQ con latencia 1 d,KNN,8–15 días,-0.01760733073259657,-0.07239850866714599,0.03605318563771192,sin diferencia demostrada
+Tamshiyacu,RQ con latencia 1 d,KNN,16–30 días,0.013992283669312156,-0.06629742270438495,0.10443169966352693,sin diferencia demostrada
+Tamshiyacu,RQ con latencia 1 d,MLP,1–3 días,-0.027550651202706167,-0.07307026725346523,0.007319743063123145,sin diferencia demostrada
+Tamshiyacu,RQ con latencia 1 d,MLP,4–7 días,-0.016794515566969537,-0.0832557499387916,0.04383516171775774,sin diferencia demostrada
+Tamshiyacu,RQ con latencia 1 d,MLP,8–15 días,0.0054403810590114565,-0.06185444737768071,0.06965589621955501,sin diferencia demostrada
+Tamshiyacu,RQ con latencia 1 d,MLP,16–30 días,0.002600934750373929,-0.08944331689270538,0.09812067629326467,sin diferencia demostrada
+Tamshiyacu,RQ con latencia 1 d,LSTM,1–3 días,-0.14699624740124495,-0.36665660692193136,0.015442076301468412,sin diferencia demostrada
+Tamshiyacu,RQ con latencia 1 d,LSTM,4–7 días,-0.21815462136533958,-0.5024939599758333,-0.008115190135040154,aumenta el error
+Tamshiyacu,RQ con latencia 1 d,LSTM,8–15 días,-0.3110092158809612,-0.7106741365302145,-0.02436989245842914,aumenta el error
+Tamshiyacu,RQ con latencia 1 d,LSTM,16–30 días,-0.4039648343536062,-0.847913805541512,-0.030591209673492003,aumenta el error
+Tamshiyacu,retraso de RQ (t−1 frente a t),Regresión lineal,1–3 días,-0.01098383532523206,-0.029934878119936937,0.007341046479089028,sin diferencia demostrada
+Tamshiyacu,retraso de RQ (t−1 frente a t),Regresión lineal,4–7 días,-0.005409206995926841,-0.018843599815642386,0.007621876466608273,sin diferencia demostrada
+Tamshiyacu,retraso de RQ (t−1 frente a t),Regresión lineal,8–15 días,-0.0037094335925744737,-0.010061991705366934,0.0022703665217836053,sin diferencia demostrada
+Tamshiyacu,retraso de RQ (t−1 frente a t),Regresión lineal,16–30 días,-0.004547291374952911,-0.0095962341209745,0.0009194288341662344,sin diferencia demostrada
+Tamshiyacu,retraso de RQ (t−1 frente a t),Random Forest,1–3 días,0.00042054671660685106,-0.010661120806963176,0.010060708786124558,sin diferencia demostrada
+Tamshiyacu,retraso de RQ (t−1 frente a t),Random Forest,4–7 días,-0.0022809050839529554,-0.011845999702397558,0.005544995545315795,sin diferencia demostrada
+Tamshiyacu,retraso de RQ (t−1 frente a t),Random Forest,8–15 días,-0.003911132263578088,-0.014878637465967225,0.004238546712837902,sin diferencia demostrada
+Tamshiyacu,retraso de RQ (t−1 frente a t),Random Forest,16–30 días,-0.010028204663293572,-0.0314003275222706,0.0024817740940041547,sin diferencia demostrada
+Tamshiyacu,retraso de RQ (t−1 frente a t),XGBoost,1–3 días,0.014494404223464707,-0.00602554348321519,0.0390023068794149,sin diferencia demostrada
+Tamshiyacu,retraso de RQ (t−1 frente a t),XGBoost,4–7 días,0.00622876406718087,-0.006369865216512115,0.017968274019336115,sin diferencia demostrada
+Tamshiyacu,retraso de RQ (t−1 frente a t),XGBoost,8–15 días,-0.00022147007002071284,-0.011541768496623583,0.009399514517580946,sin diferencia demostrada
+Tamshiyacu,retraso de RQ (t−1 frente a t),XGBoost,16–30 días,-0.008455267776985131,-0.01738998314860619,-0.0014758746889116843,aumenta el error
+Tamshiyacu,retraso de RQ (t−1 frente a t),KNN,1–3 días,-0.00854465674511462,-0.028625298736299286,0.010032997964727385,sin diferencia demostrada
+Tamshiyacu,retraso de RQ (t−1 frente a t),KNN,4–7 días,-0.0030990071451073575,-0.02494645252349148,0.015686553825652347,sin diferencia demostrada
+Tamshiyacu,retraso de RQ (t−1 frente a t),KNN,8–15 días,-0.0032808064063045705,-0.018759298863870143,0.01023396529497137,sin diferencia demostrada
+Tamshiyacu,retraso de RQ (t−1 frente a t),KNN,16–30 días,0.003787445254417543,-0.009489623133891489,0.01411559420874579,sin diferencia demostrada
+Tamshiyacu,retraso de RQ (t−1 frente a t),MLP,1–3 días,-0.015732618445534863,-0.03801674389106827,0.00583112424987192,sin diferencia demostrada
+Tamshiyacu,retraso de RQ (t−1 frente a t),MLP,4–7 días,-0.028787615228925256,-0.0489014729437084,-0.012193092760243624,aumenta el error
+Tamshiyacu,retraso de RQ (t−1 frente a t),MLP,8–15 días,-0.02125747768915054,-0.043569002161150186,-0.004072842855420582,aumenta el error
+Tamshiyacu,retraso de RQ (t−1 frente a t),MLP,16–30 días,-0.011459335539199644,-0.027692422339942836,0.0024250896317822746,sin diferencia demostrada
+Tamshiyacu,retraso de RQ (t−1 frente a t),LSTM,1–3 días,0.009669270321065349,-0.031941163081505575,0.046388690612394944,sin diferencia demostrada
+Tamshiyacu,retraso de RQ (t−1 frente a t),LSTM,4–7 días,0.005917703808418273,-0.041114878212188885,0.047482696564157684,sin diferencia demostrada
+Tamshiyacu,retraso de RQ (t−1 frente a t),LSTM,8–15 días,-0.016637225429166902,-0.08305086139970223,0.04056650299951011,sin diferencia demostrada
+Tamshiyacu,retraso de RQ (t−1 frente a t),LSTM,16–30 días,0.013880598190242899,-0.05654482651323216,0.0719465795141113,sin diferencia demostrada
+Tamshiyacu,RQ sobre SR,Regresión lineal,1–3 días,0.037252817854137144,0.0036600691155987022,0.06844916712232295,reduce el error
+Tamshiyacu,RQ sobre SR,Regresión lineal,4–7 días,0.008765728683125085,-0.0309150478763792,0.04676462761291611,sin diferencia demostrada
+Tamshiyacu,RQ sobre SR,Regresión lineal,8–15 días,-0.01741757761662388,-0.06449432708919875,0.036026248209629984,sin diferencia demostrada
+Tamshiyacu,RQ sobre SR,Regresión lineal,16–30 días,-0.001758562940055164,-0.04799927908919549,0.05127696936699286,sin diferencia demostrada
+Tamshiyacu,RQ sobre SR,Random Forest,1–3 días,-0.021423528085765975,-0.042203139831649104,-0.002358075337831482,aumenta el error
+Tamshiyacu,RQ sobre SR,Random Forest,4–7 días,-0.005297508643817839,-0.02210942434792327,0.01033007393385448,sin diferencia demostrada
+Tamshiyacu,RQ sobre SR,Random Forest,8–15 días,0.00838504490593539,-0.03091182916717535,0.048101612168607116,sin diferencia demostrada
+Tamshiyacu,RQ sobre SR,Random Forest,16–30 días,0.033089678339167206,-0.0190988971088784,0.09653751427440262,sin diferencia demostrada
+Tamshiyacu,RQ sobre SR,XGBoost,1–3 días,0.008245732214382628,-0.04002489529016674,0.044691729774818396,sin diferencia demostrada
+Tamshiyacu,RQ sobre SR,XGBoost,4–7 días,0.007963092834765928,-0.01362835896596003,0.031928318218906133,sin diferencia demostrada
+Tamshiyacu,RQ sobre SR,XGBoost,8–15 días,0.02189487129358625,0.0011330839438921999,0.050691641572507565,reduce el error
+Tamshiyacu,RQ sobre SR,XGBoost,16–30 días,0.069002408290876,0.004213890657262517,0.14758430980675494,reduce el error
+Tamshiyacu,RQ sobre SR,KNN,1–3 días,-0.04738173177548943,-0.11131619408365985,0.012072720763179898,sin diferencia demostrada
+Tamshiyacu,RQ sobre SR,KNN,4–7 días,-0.02926896394711065,-0.061683904712979874,0.0037617663778023716,sin diferencia demostrada
+Tamshiyacu,RQ sobre SR,KNN,8–15 días,-0.018205776692581388,-0.05573219859002698,0.02138596395661188,sin diferencia demostrada
+Tamshiyacu,RQ sobre SR,KNN,16–30 días,-0.019745316174246685,-0.08575681127227677,0.05157288101926856,sin diferencia demostrada
+Tamshiyacu,RQ sobre SR,MLP,1–3 días,0.06747655426518273,0.012442624209196394,0.12393929819142233,reduce el error
+Tamshiyacu,RQ sobre SR,MLP,4–7 días,0.052589126400302555,0.004853075588902073,0.10384835339230826,reduce el error
+Tamshiyacu,RQ sobre SR,MLP,8–15 días,0.05414964243063003,-0.0064816205290570954,0.12339606966507068,sin diferencia demostrada
+Tamshiyacu,RQ sobre SR,MLP,16–30 días,0.04021702174271358,-0.04124983141138304,0.13758288379907674,sin diferencia demostrada
+Tamshiyacu,RQ sobre SR,LSTM,1–3 días,-0.24462075120160875,-0.42449609825771006,-0.0977105655385673,aumenta el error
+Tamshiyacu,RQ sobre SR,LSTM,4–7 días,-0.048809872687306965,-0.18443874101233068,0.07742848614948189,sin diferencia demostrada
+Tamshiyacu,RQ sobre SR,LSTM,8–15 días,0.04712441221635677,-0.08973709095963328,0.1804976377627497,sin diferencia demostrada
+Tamshiyacu,RQ sobre SR,LSTM,16–30 días,0.07280438877013462,-0.052156966436016514,0.20040239005048657,sin diferencia demostrada
+Tamshiyacu,SR sobre RQ,Regresión lineal,1–3 días,0.3933864986587319,0.3161473509433109,0.4703150834308147,reduce el error
+Tamshiyacu,SR sobre RQ,Regresión lineal,4–7 días,0.17947986097608104,0.1261323300027952,0.23081349874091994,reduce el error
+Tamshiyacu,SR sobre RQ,Regresión lineal,8–15 días,0.07265861299284093,0.014509011323019972,0.1201257364677276,reduce el error
+Tamshiyacu,SR sobre RQ,Regresión lineal,16–30 días,0.05191802723635941,0.0039220357888505395,0.08261687223024589,reduce el error
+Tamshiyacu,SR sobre RQ,Random Forest,1–3 días,0.2572844903898608,0.19491940971634053,0.31610210829765356,reduce el error
+Tamshiyacu,SR sobre RQ,Random Forest,4–7 días,0.1480578055352102,0.09767038648589346,0.1940508865628636,reduce el error
+Tamshiyacu,SR sobre RQ,Random Forest,8–15 días,0.08239584885023221,0.03898292467875586,0.11721164809801038,reduce el error
+Tamshiyacu,SR sobre RQ,Random Forest,16–30 días,0.04830532620260397,-0.030329686291692012,0.09607298872048887,sin diferencia demostrada
+Tamshiyacu,SR sobre RQ,XGBoost,1–3 días,0.31339958680877533,0.24632274774197743,0.3732491259448663,reduce el error
+Tamshiyacu,SR sobre RQ,XGBoost,4–7 días,0.17217661143854535,0.12195924548917843,0.21835440432528164,reduce el error
+Tamshiyacu,SR sobre RQ,XGBoost,8–15 días,0.08588773542321992,0.04204439111417327,0.12851056196990837,reduce el error
+Tamshiyacu,SR sobre RQ,XGBoost,16–30 días,0.03428396381689891,-0.035318819474104944,0.07591393043899583,sin diferencia demostrada
+Tamshiyacu,SR sobre RQ,KNN,1–3 días,0.2613461346736595,0.2125060309786891,0.30644639948382485,reduce el error
+Tamshiyacu,SR sobre RQ,KNN,4–7 días,0.13244112097599636,0.09841593306680625,0.16456505485870732,reduce el error
+Tamshiyacu,SR sobre RQ,KNN,8–15 días,0.037480945218660744,0.0055284066885889944,0.0673090879868382,reduce el error
+Tamshiyacu,SR sobre RQ,KNN,16–30 días,-0.0056717753276838145,-0.06236520282776786,0.03254010488711563,sin diferencia demostrada
+Tamshiyacu,SR sobre RQ,MLP,1–3 días,0.3718442878701882,0.2879735671325221,0.4508271489699486,reduce el error
+Tamshiyacu,SR sobre RQ,MLP,4–7 días,0.21695227438372566,0.1625066237208133,0.2704278382336623,reduce el error
+Tamshiyacu,SR sobre RQ,MLP,8–15 días,0.10138081038882474,0.04951020264266999,0.1613791375042663,reduce el error
+Tamshiyacu,SR sobre RQ,MLP,16–30 días,0.08590240888350509,0.02705351739261923,0.1534242576827372,reduce el error
+Tamshiyacu,SR sobre RQ,LSTM,1–3 días,0.2913100758598006,0.2064596558583495,0.384086771980124,reduce el error
+Tamshiyacu,SR sobre RQ,LSTM,4–7 días,0.2660800192136741,0.1447791590547082,0.3931015100274248,reduce el error
+Tamshiyacu,SR sobre RQ,LSTM,8–15 días,0.2699504212977455,0.07626328228507115,0.43796068159595214,reduce el error
+Tamshiyacu,SR sobre RQ,LSTM,16–30 días,0.32387126311006564,0.033991892709934475,0.5145390046053304,reduce el error
+Tamshiyacu,"RQ sobre SR, latencia 1 d",Regresión lineal,1–3 días,-0.006901870122505871,-0.030013577628882827,0.011997186352317394,sin diferencia demostrada
+Tamshiyacu,"RQ sobre SR, latencia 1 d",Regresión lineal,4–7 días,-0.01893934838212652,-0.055428586896176954,0.021244344300571445,sin diferencia demostrada
+Tamshiyacu,"RQ sobre SR, latencia 1 d",Regresión lineal,8–15 días,-0.03340910336821645,-0.08087284622345994,0.02221029139250279,sin diferencia demostrada
+Tamshiyacu,"RQ sobre SR, latencia 1 d",Regresión lineal,16–30 días,-0.012238933550981601,-0.05878405251553287,0.04104058500905385,sin diferencia demostrada
+Tamshiyacu,"RQ sobre SR, latencia 1 d",Random Forest,1–3 días,-0.016006660294747288,-0.027040099165317355,-0.0047264015428259655,aumenta el error
+Tamshiyacu,"RQ sobre SR, latencia 1 d",Random Forest,4–7 días,-0.0063415448512815775,-0.019279218412927714,0.007579836137823401,sin diferencia demostrada
+Tamshiyacu,"RQ sobre SR, latencia 1 d",Random Forest,8–15 días,0.010169432477367124,-0.022064845562384194,0.0449290644676776,sin diferencia demostrada
+Tamshiyacu,"RQ sobre SR, latencia 1 d",Random Forest,16–30 días,0.02568809906888525,-0.012759183089844982,0.07360718049588744,sin diferencia demostrada
+Tamshiyacu,"RQ sobre SR, latencia 1 d",XGBoost,1–3 días,-0.0010752262978386273,-0.012235561897232572,0.010374441361039705,sin diferencia demostrada
+Tamshiyacu,"RQ sobre SR, latencia 1 d",XGBoost,4–7 días,0.00529920145131102,-0.008430598872470906,0.020661147369266303,sin diferencia demostrada
+Tamshiyacu,"RQ sobre SR, latencia 1 d",XGBoost,8–15 días,0.025437948366578533,-0.00046492832588944605,0.05531108411943176,sin diferencia demostrada
+Tamshiyacu,"RQ sobre SR, latencia 1 d",XGBoost,16–30 días,0.06612923982306262,0.00015746521500146438,0.1437366373832199,reduce el error
+Tamshiyacu,"RQ sobre SR, latencia 1 d",KNN,1–3 días,-0.042483371979919804,-0.07938444384818083,-0.009151377985462122,aumenta el error
+Tamshiyacu,"RQ sobre SR, latencia 1 d",KNN,4–7 días,-0.021306213066345947,-0.04750781826396642,0.007093996068315982,sin diferencia demostrada
+Tamshiyacu,"RQ sobre SR, latencia 1 d",KNN,8–15 días,-0.013792143059001782,-0.05878456735149221,0.03284861318821464,sin diferencia demostrada
+Tamshiyacu,"RQ sobre SR, latencia 1 d",KNN,16–30 días,-0.024448677102060667,-0.0982021526254175,0.046546463635634194,sin diferencia demostrada
+Tamshiyacu,"RQ sobre SR, latencia 1 d",MLP,1–3 días,0.010744066350026116,-0.04592686071553976,0.06450934020614792,sin diferencia demostrada
+Tamshiyacu,"RQ sobre SR, latencia 1 d",MLP,4–7 días,0.026294085461013195,-0.0341330725204728,0.09068569308144143,sin diferencia demostrada
+Tamshiyacu,"RQ sobre SR, latencia 1 d",MLP,8–15 días,0.04905389970152241,-0.011331175021031734,0.11416198782535247,sin diferencia demostrada
+Tamshiyacu,"RQ sobre SR, latencia 1 d",MLP,16–30 días,0.03936279250834995,-0.04613966127393527,0.13953321399099183,sin diferencia demostrada
+Tamshiyacu,"RQ sobre SR, latencia 1 d",LSTM,1–3 días,-0.11466244976750328,-0.20777669009956415,-0.019670805179771638,aumenta el error
+Tamshiyacu,"RQ sobre SR, latencia 1 d",LSTM,4–7 días,-0.02984174225214642,-0.1266879882254284,0.07074155017814576,sin diferencia demostrada
+Tamshiyacu,"RQ sobre SR, latencia 1 d",LSTM,8–15 días,-0.014870631110384558,-0.13208466738411134,0.10830498031584838,sin diferencia demostrada
+Tamshiyacu,"RQ sobre SR, latencia 1 d",LSTM,16–30 días,-0.04783463040802238,-0.19983527885404145,0.08853827725510828,sin diferencia demostrada
+Tamshiyacu,SR + RQ con latencia 1 d,Regresión lineal,1–3 días,0.07720530903090295,0.026995407064278384,0.12857005453808093,reduce el error
+Tamshiyacu,SR + RQ con latencia 1 d,Regresión lineal,4–7 días,0.014408019215680357,-0.02964023760231117,0.059730375224278445,sin diferencia demostrada
+Tamshiyacu,SR + RQ con latencia 1 d,Regresión lineal,8–15 días,0.0206604465584439,-0.04643260001081494,0.08078881015700297,sin diferencia demostrada
+Tamshiyacu,SR + RQ con latencia 1 d,Regresión lineal,16–30 días,0.047741729154074264,-0.03732795971809011,0.11024607257760054,sin diferencia demostrada
+Tamshiyacu,SR + RQ con latencia 1 d,Random Forest,1–3 días,0.0323612603010881,0.005723877685449747,0.05702933223434813,reduce el error
+Tamshiyacu,SR + RQ con latencia 1 d,Random Forest,4–7 días,0.04198218881683491,0.013198263436030234,0.06944725393501124,reduce el error
+Tamshiyacu,SR + RQ con latencia 1 d,Random Forest,8–15 días,0.07093738376423497,0.03673881857547547,0.10406441104841783,reduce el error
+Tamshiyacu,SR + RQ con latencia 1 d,Random Forest,16–30 días,0.04152647166543666,-0.031176690386853567,0.08822451589744906,sin diferencia demostrada
+Tamshiyacu,SR + RQ con latencia 1 d,XGBoost,1–3 días,0.08193080524820873,0.05910844746575099,0.1095791711177826,reduce el error
+Tamshiyacu,SR + RQ con latencia 1 d,XGBoost,4–7 días,0.05486243259534562,0.028631246833304997,0.0860707989172884,reduce el error
+Tamshiyacu,SR + RQ con latencia 1 d,XGBoost,8–15 días,0.06875612074704363,0.029618623430677476,0.10396864314319165,reduce el error
+Tamshiyacu,SR + RQ con latencia 1 d,XGBoost,16–30 días,0.054847629086729355,-0.014971655365436308,0.11877521803679601,sin diferencia demostrada
+Tamshiyacu,SR + RQ con latencia 1 d,KNN,1–3 días,-0.030036522595436654,-0.06996907982398987,0.0076725195627842194,sin diferencia demostrada
+Tamshiyacu,SR + RQ con latencia 1 d,KNN,4–7 días,-0.021449076668958345,-0.052966607457307226,0.01897996723908239,sin diferencia demostrada
+Tamshiyacu,SR + RQ con latencia 1 d,KNN,8–15 días,-0.009439272131850585,-0.06812140738443341,0.04771793520472197,sin diferencia demostrada
+Tamshiyacu,SR + RQ con latencia 1 d,KNN,16–30 días,-0.004714322834887152,-0.10546615424169138,0.07682620836571377,sin diferencia demostrada
+Tamshiyacu,SR + RQ con latencia 1 d,MLP,1–3 días,0.08887569076729052,0.026420952578175016,0.15261487206149502,reduce el error
+Tamshiyacu,SR + RQ con latencia 1 d,MLP,4–7 días,0.0894668707100893,0.019172332571574014,0.1656444610351255,reduce el error
+Tamshiyacu,SR + RQ con latencia 1 d,MLP,8–15 días,0.08825866736639787,0.008373994506348164,0.1752653247401536,reduce el error
+Tamshiyacu,SR + RQ con latencia 1 d,MLP,16–30 días,0.08625431123509453,-0.03944057955352846,0.21982770356116627,sin diferencia demostrada
+Tamshiyacu,SR + RQ con latencia 1 d,LSTM,1–3 días,0.056099151683316806,0.02214139163645889,0.086610502908965,reduce el error
+Tamshiyacu,SR + RQ con latencia 1 d,LSTM,4–7 días,0.015416214670537887,-0.03108760309439169,0.05809430385639078,sin diferencia demostrada
+Tamshiyacu,SR + RQ con latencia 1 d,LSTM,8–15 días,-0.03273367910745373,-0.10181582404487653,0.037435285047381174,sin diferencia demostrada
+Tamshiyacu,SR + RQ con latencia 1 d,LSTM,16–30 días,-0.07635453168430506,-0.2122406401896597,0.034209552404134085,sin diferencia demostrada

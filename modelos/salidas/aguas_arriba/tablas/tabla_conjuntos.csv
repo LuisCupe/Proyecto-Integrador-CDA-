@@ -1,0 +1,8 @@
+conjunto,disponibilidad,variables tabulares,canales LSTM,prueba,prueba extendida,minutos de ajuste (6 modelos)
+Q,solo caudal local (hasta t),32,4,"2016-01-01 a 2025-12-01 (2,806)",2969,5.549294058481852
+Q+SR,caudal local hasta t; San Regis hasta t (disponibilidad supuesta),62,6,"2016-01-01 a 2025-12-01 (2,806)",2969,14.837023746967315
+Q+SR (t−1),caudal local hasta t; San Regis hasta t−1,62,6,"2016-01-01 a 2025-12-01 (2,806)",2969,8.164151620864867
+Q+RQ,caudal local hasta t; Requena hasta t (disponibilidad supuesta),62,6,"2016-01-01 a 2020-03-31 (1,098)",1148,7.43500881989797
+Q+RQ (t−1),caudal local hasta t; Requena hasta t−1,62,6,"2016-01-01 a 2020-03-31 (1,098)",1148,8.233000711599987
+Q+SR+RQ,"caudal local hasta t; San Regis, Requena hasta t (disponibilidad supuesta)",92,8,"2016-01-01 a 2020-03-31 (1,098)",1148,11.514549672603607
+Q+SR+RQ (t−1),"caudal local hasta t; San Regis, Requena hasta t−1",92,8,"2016-01-01 a 2020-03-31 (1,098)",1148,11.053297702471415

@@ -1,0 +1,5 @@
+periodo de prueba,escenario,seleccionada en validación,NSE medio (prueba),H cota 95 % (d),mayor NSE medio observado en la prueba (no se elige con él)
+con San Regis (prueba 2016-01 a 2025-12),mismo día,Q · KNN,0.9063442558863231,30,Q+SR · MLP (0.913)
+con San Regis (prueba 2016-01 a 2025-12),un día de retraso,Q · KNN,0.9063442558863231,30,Q+SR (t−1) · MLP (0.911)
+común con Requena (prueba 2016-01 a 2020-03),mismo día,Q+SR · KNN,0.8550539326381673,18,Q+SR · MLP (0.874)
+común con Requena (prueba 2016-01 a 2020-03),un día de retraso,Q · KNN,0.8497020884478117,17,Q · MLP (0.870)

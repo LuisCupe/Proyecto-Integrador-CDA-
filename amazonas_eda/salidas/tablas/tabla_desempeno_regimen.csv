@@ -1,0 +1,10 @@
+estación,régimen,n,umbral (m³/s),PBIAS (%),RMSE (m³/s),error relativo mediano (%)
+San Regis,bajos (<P30),2864,13918 / 24978,12.7,3751.7,8.42
+San Regis,medios (P30–P90),5712,13918 / 24978,-1.72,3747.19,-1.07
+San Regis,altos (>P90),952,13918 / 24978,-7.59,3618.45,-7.84
+Requena,bajos (<P30),2509,7209 / 19077,9.19,1879.99,10.49
+Requena,medios (P30–P90),5017,7209 / 19077,-1.15,2550.57,-1.48
+Requena,altos (>P90),834,7209 / 19077,-5.13,1814.06,-4.25
+Tamshiyacu,bajos (<P30),4513,22173 / 45381,13.37,6321.77,11.26
+Tamshiyacu,medios (P30–P90),9012,22173 / 45381,-1.16,7593.2,-0.82
+Tamshiyacu,altos (>P90),1503,22173 / 45381,-9.26,7913.28,-9.14

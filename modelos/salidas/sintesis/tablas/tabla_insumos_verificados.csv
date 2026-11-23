@@ -1,0 +1,16 @@
+insumo,grupo,validado
+CAMELS-PE_v1.0.1/CAMELS-PE/03_timeseries/by_catchment/PE_200907.csv,entradas_sha256,True
+CAMELS-PE_v1.0.1/CAMELS-PE/02_attributes/topographic_attributes.csv,entradas_sha256,True
+chancay_eda/salidas/tablas/tabla_outliers_eliminados.csv,entradas_sha256,True
+CAMELS-PE_v1.0.1/CAMELS-PE/03_timeseries/by_catchment/PE_240103.csv,entradas_sha256,True
+amazonas_eda/salidas/tablas/tabla_outliers_eliminados.csv,entradas_sha256,True
+amazonas_eda/salidas/tablas/tabla_atribucion_balance.csv,entradas_sha256,True
+CAMELS-PE_v1.0.1/CAMELS-PE/03_timeseries/by_catchment/PE_220105.csv,entradas_sha256,True
+CAMELS-PE_v1.0.1/CAMELS-PE/03_timeseries/by_catchment/PE_250101.csv,entradas_sha256,True
+CAMELS-PE_v1.0.1/CAMELS-PE/03_timeseries/by_catchment/PE_4724D566.csv,entradas_sha256,True
+comun.py,codigo_sha256,True
+aguas_arriba.py,codigo_sha256,True
+lluvia.py,codigo_sha256,True
+chronos2.py,codigo_sha256,True
+entradas.py,codigo_sha256,True
+integrado.py,codigo_sha256,True

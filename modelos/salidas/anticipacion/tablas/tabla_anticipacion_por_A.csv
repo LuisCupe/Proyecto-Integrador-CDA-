@@ -1,0 +1,1081 @@
+A,evaluables,aciertos,aciertos_tardios,omisiones,falsas_alarmas,POD,CSI,no_evaluables_a_A,POD_conjunto_fijo,estación,modelo,regla
+1,32,9,0,23,15,0.28125,0.19148936170212766,0,0.28125,Racarumi,Regresión lineal,calibrada
+2,30,4,4,26,15,0.13333333333333333,0.08888888888888889,2,0.125,Racarumi,Regresión lineal,calibrada
+3,29,1,6,28,15,0.034482758620689655,0.022727272727272728,3,0.03125,Racarumi,Regresión lineal,calibrada
+4,28,0,6,28,15,0.0,0.0,4,0.0,Racarumi,Regresión lineal,calibrada
+5,26,0,6,26,15,0.0,0.0,6,0.0,Racarumi,Regresión lineal,calibrada
+6,24,0,5,24,15,0.0,0.0,8,0.0,Racarumi,Regresión lineal,calibrada
+7,24,0,5,24,15,0.0,0.0,8,0.0,Racarumi,Regresión lineal,calibrada
+8,24,0,5,24,15,0.0,0.0,8,0.0,Racarumi,Regresión lineal,calibrada
+9,21,0,3,21,15,0.0,0.0,11,0.0,Racarumi,Regresión lineal,calibrada
+10,16,0,3,16,15,0.0,0.0,16,0.0,Racarumi,Regresión lineal,calibrada
+11,16,0,3,16,15,0.0,0.0,16,0.0,Racarumi,Regresión lineal,calibrada
+12,16,0,3,16,15,0.0,0.0,16,0.0,Racarumi,Regresión lineal,calibrada
+13,16,0,3,16,15,0.0,0.0,16,0.0,Racarumi,Regresión lineal,calibrada
+14,16,0,3,16,15,0.0,0.0,16,0.0,Racarumi,Regresión lineal,calibrada
+15,14,0,3,14,15,0.0,0.0,18,0.0,Racarumi,Regresión lineal,calibrada
+16,13,0,3,13,15,0.0,0.0,19,0.0,Racarumi,Regresión lineal,calibrada
+17,13,0,3,13,15,0.0,0.0,19,0.0,Racarumi,Regresión lineal,calibrada
+18,13,0,3,13,15,0.0,0.0,19,0.0,Racarumi,Regresión lineal,calibrada
+19,12,0,2,12,15,0.0,0.0,20,0.0,Racarumi,Regresión lineal,calibrada
+20,12,0,2,12,15,0.0,0.0,20,0.0,Racarumi,Regresión lineal,calibrada
+21,12,0,2,12,15,0.0,0.0,20,0.0,Racarumi,Regresión lineal,calibrada
+22,12,0,2,12,15,0.0,0.0,20,0.0,Racarumi,Regresión lineal,calibrada
+23,12,0,2,12,15,0.0,0.0,20,0.0,Racarumi,Regresión lineal,calibrada
+24,12,0,2,12,15,0.0,0.0,20,0.0,Racarumi,Regresión lineal,calibrada
+25,12,0,2,12,15,0.0,0.0,20,0.0,Racarumi,Regresión lineal,calibrada
+26,12,0,2,12,15,0.0,0.0,20,0.0,Racarumi,Regresión lineal,calibrada
+27,12,0,2,12,15,0.0,0.0,20,0.0,Racarumi,Regresión lineal,calibrada
+28,11,0,2,11,15,0.0,0.0,21,0.0,Racarumi,Regresión lineal,calibrada
+29,11,0,2,11,15,0.0,0.0,21,0.0,Racarumi,Regresión lineal,calibrada
+30,11,0,2,11,15,0.0,0.0,21,0.0,Racarumi,Regresión lineal,calibrada
+1,32,2,0,30,0,0.0625,0.0625,0,0.0625,Racarumi,Regresión lineal,"fija (u = P95, h_max = 30)"
+2,30,0,2,30,0,0.0,0.0,2,0.0,Racarumi,Regresión lineal,"fija (u = P95, h_max = 30)"
+3,29,0,2,29,0,0.0,0.0,3,0.0,Racarumi,Regresión lineal,"fija (u = P95, h_max = 30)"
+4,28,0,2,28,0,0.0,0.0,4,0.0,Racarumi,Regresión lineal,"fija (u = P95, h_max = 30)"
+5,26,0,2,26,0,0.0,0.0,6,0.0,Racarumi,Regresión lineal,"fija (u = P95, h_max = 30)"
+6,24,0,1,24,0,0.0,0.0,8,0.0,Racarumi,Regresión lineal,"fija (u = P95, h_max = 30)"
+7,24,0,1,24,0,0.0,0.0,8,0.0,Racarumi,Regresión lineal,"fija (u = P95, h_max = 30)"
+8,24,0,1,24,0,0.0,0.0,8,0.0,Racarumi,Regresión lineal,"fija (u = P95, h_max = 30)"
+9,21,0,1,21,0,0.0,0.0,11,0.0,Racarumi,Regresión lineal,"fija (u = P95, h_max = 30)"
+10,16,0,1,16,0,0.0,0.0,16,0.0,Racarumi,Regresión lineal,"fija (u = P95, h_max = 30)"
+11,16,0,1,16,0,0.0,0.0,16,0.0,Racarumi,Regresión lineal,"fija (u = P95, h_max = 30)"
+12,16,0,1,16,0,0.0,0.0,16,0.0,Racarumi,Regresión lineal,"fija (u = P95, h_max = 30)"
+13,16,0,1,16,0,0.0,0.0,16,0.0,Racarumi,Regresión lineal,"fija (u = P95, h_max = 30)"
+14,16,0,1,16,0,0.0,0.0,16,0.0,Racarumi,Regresión lineal,"fija (u = P95, h_max = 30)"
+15,14,0,1,14,0,0.0,0.0,18,0.0,Racarumi,Regresión lineal,"fija (u = P95, h_max = 30)"
+16,13,0,1,13,0,0.0,0.0,19,0.0,Racarumi,Regresión lineal,"fija (u = P95, h_max = 30)"
+17,13,0,1,13,0,0.0,0.0,19,0.0,Racarumi,Regresión lineal,"fija (u = P95, h_max = 30)"
+18,13,0,1,13,0,0.0,0.0,19,0.0,Racarumi,Regresión lineal,"fija (u = P95, h_max = 30)"
+19,12,0,0,12,0,0.0,0.0,20,0.0,Racarumi,Regresión lineal,"fija (u = P95, h_max = 30)"
+20,12,0,0,12,0,0.0,0.0,20,0.0,Racarumi,Regresión lineal,"fija (u = P95, h_max = 30)"
+21,12,0,0,12,0,0.0,0.0,20,0.0,Racarumi,Regresión lineal,"fija (u = P95, h_max = 30)"
+22,12,0,0,12,0,0.0,0.0,20,0.0,Racarumi,Regresión lineal,"fija (u = P95, h_max = 30)"
+23,12,0,0,12,0,0.0,0.0,20,0.0,Racarumi,Regresión lineal,"fija (u = P95, h_max = 30)"
+24,12,0,0,12,0,0.0,0.0,20,0.0,Racarumi,Regresión lineal,"fija (u = P95, h_max = 30)"
+25,12,0,0,12,0,0.0,0.0,20,0.0,Racarumi,Regresión lineal,"fija (u = P95, h_max = 30)"
+26,12,0,0,12,0,0.0,0.0,20,0.0,Racarumi,Regresión lineal,"fija (u = P95, h_max = 30)"
+27,12,0,0,12,0,0.0,0.0,20,0.0,Racarumi,Regresión lineal,"fija (u = P95, h_max = 30)"
+28,11,0,0,11,0,0.0,0.0,21,0.0,Racarumi,Regresión lineal,"fija (u = P95, h_max = 30)"
+29,11,0,0,11,0,0.0,0.0,21,0.0,Racarumi,Regresión lineal,"fija (u = P95, h_max = 30)"
+30,11,0,0,11,0,0.0,0.0,21,0.0,Racarumi,Regresión lineal,"fija (u = P95, h_max = 30)"
+1,32,16,0,16,24,0.5,0.2857142857142857,0,0.5,Racarumi,Random Forest,calibrada
+2,30,8,7,22,24,0.26666666666666666,0.14814814814814814,2,0.25,Racarumi,Random Forest,calibrada
+3,29,4,10,25,24,0.13793103448275862,0.07547169811320754,3,0.125,Racarumi,Random Forest,calibrada
+4,28,1,12,27,24,0.03571428571428571,0.019230769230769232,4,0.03125,Racarumi,Random Forest,calibrada
+5,26,0,13,26,24,0.0,0.0,6,0.0,Racarumi,Random Forest,calibrada
+6,24,0,12,24,24,0.0,0.0,8,0.0,Racarumi,Random Forest,calibrada
+7,24,0,12,24,24,0.0,0.0,8,0.0,Racarumi,Random Forest,calibrada
+8,24,0,12,24,24,0.0,0.0,8,0.0,Racarumi,Random Forest,calibrada
+9,21,0,10,21,24,0.0,0.0,11,0.0,Racarumi,Random Forest,calibrada
+10,16,0,6,16,24,0.0,0.0,16,0.0,Racarumi,Random Forest,calibrada
+11,16,0,6,16,24,0.0,0.0,16,0.0,Racarumi,Random Forest,calibrada
+12,16,0,6,16,24,0.0,0.0,16,0.0,Racarumi,Random Forest,calibrada
+13,16,0,6,16,24,0.0,0.0,16,0.0,Racarumi,Random Forest,calibrada
+14,16,0,6,16,24,0.0,0.0,16,0.0,Racarumi,Random Forest,calibrada
+15,14,0,6,14,24,0.0,0.0,18,0.0,Racarumi,Random Forest,calibrada
+16,13,0,5,13,24,0.0,0.0,19,0.0,Racarumi,Random Forest,calibrada
+17,13,0,5,13,24,0.0,0.0,19,0.0,Racarumi,Random Forest,calibrada
+18,13,0,5,13,24,0.0,0.0,19,0.0,Racarumi,Random Forest,calibrada
+19,12,0,4,12,24,0.0,0.0,20,0.0,Racarumi,Random Forest,calibrada
+20,12,0,4,12,24,0.0,0.0,20,0.0,Racarumi,Random Forest,calibrada
+21,12,0,4,12,24,0.0,0.0,20,0.0,Racarumi,Random Forest,calibrada
+22,12,0,4,12,24,0.0,0.0,20,0.0,Racarumi,Random Forest,calibrada
+23,12,0,4,12,24,0.0,0.0,20,0.0,Racarumi,Random Forest,calibrada
+24,12,0,4,12,24,0.0,0.0,20,0.0,Racarumi,Random Forest,calibrada
+25,12,0,4,12,24,0.0,0.0,20,0.0,Racarumi,Random Forest,calibrada
+26,12,0,4,12,24,0.0,0.0,20,0.0,Racarumi,Random Forest,calibrada
+27,12,0,4,12,24,0.0,0.0,20,0.0,Racarumi,Random Forest,calibrada
+28,11,0,4,11,24,0.0,0.0,21,0.0,Racarumi,Random Forest,calibrada
+29,11,0,4,11,24,0.0,0.0,21,0.0,Racarumi,Random Forest,calibrada
+30,11,0,4,11,24,0.0,0.0,21,0.0,Racarumi,Random Forest,calibrada
+1,32,2,0,30,1,0.0625,0.06060606060606061,0,0.0625,Racarumi,Random Forest,"fija (u = P95, h_max = 30)"
+2,30,1,1,29,1,0.03333333333333333,0.03225806451612903,2,0.03125,Racarumi,Random Forest,"fija (u = P95, h_max = 30)"
+3,29,1,0,28,1,0.034482758620689655,0.03333333333333333,3,0.03125,Racarumi,Random Forest,"fija (u = P95, h_max = 30)"
+4,28,1,0,27,1,0.03571428571428571,0.034482758620689655,4,0.03125,Racarumi,Random Forest,"fija (u = P95, h_max = 30)"
+5,26,0,1,26,1,0.0,0.0,6,0.0,Racarumi,Random Forest,"fija (u = P95, h_max = 30)"
+6,24,0,1,24,1,0.0,0.0,8,0.0,Racarumi,Random Forest,"fija (u = P95, h_max = 30)"
+7,24,0,1,24,1,0.0,0.0,8,0.0,Racarumi,Random Forest,"fija (u = P95, h_max = 30)"
+8,24,0,1,24,1,0.0,0.0,8,0.0,Racarumi,Random Forest,"fija (u = P95, h_max = 30)"
+9,21,0,0,21,1,0.0,0.0,11,0.0,Racarumi,Random Forest,"fija (u = P95, h_max = 30)"
+10,16,0,0,16,1,0.0,0.0,16,0.0,Racarumi,Random Forest,"fija (u = P95, h_max = 30)"
+11,16,0,0,16,1,0.0,0.0,16,0.0,Racarumi,Random Forest,"fija (u = P95, h_max = 30)"
+12,16,0,0,16,1,0.0,0.0,16,0.0,Racarumi,Random Forest,"fija (u = P95, h_max = 30)"
+13,16,0,0,16,1,0.0,0.0,16,0.0,Racarumi,Random Forest,"fija (u = P95, h_max = 30)"
+14,16,0,0,16,1,0.0,0.0,16,0.0,Racarumi,Random Forest,"fija (u = P95, h_max = 30)"
+15,14,0,0,14,1,0.0,0.0,18,0.0,Racarumi,Random Forest,"fija (u = P95, h_max = 30)"
+16,13,0,0,13,1,0.0,0.0,19,0.0,Racarumi,Random Forest,"fija (u = P95, h_max = 30)"
+17,13,0,0,13,1,0.0,0.0,19,0.0,Racarumi,Random Forest,"fija (u = P95, h_max = 30)"
+18,13,0,0,13,1,0.0,0.0,19,0.0,Racarumi,Random Forest,"fija (u = P95, h_max = 30)"
+19,12,0,0,12,1,0.0,0.0,20,0.0,Racarumi,Random Forest,"fija (u = P95, h_max = 30)"
+20,12,0,0,12,1,0.0,0.0,20,0.0,Racarumi,Random Forest,"fija (u = P95, h_max = 30)"
+21,12,0,0,12,1,0.0,0.0,20,0.0,Racarumi,Random Forest,"fija (u = P95, h_max = 30)"
+22,12,0,0,12,1,0.0,0.0,20,0.0,Racarumi,Random Forest,"fija (u = P95, h_max = 30)"
+23,12,0,0,12,1,0.0,0.0,20,0.0,Racarumi,Random Forest,"fija (u = P95, h_max = 30)"
+24,12,0,0,12,1,0.0,0.0,20,0.0,Racarumi,Random Forest,"fija (u = P95, h_max = 30)"
+25,12,0,0,12,1,0.0,0.0,20,0.0,Racarumi,Random Forest,"fija (u = P95, h_max = 30)"
+26,12,0,0,12,1,0.0,0.0,20,0.0,Racarumi,Random Forest,"fija (u = P95, h_max = 30)"
+27,12,0,0,12,1,0.0,0.0,20,0.0,Racarumi,Random Forest,"fija (u = P95, h_max = 30)"
+28,11,0,0,11,1,0.0,0.0,21,0.0,Racarumi,Random Forest,"fija (u = P95, h_max = 30)"
+29,11,0,0,11,1,0.0,0.0,21,0.0,Racarumi,Random Forest,"fija (u = P95, h_max = 30)"
+30,11,0,0,11,1,0.0,0.0,21,0.0,Racarumi,Random Forest,"fija (u = P95, h_max = 30)"
+1,32,11,0,21,12,0.34375,0.25,0,0.34375,Racarumi,XGBoost,calibrada
+2,30,4,6,26,12,0.13333333333333333,0.09523809523809523,2,0.125,Racarumi,XGBoost,calibrada
+3,29,2,7,27,12,0.06896551724137931,0.04878048780487805,3,0.0625,Racarumi,XGBoost,calibrada
+4,28,0,8,28,12,0.0,0.0,4,0.0,Racarumi,XGBoost,calibrada
+5,26,0,8,26,12,0.0,0.0,6,0.0,Racarumi,XGBoost,calibrada
+6,24,0,7,24,12,0.0,0.0,8,0.0,Racarumi,XGBoost,calibrada
+7,24,0,7,24,12,0.0,0.0,8,0.0,Racarumi,XGBoost,calibrada
+8,24,0,7,24,12,0.0,0.0,8,0.0,Racarumi,XGBoost,calibrada
+9,21,0,5,21,12,0.0,0.0,11,0.0,Racarumi,XGBoost,calibrada
+10,16,0,4,16,12,0.0,0.0,16,0.0,Racarumi,XGBoost,calibrada
+11,16,0,4,16,12,0.0,0.0,16,0.0,Racarumi,XGBoost,calibrada
+12,16,0,4,16,12,0.0,0.0,16,0.0,Racarumi,XGBoost,calibrada
+13,16,0,4,16,12,0.0,0.0,16,0.0,Racarumi,XGBoost,calibrada
+14,16,0,4,16,12,0.0,0.0,16,0.0,Racarumi,XGBoost,calibrada
+15,14,0,4,14,12,0.0,0.0,18,0.0,Racarumi,XGBoost,calibrada
+16,13,0,4,13,12,0.0,0.0,19,0.0,Racarumi,XGBoost,calibrada
+17,13,0,4,13,12,0.0,0.0,19,0.0,Racarumi,XGBoost,calibrada
+18,13,0,4,13,12,0.0,0.0,19,0.0,Racarumi,XGBoost,calibrada
+19,12,0,3,12,12,0.0,0.0,20,0.0,Racarumi,XGBoost,calibrada
+20,12,0,3,12,12,0.0,0.0,20,0.0,Racarumi,XGBoost,calibrada
+21,12,0,3,12,12,0.0,0.0,20,0.0,Racarumi,XGBoost,calibrada
+22,12,0,3,12,12,0.0,0.0,20,0.0,Racarumi,XGBoost,calibrada
+23,12,0,3,12,12,0.0,0.0,20,0.0,Racarumi,XGBoost,calibrada
+24,12,0,3,12,12,0.0,0.0,20,0.0,Racarumi,XGBoost,calibrada
+25,12,0,3,12,12,0.0,0.0,20,0.0,Racarumi,XGBoost,calibrada
+26,12,0,3,12,12,0.0,0.0,20,0.0,Racarumi,XGBoost,calibrada
+27,12,0,3,12,12,0.0,0.0,20,0.0,Racarumi,XGBoost,calibrada
+28,11,0,3,11,12,0.0,0.0,21,0.0,Racarumi,XGBoost,calibrada
+29,11,0,3,11,12,0.0,0.0,21,0.0,Racarumi,XGBoost,calibrada
+30,11,0,3,11,12,0.0,0.0,21,0.0,Racarumi,XGBoost,calibrada
+1,32,4,0,28,1,0.125,0.12121212121212122,0,0.125,Racarumi,XGBoost,"fija (u = P95, h_max = 30)"
+2,30,2,2,28,1,0.06666666666666667,0.06451612903225806,2,0.0625,Racarumi,XGBoost,"fija (u = P95, h_max = 30)"
+3,29,1,2,28,1,0.034482758620689655,0.03333333333333333,3,0.03125,Racarumi,XGBoost,"fija (u = P95, h_max = 30)"
+4,28,1,2,27,1,0.03571428571428571,0.034482758620689655,4,0.03125,Racarumi,XGBoost,"fija (u = P95, h_max = 30)"
+5,26,0,3,26,1,0.0,0.0,6,0.0,Racarumi,XGBoost,"fija (u = P95, h_max = 30)"
+6,24,0,2,24,1,0.0,0.0,8,0.0,Racarumi,XGBoost,"fija (u = P95, h_max = 30)"
+7,24,0,2,24,1,0.0,0.0,8,0.0,Racarumi,XGBoost,"fija (u = P95, h_max = 30)"
+8,24,0,2,24,1,0.0,0.0,8,0.0,Racarumi,XGBoost,"fija (u = P95, h_max = 30)"
+9,21,0,1,21,1,0.0,0.0,11,0.0,Racarumi,XGBoost,"fija (u = P95, h_max = 30)"
+10,16,0,1,16,1,0.0,0.0,16,0.0,Racarumi,XGBoost,"fija (u = P95, h_max = 30)"
+11,16,0,1,16,1,0.0,0.0,16,0.0,Racarumi,XGBoost,"fija (u = P95, h_max = 30)"
+12,16,0,1,16,1,0.0,0.0,16,0.0,Racarumi,XGBoost,"fija (u = P95, h_max = 30)"
+13,16,0,1,16,1,0.0,0.0,16,0.0,Racarumi,XGBoost,"fija (u = P95, h_max = 30)"
+14,16,0,1,16,1,0.0,0.0,16,0.0,Racarumi,XGBoost,"fija (u = P95, h_max = 30)"
+15,14,0,1,14,1,0.0,0.0,18,0.0,Racarumi,XGBoost,"fija (u = P95, h_max = 30)"
+16,13,0,1,13,1,0.0,0.0,19,0.0,Racarumi,XGBoost,"fija (u = P95, h_max = 30)"
+17,13,0,1,13,1,0.0,0.0,19,0.0,Racarumi,XGBoost,"fija (u = P95, h_max = 30)"
+18,13,0,1,13,1,0.0,0.0,19,0.0,Racarumi,XGBoost,"fija (u = P95, h_max = 30)"
+19,12,0,0,12,1,0.0,0.0,20,0.0,Racarumi,XGBoost,"fija (u = P95, h_max = 30)"
+20,12,0,0,12,1,0.0,0.0,20,0.0,Racarumi,XGBoost,"fija (u = P95, h_max = 30)"
+21,12,0,0,12,1,0.0,0.0,20,0.0,Racarumi,XGBoost,"fija (u = P95, h_max = 30)"
+22,12,0,0,12,1,0.0,0.0,20,0.0,Racarumi,XGBoost,"fija (u = P95, h_max = 30)"
+23,12,0,0,12,1,0.0,0.0,20,0.0,Racarumi,XGBoost,"fija (u = P95, h_max = 30)"
+24,12,0,0,12,1,0.0,0.0,20,0.0,Racarumi,XGBoost,"fija (u = P95, h_max = 30)"
+25,12,0,0,12,1,0.0,0.0,20,0.0,Racarumi,XGBoost,"fija (u = P95, h_max = 30)"
+26,12,0,0,12,1,0.0,0.0,20,0.0,Racarumi,XGBoost,"fija (u = P95, h_max = 30)"
+27,12,0,0,12,1,0.0,0.0,20,0.0,Racarumi,XGBoost,"fija (u = P95, h_max = 30)"
+28,11,0,0,11,1,0.0,0.0,21,0.0,Racarumi,XGBoost,"fija (u = P95, h_max = 30)"
+29,11,0,0,11,1,0.0,0.0,21,0.0,Racarumi,XGBoost,"fija (u = P95, h_max = 30)"
+30,11,0,0,11,1,0.0,0.0,21,0.0,Racarumi,XGBoost,"fija (u = P95, h_max = 30)"
+1,32,12,0,20,17,0.375,0.24489795918367346,0,0.375,Racarumi,KNN,calibrada
+2,30,5,6,25,17,0.16666666666666666,0.10638297872340426,2,0.15625,Racarumi,KNN,calibrada
+3,29,3,7,26,17,0.10344827586206896,0.06521739130434782,3,0.09375,Racarumi,KNN,calibrada
+4,28,0,9,28,17,0.0,0.0,4,0.0,Racarumi,KNN,calibrada
+5,26,0,9,26,17,0.0,0.0,6,0.0,Racarumi,KNN,calibrada
+6,24,0,8,24,17,0.0,0.0,8,0.0,Racarumi,KNN,calibrada
+7,24,0,8,24,17,0.0,0.0,8,0.0,Racarumi,KNN,calibrada
+8,24,0,8,24,17,0.0,0.0,8,0.0,Racarumi,KNN,calibrada
+9,21,0,6,21,17,0.0,0.0,11,0.0,Racarumi,KNN,calibrada
+10,16,0,4,16,17,0.0,0.0,16,0.0,Racarumi,KNN,calibrada
+11,16,0,4,16,17,0.0,0.0,16,0.0,Racarumi,KNN,calibrada
+12,16,0,4,16,17,0.0,0.0,16,0.0,Racarumi,KNN,calibrada
+13,16,0,4,16,17,0.0,0.0,16,0.0,Racarumi,KNN,calibrada
+14,16,0,4,16,17,0.0,0.0,16,0.0,Racarumi,KNN,calibrada
+15,14,0,4,14,17,0.0,0.0,18,0.0,Racarumi,KNN,calibrada
+16,13,0,4,13,17,0.0,0.0,19,0.0,Racarumi,KNN,calibrada
+17,13,0,4,13,17,0.0,0.0,19,0.0,Racarumi,KNN,calibrada
+18,13,0,4,13,17,0.0,0.0,19,0.0,Racarumi,KNN,calibrada
+19,12,0,3,12,17,0.0,0.0,20,0.0,Racarumi,KNN,calibrada
+20,12,0,3,12,17,0.0,0.0,20,0.0,Racarumi,KNN,calibrada
+21,12,0,3,12,17,0.0,0.0,20,0.0,Racarumi,KNN,calibrada
+22,12,0,3,12,17,0.0,0.0,20,0.0,Racarumi,KNN,calibrada
+23,12,0,3,12,17,0.0,0.0,20,0.0,Racarumi,KNN,calibrada
+24,12,0,3,12,17,0.0,0.0,20,0.0,Racarumi,KNN,calibrada
+25,12,0,3,12,17,0.0,0.0,20,0.0,Racarumi,KNN,calibrada
+26,12,0,3,12,17,0.0,0.0,20,0.0,Racarumi,KNN,calibrada
+27,12,0,3,12,17,0.0,0.0,20,0.0,Racarumi,KNN,calibrada
+28,11,0,3,11,17,0.0,0.0,21,0.0,Racarumi,KNN,calibrada
+29,11,0,3,11,17,0.0,0.0,21,0.0,Racarumi,KNN,calibrada
+30,11,0,3,11,17,0.0,0.0,21,0.0,Racarumi,KNN,calibrada
+1,32,2,0,30,1,0.0625,0.06060606060606061,0,0.0625,Racarumi,KNN,"fija (u = P95, h_max = 30)"
+2,30,0,2,30,1,0.0,0.0,2,0.0,Racarumi,KNN,"fija (u = P95, h_max = 30)"
+3,29,0,1,29,1,0.0,0.0,3,0.0,Racarumi,KNN,"fija (u = P95, h_max = 30)"
+4,28,0,1,28,1,0.0,0.0,4,0.0,Racarumi,KNN,"fija (u = P95, h_max = 30)"
+5,26,0,1,26,1,0.0,0.0,6,0.0,Racarumi,KNN,"fija (u = P95, h_max = 30)"
+6,24,0,0,24,1,0.0,0.0,8,0.0,Racarumi,KNN,"fija (u = P95, h_max = 30)"
+7,24,0,0,24,1,0.0,0.0,8,0.0,Racarumi,KNN,"fija (u = P95, h_max = 30)"
+8,24,0,0,24,1,0.0,0.0,8,0.0,Racarumi,KNN,"fija (u = P95, h_max = 30)"
+9,21,0,0,21,1,0.0,0.0,11,0.0,Racarumi,KNN,"fija (u = P95, h_max = 30)"
+10,16,0,0,16,1,0.0,0.0,16,0.0,Racarumi,KNN,"fija (u = P95, h_max = 30)"
+11,16,0,0,16,1,0.0,0.0,16,0.0,Racarumi,KNN,"fija (u = P95, h_max = 30)"
+12,16,0,0,16,1,0.0,0.0,16,0.0,Racarumi,KNN,"fija (u = P95, h_max = 30)"
+13,16,0,0,16,1,0.0,0.0,16,0.0,Racarumi,KNN,"fija (u = P95, h_max = 30)"
+14,16,0,0,16,1,0.0,0.0,16,0.0,Racarumi,KNN,"fija (u = P95, h_max = 30)"
+15,14,0,0,14,1,0.0,0.0,18,0.0,Racarumi,KNN,"fija (u = P95, h_max = 30)"
+16,13,0,0,13,1,0.0,0.0,19,0.0,Racarumi,KNN,"fija (u = P95, h_max = 30)"
+17,13,0,0,13,1,0.0,0.0,19,0.0,Racarumi,KNN,"fija (u = P95, h_max = 30)"
+18,13,0,0,13,1,0.0,0.0,19,0.0,Racarumi,KNN,"fija (u = P95, h_max = 30)"
+19,12,0,0,12,1,0.0,0.0,20,0.0,Racarumi,KNN,"fija (u = P95, h_max = 30)"
+20,12,0,0,12,1,0.0,0.0,20,0.0,Racarumi,KNN,"fija (u = P95, h_max = 30)"
+21,12,0,0,12,1,0.0,0.0,20,0.0,Racarumi,KNN,"fija (u = P95, h_max = 30)"
+22,12,0,0,12,1,0.0,0.0,20,0.0,Racarumi,KNN,"fija (u = P95, h_max = 30)"
+23,12,0,0,12,1,0.0,0.0,20,0.0,Racarumi,KNN,"fija (u = P95, h_max = 30)"
+24,12,0,0,12,1,0.0,0.0,20,0.0,Racarumi,KNN,"fija (u = P95, h_max = 30)"
+25,12,0,0,12,1,0.0,0.0,20,0.0,Racarumi,KNN,"fija (u = P95, h_max = 30)"
+26,12,0,0,12,1,0.0,0.0,20,0.0,Racarumi,KNN,"fija (u = P95, h_max = 30)"
+27,12,0,0,12,1,0.0,0.0,20,0.0,Racarumi,KNN,"fija (u = P95, h_max = 30)"
+28,11,0,0,11,1,0.0,0.0,21,0.0,Racarumi,KNN,"fija (u = P95, h_max = 30)"
+29,11,0,0,11,1,0.0,0.0,21,0.0,Racarumi,KNN,"fija (u = P95, h_max = 30)"
+30,11,0,0,11,1,0.0,0.0,21,0.0,Racarumi,KNN,"fija (u = P95, h_max = 30)"
+1,32,12,0,20,14,0.375,0.2608695652173913,0,0.375,Racarumi,MLP,calibrada
+2,30,7,4,23,14,0.23333333333333334,0.1590909090909091,2,0.21875,Racarumi,MLP,calibrada
+3,29,3,7,26,14,0.10344827586206896,0.06976744186046512,3,0.09375,Racarumi,MLP,calibrada
+4,28,2,7,26,14,0.07142857142857142,0.047619047619047616,4,0.0625,Racarumi,MLP,calibrada
+5,26,2,7,24,14,0.07692307692307693,0.05,6,0.0625,Racarumi,MLP,calibrada
+6,24,1,7,23,14,0.041666666666666664,0.02631578947368421,8,0.03125,Racarumi,MLP,calibrada
+7,24,1,7,23,14,0.041666666666666664,0.02631578947368421,8,0.03125,Racarumi,MLP,calibrada
+8,24,0,8,24,14,0.0,0.0,8,0.0,Racarumi,MLP,calibrada
+9,21,0,6,21,14,0.0,0.0,11,0.0,Racarumi,MLP,calibrada
+10,16,0,4,16,14,0.0,0.0,16,0.0,Racarumi,MLP,calibrada
+11,16,0,4,16,14,0.0,0.0,16,0.0,Racarumi,MLP,calibrada
+12,16,0,4,16,14,0.0,0.0,16,0.0,Racarumi,MLP,calibrada
+13,16,0,4,16,14,0.0,0.0,16,0.0,Racarumi,MLP,calibrada
+14,16,0,4,16,14,0.0,0.0,16,0.0,Racarumi,MLP,calibrada
+15,14,0,4,14,14,0.0,0.0,18,0.0,Racarumi,MLP,calibrada
+16,13,0,4,13,14,0.0,0.0,19,0.0,Racarumi,MLP,calibrada
+17,13,0,4,13,14,0.0,0.0,19,0.0,Racarumi,MLP,calibrada
+18,13,0,4,13,14,0.0,0.0,19,0.0,Racarumi,MLP,calibrada
+19,12,0,3,12,14,0.0,0.0,20,0.0,Racarumi,MLP,calibrada
+20,12,0,3,12,14,0.0,0.0,20,0.0,Racarumi,MLP,calibrada
+21,12,0,3,12,14,0.0,0.0,20,0.0,Racarumi,MLP,calibrada
+22,12,0,3,12,14,0.0,0.0,20,0.0,Racarumi,MLP,calibrada
+23,12,0,3,12,14,0.0,0.0,20,0.0,Racarumi,MLP,calibrada
+24,12,0,3,12,14,0.0,0.0,20,0.0,Racarumi,MLP,calibrada
+25,12,0,3,12,14,0.0,0.0,20,0.0,Racarumi,MLP,calibrada
+26,12,0,3,12,14,0.0,0.0,20,0.0,Racarumi,MLP,calibrada
+27,12,0,3,12,14,0.0,0.0,20,0.0,Racarumi,MLP,calibrada
+28,11,0,3,11,14,0.0,0.0,21,0.0,Racarumi,MLP,calibrada
+29,11,0,3,11,14,0.0,0.0,21,0.0,Racarumi,MLP,calibrada
+30,11,0,3,11,14,0.0,0.0,21,0.0,Racarumi,MLP,calibrada
+1,32,4,0,28,1,0.125,0.12121212121212122,0,0.125,Racarumi,MLP,"fija (u = P95, h_max = 30)"
+2,30,0,4,30,1,0.0,0.0,2,0.0,Racarumi,MLP,"fija (u = P95, h_max = 30)"
+3,29,0,3,29,1,0.0,0.0,3,0.0,Racarumi,MLP,"fija (u = P95, h_max = 30)"
+4,28,0,3,28,1,0.0,0.0,4,0.0,Racarumi,MLP,"fija (u = P95, h_max = 30)"
+5,26,0,3,26,1,0.0,0.0,6,0.0,Racarumi,MLP,"fija (u = P95, h_max = 30)"
+6,24,0,2,24,1,0.0,0.0,8,0.0,Racarumi,MLP,"fija (u = P95, h_max = 30)"
+7,24,0,2,24,1,0.0,0.0,8,0.0,Racarumi,MLP,"fija (u = P95, h_max = 30)"
+8,24,0,2,24,1,0.0,0.0,8,0.0,Racarumi,MLP,"fija (u = P95, h_max = 30)"
+9,21,0,2,21,1,0.0,0.0,11,0.0,Racarumi,MLP,"fija (u = P95, h_max = 30)"
+10,16,0,2,16,1,0.0,0.0,16,0.0,Racarumi,MLP,"fija (u = P95, h_max = 30)"
+11,16,0,2,16,1,0.0,0.0,16,0.0,Racarumi,MLP,"fija (u = P95, h_max = 30)"
+12,16,0,2,16,1,0.0,0.0,16,0.0,Racarumi,MLP,"fija (u = P95, h_max = 30)"
+13,16,0,2,16,1,0.0,0.0,16,0.0,Racarumi,MLP,"fija (u = P95, h_max = 30)"
+14,16,0,2,16,1,0.0,0.0,16,0.0,Racarumi,MLP,"fija (u = P95, h_max = 30)"
+15,14,0,2,14,1,0.0,0.0,18,0.0,Racarumi,MLP,"fija (u = P95, h_max = 30)"
+16,13,0,2,13,1,0.0,0.0,19,0.0,Racarumi,MLP,"fija (u = P95, h_max = 30)"
+17,13,0,2,13,1,0.0,0.0,19,0.0,Racarumi,MLP,"fija (u = P95, h_max = 30)"
+18,13,0,2,13,1,0.0,0.0,19,0.0,Racarumi,MLP,"fija (u = P95, h_max = 30)"
+19,12,0,1,12,1,0.0,0.0,20,0.0,Racarumi,MLP,"fija (u = P95, h_max = 30)"
+20,12,0,1,12,1,0.0,0.0,20,0.0,Racarumi,MLP,"fija (u = P95, h_max = 30)"
+21,12,0,1,12,1,0.0,0.0,20,0.0,Racarumi,MLP,"fija (u = P95, h_max = 30)"
+22,12,0,1,12,1,0.0,0.0,20,0.0,Racarumi,MLP,"fija (u = P95, h_max = 30)"
+23,12,0,1,12,1,0.0,0.0,20,0.0,Racarumi,MLP,"fija (u = P95, h_max = 30)"
+24,12,0,1,12,1,0.0,0.0,20,0.0,Racarumi,MLP,"fija (u = P95, h_max = 30)"
+25,12,0,1,12,1,0.0,0.0,20,0.0,Racarumi,MLP,"fija (u = P95, h_max = 30)"
+26,12,0,1,12,1,0.0,0.0,20,0.0,Racarumi,MLP,"fija (u = P95, h_max = 30)"
+27,12,0,1,12,1,0.0,0.0,20,0.0,Racarumi,MLP,"fija (u = P95, h_max = 30)"
+28,11,0,1,11,1,0.0,0.0,21,0.0,Racarumi,MLP,"fija (u = P95, h_max = 30)"
+29,11,0,1,11,1,0.0,0.0,21,0.0,Racarumi,MLP,"fija (u = P95, h_max = 30)"
+30,11,0,1,11,1,0.0,0.0,21,0.0,Racarumi,MLP,"fija (u = P95, h_max = 30)"
+1,32,10,0,22,12,0.3125,0.22727272727272727,0,0.3125,Racarumi,LSTM,calibrada
+2,30,4,5,26,12,0.13333333333333333,0.09523809523809523,2,0.125,Racarumi,LSTM,calibrada
+3,29,1,7,28,12,0.034482758620689655,0.024390243902439025,3,0.03125,Racarumi,LSTM,calibrada
+4,28,0,7,28,12,0.0,0.0,4,0.0,Racarumi,LSTM,calibrada
+5,26,0,7,26,12,0.0,0.0,6,0.0,Racarumi,LSTM,calibrada
+6,24,0,6,24,12,0.0,0.0,8,0.0,Racarumi,LSTM,calibrada
+7,24,0,6,24,12,0.0,0.0,8,0.0,Racarumi,LSTM,calibrada
+8,24,0,6,24,12,0.0,0.0,8,0.0,Racarumi,LSTM,calibrada
+9,21,0,4,21,12,0.0,0.0,11,0.0,Racarumi,LSTM,calibrada
+10,16,0,4,16,12,0.0,0.0,16,0.0,Racarumi,LSTM,calibrada
+11,16,0,4,16,12,0.0,0.0,16,0.0,Racarumi,LSTM,calibrada
+12,16,0,4,16,12,0.0,0.0,16,0.0,Racarumi,LSTM,calibrada
+13,16,0,4,16,12,0.0,0.0,16,0.0,Racarumi,LSTM,calibrada
+14,16,0,4,16,12,0.0,0.0,16,0.0,Racarumi,LSTM,calibrada
+15,14,0,4,14,12,0.0,0.0,18,0.0,Racarumi,LSTM,calibrada
+16,13,0,4,13,12,0.0,0.0,19,0.0,Racarumi,LSTM,calibrada
+17,13,0,4,13,12,0.0,0.0,19,0.0,Racarumi,LSTM,calibrada
+18,13,0,4,13,12,0.0,0.0,19,0.0,Racarumi,LSTM,calibrada
+19,12,0,3,12,12,0.0,0.0,20,0.0,Racarumi,LSTM,calibrada
+20,12,0,3,12,12,0.0,0.0,20,0.0,Racarumi,LSTM,calibrada
+21,12,0,3,12,12,0.0,0.0,20,0.0,Racarumi,LSTM,calibrada
+22,12,0,3,12,12,0.0,0.0,20,0.0,Racarumi,LSTM,calibrada
+23,12,0,3,12,12,0.0,0.0,20,0.0,Racarumi,LSTM,calibrada
+24,12,0,3,12,12,0.0,0.0,20,0.0,Racarumi,LSTM,calibrada
+25,12,0,3,12,12,0.0,0.0,20,0.0,Racarumi,LSTM,calibrada
+26,12,0,3,12,12,0.0,0.0,20,0.0,Racarumi,LSTM,calibrada
+27,12,0,3,12,12,0.0,0.0,20,0.0,Racarumi,LSTM,calibrada
+28,11,0,3,11,12,0.0,0.0,21,0.0,Racarumi,LSTM,calibrada
+29,11,0,3,11,12,0.0,0.0,21,0.0,Racarumi,LSTM,calibrada
+30,11,0,3,11,12,0.0,0.0,21,0.0,Racarumi,LSTM,calibrada
+1,32,0,0,32,0,0.0,0.0,0,0.0,Racarumi,LSTM,"fija (u = P95, h_max = 30)"
+2,30,0,0,30,0,0.0,0.0,2,0.0,Racarumi,LSTM,"fija (u = P95, h_max = 30)"
+3,29,0,0,29,0,0.0,0.0,3,0.0,Racarumi,LSTM,"fija (u = P95, h_max = 30)"
+4,28,0,0,28,0,0.0,0.0,4,0.0,Racarumi,LSTM,"fija (u = P95, h_max = 30)"
+5,26,0,0,26,0,0.0,0.0,6,0.0,Racarumi,LSTM,"fija (u = P95, h_max = 30)"
+6,24,0,0,24,0,0.0,0.0,8,0.0,Racarumi,LSTM,"fija (u = P95, h_max = 30)"
+7,24,0,0,24,0,0.0,0.0,8,0.0,Racarumi,LSTM,"fija (u = P95, h_max = 30)"
+8,24,0,0,24,0,0.0,0.0,8,0.0,Racarumi,LSTM,"fija (u = P95, h_max = 30)"
+9,21,0,0,21,0,0.0,0.0,11,0.0,Racarumi,LSTM,"fija (u = P95, h_max = 30)"
+10,16,0,0,16,0,0.0,0.0,16,0.0,Racarumi,LSTM,"fija (u = P95, h_max = 30)"
+11,16,0,0,16,0,0.0,0.0,16,0.0,Racarumi,LSTM,"fija (u = P95, h_max = 30)"
+12,16,0,0,16,0,0.0,0.0,16,0.0,Racarumi,LSTM,"fija (u = P95, h_max = 30)"
+13,16,0,0,16,0,0.0,0.0,16,0.0,Racarumi,LSTM,"fija (u = P95, h_max = 30)"
+14,16,0,0,16,0,0.0,0.0,16,0.0,Racarumi,LSTM,"fija (u = P95, h_max = 30)"
+15,14,0,0,14,0,0.0,0.0,18,0.0,Racarumi,LSTM,"fija (u = P95, h_max = 30)"
+16,13,0,0,13,0,0.0,0.0,19,0.0,Racarumi,LSTM,"fija (u = P95, h_max = 30)"
+17,13,0,0,13,0,0.0,0.0,19,0.0,Racarumi,LSTM,"fija (u = P95, h_max = 30)"
+18,13,0,0,13,0,0.0,0.0,19,0.0,Racarumi,LSTM,"fija (u = P95, h_max = 30)"
+19,12,0,0,12,0,0.0,0.0,20,0.0,Racarumi,LSTM,"fija (u = P95, h_max = 30)"
+20,12,0,0,12,0,0.0,0.0,20,0.0,Racarumi,LSTM,"fija (u = P95, h_max = 30)"
+21,12,0,0,12,0,0.0,0.0,20,0.0,Racarumi,LSTM,"fija (u = P95, h_max = 30)"
+22,12,0,0,12,0,0.0,0.0,20,0.0,Racarumi,LSTM,"fija (u = P95, h_max = 30)"
+23,12,0,0,12,0,0.0,0.0,20,0.0,Racarumi,LSTM,"fija (u = P95, h_max = 30)"
+24,12,0,0,12,0,0.0,0.0,20,0.0,Racarumi,LSTM,"fija (u = P95, h_max = 30)"
+25,12,0,0,12,0,0.0,0.0,20,0.0,Racarumi,LSTM,"fija (u = P95, h_max = 30)"
+26,12,0,0,12,0,0.0,0.0,20,0.0,Racarumi,LSTM,"fija (u = P95, h_max = 30)"
+27,12,0,0,12,0,0.0,0.0,20,0.0,Racarumi,LSTM,"fija (u = P95, h_max = 30)"
+28,11,0,0,11,0,0.0,0.0,21,0.0,Racarumi,LSTM,"fija (u = P95, h_max = 30)"
+29,11,0,0,11,0,0.0,0.0,21,0.0,Racarumi,LSTM,"fija (u = P95, h_max = 30)"
+30,11,0,0,11,0,0.0,0.0,21,0.0,Racarumi,LSTM,"fija (u = P95, h_max = 30)"
+1,32,11,0,21,19,0.34375,0.21568627450980393,0,0.34375,Racarumi,Persistencia,calibrada
+2,30,4,6,26,19,0.13333333333333333,0.08163265306122448,2,0.125,Racarumi,Persistencia,calibrada
+3,29,1,8,28,19,0.034482758620689655,0.020833333333333332,3,0.03125,Racarumi,Persistencia,calibrada
+4,28,0,8,28,19,0.0,0.0,4,0.0,Racarumi,Persistencia,calibrada
+5,26,0,8,26,19,0.0,0.0,6,0.0,Racarumi,Persistencia,calibrada
+6,24,0,7,24,19,0.0,0.0,8,0.0,Racarumi,Persistencia,calibrada
+7,24,0,7,24,19,0.0,0.0,8,0.0,Racarumi,Persistencia,calibrada
+8,24,0,7,24,19,0.0,0.0,8,0.0,Racarumi,Persistencia,calibrada
+9,21,0,5,21,19,0.0,0.0,11,0.0,Racarumi,Persistencia,calibrada
+10,16,0,4,16,19,0.0,0.0,16,0.0,Racarumi,Persistencia,calibrada
+11,16,0,4,16,19,0.0,0.0,16,0.0,Racarumi,Persistencia,calibrada
+12,16,0,4,16,19,0.0,0.0,16,0.0,Racarumi,Persistencia,calibrada
+13,16,0,4,16,19,0.0,0.0,16,0.0,Racarumi,Persistencia,calibrada
+14,16,0,4,16,19,0.0,0.0,16,0.0,Racarumi,Persistencia,calibrada
+15,14,0,4,14,19,0.0,0.0,18,0.0,Racarumi,Persistencia,calibrada
+16,13,0,4,13,19,0.0,0.0,19,0.0,Racarumi,Persistencia,calibrada
+17,13,0,4,13,19,0.0,0.0,19,0.0,Racarumi,Persistencia,calibrada
+18,13,0,4,13,19,0.0,0.0,19,0.0,Racarumi,Persistencia,calibrada
+19,12,0,3,12,19,0.0,0.0,20,0.0,Racarumi,Persistencia,calibrada
+20,12,0,3,12,19,0.0,0.0,20,0.0,Racarumi,Persistencia,calibrada
+21,12,0,3,12,19,0.0,0.0,20,0.0,Racarumi,Persistencia,calibrada
+22,12,0,3,12,19,0.0,0.0,20,0.0,Racarumi,Persistencia,calibrada
+23,12,0,3,12,19,0.0,0.0,20,0.0,Racarumi,Persistencia,calibrada
+24,12,0,3,12,19,0.0,0.0,20,0.0,Racarumi,Persistencia,calibrada
+25,12,0,3,12,19,0.0,0.0,20,0.0,Racarumi,Persistencia,calibrada
+26,12,0,3,12,19,0.0,0.0,20,0.0,Racarumi,Persistencia,calibrada
+27,12,0,3,12,19,0.0,0.0,20,0.0,Racarumi,Persistencia,calibrada
+28,11,0,3,11,19,0.0,0.0,21,0.0,Racarumi,Persistencia,calibrada
+29,11,0,3,11,19,0.0,0.0,21,0.0,Racarumi,Persistencia,calibrada
+30,11,0,3,11,19,0.0,0.0,21,0.0,Racarumi,Persistencia,calibrada
+1,32,0,0,32,0,0.0,0.0,0,0.0,Racarumi,Persistencia,"fija (u = P95, h_max = 30)"
+2,30,0,0,30,0,0.0,0.0,2,0.0,Racarumi,Persistencia,"fija (u = P95, h_max = 30)"
+3,29,0,0,29,0,0.0,0.0,3,0.0,Racarumi,Persistencia,"fija (u = P95, h_max = 30)"
+4,28,0,0,28,0,0.0,0.0,4,0.0,Racarumi,Persistencia,"fija (u = P95, h_max = 30)"
+5,26,0,0,26,0,0.0,0.0,6,0.0,Racarumi,Persistencia,"fija (u = P95, h_max = 30)"
+6,24,0,0,24,0,0.0,0.0,8,0.0,Racarumi,Persistencia,"fija (u = P95, h_max = 30)"
+7,24,0,0,24,0,0.0,0.0,8,0.0,Racarumi,Persistencia,"fija (u = P95, h_max = 30)"
+8,24,0,0,24,0,0.0,0.0,8,0.0,Racarumi,Persistencia,"fija (u = P95, h_max = 30)"
+9,21,0,0,21,0,0.0,0.0,11,0.0,Racarumi,Persistencia,"fija (u = P95, h_max = 30)"
+10,16,0,0,16,0,0.0,0.0,16,0.0,Racarumi,Persistencia,"fija (u = P95, h_max = 30)"
+11,16,0,0,16,0,0.0,0.0,16,0.0,Racarumi,Persistencia,"fija (u = P95, h_max = 30)"
+12,16,0,0,16,0,0.0,0.0,16,0.0,Racarumi,Persistencia,"fija (u = P95, h_max = 30)"
+13,16,0,0,16,0,0.0,0.0,16,0.0,Racarumi,Persistencia,"fija (u = P95, h_max = 30)"
+14,16,0,0,16,0,0.0,0.0,16,0.0,Racarumi,Persistencia,"fija (u = P95, h_max = 30)"
+15,14,0,0,14,0,0.0,0.0,18,0.0,Racarumi,Persistencia,"fija (u = P95, h_max = 30)"
+16,13,0,0,13,0,0.0,0.0,19,0.0,Racarumi,Persistencia,"fija (u = P95, h_max = 30)"
+17,13,0,0,13,0,0.0,0.0,19,0.0,Racarumi,Persistencia,"fija (u = P95, h_max = 30)"
+18,13,0,0,13,0,0.0,0.0,19,0.0,Racarumi,Persistencia,"fija (u = P95, h_max = 30)"
+19,12,0,0,12,0,0.0,0.0,20,0.0,Racarumi,Persistencia,"fija (u = P95, h_max = 30)"
+20,12,0,0,12,0,0.0,0.0,20,0.0,Racarumi,Persistencia,"fija (u = P95, h_max = 30)"
+21,12,0,0,12,0,0.0,0.0,20,0.0,Racarumi,Persistencia,"fija (u = P95, h_max = 30)"
+22,12,0,0,12,0,0.0,0.0,20,0.0,Racarumi,Persistencia,"fija (u = P95, h_max = 30)"
+23,12,0,0,12,0,0.0,0.0,20,0.0,Racarumi,Persistencia,"fija (u = P95, h_max = 30)"
+24,12,0,0,12,0,0.0,0.0,20,0.0,Racarumi,Persistencia,"fija (u = P95, h_max = 30)"
+25,12,0,0,12,0,0.0,0.0,20,0.0,Racarumi,Persistencia,"fija (u = P95, h_max = 30)"
+26,12,0,0,12,0,0.0,0.0,20,0.0,Racarumi,Persistencia,"fija (u = P95, h_max = 30)"
+27,12,0,0,12,0,0.0,0.0,20,0.0,Racarumi,Persistencia,"fija (u = P95, h_max = 30)"
+28,11,0,0,11,0,0.0,0.0,21,0.0,Racarumi,Persistencia,"fija (u = P95, h_max = 30)"
+29,11,0,0,11,0,0.0,0.0,21,0.0,Racarumi,Persistencia,"fija (u = P95, h_max = 30)"
+30,11,0,0,11,0,0.0,0.0,21,0.0,Racarumi,Persistencia,"fija (u = P95, h_max = 30)"
+1,32,9,0,23,9,0.28125,0.21951219512195122,0,0.28125,Racarumi,Climatología,calibrada
+2,30,9,0,21,9,0.3,0.23076923076923078,2,0.28125,Racarumi,Climatología,calibrada
+3,29,7,1,22,9,0.2413793103448276,0.18421052631578946,3,0.21875,Racarumi,Climatología,calibrada
+4,28,0,8,28,9,0.0,0.0,4,0.0,Racarumi,Climatología,calibrada
+5,26,0,7,26,9,0.0,0.0,6,0.0,Racarumi,Climatología,calibrada
+6,24,0,6,24,9,0.0,0.0,8,0.0,Racarumi,Climatología,calibrada
+7,24,0,6,24,9,0.0,0.0,8,0.0,Racarumi,Climatología,calibrada
+8,24,0,6,24,9,0.0,0.0,8,0.0,Racarumi,Climatología,calibrada
+9,21,0,5,21,9,0.0,0.0,11,0.0,Racarumi,Climatología,calibrada
+10,16,0,3,16,9,0.0,0.0,16,0.0,Racarumi,Climatología,calibrada
+11,16,0,3,16,9,0.0,0.0,16,0.0,Racarumi,Climatología,calibrada
+12,16,0,3,16,9,0.0,0.0,16,0.0,Racarumi,Climatología,calibrada
+13,16,0,3,16,9,0.0,0.0,16,0.0,Racarumi,Climatología,calibrada
+14,16,0,3,16,9,0.0,0.0,16,0.0,Racarumi,Climatología,calibrada
+15,14,0,2,14,9,0.0,0.0,18,0.0,Racarumi,Climatología,calibrada
+16,13,0,2,13,9,0.0,0.0,19,0.0,Racarumi,Climatología,calibrada
+17,13,0,2,13,9,0.0,0.0,19,0.0,Racarumi,Climatología,calibrada
+18,13,0,2,13,9,0.0,0.0,19,0.0,Racarumi,Climatología,calibrada
+19,12,0,1,12,9,0.0,0.0,20,0.0,Racarumi,Climatología,calibrada
+20,12,0,1,12,9,0.0,0.0,20,0.0,Racarumi,Climatología,calibrada
+21,12,0,1,12,9,0.0,0.0,20,0.0,Racarumi,Climatología,calibrada
+22,12,0,1,12,9,0.0,0.0,20,0.0,Racarumi,Climatología,calibrada
+23,12,0,1,12,9,0.0,0.0,20,0.0,Racarumi,Climatología,calibrada
+24,12,0,1,12,9,0.0,0.0,20,0.0,Racarumi,Climatología,calibrada
+25,12,0,1,12,9,0.0,0.0,20,0.0,Racarumi,Climatología,calibrada
+26,12,0,1,12,9,0.0,0.0,20,0.0,Racarumi,Climatología,calibrada
+27,12,0,1,12,9,0.0,0.0,20,0.0,Racarumi,Climatología,calibrada
+28,11,0,1,11,9,0.0,0.0,21,0.0,Racarumi,Climatología,calibrada
+29,11,0,1,11,9,0.0,0.0,21,0.0,Racarumi,Climatología,calibrada
+30,11,0,1,11,9,0.0,0.0,21,0.0,Racarumi,Climatología,calibrada
+1,32,0,0,32,0,0.0,0.0,0,0.0,Racarumi,Climatología,"fija (u = P95, h_max = 30)"
+2,30,0,0,30,0,0.0,0.0,2,0.0,Racarumi,Climatología,"fija (u = P95, h_max = 30)"
+3,29,0,0,29,0,0.0,0.0,3,0.0,Racarumi,Climatología,"fija (u = P95, h_max = 30)"
+4,28,0,0,28,0,0.0,0.0,4,0.0,Racarumi,Climatología,"fija (u = P95, h_max = 30)"
+5,26,0,0,26,0,0.0,0.0,6,0.0,Racarumi,Climatología,"fija (u = P95, h_max = 30)"
+6,24,0,0,24,0,0.0,0.0,8,0.0,Racarumi,Climatología,"fija (u = P95, h_max = 30)"
+7,24,0,0,24,0,0.0,0.0,8,0.0,Racarumi,Climatología,"fija (u = P95, h_max = 30)"
+8,24,0,0,24,0,0.0,0.0,8,0.0,Racarumi,Climatología,"fija (u = P95, h_max = 30)"
+9,21,0,0,21,0,0.0,0.0,11,0.0,Racarumi,Climatología,"fija (u = P95, h_max = 30)"
+10,16,0,0,16,0,0.0,0.0,16,0.0,Racarumi,Climatología,"fija (u = P95, h_max = 30)"
+11,16,0,0,16,0,0.0,0.0,16,0.0,Racarumi,Climatología,"fija (u = P95, h_max = 30)"
+12,16,0,0,16,0,0.0,0.0,16,0.0,Racarumi,Climatología,"fija (u = P95, h_max = 30)"
+13,16,0,0,16,0,0.0,0.0,16,0.0,Racarumi,Climatología,"fija (u = P95, h_max = 30)"
+14,16,0,0,16,0,0.0,0.0,16,0.0,Racarumi,Climatología,"fija (u = P95, h_max = 30)"
+15,14,0,0,14,0,0.0,0.0,18,0.0,Racarumi,Climatología,"fija (u = P95, h_max = 30)"
+16,13,0,0,13,0,0.0,0.0,19,0.0,Racarumi,Climatología,"fija (u = P95, h_max = 30)"
+17,13,0,0,13,0,0.0,0.0,19,0.0,Racarumi,Climatología,"fija (u = P95, h_max = 30)"
+18,13,0,0,13,0,0.0,0.0,19,0.0,Racarumi,Climatología,"fija (u = P95, h_max = 30)"
+19,12,0,0,12,0,0.0,0.0,20,0.0,Racarumi,Climatología,"fija (u = P95, h_max = 30)"
+20,12,0,0,12,0,0.0,0.0,20,0.0,Racarumi,Climatología,"fija (u = P95, h_max = 30)"
+21,12,0,0,12,0,0.0,0.0,20,0.0,Racarumi,Climatología,"fija (u = P95, h_max = 30)"
+22,12,0,0,12,0,0.0,0.0,20,0.0,Racarumi,Climatología,"fija (u = P95, h_max = 30)"
+23,12,0,0,12,0,0.0,0.0,20,0.0,Racarumi,Climatología,"fija (u = P95, h_max = 30)"
+24,12,0,0,12,0,0.0,0.0,20,0.0,Racarumi,Climatología,"fija (u = P95, h_max = 30)"
+25,12,0,0,12,0,0.0,0.0,20,0.0,Racarumi,Climatología,"fija (u = P95, h_max = 30)"
+26,12,0,0,12,0,0.0,0.0,20,0.0,Racarumi,Climatología,"fija (u = P95, h_max = 30)"
+27,12,0,0,12,0,0.0,0.0,20,0.0,Racarumi,Climatología,"fija (u = P95, h_max = 30)"
+28,11,0,0,11,0,0.0,0.0,21,0.0,Racarumi,Climatología,"fija (u = P95, h_max = 30)"
+29,11,0,0,11,0,0.0,0.0,21,0.0,Racarumi,Climatología,"fija (u = P95, h_max = 30)"
+30,11,0,0,11,0,0.0,0.0,21,0.0,Racarumi,Climatología,"fija (u = P95, h_max = 30)"
+1,32,23,0,9,56,0.71875,0.26136363636363635,0,0.71875,Racarumi,Tendencia 3 días,calibrada
+2,30,14,8,16,56,0.4666666666666667,0.16279069767441862,2,0.4375,Racarumi,Tendencia 3 días,calibrada
+3,29,6,15,23,56,0.20689655172413793,0.07058823529411765,3,0.1875,Racarumi,Tendencia 3 días,calibrada
+4,28,1,19,27,56,0.03571428571428571,0.011904761904761904,4,0.03125,Racarumi,Tendencia 3 días,calibrada
+5,26,0,20,26,56,0.0,0.0,6,0.0,Racarumi,Tendencia 3 días,calibrada
+6,24,0,19,24,56,0.0,0.0,8,0.0,Racarumi,Tendencia 3 días,calibrada
+7,24,0,19,24,56,0.0,0.0,8,0.0,Racarumi,Tendencia 3 días,calibrada
+8,24,0,19,24,56,0.0,0.0,8,0.0,Racarumi,Tendencia 3 días,calibrada
+9,21,0,16,21,56,0.0,0.0,11,0.0,Racarumi,Tendencia 3 días,calibrada
+10,16,0,12,16,56,0.0,0.0,16,0.0,Racarumi,Tendencia 3 días,calibrada
+11,16,0,12,16,56,0.0,0.0,16,0.0,Racarumi,Tendencia 3 días,calibrada
+12,16,0,12,16,56,0.0,0.0,16,0.0,Racarumi,Tendencia 3 días,calibrada
+13,16,0,12,16,56,0.0,0.0,16,0.0,Racarumi,Tendencia 3 días,calibrada
+14,16,0,12,16,56,0.0,0.0,16,0.0,Racarumi,Tendencia 3 días,calibrada
+15,14,0,11,14,56,0.0,0.0,18,0.0,Racarumi,Tendencia 3 días,calibrada
+16,13,0,10,13,56,0.0,0.0,19,0.0,Racarumi,Tendencia 3 días,calibrada
+17,13,0,10,13,56,0.0,0.0,19,0.0,Racarumi,Tendencia 3 días,calibrada
+18,13,0,10,13,56,0.0,0.0,19,0.0,Racarumi,Tendencia 3 días,calibrada
+19,12,0,9,12,56,0.0,0.0,20,0.0,Racarumi,Tendencia 3 días,calibrada
+20,12,0,9,12,56,0.0,0.0,20,0.0,Racarumi,Tendencia 3 días,calibrada
+21,12,0,9,12,56,0.0,0.0,20,0.0,Racarumi,Tendencia 3 días,calibrada
+22,12,0,9,12,56,0.0,0.0,20,0.0,Racarumi,Tendencia 3 días,calibrada
+23,12,0,9,12,56,0.0,0.0,20,0.0,Racarumi,Tendencia 3 días,calibrada
+24,12,0,9,12,56,0.0,0.0,20,0.0,Racarumi,Tendencia 3 días,calibrada
+25,12,0,9,12,56,0.0,0.0,20,0.0,Racarumi,Tendencia 3 días,calibrada
+26,12,0,9,12,56,0.0,0.0,20,0.0,Racarumi,Tendencia 3 días,calibrada
+27,12,0,9,12,56,0.0,0.0,20,0.0,Racarumi,Tendencia 3 días,calibrada
+28,11,0,9,11,56,0.0,0.0,21,0.0,Racarumi,Tendencia 3 días,calibrada
+29,11,0,9,11,56,0.0,0.0,21,0.0,Racarumi,Tendencia 3 días,calibrada
+30,11,0,9,11,56,0.0,0.0,21,0.0,Racarumi,Tendencia 3 días,calibrada
+1,32,23,0,9,173,0.71875,0.11219512195121951,0,0.71875,Racarumi,Tendencia 3 días,"fija (u = P95, h_max = 30)"
+2,30,20,3,10,173,0.6666666666666666,0.09852216748768473,2,0.625,Racarumi,Tendencia 3 días,"fija (u = P95, h_max = 30)"
+3,29,16,6,13,173,0.5517241379310345,0.07920792079207921,3,0.5,Racarumi,Tendencia 3 días,"fija (u = P95, h_max = 30)"
+4,28,14,7,14,173,0.5,0.06965174129353234,4,0.4375,Racarumi,Tendencia 3 días,"fija (u = P95, h_max = 30)"
+5,26,13,7,13,173,0.5,0.06532663316582915,6,0.40625,Racarumi,Tendencia 3 días,"fija (u = P95, h_max = 30)"
+6,24,10,9,14,173,0.4166666666666667,0.050761421319796954,8,0.3125,Racarumi,Tendencia 3 días,"fija (u = P95, h_max = 30)"
+7,24,10,9,14,173,0.4166666666666667,0.050761421319796954,8,0.3125,Racarumi,Tendencia 3 días,"fija (u = P95, h_max = 30)"
+8,24,10,9,14,173,0.4166666666666667,0.050761421319796954,8,0.3125,Racarumi,Tendencia 3 días,"fija (u = P95, h_max = 30)"
+9,21,10,7,11,173,0.47619047619047616,0.05154639175257732,11,0.3125,Racarumi,Tendencia 3 días,"fija (u = P95, h_max = 30)"
+10,16,9,4,7,173,0.5625,0.047619047619047616,16,0.28125,Racarumi,Tendencia 3 días,"fija (u = P95, h_max = 30)"
+11,16,8,5,8,173,0.5,0.042328042328042326,16,0.25,Racarumi,Tendencia 3 días,"fija (u = P95, h_max = 30)"
+12,16,7,6,9,173,0.4375,0.037037037037037035,16,0.21875,Racarumi,Tendencia 3 días,"fija (u = P95, h_max = 30)"
+13,16,7,6,9,173,0.4375,0.037037037037037035,16,0.21875,Racarumi,Tendencia 3 días,"fija (u = P95, h_max = 30)"
+14,16,6,7,10,173,0.375,0.031746031746031744,16,0.1875,Racarumi,Tendencia 3 días,"fija (u = P95, h_max = 30)"
+15,14,5,7,9,173,0.35714285714285715,0.026737967914438502,18,0.15625,Racarumi,Tendencia 3 días,"fija (u = P95, h_max = 30)"
+16,13,5,6,8,173,0.38461538461538464,0.026881720430107527,19,0.15625,Racarumi,Tendencia 3 días,"fija (u = P95, h_max = 30)"
+17,13,5,6,8,173,0.38461538461538464,0.026881720430107527,19,0.15625,Racarumi,Tendencia 3 días,"fija (u = P95, h_max = 30)"
+18,13,5,6,8,173,0.38461538461538464,0.026881720430107527,19,0.15625,Racarumi,Tendencia 3 días,"fija (u = P95, h_max = 30)"
+19,12,5,5,7,173,0.4166666666666667,0.02702702702702703,20,0.15625,Racarumi,Tendencia 3 días,"fija (u = P95, h_max = 30)"
+20,12,5,5,7,173,0.4166666666666667,0.02702702702702703,20,0.15625,Racarumi,Tendencia 3 días,"fija (u = P95, h_max = 30)"
+21,12,5,5,7,173,0.4166666666666667,0.02702702702702703,20,0.15625,Racarumi,Tendencia 3 días,"fija (u = P95, h_max = 30)"
+22,12,5,5,7,173,0.4166666666666667,0.02702702702702703,20,0.15625,Racarumi,Tendencia 3 días,"fija (u = P95, h_max = 30)"
+23,12,4,6,8,173,0.3333333333333333,0.021621621621621623,20,0.125,Racarumi,Tendencia 3 días,"fija (u = P95, h_max = 30)"
+24,12,3,7,9,173,0.25,0.016216216216216217,20,0.09375,Racarumi,Tendencia 3 días,"fija (u = P95, h_max = 30)"
+25,12,2,8,10,173,0.16666666666666666,0.010810810810810811,20,0.0625,Racarumi,Tendencia 3 días,"fija (u = P95, h_max = 30)"
+26,12,2,8,10,173,0.16666666666666666,0.010810810810810811,20,0.0625,Racarumi,Tendencia 3 días,"fija (u = P95, h_max = 30)"
+27,12,2,8,10,173,0.16666666666666666,0.010810810810810811,20,0.0625,Racarumi,Tendencia 3 días,"fija (u = P95, h_max = 30)"
+28,11,0,10,11,173,0.0,0.0,21,0.0,Racarumi,Tendencia 3 días,"fija (u = P95, h_max = 30)"
+29,11,0,10,11,173,0.0,0.0,21,0.0,Racarumi,Tendencia 3 días,"fija (u = P95, h_max = 30)"
+30,11,0,10,11,173,0.0,0.0,21,0.0,Racarumi,Tendencia 3 días,"fija (u = P95, h_max = 30)"
+1,3,2,0,1,0,0.6666666666666666,0.6666666666666666,0,0.6666666666666666,Tamshiyacu,Regresión lineal,calibrada
+2,3,1,1,2,0,0.3333333333333333,0.3333333333333333,0,0.3333333333333333,Tamshiyacu,Regresión lineal,calibrada
+3,3,1,1,2,0,0.3333333333333333,0.3333333333333333,0,0.3333333333333333,Tamshiyacu,Regresión lineal,calibrada
+4,3,1,1,2,0,0.3333333333333333,0.3333333333333333,0,0.3333333333333333,Tamshiyacu,Regresión lineal,calibrada
+5,3,0,2,3,0,0.0,0.0,0,0.0,Tamshiyacu,Regresión lineal,calibrada
+6,3,0,2,3,0,0.0,0.0,0,0.0,Tamshiyacu,Regresión lineal,calibrada
+7,3,0,2,3,0,0.0,0.0,0,0.0,Tamshiyacu,Regresión lineal,calibrada
+8,3,0,2,3,0,0.0,0.0,0,0.0,Tamshiyacu,Regresión lineal,calibrada
+9,3,0,2,3,0,0.0,0.0,0,0.0,Tamshiyacu,Regresión lineal,calibrada
+10,3,0,2,3,0,0.0,0.0,0,0.0,Tamshiyacu,Regresión lineal,calibrada
+11,3,0,2,3,0,0.0,0.0,0,0.0,Tamshiyacu,Regresión lineal,calibrada
+12,3,0,2,3,0,0.0,0.0,0,0.0,Tamshiyacu,Regresión lineal,calibrada
+13,3,0,2,3,0,0.0,0.0,0,0.0,Tamshiyacu,Regresión lineal,calibrada
+14,3,0,2,3,0,0.0,0.0,0,0.0,Tamshiyacu,Regresión lineal,calibrada
+15,3,0,2,3,0,0.0,0.0,0,0.0,Tamshiyacu,Regresión lineal,calibrada
+16,3,0,2,3,0,0.0,0.0,0,0.0,Tamshiyacu,Regresión lineal,calibrada
+17,3,0,2,3,0,0.0,0.0,0,0.0,Tamshiyacu,Regresión lineal,calibrada
+18,3,0,2,3,0,0.0,0.0,0,0.0,Tamshiyacu,Regresión lineal,calibrada
+19,3,0,2,3,0,0.0,0.0,0,0.0,Tamshiyacu,Regresión lineal,calibrada
+20,3,0,2,3,0,0.0,0.0,0,0.0,Tamshiyacu,Regresión lineal,calibrada
+21,3,0,2,3,0,0.0,0.0,0,0.0,Tamshiyacu,Regresión lineal,calibrada
+22,3,0,2,3,0,0.0,0.0,0,0.0,Tamshiyacu,Regresión lineal,calibrada
+23,3,0,2,3,0,0.0,0.0,0,0.0,Tamshiyacu,Regresión lineal,calibrada
+24,3,0,2,3,0,0.0,0.0,0,0.0,Tamshiyacu,Regresión lineal,calibrada
+25,3,0,2,3,0,0.0,0.0,0,0.0,Tamshiyacu,Regresión lineal,calibrada
+26,3,0,2,3,0,0.0,0.0,0,0.0,Tamshiyacu,Regresión lineal,calibrada
+27,3,0,2,3,0,0.0,0.0,0,0.0,Tamshiyacu,Regresión lineal,calibrada
+28,3,0,2,3,0,0.0,0.0,0,0.0,Tamshiyacu,Regresión lineal,calibrada
+29,3,0,2,3,0,0.0,0.0,0,0.0,Tamshiyacu,Regresión lineal,calibrada
+30,3,0,2,3,0,0.0,0.0,0,0.0,Tamshiyacu,Regresión lineal,calibrada
+1,3,2,0,1,15,0.6666666666666666,0.1111111111111111,0,0.6666666666666666,Tamshiyacu,Regresión lineal,"fija (u = P95, h_max = 30)"
+2,3,1,1,2,15,0.3333333333333333,0.05555555555555555,0,0.3333333333333333,Tamshiyacu,Regresión lineal,"fija (u = P95, h_max = 30)"
+3,3,1,1,2,15,0.3333333333333333,0.05555555555555555,0,0.3333333333333333,Tamshiyacu,Regresión lineal,"fija (u = P95, h_max = 30)"
+4,3,1,1,2,15,0.3333333333333333,0.05555555555555555,0,0.3333333333333333,Tamshiyacu,Regresión lineal,"fija (u = P95, h_max = 30)"
+5,3,0,2,3,15,0.0,0.0,0,0.0,Tamshiyacu,Regresión lineal,"fija (u = P95, h_max = 30)"
+6,3,0,2,3,15,0.0,0.0,0,0.0,Tamshiyacu,Regresión lineal,"fija (u = P95, h_max = 30)"
+7,3,0,2,3,15,0.0,0.0,0,0.0,Tamshiyacu,Regresión lineal,"fija (u = P95, h_max = 30)"
+8,3,0,2,3,15,0.0,0.0,0,0.0,Tamshiyacu,Regresión lineal,"fija (u = P95, h_max = 30)"
+9,3,0,2,3,15,0.0,0.0,0,0.0,Tamshiyacu,Regresión lineal,"fija (u = P95, h_max = 30)"
+10,3,0,2,3,15,0.0,0.0,0,0.0,Tamshiyacu,Regresión lineal,"fija (u = P95, h_max = 30)"
+11,3,0,2,3,15,0.0,0.0,0,0.0,Tamshiyacu,Regresión lineal,"fija (u = P95, h_max = 30)"
+12,3,0,2,3,15,0.0,0.0,0,0.0,Tamshiyacu,Regresión lineal,"fija (u = P95, h_max = 30)"
+13,3,0,2,3,15,0.0,0.0,0,0.0,Tamshiyacu,Regresión lineal,"fija (u = P95, h_max = 30)"
+14,3,0,2,3,15,0.0,0.0,0,0.0,Tamshiyacu,Regresión lineal,"fija (u = P95, h_max = 30)"
+15,3,0,2,3,15,0.0,0.0,0,0.0,Tamshiyacu,Regresión lineal,"fija (u = P95, h_max = 30)"
+16,3,0,2,3,15,0.0,0.0,0,0.0,Tamshiyacu,Regresión lineal,"fija (u = P95, h_max = 30)"
+17,3,0,2,3,15,0.0,0.0,0,0.0,Tamshiyacu,Regresión lineal,"fija (u = P95, h_max = 30)"
+18,3,0,2,3,15,0.0,0.0,0,0.0,Tamshiyacu,Regresión lineal,"fija (u = P95, h_max = 30)"
+19,3,0,2,3,15,0.0,0.0,0,0.0,Tamshiyacu,Regresión lineal,"fija (u = P95, h_max = 30)"
+20,3,0,2,3,15,0.0,0.0,0,0.0,Tamshiyacu,Regresión lineal,"fija (u = P95, h_max = 30)"
+21,3,0,2,3,15,0.0,0.0,0,0.0,Tamshiyacu,Regresión lineal,"fija (u = P95, h_max = 30)"
+22,3,0,2,3,15,0.0,0.0,0,0.0,Tamshiyacu,Regresión lineal,"fija (u = P95, h_max = 30)"
+23,3,0,2,3,15,0.0,0.0,0,0.0,Tamshiyacu,Regresión lineal,"fija (u = P95, h_max = 30)"
+24,3,0,2,3,15,0.0,0.0,0,0.0,Tamshiyacu,Regresión lineal,"fija (u = P95, h_max = 30)"
+25,3,0,2,3,15,0.0,0.0,0,0.0,Tamshiyacu,Regresión lineal,"fija (u = P95, h_max = 30)"
+26,3,0,2,3,15,0.0,0.0,0,0.0,Tamshiyacu,Regresión lineal,"fija (u = P95, h_max = 30)"
+27,3,0,2,3,15,0.0,0.0,0,0.0,Tamshiyacu,Regresión lineal,"fija (u = P95, h_max = 30)"
+28,3,0,2,3,15,0.0,0.0,0,0.0,Tamshiyacu,Regresión lineal,"fija (u = P95, h_max = 30)"
+29,3,0,2,3,15,0.0,0.0,0,0.0,Tamshiyacu,Regresión lineal,"fija (u = P95, h_max = 30)"
+30,3,0,2,3,15,0.0,0.0,0,0.0,Tamshiyacu,Regresión lineal,"fija (u = P95, h_max = 30)"
+1,3,3,0,0,0,1.0,1.0,0,1.0,Tamshiyacu,Random Forest,calibrada
+2,3,3,0,0,0,1.0,1.0,0,1.0,Tamshiyacu,Random Forest,calibrada
+3,3,3,0,0,0,1.0,1.0,0,1.0,Tamshiyacu,Random Forest,calibrada
+4,3,2,1,1,0,0.6666666666666666,0.6666666666666666,0,0.6666666666666666,Tamshiyacu,Random Forest,calibrada
+5,3,1,2,2,0,0.3333333333333333,0.3333333333333333,0,0.3333333333333333,Tamshiyacu,Random Forest,calibrada
+6,3,0,3,3,0,0.0,0.0,0,0.0,Tamshiyacu,Random Forest,calibrada
+7,3,0,3,3,0,0.0,0.0,0,0.0,Tamshiyacu,Random Forest,calibrada
+8,3,0,3,3,0,0.0,0.0,0,0.0,Tamshiyacu,Random Forest,calibrada
+9,3,0,3,3,0,0.0,0.0,0,0.0,Tamshiyacu,Random Forest,calibrada
+10,3,0,3,3,0,0.0,0.0,0,0.0,Tamshiyacu,Random Forest,calibrada
+11,3,0,3,3,0,0.0,0.0,0,0.0,Tamshiyacu,Random Forest,calibrada
+12,3,0,3,3,0,0.0,0.0,0,0.0,Tamshiyacu,Random Forest,calibrada
+13,3,0,3,3,0,0.0,0.0,0,0.0,Tamshiyacu,Random Forest,calibrada
+14,3,0,3,3,0,0.0,0.0,0,0.0,Tamshiyacu,Random Forest,calibrada
+15,3,0,3,3,0,0.0,0.0,0,0.0,Tamshiyacu,Random Forest,calibrada
+16,3,0,3,3,0,0.0,0.0,0,0.0,Tamshiyacu,Random Forest,calibrada
+17,3,0,3,3,0,0.0,0.0,0,0.0,Tamshiyacu,Random Forest,calibrada
+18,3,0,3,3,0,0.0,0.0,0,0.0,Tamshiyacu,Random Forest,calibrada
+19,3,0,3,3,0,0.0,0.0,0,0.0,Tamshiyacu,Random Forest,calibrada
+20,3,0,3,3,0,0.0,0.0,0,0.0,Tamshiyacu,Random Forest,calibrada
+21,3,0,3,3,0,0.0,0.0,0,0.0,Tamshiyacu,Random Forest,calibrada
+22,3,0,3,3,0,0.0,0.0,0,0.0,Tamshiyacu,Random Forest,calibrada
+23,3,0,3,3,0,0.0,0.0,0,0.0,Tamshiyacu,Random Forest,calibrada
+24,3,0,3,3,0,0.0,0.0,0,0.0,Tamshiyacu,Random Forest,calibrada
+25,3,0,3,3,0,0.0,0.0,0,0.0,Tamshiyacu,Random Forest,calibrada
+26,3,0,3,3,0,0.0,0.0,0,0.0,Tamshiyacu,Random Forest,calibrada
+27,3,0,3,3,0,0.0,0.0,0,0.0,Tamshiyacu,Random Forest,calibrada
+28,3,0,3,3,0,0.0,0.0,0,0.0,Tamshiyacu,Random Forest,calibrada
+29,3,0,3,3,0,0.0,0.0,0,0.0,Tamshiyacu,Random Forest,calibrada
+30,3,0,3,3,0,0.0,0.0,0,0.0,Tamshiyacu,Random Forest,calibrada
+1,3,3,0,0,14,1.0,0.17647058823529413,0,1.0,Tamshiyacu,Random Forest,"fija (u = P95, h_max = 30)"
+2,3,3,0,0,14,1.0,0.17647058823529413,0,1.0,Tamshiyacu,Random Forest,"fija (u = P95, h_max = 30)"
+3,3,3,0,0,14,1.0,0.17647058823529413,0,1.0,Tamshiyacu,Random Forest,"fija (u = P95, h_max = 30)"
+4,3,3,0,0,14,1.0,0.17647058823529413,0,1.0,Tamshiyacu,Random Forest,"fija (u = P95, h_max = 30)"
+5,3,3,0,0,14,1.0,0.17647058823529413,0,1.0,Tamshiyacu,Random Forest,"fija (u = P95, h_max = 30)"
+6,3,3,0,0,14,1.0,0.17647058823529413,0,1.0,Tamshiyacu,Random Forest,"fija (u = P95, h_max = 30)"
+7,3,3,0,0,14,1.0,0.17647058823529413,0,1.0,Tamshiyacu,Random Forest,"fija (u = P95, h_max = 30)"
+8,3,3,0,0,14,1.0,0.17647058823529413,0,1.0,Tamshiyacu,Random Forest,"fija (u = P95, h_max = 30)"
+9,3,3,0,0,14,1.0,0.17647058823529413,0,1.0,Tamshiyacu,Random Forest,"fija (u = P95, h_max = 30)"
+10,3,3,0,0,14,1.0,0.17647058823529413,0,1.0,Tamshiyacu,Random Forest,"fija (u = P95, h_max = 30)"
+11,3,2,1,1,14,0.6666666666666666,0.11764705882352941,0,0.6666666666666666,Tamshiyacu,Random Forest,"fija (u = P95, h_max = 30)"
+12,3,2,1,1,14,0.6666666666666666,0.11764705882352941,0,0.6666666666666666,Tamshiyacu,Random Forest,"fija (u = P95, h_max = 30)"
+13,3,2,1,1,14,0.6666666666666666,0.11764705882352941,0,0.6666666666666666,Tamshiyacu,Random Forest,"fija (u = P95, h_max = 30)"
+14,3,2,1,1,14,0.6666666666666666,0.11764705882352941,0,0.6666666666666666,Tamshiyacu,Random Forest,"fija (u = P95, h_max = 30)"
+15,3,2,1,1,14,0.6666666666666666,0.11764705882352941,0,0.6666666666666666,Tamshiyacu,Random Forest,"fija (u = P95, h_max = 30)"
+16,3,2,1,1,14,0.6666666666666666,0.11764705882352941,0,0.6666666666666666,Tamshiyacu,Random Forest,"fija (u = P95, h_max = 30)"
+17,3,1,2,2,14,0.3333333333333333,0.058823529411764705,0,0.3333333333333333,Tamshiyacu,Random Forest,"fija (u = P95, h_max = 30)"
+18,3,1,2,2,14,0.3333333333333333,0.058823529411764705,0,0.3333333333333333,Tamshiyacu,Random Forest,"fija (u = P95, h_max = 30)"
+19,3,1,2,2,14,0.3333333333333333,0.058823529411764705,0,0.3333333333333333,Tamshiyacu,Random Forest,"fija (u = P95, h_max = 30)"
+20,3,1,2,2,14,0.3333333333333333,0.058823529411764705,0,0.3333333333333333,Tamshiyacu,Random Forest,"fija (u = P95, h_max = 30)"
+21,3,0,3,3,14,0.0,0.0,0,0.0,Tamshiyacu,Random Forest,"fija (u = P95, h_max = 30)"
+22,3,0,3,3,14,0.0,0.0,0,0.0,Tamshiyacu,Random Forest,"fija (u = P95, h_max = 30)"
+23,3,0,3,3,14,0.0,0.0,0,0.0,Tamshiyacu,Random Forest,"fija (u = P95, h_max = 30)"
+24,3,0,3,3,14,0.0,0.0,0,0.0,Tamshiyacu,Random Forest,"fija (u = P95, h_max = 30)"
+25,3,0,3,3,14,0.0,0.0,0,0.0,Tamshiyacu,Random Forest,"fija (u = P95, h_max = 30)"
+26,3,0,3,3,14,0.0,0.0,0,0.0,Tamshiyacu,Random Forest,"fija (u = P95, h_max = 30)"
+27,3,0,3,3,14,0.0,0.0,0,0.0,Tamshiyacu,Random Forest,"fija (u = P95, h_max = 30)"
+28,3,0,3,3,14,0.0,0.0,0,0.0,Tamshiyacu,Random Forest,"fija (u = P95, h_max = 30)"
+29,3,0,3,3,14,0.0,0.0,0,0.0,Tamshiyacu,Random Forest,"fija (u = P95, h_max = 30)"
+30,3,0,3,3,14,0.0,0.0,0,0.0,Tamshiyacu,Random Forest,"fija (u = P95, h_max = 30)"
+1,3,3,0,0,0,1.0,1.0,0,1.0,Tamshiyacu,XGBoost,calibrada
+2,3,2,1,1,0,0.6666666666666666,0.6666666666666666,0,0.6666666666666666,Tamshiyacu,XGBoost,calibrada
+3,3,2,1,1,0,0.6666666666666666,0.6666666666666666,0,0.6666666666666666,Tamshiyacu,XGBoost,calibrada
+4,3,1,2,2,0,0.3333333333333333,0.3333333333333333,0,0.3333333333333333,Tamshiyacu,XGBoost,calibrada
+5,3,0,3,3,0,0.0,0.0,0,0.0,Tamshiyacu,XGBoost,calibrada
+6,3,0,3,3,0,0.0,0.0,0,0.0,Tamshiyacu,XGBoost,calibrada
+7,3,0,3,3,0,0.0,0.0,0,0.0,Tamshiyacu,XGBoost,calibrada
+8,3,0,3,3,0,0.0,0.0,0,0.0,Tamshiyacu,XGBoost,calibrada
+9,3,0,3,3,0,0.0,0.0,0,0.0,Tamshiyacu,XGBoost,calibrada
+10,3,0,3,3,0,0.0,0.0,0,0.0,Tamshiyacu,XGBoost,calibrada
+11,3,0,3,3,0,0.0,0.0,0,0.0,Tamshiyacu,XGBoost,calibrada
+12,3,0,3,3,0,0.0,0.0,0,0.0,Tamshiyacu,XGBoost,calibrada
+13,3,0,3,3,0,0.0,0.0,0,0.0,Tamshiyacu,XGBoost,calibrada
+14,3,0,3,3,0,0.0,0.0,0,0.0,Tamshiyacu,XGBoost,calibrada
+15,3,0,3,3,0,0.0,0.0,0,0.0,Tamshiyacu,XGBoost,calibrada
+16,3,0,3,3,0,0.0,0.0,0,0.0,Tamshiyacu,XGBoost,calibrada
+17,3,0,3,3,0,0.0,0.0,0,0.0,Tamshiyacu,XGBoost,calibrada
+18,3,0,3,3,0,0.0,0.0,0,0.0,Tamshiyacu,XGBoost,calibrada
+19,3,0,3,3,0,0.0,0.0,0,0.0,Tamshiyacu,XGBoost,calibrada
+20,3,0,3,3,0,0.0,0.0,0,0.0,Tamshiyacu,XGBoost,calibrada
+21,3,0,3,3,0,0.0,0.0,0,0.0,Tamshiyacu,XGBoost,calibrada
+22,3,0,3,3,0,0.0,0.0,0,0.0,Tamshiyacu,XGBoost,calibrada
+23,3,0,3,3,0,0.0,0.0,0,0.0,Tamshiyacu,XGBoost,calibrada
+24,3,0,3,3,0,0.0,0.0,0,0.0,Tamshiyacu,XGBoost,calibrada
+25,3,0,3,3,0,0.0,0.0,0,0.0,Tamshiyacu,XGBoost,calibrada
+26,3,0,3,3,0,0.0,0.0,0,0.0,Tamshiyacu,XGBoost,calibrada
+27,3,0,3,3,0,0.0,0.0,0,0.0,Tamshiyacu,XGBoost,calibrada
+28,3,0,3,3,0,0.0,0.0,0,0.0,Tamshiyacu,XGBoost,calibrada
+29,3,0,3,3,0,0.0,0.0,0,0.0,Tamshiyacu,XGBoost,calibrada
+30,3,0,3,3,0,0.0,0.0,0,0.0,Tamshiyacu,XGBoost,calibrada
+1,3,3,0,0,11,1.0,0.21428571428571427,0,1.0,Tamshiyacu,XGBoost,"fija (u = P95, h_max = 30)"
+2,3,3,0,0,11,1.0,0.21428571428571427,0,1.0,Tamshiyacu,XGBoost,"fija (u = P95, h_max = 30)"
+3,3,3,0,0,11,1.0,0.21428571428571427,0,1.0,Tamshiyacu,XGBoost,"fija (u = P95, h_max = 30)"
+4,3,3,0,0,11,1.0,0.21428571428571427,0,1.0,Tamshiyacu,XGBoost,"fija (u = P95, h_max = 30)"
+5,3,3,0,0,11,1.0,0.21428571428571427,0,1.0,Tamshiyacu,XGBoost,"fija (u = P95, h_max = 30)"
+6,3,3,0,0,11,1.0,0.21428571428571427,0,1.0,Tamshiyacu,XGBoost,"fija (u = P95, h_max = 30)"
+7,3,3,0,0,11,1.0,0.21428571428571427,0,1.0,Tamshiyacu,XGBoost,"fija (u = P95, h_max = 30)"
+8,3,3,0,0,11,1.0,0.21428571428571427,0,1.0,Tamshiyacu,XGBoost,"fija (u = P95, h_max = 30)"
+9,3,2,1,1,11,0.6666666666666666,0.14285714285714285,0,0.6666666666666666,Tamshiyacu,XGBoost,"fija (u = P95, h_max = 30)"
+10,3,2,1,1,11,0.6666666666666666,0.14285714285714285,0,0.6666666666666666,Tamshiyacu,XGBoost,"fija (u = P95, h_max = 30)"
+11,3,1,2,2,11,0.3333333333333333,0.07142857142857142,0,0.3333333333333333,Tamshiyacu,XGBoost,"fija (u = P95, h_max = 30)"
+12,3,1,2,2,11,0.3333333333333333,0.07142857142857142,0,0.3333333333333333,Tamshiyacu,XGBoost,"fija (u = P95, h_max = 30)"
+13,3,1,2,2,11,0.3333333333333333,0.07142857142857142,0,0.3333333333333333,Tamshiyacu,XGBoost,"fija (u = P95, h_max = 30)"
+14,3,1,2,2,11,0.3333333333333333,0.07142857142857142,0,0.3333333333333333,Tamshiyacu,XGBoost,"fija (u = P95, h_max = 30)"
+15,3,1,2,2,11,0.3333333333333333,0.07142857142857142,0,0.3333333333333333,Tamshiyacu,XGBoost,"fija (u = P95, h_max = 30)"
+16,3,1,2,2,11,0.3333333333333333,0.07142857142857142,0,0.3333333333333333,Tamshiyacu,XGBoost,"fija (u = P95, h_max = 30)"
+17,3,1,2,2,11,0.3333333333333333,0.07142857142857142,0,0.3333333333333333,Tamshiyacu,XGBoost,"fija (u = P95, h_max = 30)"
+18,3,1,2,2,11,0.3333333333333333,0.07142857142857142,0,0.3333333333333333,Tamshiyacu,XGBoost,"fija (u = P95, h_max = 30)"
+19,3,1,2,2,11,0.3333333333333333,0.07142857142857142,0,0.3333333333333333,Tamshiyacu,XGBoost,"fija (u = P95, h_max = 30)"
+20,3,1,2,2,11,0.3333333333333333,0.07142857142857142,0,0.3333333333333333,Tamshiyacu,XGBoost,"fija (u = P95, h_max = 30)"
+21,3,0,3,3,11,0.0,0.0,0,0.0,Tamshiyacu,XGBoost,"fija (u = P95, h_max = 30)"
+22,3,0,3,3,11,0.0,0.0,0,0.0,Tamshiyacu,XGBoost,"fija (u = P95, h_max = 30)"
+23,3,0,3,3,11,0.0,0.0,0,0.0,Tamshiyacu,XGBoost,"fija (u = P95, h_max = 30)"
+24,3,0,3,3,11,0.0,0.0,0,0.0,Tamshiyacu,XGBoost,"fija (u = P95, h_max = 30)"
+25,3,0,3,3,11,0.0,0.0,0,0.0,Tamshiyacu,XGBoost,"fija (u = P95, h_max = 30)"
+26,3,0,3,3,11,0.0,0.0,0,0.0,Tamshiyacu,XGBoost,"fija (u = P95, h_max = 30)"
+27,3,0,3,3,11,0.0,0.0,0,0.0,Tamshiyacu,XGBoost,"fija (u = P95, h_max = 30)"
+28,3,0,3,3,11,0.0,0.0,0,0.0,Tamshiyacu,XGBoost,"fija (u = P95, h_max = 30)"
+29,3,0,3,3,11,0.0,0.0,0,0.0,Tamshiyacu,XGBoost,"fija (u = P95, h_max = 30)"
+30,3,0,3,3,11,0.0,0.0,0,0.0,Tamshiyacu,XGBoost,"fija (u = P95, h_max = 30)"
+1,3,3,0,0,0,1.0,1.0,0,1.0,Tamshiyacu,KNN,calibrada
+2,3,3,0,0,0,1.0,1.0,0,1.0,Tamshiyacu,KNN,calibrada
+3,3,3,0,0,0,1.0,1.0,0,1.0,Tamshiyacu,KNN,calibrada
+4,3,1,2,2,0,0.3333333333333333,0.3333333333333333,0,0.3333333333333333,Tamshiyacu,KNN,calibrada
+5,3,0,3,3,0,0.0,0.0,0,0.0,Tamshiyacu,KNN,calibrada
+6,3,0,3,3,0,0.0,0.0,0,0.0,Tamshiyacu,KNN,calibrada
+7,3,0,3,3,0,0.0,0.0,0,0.0,Tamshiyacu,KNN,calibrada
+8,3,0,3,3,0,0.0,0.0,0,0.0,Tamshiyacu,KNN,calibrada
+9,3,0,3,3,0,0.0,0.0,0,0.0,Tamshiyacu,KNN,calibrada
+10,3,0,3,3,0,0.0,0.0,0,0.0,Tamshiyacu,KNN,calibrada
+11,3,0,3,3,0,0.0,0.0,0,0.0,Tamshiyacu,KNN,calibrada
+12,3,0,3,3,0,0.0,0.0,0,0.0,Tamshiyacu,KNN,calibrada
+13,3,0,3,3,0,0.0,0.0,0,0.0,Tamshiyacu,KNN,calibrada
+14,3,0,3,3,0,0.0,0.0,0,0.0,Tamshiyacu,KNN,calibrada
+15,3,0,3,3,0,0.0,0.0,0,0.0,Tamshiyacu,KNN,calibrada
+16,3,0,3,3,0,0.0,0.0,0,0.0,Tamshiyacu,KNN,calibrada
+17,3,0,3,3,0,0.0,0.0,0,0.0,Tamshiyacu,KNN,calibrada
+18,3,0,3,3,0,0.0,0.0,0,0.0,Tamshiyacu,KNN,calibrada
+19,3,0,3,3,0,0.0,0.0,0,0.0,Tamshiyacu,KNN,calibrada
+20,3,0,3,3,0,0.0,0.0,0,0.0,Tamshiyacu,KNN,calibrada
+21,3,0,3,3,0,0.0,0.0,0,0.0,Tamshiyacu,KNN,calibrada
+22,3,0,3,3,0,0.0,0.0,0,0.0,Tamshiyacu,KNN,calibrada
+23,3,0,3,3,0,0.0,0.0,0,0.0,Tamshiyacu,KNN,calibrada
+24,3,0,3,3,0,0.0,0.0,0,0.0,Tamshiyacu,KNN,calibrada
+25,3,0,3,3,0,0.0,0.0,0,0.0,Tamshiyacu,KNN,calibrada
+26,3,0,3,3,0,0.0,0.0,0,0.0,Tamshiyacu,KNN,calibrada
+27,3,0,3,3,0,0.0,0.0,0,0.0,Tamshiyacu,KNN,calibrada
+28,3,0,3,3,0,0.0,0.0,0,0.0,Tamshiyacu,KNN,calibrada
+29,3,0,3,3,0,0.0,0.0,0,0.0,Tamshiyacu,KNN,calibrada
+30,3,0,3,3,0,0.0,0.0,0,0.0,Tamshiyacu,KNN,calibrada
+1,3,3,0,0,10,1.0,0.23076923076923078,0,1.0,Tamshiyacu,KNN,"fija (u = P95, h_max = 30)"
+2,3,3,0,0,10,1.0,0.23076923076923078,0,1.0,Tamshiyacu,KNN,"fija (u = P95, h_max = 30)"
+3,3,3,0,0,10,1.0,0.23076923076923078,0,1.0,Tamshiyacu,KNN,"fija (u = P95, h_max = 30)"
+4,3,3,0,0,10,1.0,0.23076923076923078,0,1.0,Tamshiyacu,KNN,"fija (u = P95, h_max = 30)"
+5,3,3,0,0,10,1.0,0.23076923076923078,0,1.0,Tamshiyacu,KNN,"fija (u = P95, h_max = 30)"
+6,3,3,0,0,10,1.0,0.23076923076923078,0,1.0,Tamshiyacu,KNN,"fija (u = P95, h_max = 30)"
+7,3,3,0,0,10,1.0,0.23076923076923078,0,1.0,Tamshiyacu,KNN,"fija (u = P95, h_max = 30)"
+8,3,3,0,0,10,1.0,0.23076923076923078,0,1.0,Tamshiyacu,KNN,"fija (u = P95, h_max = 30)"
+9,3,3,0,0,10,1.0,0.23076923076923078,0,1.0,Tamshiyacu,KNN,"fija (u = P95, h_max = 30)"
+10,3,3,0,0,10,1.0,0.23076923076923078,0,1.0,Tamshiyacu,KNN,"fija (u = P95, h_max = 30)"
+11,3,2,1,1,10,0.6666666666666666,0.15384615384615385,0,0.6666666666666666,Tamshiyacu,KNN,"fija (u = P95, h_max = 30)"
+12,3,2,1,1,10,0.6666666666666666,0.15384615384615385,0,0.6666666666666666,Tamshiyacu,KNN,"fija (u = P95, h_max = 30)"
+13,3,2,1,1,10,0.6666666666666666,0.15384615384615385,0,0.6666666666666666,Tamshiyacu,KNN,"fija (u = P95, h_max = 30)"
+14,3,2,1,1,10,0.6666666666666666,0.15384615384615385,0,0.6666666666666666,Tamshiyacu,KNN,"fija (u = P95, h_max = 30)"
+15,3,2,1,1,10,0.6666666666666666,0.15384615384615385,0,0.6666666666666666,Tamshiyacu,KNN,"fija (u = P95, h_max = 30)"
+16,3,2,1,1,10,0.6666666666666666,0.15384615384615385,0,0.6666666666666666,Tamshiyacu,KNN,"fija (u = P95, h_max = 30)"
+17,3,2,1,1,10,0.6666666666666666,0.15384615384615385,0,0.6666666666666666,Tamshiyacu,KNN,"fija (u = P95, h_max = 30)"
+18,3,2,1,1,10,0.6666666666666666,0.15384615384615385,0,0.6666666666666666,Tamshiyacu,KNN,"fija (u = P95, h_max = 30)"
+19,3,2,1,1,10,0.6666666666666666,0.15384615384615385,0,0.6666666666666666,Tamshiyacu,KNN,"fija (u = P95, h_max = 30)"
+20,3,1,2,2,10,0.3333333333333333,0.07692307692307693,0,0.3333333333333333,Tamshiyacu,KNN,"fija (u = P95, h_max = 30)"
+21,3,1,2,2,10,0.3333333333333333,0.07692307692307693,0,0.3333333333333333,Tamshiyacu,KNN,"fija (u = P95, h_max = 30)"
+22,3,1,2,2,10,0.3333333333333333,0.07692307692307693,0,0.3333333333333333,Tamshiyacu,KNN,"fija (u = P95, h_max = 30)"
+23,3,1,2,2,10,0.3333333333333333,0.07692307692307693,0,0.3333333333333333,Tamshiyacu,KNN,"fija (u = P95, h_max = 30)"
+24,3,0,3,3,10,0.0,0.0,0,0.0,Tamshiyacu,KNN,"fija (u = P95, h_max = 30)"
+25,3,0,3,3,10,0.0,0.0,0,0.0,Tamshiyacu,KNN,"fija (u = P95, h_max = 30)"
+26,3,0,3,3,10,0.0,0.0,0,0.0,Tamshiyacu,KNN,"fija (u = P95, h_max = 30)"
+27,3,0,3,3,10,0.0,0.0,0,0.0,Tamshiyacu,KNN,"fija (u = P95, h_max = 30)"
+28,3,0,3,3,10,0.0,0.0,0,0.0,Tamshiyacu,KNN,"fija (u = P95, h_max = 30)"
+29,3,0,3,3,10,0.0,0.0,0,0.0,Tamshiyacu,KNN,"fija (u = P95, h_max = 30)"
+30,3,0,3,3,10,0.0,0.0,0,0.0,Tamshiyacu,KNN,"fija (u = P95, h_max = 30)"
+1,3,3,0,0,1,1.0,0.75,0,1.0,Tamshiyacu,MLP,calibrada
+2,3,3,0,0,1,1.0,0.75,0,1.0,Tamshiyacu,MLP,calibrada
+3,3,2,1,1,1,0.6666666666666666,0.5,0,0.6666666666666666,Tamshiyacu,MLP,calibrada
+4,3,2,1,1,1,0.6666666666666666,0.5,0,0.6666666666666666,Tamshiyacu,MLP,calibrada
+5,3,2,1,1,1,0.6666666666666666,0.5,0,0.6666666666666666,Tamshiyacu,MLP,calibrada
+6,3,0,3,3,1,0.0,0.0,0,0.0,Tamshiyacu,MLP,calibrada
+7,3,0,3,3,1,0.0,0.0,0,0.0,Tamshiyacu,MLP,calibrada
+8,3,0,3,3,1,0.0,0.0,0,0.0,Tamshiyacu,MLP,calibrada
+9,3,0,3,3,1,0.0,0.0,0,0.0,Tamshiyacu,MLP,calibrada
+10,3,0,3,3,1,0.0,0.0,0,0.0,Tamshiyacu,MLP,calibrada
+11,3,0,3,3,1,0.0,0.0,0,0.0,Tamshiyacu,MLP,calibrada
+12,3,0,3,3,1,0.0,0.0,0,0.0,Tamshiyacu,MLP,calibrada
+13,3,0,3,3,1,0.0,0.0,0,0.0,Tamshiyacu,MLP,calibrada
+14,3,0,3,3,1,0.0,0.0,0,0.0,Tamshiyacu,MLP,calibrada
+15,3,0,3,3,1,0.0,0.0,0,0.0,Tamshiyacu,MLP,calibrada
+16,3,0,3,3,1,0.0,0.0,0,0.0,Tamshiyacu,MLP,calibrada
+17,3,0,3,3,1,0.0,0.0,0,0.0,Tamshiyacu,MLP,calibrada
+18,3,0,3,3,1,0.0,0.0,0,0.0,Tamshiyacu,MLP,calibrada
+19,3,0,3,3,1,0.0,0.0,0,0.0,Tamshiyacu,MLP,calibrada
+20,3,0,3,3,1,0.0,0.0,0,0.0,Tamshiyacu,MLP,calibrada
+21,3,0,3,3,1,0.0,0.0,0,0.0,Tamshiyacu,MLP,calibrada
+22,3,0,3,3,1,0.0,0.0,0,0.0,Tamshiyacu,MLP,calibrada
+23,3,0,3,3,1,0.0,0.0,0,0.0,Tamshiyacu,MLP,calibrada
+24,3,0,3,3,1,0.0,0.0,0,0.0,Tamshiyacu,MLP,calibrada
+25,3,0,3,3,1,0.0,0.0,0,0.0,Tamshiyacu,MLP,calibrada
+26,3,0,3,3,1,0.0,0.0,0,0.0,Tamshiyacu,MLP,calibrada
+27,3,0,3,3,1,0.0,0.0,0,0.0,Tamshiyacu,MLP,calibrada
+28,3,0,3,3,1,0.0,0.0,0,0.0,Tamshiyacu,MLP,calibrada
+29,3,0,3,3,1,0.0,0.0,0,0.0,Tamshiyacu,MLP,calibrada
+30,3,0,3,3,1,0.0,0.0,0,0.0,Tamshiyacu,MLP,calibrada
+1,3,3,0,0,10,1.0,0.23076923076923078,0,1.0,Tamshiyacu,MLP,"fija (u = P95, h_max = 30)"
+2,3,3,0,0,10,1.0,0.23076923076923078,0,1.0,Tamshiyacu,MLP,"fija (u = P95, h_max = 30)"
+3,3,3,0,0,10,1.0,0.23076923076923078,0,1.0,Tamshiyacu,MLP,"fija (u = P95, h_max = 30)"
+4,3,3,0,0,10,1.0,0.23076923076923078,0,1.0,Tamshiyacu,MLP,"fija (u = P95, h_max = 30)"
+5,3,3,0,0,10,1.0,0.23076923076923078,0,1.0,Tamshiyacu,MLP,"fija (u = P95, h_max = 30)"
+6,3,3,0,0,10,1.0,0.23076923076923078,0,1.0,Tamshiyacu,MLP,"fija (u = P95, h_max = 30)"
+7,3,3,0,0,10,1.0,0.23076923076923078,0,1.0,Tamshiyacu,MLP,"fija (u = P95, h_max = 30)"
+8,3,3,0,0,10,1.0,0.23076923076923078,0,1.0,Tamshiyacu,MLP,"fija (u = P95, h_max = 30)"
+9,3,3,0,0,10,1.0,0.23076923076923078,0,1.0,Tamshiyacu,MLP,"fija (u = P95, h_max = 30)"
+10,3,3,0,0,10,1.0,0.23076923076923078,0,1.0,Tamshiyacu,MLP,"fija (u = P95, h_max = 30)"
+11,3,2,1,1,10,0.6666666666666666,0.15384615384615385,0,0.6666666666666666,Tamshiyacu,MLP,"fija (u = P95, h_max = 30)"
+12,3,2,1,1,10,0.6666666666666666,0.15384615384615385,0,0.6666666666666666,Tamshiyacu,MLP,"fija (u = P95, h_max = 30)"
+13,3,2,1,1,10,0.6666666666666666,0.15384615384615385,0,0.6666666666666666,Tamshiyacu,MLP,"fija (u = P95, h_max = 30)"
+14,3,2,1,1,10,0.6666666666666666,0.15384615384615385,0,0.6666666666666666,Tamshiyacu,MLP,"fija (u = P95, h_max = 30)"
+15,3,2,1,1,10,0.6666666666666666,0.15384615384615385,0,0.6666666666666666,Tamshiyacu,MLP,"fija (u = P95, h_max = 30)"
+16,3,2,1,1,10,0.6666666666666666,0.15384615384615385,0,0.6666666666666666,Tamshiyacu,MLP,"fija (u = P95, h_max = 30)"
+17,3,2,1,1,10,0.6666666666666666,0.15384615384615385,0,0.6666666666666666,Tamshiyacu,MLP,"fija (u = P95, h_max = 30)"
+18,3,2,1,1,10,0.6666666666666666,0.15384615384615385,0,0.6666666666666666,Tamshiyacu,MLP,"fija (u = P95, h_max = 30)"
+19,3,2,1,1,10,0.6666666666666666,0.15384615384615385,0,0.6666666666666666,Tamshiyacu,MLP,"fija (u = P95, h_max = 30)"
+20,3,2,1,1,10,0.6666666666666666,0.15384615384615385,0,0.6666666666666666,Tamshiyacu,MLP,"fija (u = P95, h_max = 30)"
+21,3,1,2,2,10,0.3333333333333333,0.07692307692307693,0,0.3333333333333333,Tamshiyacu,MLP,"fija (u = P95, h_max = 30)"
+22,3,1,2,2,10,0.3333333333333333,0.07692307692307693,0,0.3333333333333333,Tamshiyacu,MLP,"fija (u = P95, h_max = 30)"
+23,3,1,2,2,10,0.3333333333333333,0.07692307692307693,0,0.3333333333333333,Tamshiyacu,MLP,"fija (u = P95, h_max = 30)"
+24,3,1,2,2,10,0.3333333333333333,0.07692307692307693,0,0.3333333333333333,Tamshiyacu,MLP,"fija (u = P95, h_max = 30)"
+25,3,1,2,2,10,0.3333333333333333,0.07692307692307693,0,0.3333333333333333,Tamshiyacu,MLP,"fija (u = P95, h_max = 30)"
+26,3,1,2,2,10,0.3333333333333333,0.07692307692307693,0,0.3333333333333333,Tamshiyacu,MLP,"fija (u = P95, h_max = 30)"
+27,3,1,2,2,10,0.3333333333333333,0.07692307692307693,0,0.3333333333333333,Tamshiyacu,MLP,"fija (u = P95, h_max = 30)"
+28,3,0,3,3,10,0.0,0.0,0,0.0,Tamshiyacu,MLP,"fija (u = P95, h_max = 30)"
+29,3,0,3,3,10,0.0,0.0,0,0.0,Tamshiyacu,MLP,"fija (u = P95, h_max = 30)"
+30,3,0,3,3,10,0.0,0.0,0,0.0,Tamshiyacu,MLP,"fija (u = P95, h_max = 30)"
+1,3,3,0,0,0,1.0,1.0,0,1.0,Tamshiyacu,LSTM,calibrada
+2,3,3,0,0,0,1.0,1.0,0,1.0,Tamshiyacu,LSTM,calibrada
+3,3,1,2,2,0,0.3333333333333333,0.3333333333333333,0,0.3333333333333333,Tamshiyacu,LSTM,calibrada
+4,3,1,2,2,0,0.3333333333333333,0.3333333333333333,0,0.3333333333333333,Tamshiyacu,LSTM,calibrada
+5,3,0,3,3,0,0.0,0.0,0,0.0,Tamshiyacu,LSTM,calibrada
+6,3,0,3,3,0,0.0,0.0,0,0.0,Tamshiyacu,LSTM,calibrada
+7,3,0,3,3,0,0.0,0.0,0,0.0,Tamshiyacu,LSTM,calibrada
+8,3,0,3,3,0,0.0,0.0,0,0.0,Tamshiyacu,LSTM,calibrada
+9,3,0,3,3,0,0.0,0.0,0,0.0,Tamshiyacu,LSTM,calibrada
+10,3,0,3,3,0,0.0,0.0,0,0.0,Tamshiyacu,LSTM,calibrada
+11,3,0,3,3,0,0.0,0.0,0,0.0,Tamshiyacu,LSTM,calibrada
+12,3,0,3,3,0,0.0,0.0,0,0.0,Tamshiyacu,LSTM,calibrada
+13,3,0,3,3,0,0.0,0.0,0,0.0,Tamshiyacu,LSTM,calibrada
+14,3,0,3,3,0,0.0,0.0,0,0.0,Tamshiyacu,LSTM,calibrada
+15,3,0,3,3,0,0.0,0.0,0,0.0,Tamshiyacu,LSTM,calibrada
+16,3,0,3,3,0,0.0,0.0,0,0.0,Tamshiyacu,LSTM,calibrada
+17,3,0,3,3,0,0.0,0.0,0,0.0,Tamshiyacu,LSTM,calibrada
+18,3,0,3,3,0,0.0,0.0,0,0.0,Tamshiyacu,LSTM,calibrada
+19,3,0,3,3,0,0.0,0.0,0,0.0,Tamshiyacu,LSTM,calibrada
+20,3,0,3,3,0,0.0,0.0,0,0.0,Tamshiyacu,LSTM,calibrada
+21,3,0,3,3,0,0.0,0.0,0,0.0,Tamshiyacu,LSTM,calibrada
+22,3,0,3,3,0,0.0,0.0,0,0.0,Tamshiyacu,LSTM,calibrada
+23,3,0,3,3,0,0.0,0.0,0,0.0,Tamshiyacu,LSTM,calibrada
+24,3,0,3,3,0,0.0,0.0,0,0.0,Tamshiyacu,LSTM,calibrada
+25,3,0,3,3,0,0.0,0.0,0,0.0,Tamshiyacu,LSTM,calibrada
+26,3,0,3,3,0,0.0,0.0,0,0.0,Tamshiyacu,LSTM,calibrada
+27,3,0,3,3,0,0.0,0.0,0,0.0,Tamshiyacu,LSTM,calibrada
+28,3,0,3,3,0,0.0,0.0,0,0.0,Tamshiyacu,LSTM,calibrada
+29,3,0,3,3,0,0.0,0.0,0,0.0,Tamshiyacu,LSTM,calibrada
+30,3,0,3,3,0,0.0,0.0,0,0.0,Tamshiyacu,LSTM,calibrada
+1,3,3,0,0,1,1.0,0.75,0,1.0,Tamshiyacu,LSTM,"fija (u = P95, h_max = 30)"
+2,3,3,0,0,1,1.0,0.75,0,1.0,Tamshiyacu,LSTM,"fija (u = P95, h_max = 30)"
+3,3,2,1,1,1,0.6666666666666666,0.5,0,0.6666666666666666,Tamshiyacu,LSTM,"fija (u = P95, h_max = 30)"
+4,3,2,1,1,1,0.6666666666666666,0.5,0,0.6666666666666666,Tamshiyacu,LSTM,"fija (u = P95, h_max = 30)"
+5,3,1,2,2,1,0.3333333333333333,0.25,0,0.3333333333333333,Tamshiyacu,LSTM,"fija (u = P95, h_max = 30)"
+6,3,1,2,2,1,0.3333333333333333,0.25,0,0.3333333333333333,Tamshiyacu,LSTM,"fija (u = P95, h_max = 30)"
+7,3,1,2,2,1,0.3333333333333333,0.25,0,0.3333333333333333,Tamshiyacu,LSTM,"fija (u = P95, h_max = 30)"
+8,3,1,2,2,1,0.3333333333333333,0.25,0,0.3333333333333333,Tamshiyacu,LSTM,"fija (u = P95, h_max = 30)"
+9,3,0,3,3,1,0.0,0.0,0,0.0,Tamshiyacu,LSTM,"fija (u = P95, h_max = 30)"
+10,3,0,3,3,1,0.0,0.0,0,0.0,Tamshiyacu,LSTM,"fija (u = P95, h_max = 30)"
+11,3,0,3,3,1,0.0,0.0,0,0.0,Tamshiyacu,LSTM,"fija (u = P95, h_max = 30)"
+12,3,0,3,3,1,0.0,0.0,0,0.0,Tamshiyacu,LSTM,"fija (u = P95, h_max = 30)"
+13,3,0,3,3,1,0.0,0.0,0,0.0,Tamshiyacu,LSTM,"fija (u = P95, h_max = 30)"
+14,3,0,3,3,1,0.0,0.0,0,0.0,Tamshiyacu,LSTM,"fija (u = P95, h_max = 30)"
+15,3,0,3,3,1,0.0,0.0,0,0.0,Tamshiyacu,LSTM,"fija (u = P95, h_max = 30)"
+16,3,0,3,3,1,0.0,0.0,0,0.0,Tamshiyacu,LSTM,"fija (u = P95, h_max = 30)"
+17,3,0,3,3,1,0.0,0.0,0,0.0,Tamshiyacu,LSTM,"fija (u = P95, h_max = 30)"
+18,3,0,3,3,1,0.0,0.0,0,0.0,Tamshiyacu,LSTM,"fija (u = P95, h_max = 30)"
+19,3,0,3,3,1,0.0,0.0,0,0.0,Tamshiyacu,LSTM,"fija (u = P95, h_max = 30)"
+20,3,0,3,3,1,0.0,0.0,0,0.0,Tamshiyacu,LSTM,"fija (u = P95, h_max = 30)"
+21,3,0,3,3,1,0.0,0.0,0,0.0,Tamshiyacu,LSTM,"fija (u = P95, h_max = 30)"
+22,3,0,3,3,1,0.0,0.0,0,0.0,Tamshiyacu,LSTM,"fija (u = P95, h_max = 30)"
+23,3,0,3,3,1,0.0,0.0,0,0.0,Tamshiyacu,LSTM,"fija (u = P95, h_max = 30)"
+24,3,0,3,3,1,0.0,0.0,0,0.0,Tamshiyacu,LSTM,"fija (u = P95, h_max = 30)"
+25,3,0,3,3,1,0.0,0.0,0,0.0,Tamshiyacu,LSTM,"fija (u = P95, h_max = 30)"
+26,3,0,3,3,1,0.0,0.0,0,0.0,Tamshiyacu,LSTM,"fija (u = P95, h_max = 30)"
+27,3,0,3,3,1,0.0,0.0,0,0.0,Tamshiyacu,LSTM,"fija (u = P95, h_max = 30)"
+28,3,0,3,3,1,0.0,0.0,0,0.0,Tamshiyacu,LSTM,"fija (u = P95, h_max = 30)"
+29,3,0,3,3,1,0.0,0.0,0,0.0,Tamshiyacu,LSTM,"fija (u = P95, h_max = 30)"
+30,3,0,3,3,1,0.0,0.0,0,0.0,Tamshiyacu,LSTM,"fija (u = P95, h_max = 30)"
+1,3,0,0,3,0,0.0,0.0,0,0.0,Tamshiyacu,Persistencia,calibrada
+2,3,0,0,3,0,0.0,0.0,0,0.0,Tamshiyacu,Persistencia,calibrada
+3,3,0,0,3,0,0.0,0.0,0,0.0,Tamshiyacu,Persistencia,calibrada
+4,3,0,0,3,0,0.0,0.0,0,0.0,Tamshiyacu,Persistencia,calibrada
+5,3,0,0,3,0,0.0,0.0,0,0.0,Tamshiyacu,Persistencia,calibrada
+6,3,0,0,3,0,0.0,0.0,0,0.0,Tamshiyacu,Persistencia,calibrada
+7,3,0,0,3,0,0.0,0.0,0,0.0,Tamshiyacu,Persistencia,calibrada
+8,3,0,0,3,0,0.0,0.0,0,0.0,Tamshiyacu,Persistencia,calibrada
+9,3,0,0,3,0,0.0,0.0,0,0.0,Tamshiyacu,Persistencia,calibrada
+10,3,0,0,3,0,0.0,0.0,0,0.0,Tamshiyacu,Persistencia,calibrada
+11,3,0,0,3,0,0.0,0.0,0,0.0,Tamshiyacu,Persistencia,calibrada
+12,3,0,0,3,0,0.0,0.0,0,0.0,Tamshiyacu,Persistencia,calibrada
+13,3,0,0,3,0,0.0,0.0,0,0.0,Tamshiyacu,Persistencia,calibrada
+14,3,0,0,3,0,0.0,0.0,0,0.0,Tamshiyacu,Persistencia,calibrada
+15,3,0,0,3,0,0.0,0.0,0,0.0,Tamshiyacu,Persistencia,calibrada
+16,3,0,0,3,0,0.0,0.0,0,0.0,Tamshiyacu,Persistencia,calibrada
+17,3,0,0,3,0,0.0,0.0,0,0.0,Tamshiyacu,Persistencia,calibrada
+18,3,0,0,3,0,0.0,0.0,0,0.0,Tamshiyacu,Persistencia,calibrada
+19,3,0,0,3,0,0.0,0.0,0,0.0,Tamshiyacu,Persistencia,calibrada
+20,3,0,0,3,0,0.0,0.0,0,0.0,Tamshiyacu,Persistencia,calibrada
+21,3,0,0,3,0,0.0,0.0,0,0.0,Tamshiyacu,Persistencia,calibrada
+22,3,0,0,3,0,0.0,0.0,0,0.0,Tamshiyacu,Persistencia,calibrada
+23,3,0,0,3,0,0.0,0.0,0,0.0,Tamshiyacu,Persistencia,calibrada
+24,3,0,0,3,0,0.0,0.0,0,0.0,Tamshiyacu,Persistencia,calibrada
+25,3,0,0,3,0,0.0,0.0,0,0.0,Tamshiyacu,Persistencia,calibrada
+26,3,0,0,3,0,0.0,0.0,0,0.0,Tamshiyacu,Persistencia,calibrada
+27,3,0,0,3,0,0.0,0.0,0,0.0,Tamshiyacu,Persistencia,calibrada
+28,3,0,0,3,0,0.0,0.0,0,0.0,Tamshiyacu,Persistencia,calibrada
+29,3,0,0,3,0,0.0,0.0,0,0.0,Tamshiyacu,Persistencia,calibrada
+30,3,0,0,3,0,0.0,0.0,0,0.0,Tamshiyacu,Persistencia,calibrada
+1,3,0,0,3,0,0.0,0.0,0,0.0,Tamshiyacu,Persistencia,"fija (u = P95, h_max = 30)"
+2,3,0,0,3,0,0.0,0.0,0,0.0,Tamshiyacu,Persistencia,"fija (u = P95, h_max = 30)"
+3,3,0,0,3,0,0.0,0.0,0,0.0,Tamshiyacu,Persistencia,"fija (u = P95, h_max = 30)"
+4,3,0,0,3,0,0.0,0.0,0,0.0,Tamshiyacu,Persistencia,"fija (u = P95, h_max = 30)"
+5,3,0,0,3,0,0.0,0.0,0,0.0,Tamshiyacu,Persistencia,"fija (u = P95, h_max = 30)"
+6,3,0,0,3,0,0.0,0.0,0,0.0,Tamshiyacu,Persistencia,"fija (u = P95, h_max = 30)"
+7,3,0,0,3,0,0.0,0.0,0,0.0,Tamshiyacu,Persistencia,"fija (u = P95, h_max = 30)"
+8,3,0,0,3,0,0.0,0.0,0,0.0,Tamshiyacu,Persistencia,"fija (u = P95, h_max = 30)"
+9,3,0,0,3,0,0.0,0.0,0,0.0,Tamshiyacu,Persistencia,"fija (u = P95, h_max = 30)"
+10,3,0,0,3,0,0.0,0.0,0,0.0,Tamshiyacu,Persistencia,"fija (u = P95, h_max = 30)"
+11,3,0,0,3,0,0.0,0.0,0,0.0,Tamshiyacu,Persistencia,"fija (u = P95, h_max = 30)"
+12,3,0,0,3,0,0.0,0.0,0,0.0,Tamshiyacu,Persistencia,"fija (u = P95, h_max = 30)"
+13,3,0,0,3,0,0.0,0.0,0,0.0,Tamshiyacu,Persistencia,"fija (u = P95, h_max = 30)"
+14,3,0,0,3,0,0.0,0.0,0,0.0,Tamshiyacu,Persistencia,"fija (u = P95, h_max = 30)"
+15,3,0,0,3,0,0.0,0.0,0,0.0,Tamshiyacu,Persistencia,"fija (u = P95, h_max = 30)"
+16,3,0,0,3,0,0.0,0.0,0,0.0,Tamshiyacu,Persistencia,"fija (u = P95, h_max = 30)"
+17,3,0,0,3,0,0.0,0.0,0,0.0,Tamshiyacu,Persistencia,"fija (u = P95, h_max = 30)"
+18,3,0,0,3,0,0.0,0.0,0,0.0,Tamshiyacu,Persistencia,"fija (u = P95, h_max = 30)"
+19,3,0,0,3,0,0.0,0.0,0,0.0,Tamshiyacu,Persistencia,"fija (u = P95, h_max = 30)"
+20,3,0,0,3,0,0.0,0.0,0,0.0,Tamshiyacu,Persistencia,"fija (u = P95, h_max = 30)"
+21,3,0,0,3,0,0.0,0.0,0,0.0,Tamshiyacu,Persistencia,"fija (u = P95, h_max = 30)"
+22,3,0,0,3,0,0.0,0.0,0,0.0,Tamshiyacu,Persistencia,"fija (u = P95, h_max = 30)"
+23,3,0,0,3,0,0.0,0.0,0,0.0,Tamshiyacu,Persistencia,"fija (u = P95, h_max = 30)"
+24,3,0,0,3,0,0.0,0.0,0,0.0,Tamshiyacu,Persistencia,"fija (u = P95, h_max = 30)"
+25,3,0,0,3,0,0.0,0.0,0,0.0,Tamshiyacu,Persistencia,"fija (u = P95, h_max = 30)"
+26,3,0,0,3,0,0.0,0.0,0,0.0,Tamshiyacu,Persistencia,"fija (u = P95, h_max = 30)"
+27,3,0,0,3,0,0.0,0.0,0,0.0,Tamshiyacu,Persistencia,"fija (u = P95, h_max = 30)"
+28,3,0,0,3,0,0.0,0.0,0,0.0,Tamshiyacu,Persistencia,"fija (u = P95, h_max = 30)"
+29,3,0,0,3,0,0.0,0.0,0,0.0,Tamshiyacu,Persistencia,"fija (u = P95, h_max = 30)"
+30,3,0,0,3,0,0.0,0.0,0,0.0,Tamshiyacu,Persistencia,"fija (u = P95, h_max = 30)"
+1,3,3,0,0,114,1.0,0.02564102564102564,0,1.0,Tamshiyacu,Climatología,calibrada
+2,3,3,0,0,114,1.0,0.02564102564102564,0,1.0,Tamshiyacu,Climatología,calibrada
+3,3,3,0,0,114,1.0,0.02564102564102564,0,1.0,Tamshiyacu,Climatología,calibrada
+4,3,0,3,3,114,0.0,0.0,0,0.0,Tamshiyacu,Climatología,calibrada
+5,3,0,3,3,114,0.0,0.0,0,0.0,Tamshiyacu,Climatología,calibrada
+6,3,0,3,3,114,0.0,0.0,0,0.0,Tamshiyacu,Climatología,calibrada
+7,3,0,3,3,114,0.0,0.0,0,0.0,Tamshiyacu,Climatología,calibrada
+8,3,0,3,3,114,0.0,0.0,0,0.0,Tamshiyacu,Climatología,calibrada
+9,3,0,3,3,114,0.0,0.0,0,0.0,Tamshiyacu,Climatología,calibrada
+10,3,0,3,3,114,0.0,0.0,0,0.0,Tamshiyacu,Climatología,calibrada
+11,3,0,3,3,114,0.0,0.0,0,0.0,Tamshiyacu,Climatología,calibrada
+12,3,0,3,3,114,0.0,0.0,0,0.0,Tamshiyacu,Climatología,calibrada
+13,3,0,3,3,114,0.0,0.0,0,0.0,Tamshiyacu,Climatología,calibrada
+14,3,0,3,3,114,0.0,0.0,0,0.0,Tamshiyacu,Climatología,calibrada
+15,3,0,3,3,114,0.0,0.0,0,0.0,Tamshiyacu,Climatología,calibrada
+16,3,0,3,3,114,0.0,0.0,0,0.0,Tamshiyacu,Climatología,calibrada
+17,3,0,3,3,114,0.0,0.0,0,0.0,Tamshiyacu,Climatología,calibrada
+18,3,0,3,3,114,0.0,0.0,0,0.0,Tamshiyacu,Climatología,calibrada
+19,3,0,3,3,114,0.0,0.0,0,0.0,Tamshiyacu,Climatología,calibrada
+20,3,0,3,3,114,0.0,0.0,0,0.0,Tamshiyacu,Climatología,calibrada
+21,3,0,3,3,114,0.0,0.0,0,0.0,Tamshiyacu,Climatología,calibrada
+22,3,0,3,3,114,0.0,0.0,0,0.0,Tamshiyacu,Climatología,calibrada
+23,3,0,3,3,114,0.0,0.0,0,0.0,Tamshiyacu,Climatología,calibrada
+24,3,0,3,3,114,0.0,0.0,0,0.0,Tamshiyacu,Climatología,calibrada
+25,3,0,3,3,114,0.0,0.0,0,0.0,Tamshiyacu,Climatología,calibrada
+26,3,0,3,3,114,0.0,0.0,0,0.0,Tamshiyacu,Climatología,calibrada
+27,3,0,3,3,114,0.0,0.0,0,0.0,Tamshiyacu,Climatología,calibrada
+28,3,0,3,3,114,0.0,0.0,0,0.0,Tamshiyacu,Climatología,calibrada
+29,3,0,3,3,114,0.0,0.0,0,0.0,Tamshiyacu,Climatología,calibrada
+30,3,0,3,3,114,0.0,0.0,0,0.0,Tamshiyacu,Climatología,calibrada
+1,3,0,0,3,0,0.0,0.0,0,0.0,Tamshiyacu,Climatología,"fija (u = P95, h_max = 30)"
+2,3,0,0,3,0,0.0,0.0,0,0.0,Tamshiyacu,Climatología,"fija (u = P95, h_max = 30)"
+3,3,0,0,3,0,0.0,0.0,0,0.0,Tamshiyacu,Climatología,"fija (u = P95, h_max = 30)"
+4,3,0,0,3,0,0.0,0.0,0,0.0,Tamshiyacu,Climatología,"fija (u = P95, h_max = 30)"
+5,3,0,0,3,0,0.0,0.0,0,0.0,Tamshiyacu,Climatología,"fija (u = P95, h_max = 30)"
+6,3,0,0,3,0,0.0,0.0,0,0.0,Tamshiyacu,Climatología,"fija (u = P95, h_max = 30)"
+7,3,0,0,3,0,0.0,0.0,0,0.0,Tamshiyacu,Climatología,"fija (u = P95, h_max = 30)"
+8,3,0,0,3,0,0.0,0.0,0,0.0,Tamshiyacu,Climatología,"fija (u = P95, h_max = 30)"
+9,3,0,0,3,0,0.0,0.0,0,0.0,Tamshiyacu,Climatología,"fija (u = P95, h_max = 30)"
+10,3,0,0,3,0,0.0,0.0,0,0.0,Tamshiyacu,Climatología,"fija (u = P95, h_max = 30)"
+11,3,0,0,3,0,0.0,0.0,0,0.0,Tamshiyacu,Climatología,"fija (u = P95, h_max = 30)"
+12,3,0,0,3,0,0.0,0.0,0,0.0,Tamshiyacu,Climatología,"fija (u = P95, h_max = 30)"
+13,3,0,0,3,0,0.0,0.0,0,0.0,Tamshiyacu,Climatología,"fija (u = P95, h_max = 30)"
+14,3,0,0,3,0,0.0,0.0,0,0.0,Tamshiyacu,Climatología,"fija (u = P95, h_max = 30)"
+15,3,0,0,3,0,0.0,0.0,0,0.0,Tamshiyacu,Climatología,"fija (u = P95, h_max = 30)"
+16,3,0,0,3,0,0.0,0.0,0,0.0,Tamshiyacu,Climatología,"fija (u = P95, h_max = 30)"
+17,3,0,0,3,0,0.0,0.0,0,0.0,Tamshiyacu,Climatología,"fija (u = P95, h_max = 30)"
+18,3,0,0,3,0,0.0,0.0,0,0.0,Tamshiyacu,Climatología,"fija (u = P95, h_max = 30)"
+19,3,0,0,3,0,0.0,0.0,0,0.0,Tamshiyacu,Climatología,"fija (u = P95, h_max = 30)"
+20,3,0,0,3,0,0.0,0.0,0,0.0,Tamshiyacu,Climatología,"fija (u = P95, h_max = 30)"
+21,3,0,0,3,0,0.0,0.0,0,0.0,Tamshiyacu,Climatología,"fija (u = P95, h_max = 30)"
+22,3,0,0,3,0,0.0,0.0,0,0.0,Tamshiyacu,Climatología,"fija (u = P95, h_max = 30)"
+23,3,0,0,3,0,0.0,0.0,0,0.0,Tamshiyacu,Climatología,"fija (u = P95, h_max = 30)"
+24,3,0,0,3,0,0.0,0.0,0,0.0,Tamshiyacu,Climatología,"fija (u = P95, h_max = 30)"
+25,3,0,0,3,0,0.0,0.0,0,0.0,Tamshiyacu,Climatología,"fija (u = P95, h_max = 30)"
+26,3,0,0,3,0,0.0,0.0,0,0.0,Tamshiyacu,Climatología,"fija (u = P95, h_max = 30)"
+27,3,0,0,3,0,0.0,0.0,0,0.0,Tamshiyacu,Climatología,"fija (u = P95, h_max = 30)"
+28,3,0,0,3,0,0.0,0.0,0,0.0,Tamshiyacu,Climatología,"fija (u = P95, h_max = 30)"
+29,3,0,0,3,0,0.0,0.0,0,0.0,Tamshiyacu,Climatología,"fija (u = P95, h_max = 30)"
+30,3,0,0,3,0,0.0,0.0,0,0.0,Tamshiyacu,Climatología,"fija (u = P95, h_max = 30)"
+1,3,3,0,0,0,1.0,1.0,0,1.0,Tamshiyacu,Tendencia 3 días,calibrada
+2,3,3,0,0,0,1.0,1.0,0,1.0,Tamshiyacu,Tendencia 3 días,calibrada
+3,3,3,0,0,0,1.0,1.0,0,1.0,Tamshiyacu,Tendencia 3 días,calibrada
+4,3,2,1,1,0,0.6666666666666666,0.6666666666666666,0,0.6666666666666666,Tamshiyacu,Tendencia 3 días,calibrada
+5,3,1,2,2,0,0.3333333333333333,0.3333333333333333,0,0.3333333333333333,Tamshiyacu,Tendencia 3 días,calibrada
+6,3,0,3,3,0,0.0,0.0,0,0.0,Tamshiyacu,Tendencia 3 días,calibrada
+7,3,0,3,3,0,0.0,0.0,0,0.0,Tamshiyacu,Tendencia 3 días,calibrada
+8,3,0,3,3,0,0.0,0.0,0,0.0,Tamshiyacu,Tendencia 3 días,calibrada
+9,3,0,3,3,0,0.0,0.0,0,0.0,Tamshiyacu,Tendencia 3 días,calibrada
+10,3,0,3,3,0,0.0,0.0,0,0.0,Tamshiyacu,Tendencia 3 días,calibrada
+11,3,0,3,3,0,0.0,0.0,0,0.0,Tamshiyacu,Tendencia 3 días,calibrada
+12,3,0,3,3,0,0.0,0.0,0,0.0,Tamshiyacu,Tendencia 3 días,calibrada
+13,3,0,3,3,0,0.0,0.0,0,0.0,Tamshiyacu,Tendencia 3 días,calibrada
+14,3,0,3,3,0,0.0,0.0,0,0.0,Tamshiyacu,Tendencia 3 días,calibrada
+15,3,0,3,3,0,0.0,0.0,0,0.0,Tamshiyacu,Tendencia 3 días,calibrada
+16,3,0,3,3,0,0.0,0.0,0,0.0,Tamshiyacu,Tendencia 3 días,calibrada
+17,3,0,3,3,0,0.0,0.0,0,0.0,Tamshiyacu,Tendencia 3 días,calibrada
+18,3,0,3,3,0,0.0,0.0,0,0.0,Tamshiyacu,Tendencia 3 días,calibrada
+19,3,0,3,3,0,0.0,0.0,0,0.0,Tamshiyacu,Tendencia 3 días,calibrada
+20,3,0,3,3,0,0.0,0.0,0,0.0,Tamshiyacu,Tendencia 3 días,calibrada
+21,3,0,3,3,0,0.0,0.0,0,0.0,Tamshiyacu,Tendencia 3 días,calibrada
+22,3,0,3,3,0,0.0,0.0,0,0.0,Tamshiyacu,Tendencia 3 días,calibrada
+23,3,0,3,3,0,0.0,0.0,0,0.0,Tamshiyacu,Tendencia 3 días,calibrada
+24,3,0,3,3,0,0.0,0.0,0,0.0,Tamshiyacu,Tendencia 3 días,calibrada
+25,3,0,3,3,0,0.0,0.0,0,0.0,Tamshiyacu,Tendencia 3 días,calibrada
+26,3,0,3,3,0,0.0,0.0,0,0.0,Tamshiyacu,Tendencia 3 días,calibrada
+27,3,0,3,3,0,0.0,0.0,0,0.0,Tamshiyacu,Tendencia 3 días,calibrada
+28,3,0,3,3,0,0.0,0.0,0,0.0,Tamshiyacu,Tendencia 3 días,calibrada
+29,3,0,3,3,0,0.0,0.0,0,0.0,Tamshiyacu,Tendencia 3 días,calibrada
+30,3,0,3,3,0,0.0,0.0,0,0.0,Tamshiyacu,Tendencia 3 días,calibrada
+1,3,3,0,0,142,1.0,0.020689655172413793,0,1.0,Tamshiyacu,Tendencia 3 días,"fija (u = P95, h_max = 30)"
+2,3,3,0,0,142,1.0,0.020689655172413793,0,1.0,Tamshiyacu,Tendencia 3 días,"fija (u = P95, h_max = 30)"
+3,3,3,0,0,142,1.0,0.020689655172413793,0,1.0,Tamshiyacu,Tendencia 3 días,"fija (u = P95, h_max = 30)"
+4,3,3,0,0,142,1.0,0.020689655172413793,0,1.0,Tamshiyacu,Tendencia 3 días,"fija (u = P95, h_max = 30)"
+5,3,3,0,0,142,1.0,0.020689655172413793,0,1.0,Tamshiyacu,Tendencia 3 días,"fija (u = P95, h_max = 30)"
+6,3,3,0,0,142,1.0,0.020689655172413793,0,1.0,Tamshiyacu,Tendencia 3 días,"fija (u = P95, h_max = 30)"
+7,3,3,0,0,142,1.0,0.020689655172413793,0,1.0,Tamshiyacu,Tendencia 3 días,"fija (u = P95, h_max = 30)"
+8,3,3,0,0,142,1.0,0.020689655172413793,0,1.0,Tamshiyacu,Tendencia 3 días,"fija (u = P95, h_max = 30)"
+9,3,3,0,0,142,1.0,0.020689655172413793,0,1.0,Tamshiyacu,Tendencia 3 días,"fija (u = P95, h_max = 30)"
+10,3,3,0,0,142,1.0,0.020689655172413793,0,1.0,Tamshiyacu,Tendencia 3 días,"fija (u = P95, h_max = 30)"
+11,3,3,0,0,142,1.0,0.020689655172413793,0,1.0,Tamshiyacu,Tendencia 3 días,"fija (u = P95, h_max = 30)"
+12,3,3,0,0,142,1.0,0.020689655172413793,0,1.0,Tamshiyacu,Tendencia 3 días,"fija (u = P95, h_max = 30)"
+13,3,3,0,0,142,1.0,0.020689655172413793,0,1.0,Tamshiyacu,Tendencia 3 días,"fija (u = P95, h_max = 30)"
+14,3,3,0,0,142,1.0,0.020689655172413793,0,1.0,Tamshiyacu,Tendencia 3 días,"fija (u = P95, h_max = 30)"
+15,3,3,0,0,142,1.0,0.020689655172413793,0,1.0,Tamshiyacu,Tendencia 3 días,"fija (u = P95, h_max = 30)"
+16,3,3,0,0,142,1.0,0.020689655172413793,0,1.0,Tamshiyacu,Tendencia 3 días,"fija (u = P95, h_max = 30)"
+17,3,3,0,0,142,1.0,0.020689655172413793,0,1.0,Tamshiyacu,Tendencia 3 días,"fija (u = P95, h_max = 30)"
+18,3,2,1,1,142,0.6666666666666666,0.013793103448275862,0,0.6666666666666666,Tamshiyacu,Tendencia 3 días,"fija (u = P95, h_max = 30)"
+19,3,2,1,1,142,0.6666666666666666,0.013793103448275862,0,0.6666666666666666,Tamshiyacu,Tendencia 3 días,"fija (u = P95, h_max = 30)"
+20,3,2,1,1,142,0.6666666666666666,0.013793103448275862,0,0.6666666666666666,Tamshiyacu,Tendencia 3 días,"fija (u = P95, h_max = 30)"
+21,3,2,1,1,142,0.6666666666666666,0.013793103448275862,0,0.6666666666666666,Tamshiyacu,Tendencia 3 días,"fija (u = P95, h_max = 30)"
+22,3,1,2,2,142,0.3333333333333333,0.006896551724137931,0,0.3333333333333333,Tamshiyacu,Tendencia 3 días,"fija (u = P95, h_max = 30)"
+23,3,1,2,2,142,0.3333333333333333,0.006896551724137931,0,0.3333333333333333,Tamshiyacu,Tendencia 3 días,"fija (u = P95, h_max = 30)"
+24,3,1,2,2,142,0.3333333333333333,0.006896551724137931,0,0.3333333333333333,Tamshiyacu,Tendencia 3 días,"fija (u = P95, h_max = 30)"
+25,3,1,2,2,142,0.3333333333333333,0.006896551724137931,0,0.3333333333333333,Tamshiyacu,Tendencia 3 días,"fija (u = P95, h_max = 30)"
+26,3,1,2,2,142,0.3333333333333333,0.006896551724137931,0,0.3333333333333333,Tamshiyacu,Tendencia 3 días,"fija (u = P95, h_max = 30)"
+27,3,0,3,3,142,0.0,0.0,0,0.0,Tamshiyacu,Tendencia 3 días,"fija (u = P95, h_max = 30)"
+28,3,0,3,3,142,0.0,0.0,0,0.0,Tamshiyacu,Tendencia 3 días,"fija (u = P95, h_max = 30)"
+29,3,0,3,3,142,0.0,0.0,0,0.0,Tamshiyacu,Tendencia 3 días,"fija (u = P95, h_max = 30)"
+30,3,0,3,3,142,0.0,0.0,0,0.0,Tamshiyacu,Tendencia 3 días,"fija (u = P95, h_max = 30)"

@@ -1,0 +1,7 @@
+escenario,objetivo de la selección,configuración,CSI 2012–2015 (regla de 2009–2011),FAR 2012–2015,CSI validación completa (sin separar),f,h_max,prueba: aciertos / evaluables,omisiones,falsas alarmas,POD,FAR,CSI,CSI IC90 (aprox.),anticipación útil (d),cumple también con los IC
+mismo día,"avisos (principal: regla 2009–2011, comparación 2012–2015)",Q+P · KNN,0.6842105263157895,0.2777777777777778,0.5348837209302325,0.8,3,16 / 32,16,21,0.5,0.5675675675675675,0.3018867924528302,0.21–0.41,0,False
+mismo día,"avisos, sin separar bloques (optimista)",Q+P · MLP,0.5882352941176471,0.23076923076923078,0.5609756097560976,0.8,15,23 / 32,9,18,0.71875,0.43902439024390244,0.46,0.35–0.57,1,False
+mismo día,"magnitud (NSE medio, regla v4)",Q+P+IA · LSTM,0.65,0.3157894736842105,0.5581395348837209,0.7,7,27 / 32,5,28,0.84375,0.509090909090909,0.45,0.35–0.56,0,False
+un día de retraso,"avisos (principal: regla 2009–2011, comparación 2012–2015)",Q · Random Forest,0.5,0.42105263157894735,0.4222222222222222,0.7,3,16 / 32,16,25,0.5,0.6097560975609756,0.2807017543859649,0.19–0.39,0,False
+un día de retraso,"avisos, sin separar bloques (optimista)",Q+P+IA (t−1) · LSTM,0.4782608695652174,0.45,0.4444444444444444,0.7,30,17 / 32,15,32,0.53125,0.6530612244897959,0.265625,0.19–0.36,0,False
+un día de retraso,"magnitud (NSE medio, regla v4)",Q · LSTM,0.5,0.3076923076923077,0.41304347826086957,0.7,15,16 / 32,16,24,0.5,0.6,0.2857142857142857,0.20–0.39,0,False

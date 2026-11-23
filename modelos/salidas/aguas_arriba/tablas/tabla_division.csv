@@ -1,0 +1,7 @@
+bloque,emisiones,periodo,emisiones v4
+Entrenamiento,2847,1998-10-01 a 2008-12-01,6904.0
+Validación: calibración (Duan),760,2009-01-31 a 2011-12-01,
+Validación: selección,1138,2012-01-01 a 2015-12-01,
+Validación (total),1928,2009-01-31 a 2015-12-01,2025.0
+Prueba con San Regis (Q y Q+SR),2806,2016-01-01 a 2025-12-01,3252.0
+Prueba común con Requena (las cuatro configuraciones),1093,2016-01-01 a 2020-03-31,

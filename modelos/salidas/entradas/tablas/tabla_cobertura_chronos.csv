@@ -1,0 +1,29 @@
+estación,combinación,emisiones,cubre_seleccion,cubre_validacion,cubre_pruebas,periodos,sin_duplicados,finitos,P10_mediana_P90_ordenados
+Racarumi,Q,4892,True,True,True,1,True,True,True
+Racarumi,Q+P,4892,True,True,True,1,True,True,True
+Racarumi,Q+P (t−1),4892,True,True,True,1,True,True,True
+Racarumi,Q+P+IA,4892,True,True,True,1,True,True,True
+Racarumi,Q+P+IA (t−1),4892,True,True,True,1,True,True,True
+Tamshiyacu,Q,5277,True,True,True,2,True,True,True
+Tamshiyacu,Q+P,5277,True,True,True,2,True,True,True
+Tamshiyacu,Q+P (t−1),3969,True,False,True,2,True,True,True
+Tamshiyacu,Q+P+IA,3969,True,False,True,2,True,True,True
+Tamshiyacu,Q+P+IA (t−1),3969,True,False,True,2,True,True,True
+Tamshiyacu,Q+SR,3969,True,False,True,2,True,True,True
+Tamshiyacu,Q+SR (t−1),3969,True,False,True,2,True,True,True
+Tamshiyacu,Q+P+SR,3969,True,False,True,2,True,True,True
+Tamshiyacu,Q+P+SR (t−1),3969,True,False,True,2,True,True,True
+Tamshiyacu,Q+P+IA+SR,3969,True,False,True,2,True,True,True
+Tamshiyacu,Q+P+IA+SR (t−1),3969,True,False,True,2,True,True,True
+Tamshiyacu,Q+RQ,2253,True,False,True,1,True,True,True
+Tamshiyacu,Q+RQ (t−1),2253,True,False,True,1,True,True,True
+Tamshiyacu,Q+P+RQ,2253,True,False,True,1,True,True,True
+Tamshiyacu,Q+P+RQ (t−1),2253,True,False,True,1,True,True,True
+Tamshiyacu,Q+P+IA+RQ,2253,True,False,True,1,True,True,True
+Tamshiyacu,Q+P+IA+RQ (t−1),2253,True,False,True,1,True,True,True
+Tamshiyacu,Q+SR+RQ,2253,True,False,True,1,True,True,True
+Tamshiyacu,Q+SR+RQ (t−1),2253,True,False,True,1,True,True,True
+Tamshiyacu,Q+P+SR+RQ,2253,True,False,True,1,True,True,True
+Tamshiyacu,Q+P+SR+RQ (t−1),2253,True,False,True,1,True,True,True
+Tamshiyacu,Q+P+IA+SR+RQ,2253,True,False,True,1,True,True,True
+Tamshiyacu,Q+P+IA+SR+RQ (t−1),2253,True,False,True,1,True,True,True
