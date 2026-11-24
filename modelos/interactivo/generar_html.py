@@ -1,14 +1,21 @@
 # -*- coding: utf-8 -*-
-"""Genera modelos/Modelamiento_Interactivo.html a partir de las salidas de los cuadernos 01–04.
+"""Genera modelos/Modelamiento_Interactivo.html (v2) a partir de las salidas de los cuadernos 01–09.
 
 No entrena nada: lee modelos/salidas/, las interpretaciones escritas en los cuadernos ejecutados (celdas con
-metadata 'clave') y el caudal observado de CAMELS-PE (vía comun.py).
-Uso, desde esta carpeta:  python generar_html.py
+metadata 'clave' en 01–04; celdas «Interpretación» y «Conclusiones» en 05–09, vía datos_integrados.py),
+REVISION_METODOLOGICA.md y el caudal observado de CAMELS-PE (vía comun.py).
+
+Uso, desde esta carpeta:
+    python generar_html.py                      # completo (requiere CAMELS-PE en la raíz del repositorio)
+    python generar_html.py --base-html ARCHIVO  # reutiliza los datos de 01–04 ya incrustados en un HTML generado
+                                                # antes (no necesita CAMELS-PE); 05–09 se leen de salidas/
+Plotly 2.35.2 y Leaflet 1.9.4 se incrustan desde vendor/ (o desde eda_interactivo/generador/vendor/):
+el HTML abre con doble clic y sin internet.
 """
+import argparse
 import json
 import os
 import re
-import subprocess
 import sys
 from pathlib import Path
 
@@ -20,7 +27,13 @@ AQUI = Path(__file__).resolve().parent
 MOD = AQUI.parent
 RAIZ = MOD.parent
 sys.path.insert(0, str(MOD))
+sys.path.insert(0, str(AQUI))
 import comun as C  # noqa: E402
+import datos_integrados as DI  # noqa: E402
+PLOTLY_CDN = 'https://cdnjs.cloudflare.com/ajax/libs/plotly.js/2.35.2/plotly.min.js'
+PLOTLY_LOCAL = [AQUI / 'vendor' / 'plotly-2.35.2.min.js', RAIZ / 'eda_interactivo' / 'generador' / 'vendor' / 'plotly-2.35.2.min.js']
+LEAFLET_CDN = 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js'
+VENDOR_EDA = RAIZ / 'eda_interactivo' / 'generador' / 'vendor'
 
 SAL = MOD / C.ruta_salidas()                     # salidas_rapido/ con CDA_RAPIDO=1
 EST = ['Racarumi', 'Tamshiyacu']
@@ -125,7 +138,7 @@ def estacion(e):
         imp={'grupos': list(imp.index), 'h': list(imp.columns), 'v': [num(r * 100, 1) for r in imp.to_numpy()]},
         eventos=[{'inicio': str(r.inicio.date()), 'fin': str(r.fin.date()), 'dias': int(r.dias_sobre), 'pico': float(r.pico),
                   'fecha': str(r.fecha_pico.date())} for r in ev.sort_values('pico', ascending=False).itertuples()],
-        eventos_pron=registros(leer('tabla_eventos_pronostico').round(2)), eventos_res=registros(leer('tabla_eventos_resumen').round(2)),
+        eventos_pron=registros(leer('tabla_eventos_pronostico').round(2)), eventos_res=registros(leer('tabla_eventos_resumen').rename(columns={'Unnamed: 0': 'h'}).round(2)),
         estabilidad=registros(leer('tabla_estabilidad_temporal').drop(columns=['parámetros elegidos']).round(4)),
         sensibilidad=registros(sens.round(4)) if len(sens) else [], sens_resumen=registros(sres.round(3)) if len(sres) else [],
         semillas=registros(leer('tabla_semillas').round(4)), presupuesto=registros(leer('tabla_presupuesto_busqueda').round(3)),
@@ -150,7 +163,7 @@ def anticipacion():
                 textos=textos(MOD / '04_Anticipacion_Crecidas.ipynb'))
 
 
-def main():
+def base_completa():
     datos = {'estaciones': {e: estacion(e) for e in EST}, 'H_CLAVE': H_CLAVE, 'MODELOS': C.MODELOS, 'COLORES': C.COLOR,
              'AVISO': C.AVISO, 'SEMILLAS': C.SEMILLAS}
     tc = SAL / 'comparacion' / 'tablas'
@@ -159,16 +172,56 @@ def main():
     datos['h3_pareado'] = {k: (float(v) if np.isfinite(v) else None) for k, v in pd.read_csv(tc / 'tabla_h3_pareado.csv', index_col=0).iloc[:, 0].round(4).items()}
     datos['textos_comp'] = textos(MOD / '03_Comparacion_y_Seleccion.ipynb')
     datos['anticipacion'] = anticipacion()
+    return datos
+
+
+def base_desde_html(ruta):
+    """Datos de 01–04 ya incrustados en un Modelamiento_Interactivo.html anterior (v1 o v2)."""
+    h = Path(ruta).read_text(encoding='utf-8')
+    i = h.index('window.MOD = ') + len('window.MOD = ')
+    datos = json.loads(h[i:h.index(';</script>', i)].replace('<\\/', '</'))
+    datos.pop('int', None)
+    return datos
+
+
+def incrustar_leaflet(html):
+    """Leaflet 1.9.4 (JS y CSS sin imágenes) desde vendor/ (o la carpeta vendor del EDA); si falta, lo carga desde cdnjs."""
+    base = AQUI / 'vendor' if (AQUI / 'vendor' / 'leaflet-1.9.4.min.js').exists() else VENDOR_EDA
+    js, cs = base / 'leaflet-1.9.4.min.js', base / 'leaflet-1.9.4.css'
+    if js.exists() and cs.exists():
+        css = '\n'.join(l for l in cs.read_text(encoding='utf-8').splitlines() if 'url(' not in l)
+        html = html.replace('/*{{CSS_LEAFLET}}*/', css)
+        return html.replace(f'<script src="{LEAFLET_CDN}"></script>', '<script>' + js.read_text(encoding='utf-8').replace('</script', '<\\/script') + '</script>')
+    print('Aviso: no se encontró Leaflet en vendor/; el mapa lo cargará desde internet.')
+    return html.replace('/*{{CSS_LEAFLET}}*/', '').replace('<style id="css-leaflet">', '<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css"><style id="css-leaflet">')
+
+
+def incrustar_plotly(html):
+    for p in PLOTLY_LOCAL:
+        if p.exists():
+            js = p.read_text(encoding='utf-8').replace('</script', '<\\/script')
+            return html.replace(f'<script src="{PLOTLY_CDN}"></script>', '<script>' + js + '</script>'), True
+    print('Aviso: no se encontró vendor/plotly-2.35.2.min.js; el HTML cargará Plotly desde internet.')
+    return html, False
+
+
+def main():
+    ap = argparse.ArgumentParser(description=__doc__.split('\n')[0])
+    ap.add_argument('--base-html', help='HTML generado antes del que se reutilizan los datos de 01–04 (sin CAMELS-PE)')
+    ap.add_argument('--salida', default=str(MOD / 'Modelamiento_Interactivo.html'))
+    a = ap.parse_args()
+    datos = base_desde_html(a.base_html) if a.base_html else base_completa()
+    datos['int'] = DI.todo()
+    datos['revision'] = md_html((MOD / 'REVISION_METODOLOGICA.md').read_text(encoding='utf-8'), quitar_titulo=True)
     js = json.dumps(datos, ensure_ascii=False, separators=(',', ':'), allow_nan=False).replace('</', '<\\/')
     html = ((AQUI / 'plantilla.html').read_text(encoding='utf-8')
-            .replace('/*{{APP}}*/', (AQUI / 'app.js').read_text(encoding='utf-8'))
+            .replace('/*{{APP}}*/', (AQUI / 'textos.js').read_text(encoding='utf-8') + '\n' + (AQUI / 'app.js').read_text(encoding='utf-8'))
             .replace('"{{DATOS}}"', js))
-    tmp = AQUI / '_modelamiento_cdn.html'
-    tmp.write_text(html, encoding='utf-8')
-    destino = MOD / 'Modelamiento_Interactivo.html'
-    subprocess.run([sys.executable, str(AQUI / 'incrustar.py'), str(tmp), str(destino)], check=True)
-    tmp.unlink()
-    print('OK', destino.name, round(destino.stat().st_size / 1e6, 2), 'MB')
+    html = incrustar_leaflet(html)
+    html, local = incrustar_plotly(html)
+    destino = Path(a.salida)
+    destino.write_text(html, encoding='utf-8')
+    print('OK', destino.name, round(destino.stat().st_size / 1e6, 2), 'MB', '(Plotly incrustado)' if local else '(Plotly por CDN)')
 
 
 if __name__ == '__main__':

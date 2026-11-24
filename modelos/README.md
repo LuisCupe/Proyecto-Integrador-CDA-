@@ -17,7 +17,7 @@ Se distinguen siempre dos resultados: la **magnitud** del caudal (qué tan bien 
 | `07_Chronos2.ipynb` | P5 | Chronos-2 con sus pesos publicados, sin ajuste local: contexto y pronóstico puntual elegidos en validación, predicciones de todas las combinaciones del 08, pronóstico probabilístico (cobertura, CRPS) |
 | `08_Entradas_y_Modelos.ipynb` | P6 | **Comparación integrada y selección final**: seis modelos + Chronos-2 con todas las combinaciones de entradas disponibles, selección en validación para la magnitud y para los avisos, evaluación en la prueba, matriz de experimentos y registro de verificaciones |
 | `09_Sintesis_Integral.ipynb` | Síntesis | Verifica que todas las salidas sean compatibles y coincidan con el manifiesto, reevalúa los avisos desde las trayectorias guardadas y responde P1–P6 con su alcance |
-| `Modelamiento_Interactivo.html` | — | Resultados interactivos de los cuadernos 01–04 (se abre con doble clic, sin internet) |
+| `Modelamiento_Interactivo.html` | — | **MAYU**: resultados interactivos de todo el estudio (P1–P6 y síntesis, mapa de estaciones y cuencas, asistente local); se abre con doble clic, sin internet |
 
 ## Código, pruebas y trazabilidad
 
@@ -29,7 +29,7 @@ Se distinguen siempre dos resultados: la **magnitud** del caudal (qué tan bien 
 | `aguas_arriba.py` · `lluvia.py` · `chronos2.py` | Estaciones aguas arriba; lluvia de la cuenca y escenario idealizado; Chronos-2 (entradas causales, pronóstico y caché verificada por identidad, contenido y reproducción) |
 | `pruebas_avisos.py` · `pruebas_protocolo.py` · `pruebas_entradas.py` | 17, 17 y 48 comprobaciones automáticas (más 3 posteriores a la ejecución): casos sintéticos de avisos, ausencia de información futura, fronteras de los bloques, regla de selección, causalidad de las entradas, identidad de la caché, cachés dañadas y manifiesto. Los cuadernos se detienen si alguna falla |
 | `manifiesto.py` | Escribe `salidas/manifiesto.json`: huellas SHA-256 de datos, tablas de depuración del diagnóstico, código y salidas, con las versiones de software y el resultado de las pruebas |
-| `interactivo/` | Generador de `Modelamiento_Interactivo.html` (`python interactivo/generar_html.py`) |
+| `interactivo/` | Generador de `Modelamiento_Interactivo.html` (`python interactivo/generar_html.py`; con `--base-html Modelamiento_Interactivo.html` reutiliza los datos de 01–04 sin CAMELS-PE). Los textos de síntesis, interpretación y conclusiones están en `interactivo/textos.js` |
 
 ## Protocolo de evaluación
 

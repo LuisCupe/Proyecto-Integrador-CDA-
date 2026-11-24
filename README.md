@@ -118,4 +118,4 @@ Proyecto-CDA/
 - Llauca, H., Montesinos-Caceres, C., Gutierrez-Reynaga, M. y Lavado-Casimiro, W. (2026). *CAMELS-PE: Hydrometeorological time series and catchment attributes for 136 catchments in Peru* [Preprint]. Earth System Science Data Discussions. https://doi.org/10.5194/essd-2026-386
 - Caudal simulado PISCO-ARNOVIC v1.1; forzantes PISCOp v2.1, PISCOt, PISCOeo_pm y ERA5-Land, incluidos en CAMELS-PE.
 - Ansari, A. F. et al. (2025). Chronos-2 (amazon/chronos-2), modelo fundacional de series de tiempo, usado con sus pesos publicados.
-- Plotly.js 2.35.2 (MIT), incluido en `modelos/interactivo/vendor/`.
+- Plotly.js 2.35.2 (MIT) y Leaflet 1.9.4 (BSD-2), incluidos en `modelos/interactivo/vendor/`; mapas base de Esri (requieren internet; sin conexión el mapa usa capas vectoriales).
